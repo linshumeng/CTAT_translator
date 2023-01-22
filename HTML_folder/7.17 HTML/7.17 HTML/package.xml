@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package label="7.17 Percent Applications" description="Student finds percents using Cross Multiplication and Equivalent Fractions methods." save_state="true">
+  <Problems>
+    <Problem name="Problem1" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem1.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem10" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem10.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem11" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem11.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem12" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem12.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem13" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem13.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem14" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem14.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem15" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem15.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem16" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem16.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem17" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem17.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem18" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem18.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem19" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem19.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem2" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem2.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem20" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem20.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem21" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem21.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem22" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem22.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem23" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem23.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem24" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem24.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem3" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem3.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem5" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem5.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem6" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem6.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem7" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem7.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem8" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem8.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem9" label="Find out the percentage of participants in the event." description="Find out the percentage of participants in the event." tutor_flag="tutor" model_file="Problem9.brd" student_interface="7.17.html">
+      <Skills>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" occurrences="2"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" occurrences="2"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" occurrences="1"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" occurrences="1"/>
+      </Skills>
+    </Problem>
+  </Problems>
+  <ProblemSets>
+    <ProblemSet name="7.17 HTML" label="7.17 Percent Applications" description="Student finds percents using Cross Multiplication and Equivalent Fractions methods." status="active" picture="mathtutor_7.17_full.png" image_height="0" filler_height="0" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="Problem1" position="1" role="0"/>
+        <Problem name="Problem2" position="2" role="0"/>
+        <Problem name="Problem3" position="3" role="0"/>
+        <Problem name="Problem5" position="4" role="0"/>
+        <Problem name="Problem6" position="5" role="0"/>
+        <Problem name="Problem7" position="6" role="0"/>
+        <Problem name="Problem8" position="7" role="0"/>
+        <Problem name="Problem9" position="8" role="0"/>
+        <Problem name="Problem10" position="9" role="0"/>
+        <Problem name="Problem11" position="10" role="0"/>
+        <Problem name="Problem12" position="11" role="0"/>
+        <Problem name="Problem13" position="12" role="0"/>
+        <Problem name="Problem14" position="13" role="0"/>
+        <Problem name="Problem15" position="14" role="0"/>
+        <Problem name="Problem16" position="15" role="0"/>
+        <Problem name="Problem17" position="16" role="0"/>
+        <Problem name="Problem18" position="17" role="0"/>
+        <Problem name="Problem19" position="18" role="0"/>
+        <Problem name="Problem20" position="19" role="0"/>
+        <Problem name="Problem21" position="20" role="0"/>
+        <Problem name="Problem22" position="21" role="0"/>
+        <Problem name="Problem23" position="22" role="0"/>
+        <Problem name="Problem24" position="23" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="Calculate-factor-for-equivalent-fractions" category="Percent-Application" label="Calculate Factor For Equivalent Fractions" description="Calculate Factor For Equivalent Fractions" position="0"/>
+        <Skill name="Calculate-intermediate-answer-from-expression" category="Percent-Application" label="Calculate Intermediate Answer From Expression" description="Calculate Intermediate Answer From Expression" position="1"/>
+        <Skill name="Calculate-percent-from-expression" category="Percent-Application" label="Calculate Percent From Expression" description="Calculate Percent From Expression" position="2"/>
+        <Skill name="Identify-100-from-expression" category="Percent-Application" label="Identify 100 From Expression" description="Identify 100 From Expression" position="3"/>
+        <Skill name="Identify-Cross-Multiply-method" category="Percent-Application" label="Identify Cross Multiply Method" description="Identify Cross Multiply Method" position="4"/>
+        <Skill name="Identify-denominator-label-from-statement" category="Percent-Application" label="Identify Denominator Label From Statement" description="Identify Denominator Label From Statement" position="5"/>
+        <Skill name="Identify-Equivalent-Fraction-method" category="Percent-Application" label="Identify Equivalent Fraction Method" description="Identify Equivalent Fraction Method" position="6"/>
+        <Skill name="Identify-numerator-label-from-statement" category="Percent-Application" label="Identify Numerator Label From Statement" description="Identify Numerator Label From Statement" position="7"/>
+        <Skill name="Identify-part-from-expression" category="Percent-Application" label="Identify Part From Expression" description="Identify Part From Expression" position="8"/>
+        <Skill name="Identify-part-from-statement" category="Percent-Application" label="Identify Part From Statement" description="Identify Part From Statement" position="9"/>
+        <Skill name="Identify-total-from-expression" category="Percent-Application" label="Identify Total From Expression" description="Identify Total From Expression" position="10"/>
+        <Skill name="Identify-total-from-statement" category="Percent-Application" label="Identify Total From Statement" description="Identify Total From Statement" position="11"/>
+        <Skill name="Represent-percent-in-proportion-with-variable" category="Percent-Application" label="Represent Percent In Proportion With Variable" description="Represent Percent In Proportion With Variable" position="12"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+  </ProblemSets>
+  <Assets>
+    <Asset name="mathtutor_7.17_full.png" path="Assets"/>
+    <Asset name="IntroProblem.brd" path="FinalBRDs"/>
+    <Asset name="Problem-Tuscan.brd" path="FinalBRDs"/>
+    <Asset name="Problem1.brd" path="FinalBRDs"/>
+    <Asset name="Problem10.brd" path="FinalBRDs"/>
+    <Asset name="Problem11.brd" path="FinalBRDs"/>
+    <Asset name="Problem12.brd" path="FinalBRDs"/>
+    <Asset name="Problem13.brd" path="FinalBRDs"/>
+    <Asset name="Problem14.brd" path="FinalBRDs"/>
+    <Asset name="Problem15.brd" path="FinalBRDs"/>
+    <Asset name="Problem16.brd" path="FinalBRDs"/>
+    <Asset name="Problem17.brd" path="FinalBRDs"/>
+    <Asset name="Problem18.brd" path="FinalBRDs"/>
+    <Asset name="Problem19.brd" path="FinalBRDs"/>
+    <Asset name="Problem2.brd" path="FinalBRDs"/>
+    <Asset name="Problem20.brd" path="FinalBRDs"/>
+    <Asset name="Problem21.brd" path="FinalBRDs"/>
+    <Asset name="Problem22.brd" path="FinalBRDs"/>
+    <Asset name="Problem23.brd" path="FinalBRDs"/>
+    <Asset name="Problem24.brd" path="FinalBRDs"/>
+    <Asset name="Problem3.brd" path="FinalBRDs"/>
+    <Asset name="Problem5.brd" path="FinalBRDs"/>
+    <Asset name="Problem6.brd" path="FinalBRDs"/>
+    <Asset name="Problem7.brd" path="FinalBRDs"/>
+    <Asset name="Problem8.brd" path="FinalBRDs"/>
+    <Asset name="Problem9.brd" path="FinalBRDs"/>
+    <Asset name="7.17.html" path="HTML"/>
+    <Asset name="7.17.css" path="HTML/Assets"/>
+    <Asset name="7-17_finalMassProduction.txt" path="MassProduction"/>
+    <Asset name="7-17_finalTemplate.brd" path="MassProduction"/>
+    <Asset name="7-17_translatable.txt" path="MassProduction"/>
+    <Asset name="Mass Production.xls" path="MassProduction"/>
+    <Asset name="MassProduce.brd" path="MassProduction"/>
+    <Asset name="MassProduce.txt" path="MassProduction"/>
+  </Assets>
+</Package>

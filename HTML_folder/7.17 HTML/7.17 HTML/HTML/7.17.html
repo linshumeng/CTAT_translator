@@ -1,0 +1,125 @@
+<html lang="en-US">
+
+<head>
+  <!--Template: single_same_side.html-->
+  <meta charset="utf-8">
+  <title>Tutor 7.17</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/CTAT.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/Mathtutor.css">
+  <link rel="stylesheet" type="text/css" href="Assets/7.17.css">
+  <script src="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/jquery.min.js"></script>
+  <script src="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/ctat.min.js"></script>
+  <script src="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/ctatloader.js"></script>
+</head>
+
+<body>
+  <main class="CTATTutor">
+    <h1>Tutor</h1>
+    <section class="CTATProblemSolving">
+      <h2>Problem Solving</h2>
+      <section class="CTATProblem">
+        <h3>Problem</h3>
+        <div id="problemstatement" class="CTATTextField"></div>
+      </section>
+      <section class="CTATSolution">
+        <h3>Solution</h3>
+        <div class="textLeft">
+          1) <strong>Write a proportion to represent the problem.</strong>
+          Use a variable, such as 'n', to represent the unknown quantitiy.
+        </div>
+
+        <div class="table">
+          <div class="table_row">
+            <div class="item33">
+              <div id="nchoose" class="CTATComboBox"></div>
+              <hr>
+              <div id="dchoose" class="CTATComboBox"></div>
+            </div>
+            <div class="item33">
+              <div id="numerator" class="CTATTextInput"></div>
+              <hr>
+              <div id="denominator" class="CTATTextInput"></div>
+            </div>
+            <h5 class="item33">=</h5>
+            <div class="item33">
+              <div id="variable" class="CTATTextInput"></div>
+              <hr>
+              <div id="hundred" class="CTATTextField"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stack" id="q2">
+          <!-- q2 -->
+          <div class="left textLeft">2) Select method to solve proportion (optional)</div>
+          <div id="methods" class="left CTATComboBox"></div>
+          <div class="table">
+            <div class="table_row">
+              <div class="item33">
+                <div class="row">
+                  <div id="fractions.part" class="CTATTextInput"></div>
+                  <h5 class="center">/</h5>
+                  <div id="fractions.factorline1" class="CTATTextInput"></div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div id="fractions.total" class="CTATTextInput"></div>
+                  <h5 class="center">/</h5>
+                  <div id="fractions.factorline2" class="CTATTextInput"></div>
+                </div>
+              </div>
+              <h5 class="item33">=</h5>
+              <div class="item33">
+                <div id="fractions.ans_equiv_frac" class="CTATTextInput"></div>
+                <hr>
+                <div id="hundred" class="CTATTextField"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="CTATGroupingComponent" id="q3">
+          <!-- q3 -->
+          <div class="textLeft">3) Summarize:</div>
+          <div class="textLeft stack">
+            <div class="row">
+              <div id="FinalAnswers.A1" class="left CTATTextInput"></div>
+              <div id="FinalAnswers.AS1" class="left CTATTextField"></div>
+            </div>
+            <div class="row">
+              <div id="FinalAnswers.A2" class="left CTATTextInput"></div>
+              <div>%</div>
+              <div id="FinalAnswers.AS2" class="left CTATTextField"></div>
+            </div>
+            <div class="row">
+              <div id="FinalAnswers.A3" class="left CTATTextInput"></div>
+              <div id="FinalAnswers.AS3" class="left CTATTextField"></div>
+            </div>  
+          </div>
+        </div>
+
+      </section>
+    </section>
+
+    <section class="CTATTools">
+      <h2>Tools</h2>
+
+      <div class="CTATButtons">
+        <div class="CTATDoneButton"></div>
+        <div class="CTATHintButton"></div>
+      </div>
+
+      <section class="CTATHints">
+        <h3>Hints</h3>
+        <div class="CTATHintWindow"></div>
+      </section>
+
+      <section class="CTATSkills">
+        <h3>Skills</h3>
+        <div class="CTATSkillWindow"></div>
+      </section>
+    </section>
+  </main>
+</body>
+
+</html>
