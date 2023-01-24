@@ -705,8 +705,8 @@
             <buggyMessage>%(-5166532556208710060)%</buggyMessage>
             <successMessage />
             <hintMessage>%(4060445299635058035)%</hintMessage>
-            <hintMessage>%(-2257089227837141294)%</hintMessage>
-            <hintMessage>%(6881591536898152652)%</hintMessage>
+            <hintMessage>Read the problem statement to find the requested value. %(Alex-ex-hint)%</hintMessage>
+            <hintMessage>%(Alex-ex-hint2)%</hintMessage>
             <hintMessage>%(-8469704157078021234)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>

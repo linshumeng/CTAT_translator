@@ -1,0 +1,81 @@
+7.17
+
+in general
+	F- tab doesn't work throughout Optional solving steps or Summary
+	F- have to click in next cell in order for grading to occur
+	- is there a random order to the combo box options? seems like the denominator answer is always the third option
+
+problem 2
+	- hint for Summarize area seems too basic
+	- maybe add a top level hint for what the student is supposed to do in that step
+
+problem 3
+	*- problem text says "high about Oklahoma" and should be "high above Oklahoma"    
+	- do we want to give the student a bottom out hint in the Summarize area for percentage?
+
+problem 4
+	F- "cross multiplication" doesn't fit in the combo box
+	*- Summarize area gives answer to third part "50 senior pictures"
+
+problem 5
+	*- problem text says "If he reads 72 pages on weekend" and it should be "If he reads 72 pages on the weekend"
+	
+problem 6
+	*- problem text should be "If one story accounts [for] 15 minutes of one program"
+	*- change combo box options to be in terms of stories
+
+problem 7
+	- what percent of the order was she credited?
+	C- does not accept .12, only accepts 0.12 for numerator
+	C- does not accept 8.00 as denominator, only accepts 8
+	- hint for summary wants '0.12' but correct answer is '12' cents ...
+
+problem 8
+	*- problem text 'passersby' instead of 'passerby' and 'who were polled' instead of 'who polled'
+	
+problem 9
+	*- problem text review
+	F- third text field in summary is cut off
+
+problem 10
+	*- summary text doesn't seem correct
+
+problem 11
+	*- summary text should say '2 hours is 40% of the 5 hour shift'
+
+problem 12
+	F- summary text doesn't fit in fields
+
+problem 13
+	*- combobox option should say 'minutes of the movie Emily has already watched'
+
+problem 14
+	*- problem text review 'observed 2400 instances'
+	*- combobox options 'number of yawns that induced secondary yawns', 'number of independent yawns', 'total number of yawns observed'
+	*- summary text '2022 yawns is 84.25% out of 2400 total yawns.'
+
+problem 15
+	- difficulty increased, is this intentional?
+
+problem 16
+	C- commas are not accepted in numbers
+	F- numbers do not fit in optional solving fields or summary section
+
+problem 18
+	*- review problem text
+
+problem 19
+	C- tutor is wrong. asks for 'amount saved from clearance' but really wants 'clearance price'
+
+problem 21
+	*- review problem text
+	*- no text in last field of summary
+
+problem 23
+	*- DMV not DmV
+	- difficulty increased, intentional? gives total points possible and points deducted, asks for score
+
+problem 24
+	C- does not accept 35.00 as denominator, only accepts 35
+
+
