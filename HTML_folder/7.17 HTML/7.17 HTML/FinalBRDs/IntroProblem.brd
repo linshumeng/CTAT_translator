@@ -4382,7 +4382,7 @@
         <ruleName>Identify-part-from-statement</ruleName>
         <productionSet>Percent-Application</productionSet>
         <hintMessage>How many pictures did Kelly give to her family?</hintMessage>
-        <hintMessage>%(-2257089227837141294)%</hintMessage>
+        <hintMessage>Read the problem statement to find the requested value. </hintMessage>
         <hintMessage>Please enter '32' in the highlighted field.</hintMessage>
     </productionRule>
     <productionRule opportunities="2">

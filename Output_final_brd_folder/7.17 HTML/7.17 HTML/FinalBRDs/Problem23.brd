@@ -4382,7 +4382,7 @@
         <ruleName>Identify-part-from-statement</ruleName>
         <productionSet>Percent-Application</productionSet>
         <hintMessage>What was Alex's test score?</hintMessage>
-        <hintMessage>%(-2257089227837141294)%</hintMessage>
+        <hintMessage>Read the problem statement to find the requested value. If 7 points are deducted from the 175 possible points, how many points did Alex earn?</hintMessage>
         <hintMessage>Please enter '168' in the highlighted field.</hintMessage>
     </productionRule>
     <productionRule opportunities="2">

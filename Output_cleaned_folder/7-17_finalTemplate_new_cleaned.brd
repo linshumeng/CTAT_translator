@@ -42,7 +42,7 @@
                     <value>setLabels</value>
                 </Action>
                 <Input>
-                    <value>%(Input_1_comboopt1comboopt2comboopt3)%</value>
+                    <value>%(Input_2_comboopt1comboopt2comboopt3)%</value>
                 </Input>
             </properties>
         </message>
@@ -58,7 +58,7 @@
                     <value>setLabels</value>
                 </Action>
                 <Input>
-                    <value>%(Input_1_comboopt1comboopt2comboopt3)%</value>
+                    <value>%(Input_2_comboopt1comboopt2comboopt3)%</value>
                 </Input>
             </properties>
         </message>
@@ -74,7 +74,7 @@
                     <value>setLabels</value>
                 </Action>
                 <Input>
-                    <value>%(Input_3_equivalent_fractionscross_multiplication)%</value>
+                    <value>%(Input_4_equivalent_fractionscross_multiplication)%</value>
                 </Input>
             </properties>
         </message>
@@ -91,7 +91,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>%(Input_4_100)%</value>
+                    <value>%(Input_5_100)%</value>
                 </Input>
             </properties>
         </message>
@@ -707,7 +707,7 @@
             <hintMessage>%(hintMessage_1_many_pictures_kelly_give)%</hintMessage>
             <hintMessage>%(hintMessage_2_read_problem_statement_find)%</hintMessage>
             <hintMessage>%(Alex-ex-hint2)%</hintMessage>
-            <hintMessage>%(hintMessage_3_please_enter_32_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_4_please_enter_32_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -776,9 +776,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_4_many_senior_pictures_kelly)%</hintMessage>
-            <hintMessage>%(hintMessage_5_read_problem_statement_find)%</hintMessage>
-            <hintMessage>%(hintMessage_6_please_enter_50_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_5_many_senior_pictures_kelly)%</hintMessage>
+            <hintMessage>%(hintMessage_6_read_problem_statement_find)%</hintMessage>
+            <hintMessage>%(hintMessage_7_please_enter_50_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -847,9 +847,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_7_number_senior_pictures_representing)%</hintMessage>
-            <hintMessage>%(hintMessage_5_read_problem_statement_find)%</hintMessage>
-            <hintMessage>%(hintMessage_9_please_select_total_number)%</hintMessage>
+            <hintMessage>%(hintMessage_8_number_senior_pictures_representing)%</hintMessage>
+            <hintMessage>%(hintMessage_6_read_problem_statement_find)%</hintMessage>
+            <hintMessage>%(hintMessage_10_please_select_total_number)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -911,15 +911,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_5_x)%</value>
+                        <value>%(Input_15_x)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_10_enter_lowercase_letter_represent)%</hintMessage>
-            <hintMessage>%(hintMessage_11_choose_letter_z)%</hintMessage>
-            <hintMessage>%(hintMessage_12_please_enter_n_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_11_enter_lowercase_letter_represent)%</hintMessage>
+            <hintMessage>%(hintMessage_12_choose_letter_z)%</hintMessage>
+            <hintMessage>%(hintMessage_13_please_enter_n_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -981,16 +981,16 @@
                         <value>UpdateComboBox</value>
                     </Action>
                     <Input>
-                        <value>%(Input_6_cross_multiplication)%</value>
+                        <value>%(Input_17_cross_multiplication)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_13_look_information_gathered_question)%</hintMessage>
-            <hintMessage>%(hintMessage_14_denominator_multiple_factor_one)%</hintMessage>
-            <hintMessage>%(hintMessage_15_since_denominator_factor_multiple)%</hintMessage>
-            <hintMessage>%(hintMessage_16_please_select_cross_multiplication)%</hintMessage>
+            <hintMessage>%(hintMessage_14_look_information_gathered_question)%</hintMessage>
+            <hintMessage>%(hintMessage_15_denominator_multiple_factor_one)%</hintMessage>
+            <hintMessage>%(hintMessage_16_since_denominator_factor_multiple)%</hintMessage>
+            <hintMessage>%(hintMessage_17_please_select_cross_multiplication)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1052,16 +1052,16 @@
                         <value>UpdateComboBox</value>
                     </Action>
                     <Input>
-                        <value>%(Input_7_equivalent_fractions)%</value>
+                        <value>%(Input_19_equivalent_fractions)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_13_look_information_gathered_question)%</hintMessage>
-            <hintMessage>%(hintMessage_14_denominator_multiple_factor_one)%</hintMessage>
-            <hintMessage>%(hintMessage_19_since_denominator_multiple_100)%</hintMessage>
-            <hintMessage>%(hintMessage_20_please_select_equivalent_fractions)%</hintMessage>
+            <hintMessage>%(hintMessage_14_look_information_gathered_question)%</hintMessage>
+            <hintMessage>%(hintMessage_15_denominator_multiple_factor_one)%</hintMessage>
+            <hintMessage>%(hintMessage_20_since_denominator_multiple_100)%</hintMessage>
+            <hintMessage>%(hintMessage_21_please_select_equivalent_fractions)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1115,9 +1115,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
             <hintMessage>%(hintMessage_1_many_pictures_kelly_give)%</hintMessage>
-            <hintMessage>%(hintMessage_3_please_enter_32_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_4_please_enter_32_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1186,9 +1186,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_4_many_senior_pictures_kelly)%</hintMessage>
-            <hintMessage>%(hintMessage_6_please_enter_50_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_5_many_senior_pictures_kelly)%</hintMessage>
+            <hintMessage>%(hintMessage_7_please_enter_50_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1257,10 +1257,10 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_28_final_percentage_represents_fraction)%</hintMessage>
-            <hintMessage>%(hintMessage_29_divide_numerator_factor_chosen)%</hintMessage>
-            <hintMessage>%(hintMessage_30_please_enter_64_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_29_final_percentage_represents_fraction)%</hintMessage>
+            <hintMessage>%(hintMessage_30_divide_numerator_factor_chosen)%</hintMessage>
+            <hintMessage>%(hintMessage_31_please_enter_64_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1329,11 +1329,11 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_31_enter_percentage_answer_problem)%</hintMessage>
-            <hintMessage>%(hintMessage_32_solving_problem)%</hintMessage>
-            <hintMessage>%(hintMessage_33_percentage_pictures_kelly_give)%</hintMessage>
-            <hintMessage>%(hintMessage_34_unsure_answer_solve_problem)%</hintMessage>
-            <hintMessage>%(hintMessage_35_try_entering_64_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_32_enter_percentage_answer_problem)%</hintMessage>
+            <hintMessage>%(hintMessage_33_solving_problem)%</hintMessage>
+            <hintMessage>%(hintMessage_34_percentage_pictures_kelly_give)%</hintMessage>
+            <hintMessage>%(hintMessage_35_unsure_answer_solve_problem)%</hintMessage>
+            <hintMessage>%(hintMessage_36_try_entering_64_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1402,9 +1402,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_4_many_senior_pictures_kelly)%</hintMessage>
-            <hintMessage>%(hintMessage_5_read_problem_statement_find)%</hintMessage>
-            <hintMessage>%(hintMessage_6_please_enter_50_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_5_many_senior_pictures_kelly)%</hintMessage>
+            <hintMessage>%(hintMessage_6_read_problem_statement_find)%</hintMessage>
+            <hintMessage>%(hintMessage_7_please_enter_50_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1467,13 +1467,13 @@
                         <value>ButtonPressed</value>
                     </Action>
                     <Input>
-                        <value>%(Input_8_1)%</value>
+                        <value>%(Input_30_1)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_39_please_click_highlighted_button)%</hintMessage>
+            <hintMessage>%(hintMessage_40_please_click_highlighted_button)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1521,15 +1521,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_4_100)%</value>
+                        <value>%(Input_5_100)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_40_fill_line_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_41_number_appears_denominator_fraction)%</hintMessage>
-            <hintMessage>%(hintMessage_42_please_enter_100_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_41_fill_line_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_42_number_appears_denominator_fraction)%</hintMessage>
+            <hintMessage>%(hintMessage_43_please_enter_100_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1583,9 +1583,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_43_fill_line_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_44_fill_line_using_information)%</hintMessage>
             <hintMessage>%(hintMessage_1_many_pictures_kelly_give)%</hintMessage>
-            <hintMessage>%(hintMessage_3_please_enter_32_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_4_please_enter_32_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1654,9 +1654,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_4_many_senior_pictures_kelly)%</hintMessage>
-            <hintMessage>%(hintMessage_6_please_enter_50_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_5_many_senior_pictures_kelly)%</hintMessage>
+            <hintMessage>%(hintMessage_7_please_enter_50_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1725,9 +1725,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_49_multiply_two_numbers)%</hintMessage>
-            <hintMessage>%(hintMessage_50_result_32_100)%</hintMessage>
-            <hintMessage>%(hintMessage_51_please_enter_3200_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_50_multiply_two_numbers)%</hintMessage>
+            <hintMessage>%(hintMessage_51_result_32_100)%</hintMessage>
+            <hintMessage>%(hintMessage_52_please_enter_3200_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1796,9 +1796,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
             <hintMessage>%(hintMessage_1_many_pictures_kelly_give)%</hintMessage>
-            <hintMessage>%(hintMessage_3_please_enter_32_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_4_please_enter_32_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1861,15 +1861,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_4_100)%</value>
+                        <value>%(Input_5_100)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_41_number_appears_denominator_fraction)%</hintMessage>
-            <hintMessage>%(hintMessage_42_please_enter_100_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_42_number_appears_denominator_fraction)%</hintMessage>
+            <hintMessage>%(hintMessage_43_please_enter_100_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1923,7 +1923,7 @@
             </message>
             <buggyMessage>%(buggyMessage_19_sure_correct_numerator)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_58_please_enter_20_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_59_please_enter_20_highlighted)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1990,7 +1990,7 @@
             </message>
             <buggyMessage>%(buggyMessage_20_sure_representing_right_part)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_59_please_select_people_didnt)%</hintMessage>
+            <hintMessage>%(hintMessage_60_please_select_people_didnt)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2057,7 +2057,7 @@
             </message>
             <buggyMessage>%(buggyMessage_20_sure_representing_right_part)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_60_please_select_people_took)%</hintMessage>
+            <hintMessage>%(hintMessage_61_please_select_people_took)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2124,7 +2124,7 @@
             </message>
             <buggyMessage>%(buggyMessage_22_sure_correct_denominator)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_61_please_enter_2_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_62_please_enter_2_highlighted)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2184,13 +2184,13 @@
                         <value>displayFinal</value>
                     </Action>
                     <Input>
-                        <value>%(Input_11_1)%</value>
+                        <value>%(Input_49_1)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_62_please_provide_answer_noinput)%</hintMessage>
+            <hintMessage>%(hintMessage_63_please_provide_answer_noinput)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2258,9 +2258,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_4_many_senior_pictures_kelly)%</hintMessage>
-            <hintMessage>%(hintMessage_6_please_enter_50_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_5_many_senior_pictures_kelly)%</hintMessage>
+            <hintMessage>%(hintMessage_7_please_enter_50_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2330,8 +2330,8 @@
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
             <hintMessage>%(hintMessage_1_many_pictures_kelly_give)%</hintMessage>
-            <hintMessage>%(hintMessage_5_read_problem_statement_find)%</hintMessage>
-            <hintMessage>%(hintMessage_3_please_enter_32_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_6_read_problem_statement_find)%</hintMessage>
+            <hintMessage>%(hintMessage_4_please_enter_32_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2400,9 +2400,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_70_3200_50)%</hintMessage>
-            <hintMessage>%(hintMessage_30_please_enter_64_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_71_3200_50)%</hintMessage>
+            <hintMessage>%(hintMessage_31_please_enter_64_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2471,10 +2471,10 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_73_multiplying_denominator_factor_change)%</hintMessage>
-            <hintMessage>%(hintMessage_74_multiplying_50_2_changes)%</hintMessage>
-            <hintMessage>%(hintMessage_75_please_enter_2_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_74_multiplying_denominator_factor_change)%</hintMessage>
+            <hintMessage>%(hintMessage_75_multiplying_50_2_changes)%</hintMessage>
+            <hintMessage>%(hintMessage_76_please_enter_2_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2542,10 +2542,10 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_77_multiplying_denominator_factor_change)%</hintMessage>
-            <hintMessage>%(hintMessage_78_multiplying_50_2_changes)%</hintMessage>
-            <hintMessage>%(hintMessage_75_please_enter_2_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_78_multiplying_denominator_factor_change)%</hintMessage>
+            <hintMessage>%(hintMessage_79_multiplying_50_2_changes)%</hintMessage>
+            <hintMessage>%(hintMessage_76_please_enter_2_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2612,9 +2612,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_4_many_senior_pictures_kelly)%</hintMessage>
-            <hintMessage>%(hintMessage_6_please_enter_50_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_5_many_senior_pictures_kelly)%</hintMessage>
+            <hintMessage>%(hintMessage_7_please_enter_50_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2683,9 +2683,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-            <hintMessage>%(hintMessage_4_many_senior_pictures_kelly)%</hintMessage>
-            <hintMessage>%(hintMessage_6_please_enter_50_highlighted)%</hintMessage>
+            <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+            <hintMessage>%(hintMessage_5_many_senior_pictures_kelly)%</hintMessage>
+            <hintMessage>%(hintMessage_7_please_enter_50_highlighted)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2753,7 +2753,7 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2814,13 +2814,13 @@
                         <value>solverMethod</value>
                     </Action>
                     <Input>
-                        <value>%(Input_12_means)%</value>
+                        <value>%(Input_67_means)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2882,13 +2882,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_13_az)%</value>
+                        <value>%(Input_69_az)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_33_please_enter_lowercase_letter)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_88_please_enter_highlighted_field)%</hintMessage>
+            <hintMessage>%(hintMessage_89_please_enter_highlighted_field)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2955,7 +2955,7 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3016,13 +3016,13 @@
                         <value>solverMethod</value>
                     </Action>
                     <Input>
-                        <value>%(Input_14_fractions)%</value>
+                        <value>%(Input_73_fractions)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3089,7 +3089,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3156,7 +3156,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3223,7 +3223,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3290,7 +3290,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3357,7 +3357,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3424,7 +3424,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3491,7 +3491,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3558,7 +3558,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3625,7 +3625,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3692,7 +3692,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3759,7 +3759,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3826,7 +3826,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3893,7 +3893,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3960,7 +3960,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4027,7 +4027,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4094,7 +4094,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4161,7 +4161,7 @@
             </message>
             <buggyMessage>%(buggyMessage_36_please_enter_value_without)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4222,13 +4222,13 @@
                         <value>initialize</value>
                     </Action>
                     <Input>
-                        <value>%(Input_11_1)%</value>
+                        <value>%(Input_49_1)%</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_86_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>%(hintMessage_87_please_provide_answer_no_value)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4296,9 +4296,9 @@
             </message>
             <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_109_number_senior_pictures_representing)%</hintMessage>
-            <hintMessage>%(hintMessage_5_read_problem_statement_find)%</hintMessage>
-            <hintMessage>%(hintMessage_111_please_select_pictures_kelly)%</hintMessage>
+            <hintMessage>%(hintMessage_110_number_senior_pictures_representing)%</hintMessage>
+            <hintMessage>%(hintMessage_6_read_problem_statement_find)%</hintMessage>
+            <hintMessage>%(hintMessage_112_please_select_pictures_kelly)%</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4345,26 +4345,26 @@
     <productionRule>
         <ruleName>Identify-Cross-Multiply-method</ruleName>
         <productionSet>Percent-Application</productionSet>
-        <hintMessage>%(hintMessage_13_look_information_gathered_question)%</hintMessage>
-        <hintMessage>%(hintMessage_14_denominator_multiple_factor_one)%</hintMessage>
-        <hintMessage>%(hintMessage_15_since_denominator_factor_multiple)%</hintMessage>
-        <hintMessage>%(hintMessage_16_please_select_cross_multiplication)%</hintMessage>
+        <hintMessage>%(hintMessage_14_look_information_gathered_question)%</hintMessage>
+        <hintMessage>%(hintMessage_15_denominator_multiple_factor_one)%</hintMessage>
+        <hintMessage>%(hintMessage_16_since_denominator_factor_multiple)%</hintMessage>
+        <hintMessage>%(hintMessage_17_please_select_cross_multiplication)%</hintMessage>
     </productionRule>
     <productionRule opportunities="1">
         <ruleName>Identify-Equivalent-Fraction-method</ruleName>
         <productionSet>Percent-Application</productionSet>
-        <hintMessage>%(hintMessage_13_look_information_gathered_question)%</hintMessage>
-        <hintMessage>%(hintMessage_14_denominator_multiple_factor_one)%</hintMessage>
-        <hintMessage>%(hintMessage_118_since_denominator_factor_100)%</hintMessage>
-        <hintMessage>%(hintMessage_20_please_select_equivalent_fractions)%</hintMessage>
+        <hintMessage>%(hintMessage_14_look_information_gathered_question)%</hintMessage>
+        <hintMessage>%(hintMessage_15_denominator_multiple_factor_one)%</hintMessage>
+        <hintMessage>%(hintMessage_119_since_denominator_factor_100)%</hintMessage>
+        <hintMessage>%(hintMessage_21_please_select_equivalent_fractions)%</hintMessage>
     </productionRule>
     <productionRule opportunities="2">
         <ruleName>Calculate-percent-from-expression</ruleName>
         <productionSet>Percent-Application</productionSet>
-        <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-        <hintMessage>%(hintMessage_28_final_percentage_represents_fraction)%</hintMessage>
-        <hintMessage>%(hintMessage_122_divide_numerator_factor_chosen)%</hintMessage>
-        <hintMessage>%(hintMessage_30_please_enter_64_highlighted)%</hintMessage>
+        <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+        <hintMessage>%(hintMessage_29_final_percentage_represents_fraction)%</hintMessage>
+        <hintMessage>%(hintMessage_123_divide_numerator_factor_chosen)%</hintMessage>
+        <hintMessage>%(hintMessage_31_please_enter_64_highlighted)%</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>Identify-100-from-expression</ruleName>
@@ -4382,8 +4382,8 @@
         <ruleName>Identify-part-from-statement</ruleName>
         <productionSet>Percent-Application</productionSet>
         <hintMessage>%(hintMessage_1_many_pictures_kelly_give)%</hintMessage>
-        <hintMessage>%(hintMessage_125_2257089227837141294)%</hintMessage>
-        <hintMessage>%(hintMessage_3_please_enter_32_highlighted)%</hintMessage>
+        <hintMessage>%(hintMessage_126_read_problem_statement_find)%</hintMessage>
+        <hintMessage>%(hintMessage_4_please_enter_32_highlighted)%</hintMessage>
     </productionRule>
     <productionRule opportunities="2">
         <ruleName>Identify-part-from-expression</ruleName>
@@ -4396,10 +4396,10 @@
     <productionRule opportunities="2">
         <ruleName>Calculate-factor-for-equivalent-fractions</ruleName>
         <productionSet>Percent-Application</productionSet>
-        <hintMessage>%(hintMessage_21_fill_section_using_information)%</hintMessage>
-        <hintMessage>%(hintMessage_77_multiplying_denominator_factor_change)%</hintMessage>
-        <hintMessage>%(hintMessage_78_multiplying_50_2_changes)%</hintMessage>
-        <hintMessage>%(hintMessage_75_please_enter_2_highlighted)%</hintMessage>
+        <hintMessage>%(hintMessage_22_fill_section_using_information)%</hintMessage>
+        <hintMessage>%(hintMessage_78_multiplying_denominator_factor_change)%</hintMessage>
+        <hintMessage>%(hintMessage_79_multiplying_50_2_changes)%</hintMessage>
+        <hintMessage>%(hintMessage_76_please_enter_2_highlighted)%</hintMessage>
     </productionRule>
     <productionRule opportunities="1">
         <ruleName>Identify-denominator-label-from-statement</ruleName>

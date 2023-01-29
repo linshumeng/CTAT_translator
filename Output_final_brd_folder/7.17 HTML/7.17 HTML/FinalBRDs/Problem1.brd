@@ -4382,7 +4382,7 @@
         <ruleName>Identify-part-from-statement</ruleName>
         <productionSet>Percent-Application</productionSet>
         <hintMessage>What is the number of people who took part in the activity?</hintMessage>
-        <hintMessage>%(-2257089227837141294)%</hintMessage>
+        <hintMessage>Read the problem statement to find the requested value. </hintMessage>
         <hintMessage>Please enter '16590' in the highlighted field.</hintMessage>
     </productionRule>
     <productionRule opportunities="2">
