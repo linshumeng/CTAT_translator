@@ -6,7 +6,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>Problem2</ProblemName>
+                <ProblemName>2</ProblemName>
             </properties>
         </message>
         <message>
@@ -667,7 +667,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">and(
+                        <matcherParameter name="InputExpression">and( 
     expressionMatches(
         input, 1 / 20),
     rationalEquals(getDivisor(input),100)
@@ -1114,7 +1114,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">and(
+                        <matcherParameter name="InputExpression">and( 
     expressionMatches(
         input, 8 / 20),
     rationalEquals(getDivisor(input),100)
@@ -1561,7 +1561,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">and(
+                        <matcherParameter name="InputExpression">and( 
     expressionMatches(
         input, 5 / 20),
     rationalEquals(getDivisor(input),100)
@@ -1994,7 +1994,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">and(
+                        <matcherParameter name="InputExpression">and( 
     expressionMatches(
         input, 15 / 20),
     rationalEquals(getDivisor(input),100)
