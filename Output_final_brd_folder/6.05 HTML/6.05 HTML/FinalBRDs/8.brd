@@ -1,10 +1,10 @@
-<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="true" lockWidget="true" version="2.1" suppressStudentFeedback="false" highlightRightSelection="true" startStateNodeName="%(startStateNodeName)%">
+<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="true" lockWidget="true" version="2.1" suppressStudentFeedback="false" highlightRightSelection="true" startStateNodeName="">
     <startNodeMessages>
         <message>
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>6_21</ProblemName>
+                <ProblemName>8</ProblemName>
             </properties>
         </message>
         <message>
@@ -19,7 +19,7 @@
                     <value>assignImage</value>
                 </Action>
                 <Input>
-                    <value>%(graphic)%</value>
+                    <value>Assets/08.png</value>
                 </Input>
             </properties>
         </message>
@@ -35,7 +35,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>%(Input_2_imgnum)%</value>
+                    <value>%(imgNum)%</value>
                 </Input>
             </properties>
         </message>
@@ -51,7 +51,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>%(statement)%</value>
+                    <value>Using the set of shapes in the picture, answer questions 1 through 4 in the worksheet provided.</value>
                 </Input>
             </properties>
         </message>
@@ -67,7 +67,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>%(question1)%</value>
+                    <value>(1) What percent of the shapes are blue circles?</value>
                 </Input>
             </properties>
         </message>
@@ -83,7 +83,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>%(question2)%</value>
+                    <value>(2) What percent of the shapes are yellow or green?</value>
                 </Input>
             </properties>
         </message>
@@ -99,7 +99,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>%(question3)%</value>
+                    <value>(3) What percent of the shapes are not purple?</value>
                 </Input>
             </properties>
         </message>
@@ -115,7 +115,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>%(question4)%</value>
+                    <value>(4) What percent of the shapes are squares?</value>
                 </Input>
             </properties>
         </message>
@@ -127,7 +127,7 @@
         </message>
     </startNodeMessages>
     <node locked="false" doneState="false">
-        <text>6_5</text>
+        <text>8</text>
         <uniqueID>1</uniqueID>
         <dimension>
             <x>418</x>
@@ -512,15 +512,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(tot1)%</value>
+                        <value>15</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q1-tot-h1)%</hintMessage>
-            <hintMessage>%(q1-tot-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_3_try_entering_tot1)%</hintMessage>
+            <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
+            <hintMessage>What is the total number of shapes shown?</hintMessage>
+            <hintMessage>Try entering 15.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -540,7 +540,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tot1)%</matcherParameter>
+                        <matcherParameter name="single">15</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -574,15 +574,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_10_tar1tot1)%</value>
+                        <value>3/15</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(unred-h1)%</hintMessage>
-            <hintMessage>%(unred-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_6_try_entering_tar1tot1)%</hintMessage>
+            <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
+            <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
+            <hintMessage>Try entering 3/15.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -602,7 +602,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tar1)%/%(tot1)%</matcherParameter>
+                        <matcherParameter name="single">3/15</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -636,16 +636,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(100ratio1)%</value>
+                        <value>20/100</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q1-ratio100-h1)%</hintMessage>
-            <hintMessage>%(q1-ratio100-h2)%</hintMessage>
-            <hintMessage>%(q1-ratio100-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_10_try_entering_percent1100)%</hintMessage>
+            <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 3/15 to 100.</hintMessage>
+            <hintMessage>Do you know how to find an equivalent fraction of 3/15 that has denominator of 100? You already know the denominator, 100. Then, what would be its numerator?</hintMessage>
+            <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 3, and multiply it by 100 and then divide it by 15, the original denominator: 3*100/15.</hintMessage>
+            <hintMessage>Try entering 20/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -667,7 +667,7 @@
                         <matcherType>ExpressionMatcher</matcherType>
                         <matcherParameter name="InputExpression">and( 
     expressionMatches(
-        input, %(tar1)% / %(tot1)%),
+        input, 3 / 15),
     rationalEquals(getDivisor(input),100)
 )
 </matcherParameter>
@@ -705,15 +705,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(percent1)%</value>
+                        <value>20</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q1-percent-h1)%</hintMessage>
-            <hintMessage>%(q1-percent-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_13_try_entering_percent1)%</hintMessage>
+            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 20/100. The percent representation is just the numerator of this ratio, 20.</hintMessage>
+            <hintMessage>If the ratio out 100 is 20/100, the percent is its numerator, 20.</hintMessage>
+            <hintMessage>Try entering 20%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -731,9 +731,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="&quot;%(percent1)%%&quot;">
+                    <matcher replacementFormula="&quot;20%&quot;">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">%(tar1)%*100/%(tot1)%</matcherParameter>
+                        <matcherParameter name="InputExpression">3*100/15</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -768,16 +768,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(decimal1)%</value>
+                        <value>0.2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q1-dec-h1)%</hintMessage>
-            <hintMessage>%(dec-h2)%</hintMessage>
-            <hintMessage>%(dec-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_17_try_entering)%</hintMessage>
+            <hintMessage>The ratio out of 100 is written as 20/100. Please express this value as a decimal.</hintMessage>
+            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
+            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(3,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -797,7 +797,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, %(tar1)%/%(tot1)%)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, 3/15)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -832,17 +832,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(redfrac1)%</value>
+                        <value>1/5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q1-red-h1)%</hintMessage>
-            <hintMessage>%(q1-red-h2)%</hintMessage>
-            <hintMessage>%(q1-red-h3)%</hintMessage>
-            <hintMessage>%(q1-red-h4)%</hintMessage>
-            <hintMessage>%(q1-red-h5)%</hintMessage>
+            <hintMessage>To turn 3/15 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
+            <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
+            <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 3 and 15 without any remainder.</hintMessage>
+            <hintMessage>Need more help? Greatest common factor of 3 and 15 is 3.</hintMessage>
+            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(3,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -862,7 +862,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(%(tar1)%,%(tot1)%)))</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(3,15)))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -897,15 +897,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(tar2)%</value>
+                        <value>6</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q2-target-h1)%</hintMessage>
-            <hintMessage>%(q2-target-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_25_try_entering_tar2)%</hintMessage>
+            <hintMessage>To work through question 2, you must first find the number of shapes that are yellow or green.</hintMessage>
+            <hintMessage>How many shapes are yellow or green?</hintMessage>
+            <hintMessage>Try entering 6.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -925,7 +925,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tar2)%</matcherParameter>
+                        <matcherParameter name="single">6</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -959,15 +959,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(tot2)%</value>
+                        <value>15</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q2-tot-h1)%</hintMessage>
-            <hintMessage>%(q2-tot-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_28_try_entering_tot2)%</hintMessage>
+            <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
+            <hintMessage>What is the total number of shapes shown?</hintMessage>
+            <hintMessage>Try entering 15.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -987,7 +987,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tot2)%</matcherParameter>
+                        <matcherParameter name="single">15</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1021,15 +1021,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_24_tar2tot2)%</value>
+                        <value>6/15</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(unred-h1)%</hintMessage>
-            <hintMessage>%(unred-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_31_try_entering_tar2tot2)%</hintMessage>
+            <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
+            <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
+            <hintMessage>Try entering 6/15.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1049,7 +1049,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tar2)%/%(tot2)%</matcherParameter>
+                        <matcherParameter name="single">6/15</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1083,16 +1083,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(100ratio2)%</value>
+                        <value>40/100</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q2-ratio100-h1)%</hintMessage>
-            <hintMessage>%(q2-ratio100-h2)%</hintMessage>
-            <hintMessage>%(q2-ratio100-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_35_try_entering_percent2100)%</hintMessage>
+            <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 6/15 to 100.</hintMessage>
+            <hintMessage>Do you know how to find an equivalent fraction of 6/15 that has denominator of 100? You already know the denominator, 100. Then, what would be its numerator?</hintMessage>
+            <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 6, and multiply it by 100 and then divide it by 15, the original denominator: 6*100/15. </hintMessage>
+            <hintMessage>Try entering 40/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1114,7 +1114,7 @@
                         <matcherType>ExpressionMatcher</matcherType>
                         <matcherParameter name="InputExpression">and( 
     expressionMatches(
-        input, %(tar2)% / %(tot2)%),
+        input, 6 / 15),
     rationalEquals(getDivisor(input),100)
 )
 </matcherParameter>
@@ -1152,15 +1152,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(percent2)%</value>
+                        <value>40</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q2-percent-h1)%</hintMessage>
-            <hintMessage>%(q2-percent-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_38_try_entering_percent2)%</hintMessage>
+            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 40/100. The percent representation is just the numerator of this ratio, 40.</hintMessage>
+            <hintMessage>If the ratio out 100 is 40/100, the percent is its numerator, 40.</hintMessage>
+            <hintMessage>Try entering 40%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1178,9 +1178,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="&quot;%(percent2)%%&quot;">
+                    <matcher replacementFormula="&quot;40%&quot;">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">%(tar2)%*100/%(tot2)%</matcherParameter>
+                        <matcherParameter name="InputExpression">6*100/15</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1215,16 +1215,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(decimal2)%</value>
+                        <value>0.4</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q2-dec-h1)%</hintMessage>
-            <hintMessage>%(dec-h2)%</hintMessage>
-            <hintMessage>%(dec-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_42_try_entering)%</hintMessage>
+            <hintMessage>The ratio out of 100 is written as 40/100. Please express this value as a decimal.</hintMessage>
+            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
+            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(6,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1244,7 +1244,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,%(tar2)%/%(tot2)%)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,6/15)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1279,17 +1279,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(redfrac2)%</value>
+                        <value>2/5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q2-red-h1)%</hintMessage>
-            <hintMessage>%(q2-red-h2)%</hintMessage>
-            <hintMessage>%(q2-red-h3)%</hintMessage>
-            <hintMessage>%(q2-red-h4)%</hintMessage>
-            <hintMessage>%(q2-red-h5)%</hintMessage>
+            <hintMessage>To turn 6/15 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
+            <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
+            <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 3 and 15 without any remainder.</hintMessage>
+            <hintMessage>Need more help? Greatest common factor of 6 and 15 is 3.</hintMessage>
+            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(6,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1309,7 +1309,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(%(tar2)%,%(tot2)%)))</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(6,15)))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1344,15 +1344,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(tar3)%</value>
+                        <value>12</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q3-target-h1)%</hintMessage>
-            <hintMessage>%(q3-target-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_50_try_entering_tar3)%</hintMessage>
+            <hintMessage>To work through question 3, you must first find the number of shapes that are not purple.</hintMessage>
+            <hintMessage>How many shapes are not purple?</hintMessage>
+            <hintMessage>Try entering 12.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1372,7 +1372,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tar3)%</matcherParameter>
+                        <matcherParameter name="single">12</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1406,15 +1406,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(tot3)%</value>
+                        <value>15</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q3-tot-h1)%</hintMessage>
-            <hintMessage>%(q3-tot-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_53_try_entering_tot3)%</hintMessage>
+            <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
+            <hintMessage>What is the total number of shapes shown?</hintMessage>
+            <hintMessage>Try entering 15.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1434,7 +1434,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tot3)%</matcherParameter>
+                        <matcherParameter name="single">15</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1468,15 +1468,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_38_tar3tot3)%</value>
+                        <value>12/15</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(unred-h1)%</hintMessage>
-            <hintMessage>%(unred-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_56_try_entering_tar3tot3)%</hintMessage>
+            <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
+            <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
+            <hintMessage>Try entering 12/15.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1496,7 +1496,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tar3)%/%(tot3)%</matcherParameter>
+                        <matcherParameter name="single">12/15</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1530,16 +1530,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(100ratio3)%</value>
+                        <value>80/100</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q3-ratio100-h1)%</hintMessage>
-            <hintMessage>%(q3-ratio100-h2)%</hintMessage>
-            <hintMessage>%(q3-ratio100-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_60_try_entering_percent3100)%</hintMessage>
+            <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 12/15 to 100.</hintMessage>
+            <hintMessage>Do you know how to find an equivalent fraction of 12/15 that has denominator of 100? You already know the denominator, 100. Then, what would be its numerator?</hintMessage>
+            <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 12, and multiply it by 100 and then divide it by 15, the original denominator: 12*100/15. </hintMessage>
+            <hintMessage>Try entering 80/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1561,7 +1561,7 @@
                         <matcherType>ExpressionMatcher</matcherType>
                         <matcherParameter name="InputExpression">and( 
     expressionMatches(
-        input, %(tar3)% / %(tot3)%),
+        input, 12 / 15),
     rationalEquals(getDivisor(input),100)
 )
 </matcherParameter>
@@ -1599,15 +1599,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(percent3)%</value>
+                        <value>80</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q3-percent-h1)%</hintMessage>
-            <hintMessage>%(q3-percent-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_63_try_entering_percent3)%</hintMessage>
+            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 80/100. The percent representation is just the numerator of this ratio, 80.</hintMessage>
+            <hintMessage>If the ratio out 100 is 80/100, the percent is its numerator, 80.</hintMessage>
+            <hintMessage>Try entering 80%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1625,9 +1625,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="&quot;%(percent3)%%&quot;">
+                    <matcher replacementFormula="&quot;80%&quot;">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">%(tar3)%*100/%(tot3)%</matcherParameter>
+                        <matcherParameter name="InputExpression">12*100/15</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1662,16 +1662,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(decimal3)%</value>
+                        <value>0.8</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q3-dec-h1)%</hintMessage>
-            <hintMessage>%(dec-h2)%</hintMessage>
-            <hintMessage>%(dec-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_67_try_entering)%</hintMessage>
+            <hintMessage>The ratio out of 100 is written as 80/100. Please express this value as a decimal.</hintMessage>
+            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
+            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(12,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1691,7 +1691,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,%(tar3)%/%(tot3)%)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,12/15)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1726,17 +1726,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(redfrac3)%</value>
+                        <value>4/5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q3-red-h1)%</hintMessage>
-            <hintMessage>%(q3-red-h2)%</hintMessage>
-            <hintMessage>%(q3-red-h3)%</hintMessage>
-            <hintMessage>%(q3-red-h4)%</hintMessage>
-            <hintMessage>%(q3-red-h5)%</hintMessage>
+            <hintMessage>To turn 12/15 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
+            <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
+            <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 3 and 15 without any remainder.</hintMessage>
+            <hintMessage>Need more help? Greatest common factor of 12 and 15 is 3.</hintMessage>
+            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(12,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1756,7 +1756,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(%(tar3)%,%(tot3)%)))</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(12,15)))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1791,15 +1791,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(tar4)%</value>
+                        <value>9</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q4-target-h1)%</hintMessage>
-            <hintMessage>%(q4-target-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_75_try_entering_tar4)%</hintMessage>
+            <hintMessage>To work through question 4, you must first find the number of shapes that are squares.</hintMessage>
+            <hintMessage>How many shapes are squares?</hintMessage>
+            <hintMessage>Try entering 9.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1807,7 +1807,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">target4</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">%(tar4)%</matcherParameter>
+                <matcherParameter name="input">9</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
         </actionLabel>
@@ -1839,15 +1839,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(tot4)%</value>
+                        <value>15</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q4-tot-h1)%</hintMessage>
-            <hintMessage>%(q4-tot-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_78_try_entering_tot4)%</hintMessage>
+            <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
+            <hintMessage>What is the total number of shapes shown?</hintMessage>
+            <hintMessage>Try entering 15.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1867,7 +1867,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tot4)%</matcherParameter>
+                        <matcherParameter name="single">15</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1901,15 +1901,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_51_tar4tot4)%</value>
+                        <value>9/15</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(unred-h1)%</hintMessage>
-            <hintMessage>%(unred-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_81_try_entering_tar4tot4)%</hintMessage>
+            <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
+            <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
+            <hintMessage>Try entering 9/15.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1929,7 +1929,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tar4)%/%(tot4)%</matcherParameter>
+                        <matcherParameter name="single">9/15</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1963,16 +1963,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(100ratio4)%</value>
+                        <value>60/100</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q4-ratio100-h1)%</hintMessage>
-            <hintMessage>%(q4-ratio100-h2)%</hintMessage>
-            <hintMessage>%(q4-ratio100-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_85_try_entering_percent4100)%</hintMessage>
+            <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 9/15 to 100.</hintMessage>
+            <hintMessage>Do you know how to find an equivalent fraction of 9/15 that has denominator of 100? You already know the denominator. Then, what would be its numerator?</hintMessage>
+            <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 9, and multiply it by 100 and then divide it by 15, the original denominator: 9*100/15. </hintMessage>
+            <hintMessage>Try entering 60/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1994,7 +1994,7 @@
                         <matcherType>ExpressionMatcher</matcherType>
                         <matcherParameter name="InputExpression">and( 
     expressionMatches(
-        input, %(tar4)% / %(tot4)%),
+        input, 9 / 15),
     rationalEquals(getDivisor(input),100)
 )
 </matcherParameter>
@@ -2032,15 +2032,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(percent4)%</value>
+                        <value>60</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q4-percent-h1)%</hintMessage>
-            <hintMessage>%(q4-percent-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_88_try_entering_percent4)%</hintMessage>
+            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 60/100. The percent representation is just the numerator of this ratio, 60.</hintMessage>
+            <hintMessage>If the ratio out 100 is 60/100, the percent is its numerator, 60.</hintMessage>
+            <hintMessage>Try entering 60%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2058,9 +2058,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="&quot;%(percent4)%%&quot;">
+                    <matcher replacementFormula="&quot;60%&quot;">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">%(tar4)%*100/%(tot4)%</matcherParameter>
+                        <matcherParameter name="InputExpression">9*100/15</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -2095,16 +2095,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(decimal4)%</value>
+                        <value>0.6</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q4-dec-h1)%</hintMessage>
-            <hintMessage>%(dec-h2)%</hintMessage>
-            <hintMessage>%(dec-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_92_try_entering)%</hintMessage>
+            <hintMessage>The ratio out of 100 is written as 60/100. Please express this value as a decimal.</hintMessage>
+            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
+            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(9,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2124,7 +2124,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,%(tar4)%/%(tot4)%)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,9/15)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2159,17 +2159,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(redfrac4)%</value>
+                        <value>3/5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q4-red-h1)%</hintMessage>
-            <hintMessage>%(q4-red-h2)%</hintMessage>
-            <hintMessage>%(q4-red-h3)%</hintMessage>
-            <hintMessage>%(q4-red-h4)%</hintMessage>
-            <hintMessage>%(q4-red-h5)%</hintMessage>
+            <hintMessage>To turn 9/15 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
+            <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
+            <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 3 and 15 without any remainder.</hintMessage>
+            <hintMessage>Need more help? Greatest common factor of 9 and 15 is 3.</hintMessage>
+            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(9,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2189,7 +2189,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(%(tar4)%,%(tot4)%)))</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(9,15)))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2224,13 +2224,13 @@
                         <value>ButtonPressed</value>
                     </Action>
                     <Input>
-                        <value>%(Input_61_1)%</value>
+                        <value>-1</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_98_please_click_highlighted_button)%</hintMessage>
+            <hintMessage>Please click on the highlighted button.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2269,15 +2269,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_62_percent1)%</value>
+                        <value>20%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q1-percent-h1)%</hintMessage>
-            <hintMessage>%(q1-percent-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_13_try_entering_percent1)%</hintMessage>
+            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 20/100. The percent representation is just the numerator of this ratio, 20.</hintMessage>
+            <hintMessage>If the ratio out 100 is 20/100, the percent is its numerator, 20.</hintMessage>
+            <hintMessage>Try entering 20%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2297,7 +2297,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(percent1)%%</matcherParameter>
+                        <matcherParameter name="single">20%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2330,16 +2330,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(decimal1)%</value>
+                        <value>0.2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q1-dec-h1)%</hintMessage>
-            <hintMessage>%(dec-h2)%</hintMessage>
-            <hintMessage>%(dec-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_17_try_entering)%</hintMessage>
+            <hintMessage>The ratio out of 100 is written as 20/100. Please express this value as a decimal.</hintMessage>
+            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
+            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(3,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2359,7 +2359,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, %(tar1)%/%(tot1)%)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, 3/15)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2393,15 +2393,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_66_percent2)%</value>
+                        <value>40%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q2-percent-h1)%</hintMessage>
-            <hintMessage>%(q2-percent-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_38_try_entering_percent2)%</hintMessage>
+            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 40/100. The percent representation is just the numerator of this ratio, 40.</hintMessage>
+            <hintMessage>If the ratio out 100 is 40/100, the percent is its numerator, 40.</hintMessage>
+            <hintMessage>Try entering 40%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2421,7 +2421,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(percent2)%%</matcherParameter>
+                        <matcherParameter name="single">40%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2454,16 +2454,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(decimal2)%</value>
+                        <value>0.4</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q2-dec-h1)%</hintMessage>
-            <hintMessage>%(dec-h2)%</hintMessage>
-            <hintMessage>%(dec-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_42_try_entering)%</hintMessage>
+            <hintMessage>The ratio out of 100 is written as 40/100. Please express this value as a decimal.</hintMessage>
+            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
+            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(6,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2483,7 +2483,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,%(tar2)%/%(tot2)%)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,6/15)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2517,15 +2517,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_70_percent3)%</value>
+                        <value>80%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q3-percent-h1)%</hintMessage>
-            <hintMessage>%(q3-percent-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_63_try_entering_percent3)%</hintMessage>
+            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 80/100. The percent representation is just the numerator of this ratio, 80.</hintMessage>
+            <hintMessage>If the ratio out 100 is 80/100, the percent is its numerator, 80.</hintMessage>
+            <hintMessage>Try entering 80%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2545,7 +2545,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(percent3)%%</matcherParameter>
+                        <matcherParameter name="single">80%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2578,16 +2578,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(decimal3)%</value>
+                        <value>0.8</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q3-dec-h1)%</hintMessage>
-            <hintMessage>%(dec-h2)%</hintMessage>
-            <hintMessage>%(dec-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_67_try_entering)%</hintMessage>
+            <hintMessage>The ratio out of 100 is written as 80/100. Please express this value as a decimal.</hintMessage>
+            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
+            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(12,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2607,7 +2607,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,%(tar3)%/%(tot3)%)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,12/15)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2641,15 +2641,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_74_percent4)%</value>
+                        <value>60%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q4-percent-h1)%</hintMessage>
-            <hintMessage>%(q4-percent-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_88_try_entering_percent4)%</hintMessage>
+            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 60/100. The percent representation is just the numerator of this ratio, 60.</hintMessage>
+            <hintMessage>If the ratio out 100 is 60/100, the percent is its numerator, 60.</hintMessage>
+            <hintMessage>Try entering 60%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2669,7 +2669,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(percent4)%%</matcherParameter>
+                        <matcherParameter name="single">60%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2702,16 +2702,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(decimal4)%</value>
+                        <value>0.6</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q4-dec-h1)%</hintMessage>
-            <hintMessage>%(dec-h2)%</hintMessage>
-            <hintMessage>%(dec-h3)%</hintMessage>
-            <hintMessage>%(hintMessage_92_try_entering)%</hintMessage>
+            <hintMessage>The ratio out of 100 is written as 60/100. Please express this value as a decimal.</hintMessage>
+            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
+            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(9,15))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2731,7 +2731,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,%(tar4)%/%(tot4)%)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,9/15)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2765,11 +2765,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_78_simplifytar1tot110)%</value>
+                        <value>simplify(3/15*10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_37_oops_divided_percent_number)%</buggyMessage>
+            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
             <successMessage />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2790,7 +2790,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(%(tar1)%/%(tot1)%*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(3/15*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2824,13 +2824,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_78_simplifytar1tot110)%</value>
+                        <value>simplify(3/15*10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_37_oops_divided_percent_number)%</buggyMessage>
+            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2850,7 +2850,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(%(tar1)%/%(tot1)%*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(3/15*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2884,13 +2884,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_82_simplifytar2tot210)%</value>
+                        <value>simplify(6/15*10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_37_oops_divided_percent_number)%</buggyMessage>
+            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2910,7 +2910,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(%(tar2)%/%(tot2)%*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(6/15*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2944,13 +2944,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_82_simplifytar2tot210)%</value>
+                        <value>simplify(6/15*10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_37_oops_divided_percent_number)%</buggyMessage>
+            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2970,7 +2970,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(%(tar2)%/%(tot2)%*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(6/15*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3004,13 +3004,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_86_simplifytar3tot310)%</value>
+                        <value>simplify(12/15*10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_37_oops_divided_percent_number)%</buggyMessage>
+            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3030,7 +3030,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(%(tar3)%/%(tot3)%*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(12/15*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3064,13 +3064,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_86_simplifytar3tot310)%</value>
+                        <value>simplify(12/15*10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_37_oops_divided_percent_number)%</buggyMessage>
+            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3090,7 +3090,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(%(tar3)%/%(tot3)%*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(12/15*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3124,13 +3124,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_90_simplifytar4tot410)%</value>
+                        <value>simplify(9/15*10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_37_oops_divided_percent_number)%</buggyMessage>
+            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3150,7 +3150,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(%(tar4)%/%(tot4)%*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(9/15*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3184,13 +3184,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(Input_90_simplifytar4tot410)%</value>
+                        <value>simplify(9/15*10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_37_oops_divided_percent_number)%</buggyMessage>
+            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3210,7 +3210,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(%(tar4)%/%(tot4)%*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(9/15*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3245,15 +3245,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(tar1)%</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>%(q1-target-h1)%</hintMessage>
-            <hintMessage>%(q1-target-h2)%</hintMessage>
-            <hintMessage>%(hintMessage_136_try_entering_tar1)%</hintMessage>
+            <hintMessage>To work through question 1, you must first find the number of shapes that are blue circles.</hintMessage>
+            <hintMessage>How many shapes are blue circles?</hintMessage>
+            <hintMessage>Try entering 3.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3273,7 +3273,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(tar1)%</matcherParameter>
+                        <matcherParameter name="single">3</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3306,13 +3306,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(bugTot1)%</value>
+                        <value></value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(bugMsg1)%</buggyMessage>
+            <buggyMessage>-</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3332,7 +3332,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(bugTot1)%</matcherParameter>
+                        <matcherParameter name="single"></matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3365,13 +3365,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(bugTot2)%</value>
+                        <value></value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(bugMsg2)%</buggyMessage>
+            <buggyMessage>-</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3391,7 +3391,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(bugTot2)%</matcherParameter>
+                        <matcherParameter name="single"></matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3424,13 +3424,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(bugTot3)%</value>
+                        <value></value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(bugMsg3)%</buggyMessage>
+            <buggyMessage>-</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3450,7 +3450,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(bugTot3)%</matcherParameter>
+                        <matcherParameter name="single"></matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3483,13 +3483,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>%(bugTot4)%</value>
+                        <value></value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>%(bugMsg4)%</buggyMessage>
+            <buggyMessage>-</buggyMessage>
             <successMessage />
-            <hintMessage>%(hintMessage_127_please_provide_answer_no_value)%</hintMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3509,7 +3509,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">%(bugTot4)%</matcherParameter>
+                        <matcherParameter name="single"></matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3528,59 +3528,59 @@
     <productionRule opportunities="4">
         <ruleName>Enter-As-Decimal</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>%(label_1_enter_decimal)%</label>
-        <hintMessage>%(hintMessage_141_ratio_100_written_100)%</hintMessage>
-        <hintMessage>%(hintMessage_142_divide_number_10_move)%</hintMessage>
-        <hintMessage>%(hintMessage_143_dividing_100_equivalent_dividing)%</hintMessage>
-        <hintMessage>%(hintMessage_144_try_entering)%</hintMessage>
+        <label>Enter as decimal</label>
+        <hintMessage>The ratio out of 100 is written as &lt;%= 3/15*100 %&gt;/100. Please express this value as a decimal.</hintMessage>
+        <hintMessage>When you divide a number by 10, you move the decimal point in that number over to the left one place. If it's a whole number, there is an 'invisible' decimal point to the right of it, like this: &quot;20.&quot;</hintMessage>
+        <hintMessage>Dividing by 100 is equivalent to dividing by 10, then dividing by 10 again.</hintMessage>
+        <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(3,15))%&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-Reduced-Fraction</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>%(label_2_enter_reduced_fraction)%</label>
-        <hintMessage>%(hintMessage_145_make_unreduced_ratio_tar1tot)%</hintMessage>
-        <hintMessage>%(hintMessage_146_tar1_numerator_tot_denominator)%</hintMessage>
-        <hintMessage>%(hintMessage_147_try_entering)%</hintMessage>
+        <label>Enter reduced fraction</label>
+        <hintMessage>To make the unreduced ratio, 3/15, a reduced fraction, first find the greatest common factor of the numerator and the denominator.</hintMessage>
+        <hintMessage>3 is the numerator, and 15 is the denominator. Divide 3 and 15 by their greatest common factor.</hintMessage>
+        <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(3,15))%&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-As-Percent</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>%(label_3_enter_percent)%</label>
-        <hintMessage>%(hintMessage_148_remember_one_percent_1)%</hintMessage>
-        <hintMessage>%(hintMessage_149_ratio_100_percent_well)%</hintMessage>
-        <hintMessage>%(hintMessage_150_try_entering)%</hintMessage>
+        <label>Enter as percent</label>
+        <hintMessage>Remember one percent (1%) is one out of 100. In the last column, you found the ratio out of 100, &lt;%= 3/15*100 %&gt;/100. The percent representation is just the numerator of this ratio, &lt;%= 3/15*100 %&gt;.</hintMessage>
+        <hintMessage>If the ratio out 100 is &lt;%= 3/15*100 %&gt;, then the percent is &lt;%= 3/15*100 %&gt; as well.</hintMessage>
+        <hintMessage>Try entering &lt;%= 3/15*100 %&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Count-Total-Items</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>%(label_4_count_total_items)%</label>
-        <hintMessage>%(hintMessage_151_next_step_figure_total)%</hintMessage>
-        <hintMessage>%(hintMessage_152_many_total_shapes_see)%</hintMessage>
-        <hintMessage>%(hintMessage_153_try_entering_tot)%</hintMessage>
+        <label>Count total items</label>
+        <hintMessage>The next step is to figure out the total number of shapes that you see in the picture.</hintMessage>
+        <hintMessage>How many total shapes do you see here?</hintMessage>
+        <hintMessage>Try entering 15.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Count-Target-Items</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>%(label_5_count_target_items)%</label>
-        <hintMessage>%(hintMessage_154_work_question_1_must)%</hintMessage>
-        <hintMessage>%(hintMessage_155_many_shapes_picture_blue)%</hintMessage>
-        <hintMessage>%(hintMessage_156_try_entering_9)%</hintMessage>
+        <label>Count target items</label>
+        <hintMessage>To work through question 1, you must first find the number of shapes that are not blue.</hintMessage>
+        <hintMessage>How many shapes in the picture above are not blue?</hintMessage>
+        <hintMessage>Try entering 9.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-Unreduced-Ratio</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>%(label_6_enter_unreduced_ratio)%</label>
-        <hintMessage>%(hintMessage_157_unreduced_ratio_fraction_representing)%</hintMessage>
-        <hintMessage>%(hintMessage_158_make_sure_enter_unreduced)%</hintMessage>
-        <hintMessage>%(hintMessage_159_try_entering_tar1tot)%</hintMessage>
+        <label>Enter unreduced ratio</label>
+        <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
+        <hintMessage>Make sure you enter the unreduced ratio as a fraction, the target number is the numerator and the total number is the denominator.</hintMessage>
+        <hintMessage>Try entering 3/15.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-As-Fraction-Out-100</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>%(label_7_enter_fraction_100)%</label>
-        <hintMessage>%(hintMessage_160_express_unreduced_ratio_ratio)%</hintMessage>
-        <hintMessage>%(hintMessage_161_one_way_find_numerator)%</hintMessage>
-        <hintMessage>%(hintMessage_162_try_entering_100)%</hintMessage>
+        <label>Enter as fraction out of 100</label>
+        <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 3/15 to 100.</hintMessage>
+        <hintMessage>One way to find the numerator for the ratio out of 100 is to multiply the original numerator, 3, by 100 and then divide by the original denominator, 15.</hintMessage>
+        <hintMessage>Try entering &lt;%= 3/15*100 %&gt;/100.</hintMessage>
     </productionRule>
     <EdgesGroups ordered="false" />
 </stateGraph>
