@@ -41,10 +41,10 @@ Problem Name	1	2	3	4	5	6	7	8
 %(tot2)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%
 %(tot3)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%
 %(tot4)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%	%(tot)%
-%(bugTot1)%								
-%(bugTot2)%								
-%(bugTot3)%								
-%(bugTot4)%								
+%(bugTot1)%	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+%(bugTot2)%	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+%(bugTot3)%	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+%(bugTot4)%	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 %(bugMsg1)%	-	-	-	-	-	-	-	-
 %(bugMsg2)%	-	-	-	-	-	-	-	-
 %(bugMsg3)%	-	-	-	-	-	-	-	-

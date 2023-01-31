@@ -1,5 +1,3 @@
-<?xml version="1.0" standalone="yes"?>
-
 <stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="true" lockWidget="true" version="2.1" suppressStudentFeedback="false" highlightRightSelection="true" startStateNodeName="example1">
     <startNodeMessages>
         <message>
@@ -3308,7 +3306,7 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value>n/a</value>
                     </Input>
                 </properties>
             </message>
@@ -3334,7 +3332,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single"></matcherParameter>
+                        <matcherParameter name="single">n/a</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3367,7 +3365,7 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value>n/a</value>
                     </Input>
                 </properties>
             </message>
@@ -3393,7 +3391,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single"></matcherParameter>
+                        <matcherParameter name="single">n/a</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3426,7 +3424,7 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value>n/a</value>
                     </Input>
                 </properties>
             </message>
@@ -3452,7 +3450,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single"></matcherParameter>
+                        <matcherParameter name="single">n/a</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3485,7 +3483,7 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value>n/a</value>
                     </Input>
                 </properties>
             </message>
@@ -3511,7 +3509,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single"></matcherParameter>
+                        <matcherParameter name="single">n/a</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
