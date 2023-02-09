@@ -151,7 +151,7 @@
         </message>
     </startNodeMessages>
     <node doneState="false" locked="false">
-        <text>Problem6</text>
+        <text>start</text>
         <uniqueID>1</uniqueID>
         <dimension>
             <x>450</x>
