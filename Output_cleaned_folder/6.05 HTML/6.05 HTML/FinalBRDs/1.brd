@@ -1,5 +1,3 @@
-<?xml version="1.0" standalone="yes"?>
-
 <stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="true" lockWidget="true" version="2.1" suppressStudentFeedback="false" highlightRightSelection="true" startStateNodeName="example1">
     <startNodeMessages>
         <message>
@@ -129,7 +127,7 @@
         </message>
     </startNodeMessages>
     <node locked="false" doneState="false">
-        <text>1</text>
+        <text>6_5</text>
         <uniqueID>1</uniqueID>
         <dimension>
             <x>418</x>
@@ -498,9 +496,9 @@
     </node>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>3</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -519,7 +517,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
             <hintMessage>What is the total number of shapes shown?</hintMessage>
             <hintMessage>Try entering 100.</hintMessage>
@@ -556,13 +554,13 @@
         <sourceID>2</sourceID>
         <destID>3</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>5</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -581,7 +579,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
             <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
             <hintMessage>Try entering 100/100.</hintMessage>
@@ -618,13 +616,13 @@
         <sourceID>3</sourceID>
         <destID>4</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>7</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -643,7 +641,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 100/100 to 100.</hintMessage>
             <hintMessage>Do you know how to find an equivalent fraction of 100/100 that has denominator of 100? You already know the denominator, 100. Then, what would be its numerator?</hintMessage>
             <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 100, and multiply it by 100 and then divide it by 100, the original denominator: 100*100/100.</hintMessage>
@@ -687,13 +685,13 @@
         <sourceID>4</sourceID>
         <destID>5</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>9</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -712,7 +710,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 100/100. The percent representation is just the numerator of this ratio, 100.</hintMessage>
             <hintMessage>If the ratio out 100 is 100/100, the percent is its numerator, 100.</hintMessage>
             <hintMessage>Try entering 100%.</hintMessage>
@@ -750,13 +748,13 @@
         <sourceID>5</sourceID>
         <destID>6</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>11</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -775,11 +773,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The ratio out of 100 is written as 100/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(100,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=divEvaluate(fractionMake(100,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -814,13 +812,13 @@
         <sourceID>6</sourceID>
         <destID>7</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>13</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -839,12 +837,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To turn 100/100 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
             <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
             <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 100 and 100 without any remainder.</hintMessage>
             <hintMessage>Need more help? Greatest common factor of 100 and 100 is 100.</hintMessage>
-            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(100,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=fractionsimplify(fractionMake(100,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -879,13 +877,13 @@
         <sourceID>7</sourceID>
         <destID>8</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>15</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -904,7 +902,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To work through question 2, you must first find the number of shapes that are purple.</hintMessage>
             <hintMessage>How many shapes are purple?</hintMessage>
             <hintMessage>Try entering 20.</hintMessage>
@@ -941,13 +939,13 @@
         <sourceID>8</sourceID>
         <destID>9</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>17</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -966,7 +964,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
             <hintMessage>What is the total number of shapes shown?</hintMessage>
             <hintMessage>Try entering 100.</hintMessage>
@@ -1003,13 +1001,13 @@
         <sourceID>9</sourceID>
         <destID>10</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>19</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1028,7 +1026,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
             <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
             <hintMessage>Try entering 20/100.</hintMessage>
@@ -1065,13 +1063,13 @@
         <sourceID>10</sourceID>
         <destID>11</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>21</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1090,7 +1088,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 20/100 to 100.</hintMessage>
             <hintMessage>Do you know how to find an equivalent fraction of 20/100 that has denominator of 100? You already know the denominator, 100. Then, what would be its numerator?</hintMessage>
             <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 20, and multiply it by 100 and then divide it by 100, the original denominator: 20*100/100. </hintMessage>
@@ -1134,13 +1132,13 @@
         <sourceID>11</sourceID>
         <destID>12</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>23</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1159,7 +1157,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 20/100. The percent representation is just the numerator of this ratio, 20.</hintMessage>
             <hintMessage>If the ratio out 100 is 20/100, the percent is its numerator, 20.</hintMessage>
             <hintMessage>Try entering 20%.</hintMessage>
@@ -1197,13 +1195,13 @@
         <sourceID>12</sourceID>
         <destID>13</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>25</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1222,11 +1220,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The ratio out of 100 is written as 20/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(20,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=divEvaluate(fractionMake(20,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1261,13 +1259,13 @@
         <sourceID>13</sourceID>
         <destID>14</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>27</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1286,12 +1284,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To turn 20/100 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
             <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
             <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 100 and 100 without any remainder.</hintMessage>
             <hintMessage>Need more help? Greatest common factor of 20 and 100 is 20.</hintMessage>
-            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(20,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=fractionsimplify(fractionMake(20,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1326,13 +1324,13 @@
         <sourceID>14</sourceID>
         <destID>15</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>29</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1351,7 +1349,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To work through question 3, you must first find the number of shapes that are not blue.</hintMessage>
             <hintMessage>How many shapes are not blue?</hintMessage>
             <hintMessage>Try entering 60.</hintMessage>
@@ -1388,13 +1386,13 @@
         <sourceID>15</sourceID>
         <destID>16</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>31</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1413,7 +1411,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
             <hintMessage>What is the total number of shapes shown?</hintMessage>
             <hintMessage>Try entering 100.</hintMessage>
@@ -1450,13 +1448,13 @@
         <sourceID>16</sourceID>
         <destID>17</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>33</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1475,7 +1473,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
             <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
             <hintMessage>Try entering 60/100.</hintMessage>
@@ -1512,13 +1510,13 @@
         <sourceID>17</sourceID>
         <destID>18</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>35</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1537,7 +1535,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 60/100 to 100.</hintMessage>
             <hintMessage>Do you know how to find an equivalent fraction of 60/100 that has denominator of 100? You already know the denominator, 100. Then, what would be its numerator?</hintMessage>
             <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 60, and multiply it by 100 and then divide it by 100, the original denominator: 60*100/100. </hintMessage>
@@ -1581,13 +1579,13 @@
         <sourceID>18</sourceID>
         <destID>19</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>37</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1606,7 +1604,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 60/100. The percent representation is just the numerator of this ratio, 60.</hintMessage>
             <hintMessage>If the ratio out 100 is 60/100, the percent is its numerator, 60.</hintMessage>
             <hintMessage>Try entering 60%.</hintMessage>
@@ -1644,13 +1642,13 @@
         <sourceID>19</sourceID>
         <destID>20</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>39</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1669,11 +1667,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The ratio out of 100 is written as 60/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(60,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=divEvaluate(fractionMake(60,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1708,13 +1706,13 @@
         <sourceID>20</sourceID>
         <destID>21</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>41</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1733,12 +1731,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To turn 60/100 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
             <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
             <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 100 and 100 without any remainder.</hintMessage>
             <hintMessage>Need more help? Greatest common factor of 60 and 100 is 20.</hintMessage>
-            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(60,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=fractionsimplify(fractionMake(60,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1773,13 +1771,13 @@
         <sourceID>21</sourceID>
         <destID>22</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>43</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1798,7 +1796,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To work through question 4, you must first find the number of shapes that are red.</hintMessage>
             <hintMessage>How many shapes are red?</hintMessage>
             <hintMessage>Try entering 5.</hintMessage>
@@ -1821,13 +1819,13 @@
         <sourceID>22</sourceID>
         <destID>23</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>45</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1846,7 +1844,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
             <hintMessage>What is the total number of shapes shown?</hintMessage>
             <hintMessage>Try entering 100.</hintMessage>
@@ -1883,13 +1881,13 @@
         <sourceID>23</sourceID>
         <destID>24</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>47</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1908,7 +1906,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
             <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
             <hintMessage>Try entering 5/100.</hintMessage>
@@ -1945,13 +1943,13 @@
         <sourceID>24</sourceID>
         <destID>25</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>49</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1970,7 +1968,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 5/100 to 100.</hintMessage>
             <hintMessage>Do you know how to find an equivalent fraction of 5/100 that has denominator of 100? You already know the denominator. Then, what would be its numerator?</hintMessage>
             <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 5, and multiply it by 100 and then divide it by 100, the original denominator: 5*100/100. </hintMessage>
@@ -2014,13 +2012,13 @@
         <sourceID>25</sourceID>
         <destID>26</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>51</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2039,7 +2037,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 5/100. The percent representation is just the numerator of this ratio, 5.</hintMessage>
             <hintMessage>If the ratio out 100 is 5/100, the percent is its numerator, 5.</hintMessage>
             <hintMessage>Try entering 5%.</hintMessage>
@@ -2077,13 +2075,13 @@
         <sourceID>26</sourceID>
         <destID>27</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>53</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2102,11 +2100,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The ratio out of 100 is written as 5/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(5,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=divEvaluate(fractionMake(5,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2141,13 +2139,13 @@
         <sourceID>27</sourceID>
         <destID>28</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>55</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2166,12 +2164,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To turn 5/100 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
             <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
             <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 100 and 100 without any remainder.</hintMessage>
             <hintMessage>Need more help? Greatest common factor of 5 and 100 is 5.</hintMessage>
-            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(5,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=fractionsimplify(fractionMake(5,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2206,13 +2204,13 @@
         <sourceID>28</sourceID>
         <destID>29</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>57</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2231,7 +2229,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please click on the highlighted button.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2252,13 +2250,13 @@
         <sourceID>29</sourceID>
         <destID>30</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>64</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2276,7 +2274,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 100/100. The percent representation is just the numerator of this ratio, 100.</hintMessage>
             <hintMessage>If the ratio out 100 is 100/100, the percent is its numerator, 100.</hintMessage>
             <hintMessage>Try entering 100%.</hintMessage>
@@ -2313,13 +2311,13 @@
         <sourceID>5</sourceID>
         <destID>32</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>73</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2337,11 +2335,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The ratio out of 100 is written as 100/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(100,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=divEvaluate(fractionMake(100,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2376,13 +2374,13 @@
         <sourceID>32</sourceID>
         <destID>7</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>76</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2400,7 +2398,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 20/100. The percent representation is just the numerator of this ratio, 20.</hintMessage>
             <hintMessage>If the ratio out 100 is 20/100, the percent is its numerator, 20.</hintMessage>
             <hintMessage>Try entering 20%.</hintMessage>
@@ -2437,13 +2435,13 @@
         <sourceID>12</sourceID>
         <destID>33</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>86</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2461,11 +2459,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The ratio out of 100 is written as 20/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(20,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=divEvaluate(fractionMake(20,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2500,13 +2498,13 @@
         <sourceID>33</sourceID>
         <destID>14</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>93</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2524,7 +2522,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 60/100. The percent representation is just the numerator of this ratio, 60.</hintMessage>
             <hintMessage>If the ratio out 100 is 60/100, the percent is its numerator, 60.</hintMessage>
             <hintMessage>Try entering 60%.</hintMessage>
@@ -2561,13 +2559,13 @@
         <sourceID>19</sourceID>
         <destID>35</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>96</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2585,11 +2583,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The ratio out of 100 is written as 60/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(60,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=divEvaluate(fractionMake(60,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2624,13 +2622,13 @@
         <sourceID>35</sourceID>
         <destID>21</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>99</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2648,7 +2646,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 5/100. The percent representation is just the numerator of this ratio, 5.</hintMessage>
             <hintMessage>If the ratio out 100 is 5/100, the percent is its numerator, 5.</hintMessage>
             <hintMessage>Try entering 5%.</hintMessage>
@@ -2685,13 +2683,13 @@
         <sourceID>26</sourceID>
         <destID>37</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>104</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2709,11 +2707,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The ratio out of 100 is written as 5/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(5,100))%&gt;.</hintMessage>
+            <hintMessage>Try entering <%=divEvaluate(fractionMake(5,100))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2748,13 +2746,13 @@
         <sourceID>37</sourceID>
         <destID>28</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>116</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2772,7 +2770,7 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2807,13 +2805,13 @@
         <sourceID>6</sourceID>
         <destID>39</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>120</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2831,7 +2829,7 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2867,13 +2865,13 @@
         <sourceID>32</sourceID>
         <destID>40</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>123</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2891,7 +2889,7 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2927,13 +2925,13 @@
         <sourceID>13</sourceID>
         <destID>41</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>126</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -2951,7 +2949,7 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2987,13 +2985,13 @@
         <sourceID>33</sourceID>
         <destID>42</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>129</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -3011,7 +3009,7 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3047,13 +3045,13 @@
         <sourceID>20</sourceID>
         <destID>43</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>132</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -3071,7 +3069,7 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3107,13 +3105,13 @@
         <sourceID>35</sourceID>
         <destID>44</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>135</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -3131,7 +3129,7 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3167,13 +3165,13 @@
         <sourceID>27</sourceID>
         <destID>45</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>138</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -3191,7 +3189,7 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3227,13 +3225,13 @@
         <sourceID>37</sourceID>
         <destID>46</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>1</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3252,7 +3250,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To work through question 1, you must first find the number of shapes that are squares.</hintMessage>
             <hintMessage>How many shapes are squares?</hintMessage>
             <hintMessage>Try entering 100.</hintMessage>
@@ -3289,13 +3287,13 @@
         <sourceID>1</sourceID>
         <destID>2</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>142</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -3313,7 +3311,7 @@
                 </properties>
             </message>
             <buggyMessage>-</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3348,13 +3346,13 @@
         <sourceID>2</sourceID>
         <destID>47</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>149</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -3372,7 +3370,7 @@
                 </properties>
             </message>
             <buggyMessage>-</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3407,13 +3405,13 @@
         <sourceID>9</sourceID>
         <destID>48</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>156</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -3431,7 +3429,7 @@
                 </properties>
             </message>
             <buggyMessage>-</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3466,13 +3464,13 @@
         <sourceID>16</sourceID>
         <destID>49</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>159</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -3490,7 +3488,7 @@
                 </properties>
             </message>
             <buggyMessage>-</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3525,16 +3523,16 @@
         <sourceID>23</sourceID>
         <destID>50</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <productionRule opportunities="4">
         <ruleName>Enter-As-Decimal</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
         <label>Enter as decimal</label>
-        <hintMessage>The ratio out of 100 is written as &lt;%= 100/100*100 %&gt;/100. Please express this value as a decimal.</hintMessage>
+        <hintMessage>The ratio out of 100 is written as <%= 100/100*100 %>/100. Please express this value as a decimal.</hintMessage>
         <hintMessage>When you divide a number by 10, you move the decimal point in that number over to the left one place. If it's a whole number, there is an 'invisible' decimal point to the right of it, like this: "100."</hintMessage>
         <hintMessage>Dividing by 100 is equivalent to dividing by 10, then dividing by 10 again.</hintMessage>
-        <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(100,100))%&gt;.</hintMessage>
+        <hintMessage>Try entering <%=divEvaluate(fractionMake(100,100))%>.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-Reduced-Fraction</ruleName>
@@ -3542,15 +3540,15 @@
         <label>Enter reduced fraction</label>
         <hintMessage>To make the unreduced ratio, 100/100, a reduced fraction, first find the greatest common factor of the numerator and the denominator.</hintMessage>
         <hintMessage>100 is the numerator, and 100 is the denominator. Divide 100 and 100 by their greatest common factor.</hintMessage>
-        <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(100,100))%&gt;.</hintMessage>
+        <hintMessage>Try entering <%=fractionsimplify(fractionMake(100,100))%>.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-As-Percent</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
         <label>Enter as percent</label>
-        <hintMessage>Remember one percent (1%) is one out of 100. In the last column, you found the ratio out of 100, &lt;%= 100/100*100 %&gt;/100. The percent representation is just the numerator of this ratio, &lt;%= 100/100*100 %&gt;.</hintMessage>
-        <hintMessage>If the ratio out 100 is &lt;%= 100/100*100 %&gt;, then the percent is &lt;%= 100/100*100 %&gt; as well.</hintMessage>
-        <hintMessage>Try entering &lt;%= 100/100*100 %&gt;.</hintMessage>
+        <hintMessage>Remember one percent (1%) is one out of 100. In the last column, you found the ratio out of 100, <%= 100/100*100 %>/100. The percent representation is just the numerator of this ratio, <%= 100/100*100 %>.</hintMessage>
+        <hintMessage>If the ratio out 100 is <%= 100/100*100 %>, then the percent is <%= 100/100*100 %> as well.</hintMessage>
+        <hintMessage>Try entering <%= 100/100*100 %>.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Count-Total-Items</ruleName>
@@ -3582,8 +3580,7 @@
         <label>Enter as fraction out of 100</label>
         <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 100/100 to 100.</hintMessage>
         <hintMessage>One way to find the numerator for the ratio out of 100 is to multiply the original numerator, 100, by 100 and then divide by the original denominator, 100.</hintMessage>
-        <hintMessage>Try entering &lt;%= 100/100*100 %&gt;/100.</hintMessage>
+        <hintMessage>Try entering <%= 100/100*100 %>/100.</hintMessage>
     </productionRule>
-    <EdgesGroups ordered="false"></EdgesGroups>
+    <EdgesGroups ordered="false" />
 </stateGraph>
-
