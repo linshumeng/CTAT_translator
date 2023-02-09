@@ -1,0 +1,2280 @@
+Problem Name	IntroProblem
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Kelly has 50 senior pictures. She is giving 32 to her family, and 18 to her friends. What percentage of the pictures is she giving to her family?
+%(Part)%	32
+%(Part-Hint1)%	How many pictures did Kelly give to her family?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	pictures Kelly gave to her family
+%(ComboOpt2)%	pictures Kelly gave to her friends
+%(ComboOpt3)%	total number of senior pictures
+%(Combo1-Hint)%	What number of the senior pictures are you representing in the numerator of this fraction?
+%(Combo2-Hint)%	What number of the senior pictures are you representing in the denominator of this fraction?
+%(Combo1-Selection)%	pictures Kelly gave to her family
+%(Combo2-Selection)%	total number of senior pictures
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	50
+%(Total-Hint1)%	How many senior pictures does Kelly have in total?
+%(Interm-Ans)%	3200
+%(EF-traversal)%	1
+%(divide)%	0
+%(Factor)%	2
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 50 by 2 changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 50 by 2 changes it to 100.
+%(Ans)%	64
+%(Ans-Hint2)%	What percentage of the pictures did Kelly give to her family? If you aren't sure, check the optional proportion solving area.
+%(A1)%	pictures is
+%(A2)%	of the 
+%(A3)%	senior pictures.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	3200
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What number of the senior pictures are you representing in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of senior pictures' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '64' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	How many pictures did Kelly give to her family?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '50' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many senior pictures does Kelly have in total?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 3200 / 50?
+%(8080422334746685958)%	Please enter '2' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '3200' in the highlighted field.
+%(-8624473016789247343)%	Try entering '64' in the highlighted field.
+%(4621264340441305925)%	Multiplying 50 by 2 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'pictures Kelly gave to her family' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '32' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What number of the senior pictures are you representing in the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 50 by 2 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 32 * 100?
+%(-8004750629440064282)%	What percentage of the pictures did Kelly give to her family? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem1
+%(startStateNodeName)%	state56
+%(ProblemStatement)%	As part of their Get Fit campaign, the city of Tucson, Arizona recently attempted to set a record for the highest number of people performing aerobic exercise simultaneously. Of the city's 21000 inhabitants, 16590 people took part in the activity. What percentage is this? 
+%(Part)%	16590
+%(Part-Hint1)%	What is the number of people who took part in the activity?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	people who took part in the activity
+%(ComboOpt2)%	people who didn't take part in the activity
+%(ComboOpt3)%	total inhabitants of Tuscon
+%(Combo1-Hint)%	Which part of the population are you representing in the numerator of this fraction?
+%(Combo2-Hint)%	Which part of the population are you representing in the denominator of this fraction?
+%(Combo1-Selection)%	people who took part in the activity
+%(Combo2-Selection)%	total inhabitants of Tuscon
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	21000
+%(Total-Hint1)%	What is the total number of inhabitants in Tucson?
+%(Interm-Ans)%	1659000
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	210
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 21000 by 210 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 21000 by 210 changes it to 100.
+%(Ans)%	79
+%(Ans-Hint2)%	What percentage of the citizens took part in the activity? If you aren't sure, check the optional proportion solving area.
+%(A1)%	participants is
+%(A2)%	of
+%(A3)%	citizens of Tucson.
+%(PartComma)%	16590
+%(TotalComma)%	21000
+%(Comma)%	1
+%(IntermComma)%	1659000
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which part of the population are you representing in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total inhabitants of Tuscon' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '79' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	What is the number of people who took part in the activity?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '21000' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	What is the total number of inhabitants in Tucson?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 1659000 / 21000?
+%(8080422334746685958)%	Please enter '210' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '1659000' in the highlighted field.
+%(-8624473016789247343)%	Try entering '79' in the highlighted field.
+%(4621264340441305925)%	Dividing 21000 by 210 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'people who took part in the activity' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '16590' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which part of the population are you representing in the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 21000 by 210 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 16590 * 100?
+%(-8004750629440064282)%	What percentage of the citizens took part in the activity? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem2
+%(startStateNodeName)%	state27
+%(ProblemStatement)%	Timothy is flying from Los Angeles to New York City. He will be flying a total of 5000 miles, and right now, as he looks out the window high above Oklahoma, he has flown 775 miles. What percentage is this? 
+%(Part)%	775
+%(Part-Hint1)%	How many miles has Timothy already covered?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	miles between New York City and Oklahoma
+%(ComboOpt2)%	miles between Los Angeles and New York City
+%(ComboOpt3)%	miles between Los Angeles and Oklahoma
+%(Combo1-Hint)%	Which part of the journey are you representing in the numerator of this fraction?
+%(Combo2-Hint)%	Which part of the journey are you representing in the denominator of this fraction?
+%(Combo1-Selection)%	miles between Los Angeles and Oklahoma
+%(Combo2-Selection)%	miles between Los Angeles and New York City
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	5000
+%(Total-Hint1)%	What is the total distance between Los Angeles and New York City?
+%(Interm-Ans)%	77500
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	50
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 5000 by 50 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 5000 by 50 changes it to 100.
+%(Ans)%	15.5
+%(Ans-Hint2)%	What percentage of the distance has Timothy already covered? If you aren't sure, check the optional proportion solving area.
+%(A1)%	miles is
+%(A2)%	of the
+%(A3)%	miles to be flown.
+%(PartComma)%	
+%(TotalComma)%	5000
+%(Comma)%	1
+%(IntermComma)%	77500
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which part of the journey are you representing in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'miles between Los Angeles and New York City' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '15.5' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How many miles has Timothy already covered?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '5000' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	What is the total distance between Los Angeles and New York City?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 77500 / 5000?
+%(8080422334746685958)%	Please enter '50' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '77500' in the highlighted field.
+%(-8624473016789247343)%	Try entering '15.5' in the highlighted field.
+%(4621264340441305925)%	Dividing 5000 by 50 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'miles between Los Angeles and Oklahoma' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '775' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which part of the journey are you representing in the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 5000 by 50 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 775 * 100?
+%(-8004750629440064282)%	What percentage of the distance has Timothy already covered? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem3
+%(startStateNodeName)%	state2
+%(ProblemStatement)%	Ed is installing carpeting in his house. He has to install 300 square feet of carpeting, and he has already installed 243 square feet. What percentage of the carpet has he installed?
+%(Part)%	243
+%(Part-Hint1)%	How much carpeting has Ed already installed in his house?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	total sq.ft. of carpeting to be installed
+%(ComboOpt2)%	sq.ft. of carpeting already installed
+%(ComboOpt3)%	sq.ft. of carpeting not yet installed
+%(Combo1-Hint)%	What part of the carpet installation are you representing in the numerator of this fraction?
+%(Combo2-Hint)%	What part of the carpet installation are you representing in the denominator of this fraction?
+%(Combo1-Selection)%	sq.ft. of carpeting already installed
+%(Combo2-Selection)%	total sq.ft. of carpeting to be installed
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	300
+%(Total-Hint1)%	What is the total square feet of carpeting Ed has to install in his house?
+%(Interm-Ans)%	24300
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	3
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 300 by 3 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 300 by 3 changes it to 100.
+%(Ans)%	81
+%(Ans-Hint2)%	What percentage of the carpeting has Ed already installed in his house? If you aren't sure, check the optional proportion solving area.
+%(A1)%	square feet of installed carpeting is
+%(A2)%	of
+%(A3)%	square feet.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	24300
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of the carpet installation are you representing in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total sq.ft. of carpeting to be installed' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '81' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How much carpeting has Ed already installed in his house?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '300' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	What is the total square feet of carpeting Ed has to install in his house?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 24300 / 300?
+%(8080422334746685958)%	Please enter '3' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '24300' in the highlighted field.
+%(-8624473016789247343)%	Try entering '81' in the highlighted field.
+%(4621264340441305925)%	Dividing 300 by 3 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'sq.ft. of carpeting already installed' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '243' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of the carpet installation are you representing in the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 300 by 3 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 243 * 100?
+%(-8004750629440064282)%	What percentage of the carpeting has Ed already installed in his house? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem5
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Albert is reading a book that is 200 pages long. If he reads 72 pages over the weekend, what percentage of the total pages does that represent?
+%(Part)%	72
+%(Part-Hint1)%	How many pages did Albert already read from the book?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	total number of pages in the book
+%(ComboOpt2)%	pages already read by Albert
+%(ComboOpt3)%	pages left to be read by Albert
+%(Combo1-Hint)%	What part of Albert's reading are you representing in the numerator of this fraction?
+%(Combo2-Hint)%	What part of Albert's reading are you representing in the denominator of this fraction?
+%(Combo1-Selection)%	pages already read by Albert
+%(Combo2-Selection)%	total number of pages in the book
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	200
+%(Total-Hint1)%	How many pages does the book have in total?
+%(Interm-Ans)%	7200
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	2
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 200 by 2 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 200 by 2 changes it to 100.
+%(Ans)%	36
+%(Ans-Hint2)%	What percentage of the book did Albert already read? If you aren't sure, check the optional proportion solving area.
+%(A1)%	pages is
+%(A2)%	of
+%(A3)%	pages in the book.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	7200
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of Albert's reading are you representing in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of pages in the book' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '36' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How many pages did Albert already read from the book?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '200' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many pages does the book have in total?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 7200 / 200?
+%(8080422334746685958)%	Please enter '2' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '7200' in the highlighted field.
+%(-8624473016789247343)%	Try entering '36' in the highlighted field.
+%(4621264340441305925)%	Dividing 200 by 2 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'pages already read by Albert' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '72' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of Albert's reading are you representing in the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 200 by 2 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 72 * 100?
+%(-8004750629440064282)%	What percentage of the book did Albert already read? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem6
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	A radio program that consists of 3 fictional stories is 75 minutes long. If one story accounts for 15 minutes of the program, what percentage of the total program does that story represent?
+%(Part)%	15
+%(Part-Hint1)%	What is the length of one story?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	length of one story
+%(ComboOpt2)%	length of two stories
+%(ComboOpt3)%	length of three stories
+%(Combo1-Hint)%	What part of the radio program are you representing in the numerator of this fraction?
+%(Combo2-Hint)%	What part of the radio program are you representing in the denominator of this fraction?
+%(Combo1-Selection)%	length of one story
+%(Combo2-Selection)%	length of three stories
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	75
+%(Total-Hint1)%	What is the total length of the program?
+%(Interm-Ans)%	1500
+%(EF-traversal)%	0
+%(divide)%	0
+%(Factor)%	0
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 75 by 0 changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 75 by 0 changes it to 100.
+%(Ans)%	20
+%(Ans-Hint2)%	What percentage of the entire program is the length of one story?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	minutes represents
+%(A2)%	of the 
+%(A3)%	-minute program.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	1500
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of the radio program are you representing in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'length of three stories' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '20' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	What is the length of one story?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '75' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	What is the total length of the program?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 1500 / 75?
+%(8080422334746685958)%	Please enter '0' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '1500' in the highlighted field.
+%(-8624473016789247343)%	Try entering '20' in the highlighted field.
+%(4621264340441305925)%	Multiplying 75 by 0 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'length of one story' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '15' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of the radio program are you representing in the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 75 by 0 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 15 * 100?
+%(-8004750629440064282)%	What percentage of the entire program is the length of one story?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem7
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Jane is returning a poorly developed photograph to the shop. If the cost of her entire order was $8.00 and she was credited $0.12, what percent of the order was she credited?
+%(Part)%	0.12
+%(Part-Hint1)%	How much credit did the shop return to Jane?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	total cost of the order ($)
+%(ComboOpt2)%	credit Jane received ($)
+%(ComboOpt3)%	amount Jane lost in this order ($)
+%(Combo1-Hint)%	What part of the total order are you representing in the numerator of this fraction?
+%(Combo2-Hint)%	What part of the order are you representing in the denominator of this fraction?
+%(Combo1-Selection)%	credit Jane received ($)
+%(Combo2-Selection)%	total cost of the order ($)
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	8
+%(Total-Hint1)%	How much was Jane's total worth?
+%(Interm-Ans)%	12
+%(EF-traversal)%	0
+%(divide)%	0
+%(Factor)%	0
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 8 by 0 changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 8 by 0 changes it to 100.
+%(Ans)%	1.5
+%(Ans-Hint2)%	What percentage of the original price did the shop return to Jane?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	dollars is 
+%(A2)%	of
+%(A3)%	dollars.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	0
+%(IntermComma)%	
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of the order are you representing in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total cost of the order ($)' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '1.5' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	How much credit did the shop return to Jane?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '8' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How much was Jane's total worth?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 12 / 8?
+%(8080422334746685958)%	Please enter '0' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '12' in the highlighted field.
+%(-8624473016789247343)%	Try entering '1.5' in the highlighted field.
+%(4621264340441305925)%	Multiplying 8 by 0 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'credit Jane received ($)' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '0.12' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of the total order are you representing in the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 8 by 0 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 0.12 * 100?
+%(-8004750629440064282)%	What percentage of the original price did the shop return to Jane?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem8
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	A political science student at a city university recently conducted an on-the-street poll of passersby, asking the question: Who is the current secretary of state? Remarkably, only 36 out of the 400 people he asked knew the correct answer! What percent of the individuals who were polled could identify the secretary of state?
+%(Part)%	36
+%(Part-Hint1)%	How many people answered the question correctly?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	people who answered incorrectly
+%(ComboOpt2)%	people who answered correctly
+%(ComboOpt3)%	total number of people in the poll
+%(Combo1-Hint)%	Which participants in the poll are you representing in the numerator of this fraction?
+%(Combo2-Hint)%	Which participants in the poll are you representing in the denominator of this fraction?
+%(Combo1-Selection)%	people who answered correctly
+%(Combo2-Selection)%	total number of people in the poll
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	400
+%(Total-Hint1)%	How many people were asked this question during the poll?
+%(Interm-Ans)%	3600
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	4
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 400 by 4 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 400 by 4 changes it to 100.
+%(Ans)%	9
+%(Ans-Hint2)%	What percentage of the individuals answered the question correctly?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	people is
+%(A2)%	of 
+%(A3)%	people.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	3600
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which participants in the poll are you representing in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of people in the poll' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '9' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How many people answered the question correctly?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '400' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many people were asked this question during the poll?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 3600 / 400?
+%(8080422334746685958)%	Please enter '4' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '3600' in the highlighted field.
+%(-8624473016789247343)%	Try entering '9' in the highlighted field.
+%(4621264340441305925)%	Dividing 400 by 4 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'people who answered correctly' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '36' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which participants in the poll are you representing in the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 400 by 4 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 36 * 100?
+%(-8004750629440064282)%	What percentage of the individuals answered the question correctly?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem9
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	One local newscast tries to lure viewers with a flashy gimmick- Win by Watching. They send every resident of the city his/her own unique game number, promising $1000 each day to the viewer whose number is flashed across the screen sometime during the 6 o'clock news. However, an independent investigation team just revealed that, in the past 15 years, only 1625 out of the 25000 viewers in the tri-state area have actually won the contest. What percentage is this?
+%(Part)%	1625
+%(Part-Hint1)%	How many viewers have won the contest in the last 15 years?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	total number of people in the tri-state area
+%(ComboOpt2)%	people who didn't win the contest
+%(ComboOpt3)%	people who won the contest
+%(Combo1-Hint)%	Which viewers are you trying to represent in the numerator of this fraction?
+%(Combo2-Hint)%	Which viewers are you trying to represent in the denominator of this fraction?
+%(Combo1-Selection)%	people who won the contest
+%(Combo2-Selection)%	total number of people in the tri-state area
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	25000
+%(Total-Hint1)%	How many viewers are there in the tri-state area?
+%(Interm-Ans)%	162500
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	250
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 25000 by 250 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 25000 by 250 changes it to 100.
+%(Ans)%	6.5
+%(Ans-Hint2)%	What percentage of the viewers have won the contest in the last 15 years?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	winning viewers is
+%(A2)%	of the 
+%(A3)%	total viewers in the tri-state area.
+%(PartComma)%	1625
+%(TotalComma)%	25000
+%(Comma)%	1
+%(IntermComma)%	162500
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which viewers are you trying to represent in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of people in the tri-state area' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '6.5' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How many viewers have won the contest in the last 15 years?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '25000' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many viewers are there in the tri-state area?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 162500 / 25000?
+%(8080422334746685958)%	Please enter '250' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '162500' in the highlighted field.
+%(-8624473016789247343)%	Try entering '6.5' in the highlighted field.
+%(4621264340441305925)%	Dividing 25000 by 250 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'people who won the contest' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '1625' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which viewers are you trying to represent in the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 25000 by 250 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 1625 * 100?
+%(-8004750629440064282)%	What percentage of the viewers have won the contest in the last 15 years?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem10
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	At the 2002 Winter Olympic Games in Salt Lake City, a total of 80 gold medals were awarded, 10 of those medals went to athletes from the Unites States. What percentage of the gold medalists were American?
+%(Part)%	10
+%(Part-Hint1)%	How many athletes from team USA won gold medals during the Winter Olympics?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	number of non-American gold medalists
+%(ComboOpt2)%	number of American gold medalists
+%(ComboOpt3)%	total number of gold medalists
+%(Combo1-Hint)%	Which gold medalists are you trying to represent in the numerator of this fraction?
+%(Combo2-Hint)%	Which gold medalists are you trying to represent in the denominator of this fraction?
+%(Combo1-Selection)%	number of American gold medalists
+%(Combo2-Selection)%	total number of gold medalists
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Multiply the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	80
+%(Total-Hint1)%	How many gold medals were awarded during the Winter Olympics?
+%(Interm-Ans)%	1000
+%(EF-traversal)%	0
+%(divide)%	0
+%(Factor)%	
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 80 by  changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 80 by  changes it to 100.
+%(Ans)%	12.5
+%(Ans-Hint2)%	What percentage of the gold medalists were from team USA?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	American gold medalists is
+%(A2)%	of the 
+%(A3)%	total gold medalists.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	1000
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which gold medalists are you trying to represent in the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of gold medalists' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '12.5' in the highlighted field.
+%(4243771344050824799)%	Multiply the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	How many athletes from team USA won gold medals during the Winter Olympics?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '80' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many gold medals were awarded during the Winter Olympics?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 1000 / 80?
+%(8080422334746685958)%	Please enter '' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '1000' in the highlighted field.
+%(-8624473016789247343)%	Try entering '12.5' in the highlighted field.
+%(4621264340441305925)%	Multiplying 80 by  changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'number of American gold medalists' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '10' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which gold medalists are you trying to represent in the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 80 by  changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 10 * 100?
+%(-8004750629440064282)%	What percentage of the gold medalists were from team USA?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem11
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	A college undergraduate works in a coffee shop for extra money. If his shift is 5 hours long, and he spends 2 hours of his shift doing dishes, what percentage of his shift is spent doing the dishes?
+%(Part)%	2
+%(Part-Hint1)%	How much time does the student spend doing dishes?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	hours spent doing dishes
+%(ComboOpt2)%	hours spent doing other tasks
+%(ComboOpt3)%	total length of a shift
+%(Combo1-Hint)%	Which part of the student's shift are you trying to represent as the numerator of this fraction?
+%(Combo2-Hint)%	Which part of the student's shift are you trying to represent as the denominator of this fraction?
+%(Combo1-Selection)%	hours spent doing dishes
+%(Combo2-Selection)%	total length of a shift
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Multiply the numerator by the factor you have found. The answer will be the final percentage.
+%(Total)%	5
+%(Total-Hint1)%	How long is the student's shift?
+%(Interm-Ans)%	200
+%(EF-traversal)%	1
+%(divide)%	0
+%(Factor)%	20
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 5 by 20 changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 5 by 20 changes it to 100.
+%(Ans)%	40
+%(Ans-Hint2)%	What percentage of the time does the student spend doing dishes?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	hours is
+%(A2)%	of the 
+%(A3)%	-hour shift
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	0
+%(IntermComma)%	
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which part of the student's shift are you trying to represent as the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total length of a shift' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '40' in the highlighted field.
+%(4243771344050824799)%	Multiply the numerator by the factor you have found. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	How much time does the student spend doing dishes?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '5' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How long is the student's shift?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 200 / 5?
+%(8080422334746685958)%	Please enter '20' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '200' in the highlighted field.
+%(-8624473016789247343)%	Try entering '40' in the highlighted field.
+%(4621264340441305925)%	Multiplying 5 by 20 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'hours spent doing dishes' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '2' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which part of the student's shift are you trying to represent as the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 5 by 20 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 2 * 100?
+%(-8004750629440064282)%	What percentage of the time does the student spend doing dishes?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem12
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	A roll of wrapping paper contains 25 square feet of paper. If you use 18 square feet to wrap a present, what percentage of the total amount of wrapping paper have you used?
+%(Part)%	18
+%(Part-Hint1)%	How much wrapping paper was used to wrap the present?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	sq.ft. of wrapping paper used for the present
+%(ComboOpt2)%	total sq.ft. of wrapping paper
+%(ComboOpt3)%	sq.ft. of wrapping paper saved after wrapping present
+%(Combo1-Hint)%	Which quantity of the wrapping paper represents the numerator of this fraction?
+%(Combo2-Hint)%	Which quantity of the wrapping paper represents the denominator of this fraction?
+%(Combo1-Selection)%	sq.ft. of wrapping paper used for the present
+%(Combo2-Selection)%	total sq.ft. of wrapping paper
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Multiply the numerator by the factor you have found. The answer will be the final percentage.
+%(Total)%	25
+%(Total-Hint1)%	How much wrapping paper is there in a roll?
+%(Interm-Ans)%	1800
+%(EF-traversal)%	1
+%(divide)%	0
+%(Factor)%	4
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 25 by 4 changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 25 by 4 changes it to 100.
+%(Ans)%	72
+%(Ans-Hint2)%	What percentage of the wrapping paper was used to wrap the present?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	square feet of wrapping paper is
+%(A2)%	of the total
+%(A3)%	square feet roll of wrapping paper.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	1800
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which quantity of the wrapping paper represents the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total sq.ft. of wrapping paper' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '72' in the highlighted field.
+%(4243771344050824799)%	Multiply the numerator by the factor you have found. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	How much wrapping paper was used to wrap the present?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '25' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How much wrapping paper is there in a roll?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 1800 / 25?
+%(8080422334746685958)%	Please enter '4' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '1800' in the highlighted field.
+%(-8624473016789247343)%	Try entering '72' in the highlighted field.
+%(4621264340441305925)%	Multiplying 25 by 4 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'sq.ft. of wrapping paper used for the present' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '18' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which quantity of the wrapping paper represents the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 25 by 4 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 18 * 100?
+%(-8004750629440064282)%	What percentage of the wrapping paper was used to wrap the present?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem13
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Emily's favorite movie is 130 minutes long. If she watches 91 minutes of the movie, what percentage has she watched?
+%(Part)%	91
+%(Part-Hint1)%	How much of the movie has Emily seen?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	minutes of the movie Emily has yet to watch
+%(ComboOpt2)%	minutes of the movie Emily has already watched
+%(ComboOpt3)%	length of the entire movie
+%(Combo1-Hint)%	How many minutes of the movie represents the numerator of this fraction?
+%(Combo2-Hint)%	How many minutes of the movie represents the denominator of this fraction?
+%(Combo1-Selection)%	minutes of the movie Emily has already watched
+%(Combo2-Selection)%	length of the entire movie
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	130
+%(Total-Hint1)%	How long is Emily's favorite movie?
+%(Interm-Ans)%	9100
+%(EF-traversal)%	0
+%(divide)%	0
+%(Factor)%	0
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 130 by 0 changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 130 by 0 changes it to 100.
+%(Ans)%	70
+%(Ans-Hint2)%	What percentage of the movie has Emily seen?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	minutes is
+%(A2)%	of the 
+%(A3)%	minute movie.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	9100
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	How many minutes of the movie represents the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'length of the entire movie' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '70' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	How much of the movie has Emily seen?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '130' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How long is Emily's favorite movie?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 9100 / 130?
+%(8080422334746685958)%	Please enter '0' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '9100' in the highlighted field.
+%(-8624473016789247343)%	Try entering '70' in the highlighted field.
+%(4621264340441305925)%	Multiplying 130 by 0 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'minutes of the movie Emily has already watched' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '91' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	How many minutes of the movie represents the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 130 by 0 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 91 * 100?
+%(-8004750629440064282)%	What percentage of the movie has Emily seen?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem14
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Ashley is intrigued with the notion that yawning is contagious, so she decided to test this theory by making informal observations of her classmates during the school year and tracking the results in a notebook she keeps with her. In total, Ashley observed 2400 instances of someone yawning, and 2022 of those resulted in a second person yawning soon after. What percentage of the instances revealed yawning contagion?
+%(Part)%	2022
+%(Part-Hint1)%	How many secondary yawns did Ashley see?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	number of yawns that induced secondary yawns
+%(ComboOpt2)%	total number of yawns observed
+%(ComboOpt3)%	number of independent yawns
+%(Combo1-Hint)%	What number of  yawns represents the numerator of this fraction?
+%(Combo2-Hint)%	What number of yawns represents the denominator of this fraction?
+%(Combo1-Selection)%	number of yawns that induced secondary yawns
+%(Combo2-Selection)%	total number of yawns observed
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	2400
+%(Total-Hint1)%	How many instances of yawning did Ashley observe in total?
+%(Interm-Ans)%	202200
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	24
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 2400 by 24 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 2400 by 24 changes it to 100.
+%(Ans)%	84.25
+%(Ans-Hint2)%	What percentage of secondary yawns did Ashley see?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	yawns is
+%(A2)%	out of 
+%(A3)%	total yawns.
+%(PartComma)%	2022
+%(TotalComma)%	2400
+%(Comma)%	1
+%(IntermComma)%	202200
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What number of yawns represents the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of yawns observed' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '84.25' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How many secondary yawns did Ashley see?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '2400' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many instances of yawning did Ashley observe in total?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 202200 / 2400?
+%(8080422334746685958)%	Please enter '24' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '202200' in the highlighted field.
+%(-8624473016789247343)%	Try entering '84.25' in the highlighted field.
+%(4621264340441305925)%	Dividing 2400 by 24 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'number of yawns that induced secondary yawns' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '2022' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What number of  yawns represents the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 2400 by 24 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 2022 * 100?
+%(-8004750629440064282)%	What percentage of secondary yawns did Ashley see?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem15
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Joan is shocked when she received her very first paycheck. Her earnings before taxes for her first month on the job were $2000, but after taxes she only received $1290. Since $710 was deducted, what percentage of Joan's earnings went to taxes?
+%(Part)%	710
+%(Part-Hint1)%	How much of Joan's salary went to taxes?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	Joan's salary after it was taxed ($)
+%(ComboOpt2)%	total tax withheld ($)
+%(ComboOpt3)%	Joan's salary before it was taxed ($)
+%(Combo1-Hint)%	What part of Joan's salary is represented as the numerator of this fraction?
+%(Combo2-Hint)%	What part of Joan's salary is represented as the denominator of this fraction?
+%(Combo1-Selection)%	total tax withheld ($)
+%(Combo2-Selection)%	Joan's salary before it was taxed ($)
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	2000
+%(Total-Hint1)%	What is Joan's salary?
+%(Interm-Ans)%	71000
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	20
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 2000 by 20 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 2000 by 20 changes it to 100.
+%(Ans)%	35.5
+%(Ans-Hint2)%	What percentage of Joan's salary went to taxes?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	dollars is
+%(A2)%	of
+%(A3)%	dollars.
+%(PartComma)%	
+%(TotalComma)%	2000
+%(Comma)%	1
+%(IntermComma)%	71000
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of Joan's salary is represented as the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'Joan's salary before it was taxed ($)' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '35.5' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How much of Joan's salary went to taxes?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '2000' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	What is Joan's salary?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 71000 / 2000?
+%(8080422334746685958)%	Please enter '20' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '71000' in the highlighted field.
+%(-8624473016789247343)%	Try entering '35.5' in the highlighted field.
+%(4621264340441305925)%	Dividing 2000 by 20 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'total tax withheld ($)' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '710' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of Joan's salary is represented as the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 2000 by 20 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 710 * 100?
+%(-8004750629440064282)%	What percentage of Joan's salary went to taxes?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem16
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	A president's approval rating is determined by scientific polling of a sample of American citizens, who are simply asked if they approve of the job the president is doing. 2,000,000 American citizens were polled and 1,300,000 individuals reported approval with the current president. What is the president's approval rating as a percentage?
+%(Part)%	1300000
+%(Part-Hint1)%	How many citizens approved of the president's performance?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	citizens that approved of the president's performance
+%(ComboOpt2)%	total number of American citizens that were in the poll
+%(ComboOpt3)%	citizens that did not approve of the president's performace
+%(Combo1-Hint)%	What part of the poll is going to be represented as the numerator of this fraction?
+%(Combo2-Hint)%	What part of the poll is going to be represented as the denominator of this fraction?
+%(Combo1-Selection)%	citizens that approved of the president's performance
+%(Combo2-Selection)%	total number of American citizens that were in the poll
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	2000000
+%(Total-Hint1)%	How many individuals were polled for the president's approval rating?
+%(Interm-Ans)%	130000000
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	20000
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 2000000 by 20000 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 2000000 by 20000 changes it to 100.
+%(Ans)%	65
+%(Ans-Hint2)%	What percentage of the citizens in the poll approved of the president's performance?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	citizens is
+%(A2)%	of the 
+%(A3)%	citizens that were polled.
+%(PartComma)%	1300000
+%(TotalComma)%	2000000
+%(Comma)%	1
+%(IntermComma)%	130000000
+%(AnsComma)%	
+%(FactorComma)%	20000
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of the poll is going to be represented as the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of American citizens that were in the poll' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '65' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How many citizens approved of the president's performance?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '2000000' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many individuals were polled for the president's approval rating?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 130000000 / 2000000?
+%(8080422334746685958)%	Please enter '20000' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '130000000' in the highlighted field.
+%(-8624473016789247343)%	Try entering '65' in the highlighted field.
+%(4621264340441305925)%	Dividing 2000000 by 20000 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'citizens that approved of the president's performance' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '1300000' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of the poll is going to be represented as the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 2000000 by 20000 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 1300000 * 100?
+%(-8004750629440064282)%	What percentage of the citizens in the poll approved of the president's performance?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem17
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	An encouraging survey by a local health organization revealed that, out of 6000 adults polled, 1980 participated in leisure-time physical activities on a regular basis. What percentage is this?
+%(Part)%	1980
+%(Part-Hint1)%	How many adults regularly participated in physical activities?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	number of adults who worked out regularly
+%(ComboOpt2)%	number of adults who did not work out regularly
+%(ComboOpt3)%	total number of adults in the survey
+%(Combo1-Hint)%	What part of the survey is going to be represented as the numerator of this fraction?
+%(Combo2-Hint)%	What part of the survey is going to be represented as the denominator of this fraction?
+%(Combo1-Selection)%	number of adults who worked out regularly
+%(Combo2-Selection)%	total number of adults in the survey
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	6000
+%(Total-Hint1)%	How many individuals participated in the survey?
+%(Interm-Ans)%	198000
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	60
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 6000 by 60 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 6000 by 60 changes it to 100.
+%(Ans)%	33
+%(Ans-Hint2)%	What percentage of the adults regularly participated in physical activities?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	adults is
+%(A2)%	of the 
+%(A3)%	adults that were polled.
+%(PartComma)%	1980
+%(TotalComma)%	6000
+%(Comma)%	1
+%(IntermComma)%	198000
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of the survey is going to be represented as the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of adults in the survey' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '33' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How many adults regularly participated in physical activities?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '6000' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many individuals participated in the survey?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 198000 / 6000?
+%(8080422334746685958)%	Please enter '60' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '198000' in the highlighted field.
+%(-8624473016789247343)%	Try entering '33' in the highlighted field.
+%(4621264340441305925)%	Dividing 6000 by 60 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'number of adults who worked out regularly' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '1980' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of the survey is going to be represented as the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 6000 by 60 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 1980 * 100?
+%(-8004750629440064282)%	What percentage of the adults regularly participated in physical activities?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem18
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	The cafeteria staff of your school thinks it has come up with a great new idea for a healthy lunchtime meal - tofu burgers and tofu ice cream. However, on the first day this alternative meal was offered, only 10 students out of 500 in your school opted for it. What percent of the student body sampled the all-tofu meal?
+%(Part)%	10
+%(Part-Hint1)%	How many students tried the healthy meal?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	total number of students in the school
+%(ComboOpt2)%	number of students who opted for the non-tofu meal
+%(ComboOpt3)%	number of students who opted for the tofu meal
+%(Combo1-Hint)%	What part of the student body is being represented as the numerator of this fraction?
+%(Combo2-Hint)%	What part of the student body is being represented as the denominator of this fraction?
+%(Combo1-Selection)%	number of students who opted for the tofu meal
+%(Combo2-Selection)%	total number of students in the school
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	500
+%(Total-Hint1)%	How many students were given the option between the two meals?
+%(Interm-Ans)%	1000
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	5
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 500 by 5 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 500 by 5 changes it to 100.
+%(Ans)%	2
+%(Ans-Hint2)%	What percentage of the students tried the healthy meal?  If you aren't sure, check the optional proportion solving area.
+%(A1)%	students is
+%(A2)%	of the
+%(A3)%	students in the school.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	1000
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of the student body is being represented as the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of students in the school' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '2' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How many students tried the healthy meal?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '500' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many students were given the option between the two meals?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 1000 / 500?
+%(8080422334746685958)%	Please enter '5' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '1000' in the highlighted field.
+%(-8624473016789247343)%	Try entering '2' in the highlighted field.
+%(4621264340441305925)%	Dividing 500 by 5 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'number of students who opted for the tofu meal' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '10' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of the student body is being represented as the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 500 by 5 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 10 * 100?
+%(-8004750629440064282)%	What percentage of the students tried the healthy meal?  If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem19
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Lisa is purchasing a pair of jeans from the clearance rack. The original price was $85.00, and the clearance price is $48.45. What percentage of the total price does the clearance price represent?
+%(Part)%	48.45
+%(Part-Hint1)%	How much did Lisa spend on the pair of jeans?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	amount saved from the clearance ($)
+%(ComboOpt2)%	clearance price of the jeans ($)
+%(ComboOpt3)%	original price of the jeans ($)
+%(Combo1-Hint)%	Which price represents the numerator of this fraction?
+%(Combo2-Hint)%	Which price represents the denominator of this fraction?
+%(Combo1-Selection)%	clearance price of the jeans ($)
+%(Combo2-Selection)%	original price of the jeans ($)
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	85
+%(Total-Hint1)%	What was the original price of the jeans?
+%(Interm-Ans)%	4845
+%(EF-traversal)%	0
+%(divide)%	0
+%(Factor)%	
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 85 by  changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 85 by  changes it to 100.
+%(Ans)%	57
+%(Ans-Hint2)%	What percentage of the total price does the clearance price represent? If you aren't sure, check the optional proportion solving area.
+%(A1)%	dollars is
+%(A2)%	of 
+%(A3)%	dollars.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	4845
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which price represents the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'original price of the jeans ($)' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '57' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	How much did Lisa spend on the pair of jeans?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '85' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	What was the original price of the jeans?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 4845 / 85?
+%(8080422334746685958)%	Please enter '' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '4845' in the highlighted field.
+%(-8624473016789247343)%	Try entering '57' in the highlighted field.
+%(4621264340441305925)%	Multiplying 85 by  changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'clearance price of the jeans ($)' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '48.45' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which price represents the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 85 by  changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 48.45 * 100?
+%(-8004750629440064282)%	What percentage of the total price does the clearance price represent? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem20
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	You decide to buy a new computer on one of the nation's sales tax holidays. If the regular price of the computer is $1500 and you save $105 by not having to pay any sales tax on the machine, what is the sales tax percentage in your area?
+%(Part)%	105
+%(Part-Hint1)%	How much did you save by not paying tax?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	sales tax on the computer ($)
+%(ComboOpt2)%	price of the computer not including tax ($)
+%(ComboOpt3)%	price of the computer including tax ($)
+%(Combo1-Hint)%	Which amount is the numerator of this fraction?
+%(Combo2-Hint)%	Which amount is the denominator of this fraction?
+%(Combo1-Selection)%	sales tax on the computer ($)
+%(Combo2-Selection)%	price of the computer not including tax ($)
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	1500
+%(Total-Hint1)%	What is the original price of the new computer?
+%(Interm-Ans)%	10500
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	15
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 1500 by 15 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 1500 by 15 changes it to 100.
+%(Ans)%	7
+%(Ans-Hint2)%	What percentage of the original price did you save by not paying tax? If you aren't sure, check the optional proportion solving area.
+%(A1)%	dollars is
+%(A2)%	of 
+%(A3)%	dollars.
+%(PartComma)%	
+%(TotalComma)%	1500
+%(Comma)%	1
+%(IntermComma)%	10500
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which amount is the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'price of the computer not including tax ($)' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '7' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How much did you save by not paying tax?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '1500' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	What is the original price of the new computer?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 10500 / 1500?
+%(8080422334746685958)%	Please enter '15' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '10500' in the highlighted field.
+%(-8624473016789247343)%	Try entering '7' in the highlighted field.
+%(4621264340441305925)%	Dividing 1500 by 15 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'sales tax on the computer ($)' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '105' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which amount is the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 1500 by 15 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 105 * 100?
+%(-8004750629440064282)%	What percentage of the original price did you save by not paying tax? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem21
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Julie just took a job as a telemarketer, selling, of all things, light bulbs over the phone! Surprisingly, Julie's first week is pretty successful for a rookie. Out of the 300 individuals she called, 189 agreed to buy at least one of the company's products! What is Julie's success rate as a percentage?
+%(Part)%	189
+%(Part-Hint1)%	How many customers agreed to buy the company's products?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	customers who bought light bulbs
+%(ComboOpt2)%	customers who did not buy light bulbs
+%(ComboOpt3)%	customers who were on the phone with Julie
+%(Combo1-Hint)%	How many people represent the numerator of this fraction?
+%(Combo2-Hint)%	How many people represent the denominator of this fraction?
+%(Combo1-Selection)%	customers who bought light bulbs
+%(Combo2-Selection)%	customers who were on the phone with Julie
+%(eq_fr_method_hint3)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	300
+%(Total-Hint1)%	How many customers did Julie call in her first week?
+%(Interm-Ans)%	18900
+%(EF-traversal)%	1
+%(divide)%	1
+%(Factor)%	3
+%(FactorN-Hint)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(FactorN-Hint2)%	Dividing 300 by 3 changes it to 100.
+%(FactorD-Hint)%	Dividing the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Dividing 300 by 3 changes it to 100.
+%(Ans)%	63
+%(Ans-Hint2)%	What percentage of the customers agreed to buy the company's products? If you aren't sure, check the optional proportion solving area.
+%(A1)%	sales is
+%(A2)%	of
+%(A3)%	customers contacted.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	18900
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	How many people represent the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'customers who were on the phone with Julie' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '63' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Dividing the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Dividing the denominator by what factor will change it to a hundred? Divide the numerator by the same factor.
+%(4060445299635058035)%	How many customers agreed to buy the company's products?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '300' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many customers did Julie call in her first week?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 18900 / 300?
+%(8080422334746685958)%	Please enter '3' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a multiple of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '18900' in the highlighted field.
+%(-8624473016789247343)%	Try entering '63' in the highlighted field.
+%(4621264340441305925)%	Dividing 300 by 3 changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'customers who bought light bulbs' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '189' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	How many people represent the numerator of this fraction?
+%(-1260686362577936493)%	Dividing 300 by 3 changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 189 * 100?
+%(-8004750629440064282)%	What percentage of the customers agreed to buy the company's products? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem22
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Chelsea completed 240 math problems in a competition. If 30 of those problems were geometry problems, what percentage of the problems were geometry problems?
+%(Part)%	30
+%(Part-Hint1)%	How many geometry problems were there in the math competition?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	total number of problems
+%(ComboOpt2)%	number of geometry problems
+%(ComboOpt3)%	number of non-geometry problems
+%(Combo1-Hint)%	What part of the math problems are you representing as the numerator of this fraction?
+%(Combo2-Hint)%	What part of the math problems are you representing as the denominator of this fraction?
+%(Combo1-Selection)%	number of geometry problems
+%(Combo2-Selection)%	total number of problems
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	240
+%(Total-Hint1)%	How many problems did Chelsea complete in the math competition?
+%(Interm-Ans)%	3000
+%(EF-traversal)%	0
+%(divide)%	0
+%(Factor)%	
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 240 by  changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 240 by  changes it to 100.
+%(Ans)%	12.5
+%(Ans-Hint2)%	What percentage of the math problems in the competition were geometry problems? If you aren't sure, check the optional proportion solving area.
+%(A1)%	problems is
+%(A2)%	of the
+%(A3)%	math problems.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	3000
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of the math problems are you representing as the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of problems' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '12.5' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	How many geometry problems were there in the math competition?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '240' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many problems did Chelsea complete in the math competition?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 3000 / 240?
+%(8080422334746685958)%	Please enter '' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '3000' in the highlighted field.
+%(-8624473016789247343)%	Try entering '12.5' in the highlighted field.
+%(4621264340441305925)%	Multiplying 240 by  changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'number of geometry problems' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '30' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of the math problems are you representing as the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 240 by  changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 30 * 100?
+%(-8004750629440064282)%	What percentage of the math problems in the competition were geometry problems? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem23
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	Alex practiced his driving regularly in the weeks before his driving exam, and his efforts paid off. During the on-road test, the DMV agent who accompanied Alex deducted points for every driving error made. Fortunately, out of the 175 possible points for the test, the agent only deducted 7 points when Alex forgot to use his turn signal when parallel parking. What is Alex's test score as a percentage?
+%(Part)%	168
+%(Part-Hint1)%	What was Alex's test score?
+%(Alex-ex-hint)%	If 7 points are deducted from the 175 possible points, how many points did Alex earn?
+%(Alex-ex-hint2)%	What is 175 - 7?
+%(ComboOpt1)%	number of points awarded
+%(ComboOpt2)%	number of points deducted
+%(ComboOpt3)%	total number of points
+%(Combo1-Hint)%	What part of Alex's score will be represented as the numerator of this fraction?
+%(Combo2-Hint)%	What part of Alex's score will be represented as the denominator of this fraction?
+%(Combo1-Selection)%	number of points awarded
+%(Combo2-Selection)%	total number of points
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	175
+%(Total-Hint1)%	How many points was the test out of?
+%(Interm-Ans)%	16800
+%(EF-traversal)%	0
+%(divide)%	0
+%(Factor)%	
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 175 by  changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 175 by  changes it to 100.
+%(Ans)%	96
+%(Ans-Hint2)%	What percentage was Alex's test score? If you aren't sure, check the optional proportion solving area.
+%(A1)%	points is
+%(A2)%	of the total
+%(A3)%	points.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	1
+%(IntermComma)%	16800
+%(AnsComma)%	
+%(FactorComma)%	
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	What part of Alex's score will be represented as the denominator of this fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'total number of points' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '96' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	What is 175 - 7?
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. If 7 points are deducted from the 175 possible points, how many points did Alex earn?
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	What was Alex's test score?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '175' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How many points was the test out of?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 16800 / 175?
+%(8080422334746685958)%	Please enter '' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '16800' in the highlighted field.
+%(-8624473016789247343)%	Try entering '96' in the highlighted field.
+%(4621264340441305925)%	Multiplying 175 by  changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'number of points awarded' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '168' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	What part of Alex's score will be represented as the numerator of this fraction?
+%(-1260686362577936493)%	Multiplying 175 by  changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 168 * 100?
+%(-8004750629440064282)%	What percentage was Alex's test score? If you aren't sure, check the optional proportion solving area.
+Problem Name	Problem24
+%(startStateNodeName)%	state116
+%(ProblemStatement)%	A dinner costs $35.00, and the waiter receives a $5.25 tip. What percentage tip did the waiter receive?
+%(Part)%	5.25
+%(Part-Hint1)%	How much tip did the waiter receive?
+%(Alex-ex-hint)%	
+%(Alex-ex-hint2)%	
+%(ComboOpt1)%	tip received by the waiter ($)
+%(ComboOpt2)%	cost of dinner without tip ($)
+%(ComboOpt3)%	cost of dinner including tip ($)
+%(Combo1-Hint)%	Which value represents the numerator of the fraction?
+%(Combo2-Hint)%	Which value represents the denominator of the fraction?
+%(Combo1-Selection)%	tip received by the waiter ($)
+%(Combo2-Selection)%	cost of dinner without tip ($)
+%(eq_fr_method_hint3)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(eq_fr_ans_hint3)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(Total)%	35
+%(Total-Hint1)%	How much did dinner cost?
+%(Interm-Ans)%	525
+%(EF-traversal)%	0
+%(divide)%	0
+%(Factor)%	
+%(FactorN-Hint)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(FactorN-Hint2)%	Multiplying 35 by  changes it to 100.
+%(FactorD-Hint)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(FactorD-Hint2)%	Multiplying 35 by  changes it to 100.
+%(Ans)%	15
+%(Ans-Hint2)%	What percentage tip did the waiter receive? If you aren't sure, check the optional proportion solving area.
+%(A1)%	dollars is
+%(A2)%	of
+%(A3)%	dollars.
+%(PartComma)%	
+%(TotalComma)%	
+%(Comma)%	0
+%(IntermComma)%	
+%(AnsComma)%	
+%(FactorComma)%	 
+%(3521364170391955272)%	Please enter '20' in the highlighted field.
+%(2173133224601050601)%	Please select 'Equivalent Fractions' from the highlighted menu.
+%(4835623045128514030)%	Which value represents the denominator of the fraction?
+%(-161492310871046522)%	Please select 'Cross Multiplication' from the highlighted menu.
+%(-6816106009436194512)%	Please select 'cost of dinner without tip ($)' from the highlighted menu.
+%(4399729005677100082)%	Please select 'People who took part in the activity' from the highlighted menu.
+%(-5166532556208710060)%	No, this is not correct.
+%(282619425198773699)%	Please enter '2' in the highlighted field.
+%(-7166543743614740282)%	If you are unsure of the answer, solve the problem in the light gray area on the right.
+%(-7538229578606087202)%	Please click on the highlighted button.
+%(3852261717198765191)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-656928979198699777)%	Please enter 'n' in the highlighted field.
+%(2086507705251265098)%	Please enter '15' in the highlighted field.
+%(4243771344050824799)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(-3465759258003435998)%	Multiplying the denominator by what factor will change it to a hundred? 
+%(4348594259425151805)%	Are you sure this is the correct denominator?
+%(2348183352536959371)%	Fill out this line using the information that was provided above.
+%(6881591536898152652)%	
+%(-3153624248818871842)%	Read the problem statement to find the requested value.
+%(-2257089227837141294)%	Read the problem statement to find the requested value. 
+%(-148365819970279289)%	What number appears in the denominator of the fraction representing percent?
+%(-7370375113710433381)%	Multiply the two numbers above.
+%(-2330353001704011280)%	Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.
+%(4060445299635058035)%	How much tip did the waiter receive?
+%(-2097466116818937490)%	Fill out this line using the information you filled out above.
+%(7191669947498319914)%	Divide the numerator by the factor you have chosen. The answer will be the final percentage.
+%(5120898356885931002)%	Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?
+%(7311286125195245229)%	Please select 'People who didn't take part in the activity' from the highlighted menu.
+%(-8477914685167774689)%	Please enter the value without the commas.
+%(4352508605131276194)%	Please enter 'A' in the highlighted field.
+%(-4431481173028527476)%	What are you solving for in this problem?
+%(-1934125337180675039)%	Please provide your answer 'No_Value' in the highlighted element.
+%(-5268434476095009094)%	Please enter '35' in the highlighted field.
+%(4767271213455025564)%	Look at the information you have gathered from the question. What will be the best method to solve this problem?
+%(-6042511796895926684)%	Enter the percentage answer for this problem.
+%(3758254849639905817)%	How much did dinner cost?
+%(-4560983255492772878)%	Please provide your answer 'NoInput' in the highlighted element.
+%(-1782069326042081081)%	What is 525 / 35?
+%(8080422334746685958)%	Please enter '' in the highlighted field.
+%(5286163293303207183)%	Since the denominator is a factor of 100, which method will be the best method to solve this problem?
+%(-6611013393831895691)%	Please enter '525' in the highlighted field.
+%(-8624473016789247343)%	Try entering '15' in the highlighted field.
+%(4621264340441305925)%	Multiplying 35 by  changes it to 100.
+%(4719157440490239508)%	Please enter '100' in the highlighted field.
+%(-5956321311678834701)%	Please select 'tip received by the waiter ($)' from the highlighted menu.
+%(8520738529473800020)%	Are you sure that you are representing the right part of the problem statement?
+%(-8469704157078021234)%	Please enter '5.25' in the highlighted field.
+%(-3836909869911534192)%	Is the denominator a multiple or a factor of one hundred?
+%(8196824856732526104)%	Fill out this section using the information you filled out above.
+%(-8961521860150787017)%	Which value represents the numerator of the fraction?
+%(-1260686362577936493)%	Multiplying 35 by  changes it to 100.
+%(-4069977577777630145)%	Enter a lowercase letter to represent the unknown value.
+%(-492644556913497624)%	Please enter a lowercase letter.
+%(2039035816972178948)%	Are you sure this is the correct numerator?
+%(8963074407274226815)%	Choose any letter from a to z.
+%(378183987398451546)%	What is the final percentage that represents the fraction on the left?
+%(2710742041778897128)%	What is the result of 5.25 * 100?
+%(-8004750629440064282)%	What percentage tip did the waiter receive? If you aren't sure, check the optional proportion solving area.

@@ -1,0 +1,72 @@
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  margin: auto;
+}
+
+.item50,
+.item33,
+.item67 {
+  height: auto;
+  margin: 1%;
+  padding: auto;
+}
+
+.item67 {
+  width: 67.66%;
+}
+
+.item50 {
+  width: 50%;
+}
+
+.item33 {
+  width: 33.33%;
+}
+
+.center {
+  padding: auto;
+  margin: auto;
+}
+
+.textLeft {
+  text-align: left;
+  font-weight: 100;
+}
+
+.left {
+  float: left;
+  margin: 5px;
+}
+
+.CTATTextInput {
+  background-color: white;
+}
+
+.CTATComboBox {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+#q1 {
+  height: 40px;
+  width: 800px;
+  padding: 0 0 40px 0px;
+}
+
+#q1_center {
+  margin-top: 20px;
+}
+
+#right {
+  width: 100;
+}
