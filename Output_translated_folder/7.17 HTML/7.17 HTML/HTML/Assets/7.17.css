@@ -1,0 +1,57 @@
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  margin: auto;
+}
+
+.item33 {
+  display: table-cell;
+  padding: 10px 3px;
+  vertical-align: middle;
+}
+
+.center {
+  padding: auto;
+  margin: auto;
+}
+
+.textLeft {
+  text-align: left;
+  font-weight: 100;
+}
+
+.left {
+  float: left;
+  margin: 5px;
+}
+
+.CTATTextInput {
+  background-color: white;
+}
+
+.CTATComboBox {
+  text-align: center;
+}
+
+.table {
+  display: table;
+}
+
+.table_row {
+  display: table-row;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+#q2 {
+  background-color: rgb(200, 200, 200);
+}
