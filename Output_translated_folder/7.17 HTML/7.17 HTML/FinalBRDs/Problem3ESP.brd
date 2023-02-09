@@ -4,7 +4,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>Problem13</ProblemName>
+                <ProblemName>Problem3ESP</ProblemName>
             </properties>
         </message>
         <message>
@@ -26,7 +26,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>Emily's favorite movie is 130 minutes long. If she watches 91 minutes of the movie, what percentage has she watched?</value>
+                    <value>Ed está instalando alfombras en su casa. Tiene que instalar 300 pies cuadrados de alfombra y ya ha instalado 243 pies cuadrados. ¿Qué porcentaje de la alfombra ha instalado?</value>
                 </Input>
             </properties>
         </message>
@@ -42,7 +42,7 @@
                     <value>setLabels</value>
                 </Action>
                 <Input>
-                    <value>-----,minutes of the movie Emily has yet to watch,minutes of the movie Emily has already watched,length of the entire movie</value>
+                    <value>-----, pies cuadrados totales de alfombras a instalar, pies cuadrados. de alfombras ya instaladas, pies cuadrados. de alfombras aún no instaladas</value>
                 </Input>
             </properties>
         </message>
@@ -58,7 +58,7 @@
                     <value>setLabels</value>
                 </Action>
                 <Input>
-                    <value>-----,minutes of the movie Emily has yet to watch,minutes of the movie Emily has already watched,length of the entire movie</value>
+                    <value>-----, pies cuadrados totales de alfombras a instalar, pies cuadrados. de alfombras ya instaladas, pies cuadrados. de alfombras aún no instaladas</value>
                 </Input>
             </properties>
         </message>
@@ -74,7 +74,7 @@
                     <value>setLabels</value>
                 </Action>
                 <Input>
-                    <value>-----,Equivalent Fractions,Cross Multiplication</value>
+                    <value>-----, Fracciones equivalentes, Multiplicación cruzada</value>
                 </Input>
             </properties>
         </message>
@@ -107,7 +107,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>minutes is</value>
+                    <value>pies cuadrados de alfombra instalada es</value>
                 </Input>
             </properties>
         </message>
@@ -123,7 +123,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>of the </value>
+                    <value>de</value>
                 </Input>
             </properties>
         </message>
@@ -139,7 +139,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>minute movie.</value>
+                    <value>pies cuadrados.</value>
                 </Input>
             </properties>
         </message>
@@ -698,16 +698,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>91</value>
+                        <value>243</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>How much of the movie has Emily seen?</hintMessage>
-            <hintMessage>Read the problem statement to find the requested value. </hintMessage>
+            <hintMessage>¿Cuánta alfombra ha instalado Ed en su casa?</hintMessage>
+            <hintMessage>Lea la declaración del problema para encontrar el valor solicitado.</hintMessage>
             <hintMessage></hintMessage>
-            <hintMessage>Please enter '91' in the highlighted field.</hintMessage>
+            <hintMessage>Por favor, ingrese '243' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -727,7 +727,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">91</matcherParameter>
+                        <matcherParameter name="InputExpression">243</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -770,15 +770,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>130</value>
+                        <value>300</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>How long is Emily's favorite movie?</hintMessage>
-            <hintMessage>Read the problem statement to find the requested value.</hintMessage>
-            <hintMessage>Please enter '130' in the highlighted field.</hintMessage>
+            <hintMessage>¿Cuál es el total de pies cuadrados de alfombras que Ed tiene que instalar en su casa?</hintMessage>
+            <hintMessage>Lea el enunciado del problema para encontrar el valor solicitado.</hintMessage>
+            <hintMessage>Por favor, ingrese '300' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -798,7 +798,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">130</matcherParameter>
+                        <matcherParameter name="InputExpression">300</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -841,15 +841,15 @@
                         <value>UpdateComboBox</value>
                     </Action>
                     <Input>
-                        <value>length of the entire movie</value>
+                        <value>pies cuadrados totales de moqueta para instalar</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>How many minutes of the movie represents the denominator of this fraction?</hintMessage>
-            <hintMessage>Read the problem statement to find the requested value.</hintMessage>
-            <hintMessage>Please select 'length of the entire movie' from the highlighted menu.</hintMessage>
+            <hintMessage>¿Qué parte de la instalación de la alfombra representa en el denominador de esta fracción?</hintMessage>
+            <hintMessage>Lea el enunciado del problema para encontrar el valor solicitado.</hintMessage>
+            <hintMessage>Por favor, seleccione 'pies cuadrados totales. de alfombras a instalar 'en el menú resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -869,7 +869,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">length of the entire movie</matcherParameter>
+                        <matcherParameter name="single">pies cuadrados totales de moqueta para instalar</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -915,11 +915,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Enter a lowercase letter to represent the unknown value.</hintMessage>
-            <hintMessage>Choose any letter from a to z.</hintMessage>
-            <hintMessage>Please enter 'n' in the highlighted field.</hintMessage>
+            <hintMessage>Ingrese una letra minúscula para representar el valor desconocido.</hintMessage>
+            <hintMessage>Elija cualquier letra de la a a la z.</hintMessage>
+            <hintMessage>Por favor, ingrese 'n' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -981,16 +981,16 @@
                         <value>UpdateComboBox</value>
                     </Action>
                     <Input>
-                        <value>Cross Multiplication</value>
+                        <value>Multiplicación cruzada</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the information you have gathered from the question. What will be the best method to solve this problem?</hintMessage>
-            <hintMessage>Is the denominator a multiple or a factor of one hundred?</hintMessage>
-            <hintMessage>Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?</hintMessage>
-            <hintMessage>Please select 'Cross Multiplication' from the highlighted menu.</hintMessage>
+            <hintMessage>Mire la información que ha recopilado de la pregunta. ¿Cuál será el mejor método para solucionar este problema?</hintMessage>
+            <hintMessage>¿Es el denominador un múltiplo o un factor de cien?</hintMessage>
+            <hintMessage>Dado que el denominador no es un factor o un múltiplo de 100, ¿Cuál será el mejor método para resolver este problema?</hintMessage>
+            <hintMessage>Por favor, seleccione 'Multiplicación cruzada' en el menú resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1035,7 +1035,7 @@
         <SimSt />
     </edge>
     <edge>
-        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+        <actionLabel maxTraversals="1" minTraversals="0" preferPathMark="true">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -1052,16 +1052,16 @@
                         <value>UpdateComboBox</value>
                     </Action>
                     <Input>
-                        <value>Equivalent Fractions</value>
+                        <value>Fracciones equivalentes</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the information you have gathered from the question. What will be the best method to solve this problem?</hintMessage>
-            <hintMessage>Is the denominator a multiple or a factor of one hundred?</hintMessage>
-            <hintMessage>Since the denominator is a factor of 100, which method will be the best method to solve this problem?</hintMessage>
-            <hintMessage>Please select 'Equivalent Fractions' from the highlighted menu.</hintMessage>
+            <hintMessage>Mire la información que ha recopilado de la pregunta. ¿Cuál será el mejor método para solucionar este problema?</hintMessage>
+            <hintMessage>¿Es el denominador un múltiplo o un factor de cien?</hintMessage>
+            <hintMessage>Dado que el denominador es un múltiplo de 100, ¿Cuál será el mejor método para resolver este problema?</hintMessage>
+            <hintMessage>Por favor, seleccione 'Fracciones equivalentes' en el menú resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1092,7 +1092,7 @@
         <SimSt />
     </edge>
     <edge>
-        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+        <actionLabel maxTraversals="1" minTraversals="0" preferPathMark="true">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -1109,15 +1109,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>91</value>
+                        <value>243</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>How much of the movie has Emily seen?</hintMessage>
-            <hintMessage>Please enter '91' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Cuánta alfombra ha instalado Ed en su casa?</hintMessage>
+            <hintMessage>Por favor, ingrese '243' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1137,7 +1137,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">91</matcherParameter>
+                        <matcherParameter name="InputExpression">243</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1163,7 +1163,7 @@
         <SimSt />
     </edge>
     <edge>
-        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+        <actionLabel maxTraversals="1" minTraversals="0" preferPathMark="true">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -1180,15 +1180,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>130</value>
+                        <value>300</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>How long is Emily's favorite movie?</hintMessage>
-            <hintMessage>Please enter '130' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Cuál es el total de pies cuadrados de alfombras que Ed tiene que instalar en su casa?</hintMessage>
+            <hintMessage>Por favor, ingrese '300' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1208,7 +1208,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">130</matcherParameter>
+                        <matcherParameter name="InputExpression">300</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1234,7 +1234,7 @@
         <SimSt />
     </edge>
     <edge>
-        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+        <actionLabel maxTraversals="1" minTraversals="0" preferPathMark="true">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -1251,16 +1251,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>70</value>
+                        <value>81</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>What is the final percentage that represents the fraction on the left?</hintMessage>
-            <hintMessage>Divide the numerator by the factor you have chosen. The answer will be the final percentage.</hintMessage>
-            <hintMessage>Please enter '70' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Cuál es el porcentaje final que representa la fracción de la izquierda?</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage>Por favor, ingrese '81' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1280,7 +1280,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">70</matcherParameter>
+                        <matcherParameter name="InputExpression">81</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1323,17 +1323,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>70</value>
+                        <value>81</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Enter the percentage answer for this problem.</hintMessage>
-            <hintMessage>What are you solving for in this problem?</hintMessage>
-            <hintMessage>What percentage of the movie has Emily seen?  If you aren't sure, check the optional proportion solving area.</hintMessage>
-            <hintMessage>If you are unsure of the answer, solve the problem in the light gray area on the right.</hintMessage>
-            <hintMessage>Try entering '70' in the highlighted field.</hintMessage>
+            <hintMessage>Ingrese la respuesta porcentual para este problema.</hintMessage>
+            <hintMessage>¿Qué estás resolviendo en este problema?</hintMessage>
+            <hintMessage>¿Qué porcentaje de la alfombra ya ha instalado Ed en su casa? Si no está seguro, consulte el área de resolución de proporciones opcional.</hintMessage>
+            <hintMessage>Si no está seguro de la respuesta, resuelva el problema en el área gris claro de la derecha.</hintMessage>
+            <hintMessage>Intente ingresar '81' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1353,7 +1353,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">70</matcherParameter>
+                        <matcherParameter name="InputExpression">81</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1396,15 +1396,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>130</value>
+                        <value>300</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>How long is Emily's favorite movie?</hintMessage>
-            <hintMessage>Read the problem statement to find the requested value.</hintMessage>
-            <hintMessage>Please enter '130' in the highlighted field.</hintMessage>
+            <hintMessage>¿Cuál es el total de pies cuadrados de alfombras que Ed tiene que instalar en su casa?</hintMessage>
+            <hintMessage>Lea el enunciado del problema para encontrar el valor solicitado.</hintMessage>
+            <hintMessage>Por favor, ingrese '300' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1424,7 +1424,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">130</matcherParameter>
+                        <matcherParameter name="InputExpression">300</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1471,9 +1471,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <hintMessage>Por favor, haga clic en el botón resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1525,11 +1525,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this line using the information that was provided above.</hintMessage>
-            <hintMessage>What number appears in the denominator of the fraction representing percent?</hintMessage>
-            <hintMessage>Please enter '100' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta línea con la información que se proporcionó anteriormente.</hintMessage>
+            <hintMessage>¿Qué número aparece en el denominador de la fracción que representa el porcentaje?</hintMessage>
+            <hintMessage>Por favor, ingrese '100' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1577,15 +1577,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>91</value>
+                        <value>243</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this line using the information you filled out above.</hintMessage>
-            <hintMessage>How much of the movie has Emily seen?</hintMessage>
-            <hintMessage>Please enter '91' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta línea con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Cuánta alfombra ha instalado Ed en su casa?</hintMessage>
+            <hintMessage>Por favor, ingrese '243' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1605,7 +1605,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">91</matcherParameter>
+                        <matcherParameter name="InputExpression">243</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1648,15 +1648,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>130</value>
+                        <value>300</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>How long is Emily's favorite movie?</hintMessage>
-            <hintMessage>Please enter '130' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Cuál es el total de pies cuadrados de alfombras que Ed tiene que instalar en su casa?</hintMessage>
+            <hintMessage>Por favor, ingrese '300' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1676,7 +1676,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">130</matcherParameter>
+                        <matcherParameter name="InputExpression">300</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1719,15 +1719,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>9100</value>
+                        <value>24300</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Multiply the two numbers above.</hintMessage>
-            <hintMessage>What is the result of 91 * 100?</hintMessage>
-            <hintMessage>Please enter '9100' in the highlighted field.</hintMessage>
+            <hintMessage>Multiplica los dos números anteriores.</hintMessage>
+            <hintMessage>¿Cuál es el resultado de 243 * 100?</hintMessage>
+            <hintMessage>Por favor, ingrese '24300' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1747,7 +1747,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">9100</matcherParameter>
+                        <matcherParameter name="InputExpression">24300</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1790,15 +1790,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>91</value>
+                        <value>243</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>How much of the movie has Emily seen?</hintMessage>
-            <hintMessage>Please enter '91' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Cuánta alfombra ha instalado Ed en su casa?</hintMessage>
+            <hintMessage>Por favor, ingrese '243' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1818,7 +1818,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">91</matcherParameter>
+                        <matcherParameter name="InputExpression">243</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1865,11 +1865,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>What number appears in the denominator of the fraction representing percent?</hintMessage>
-            <hintMessage>Please enter '100' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Qué número aparece en el denominador de la fracción que representa el porcentaje?</hintMessage>
+            <hintMessage>Por favor, ingrese '100' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1921,9 +1921,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Are you sure this is the correct numerator?</buggyMessage>
+            <buggyMessage>¿Estás seguro de que este es el numerador correcto?</buggyMessage>
             <successMessage />
-            <hintMessage>Please enter '20' in the highlighted field.</hintMessage>
+            <hintMessage>Por favor, ingrese '20' en el campo resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1988,9 +1988,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Are you sure that you are representing the right part of the problem statement?</buggyMessage>
+            <buggyMessage>¿Estás seguro de que estás representando la parte correcta del enunciado del problema?</buggyMessage>
             <successMessage />
-            <hintMessage>Please select 'People who didn't take part in the activity' from the highlighted menu.</hintMessage>
+            <hintMessage>Por favor, seleccione 'Personas que no participaron en la actividad' en el menú resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2055,9 +2055,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Are you sure that you are representing the right part of the problem statement?</buggyMessage>
+            <buggyMessage>¿Estás seguro de que estás representando la parte correcta del enunciado del problema?</buggyMessage>
             <successMessage />
-            <hintMessage>Please select 'People who took part in the activity' from the highlighted menu.</hintMessage>
+            <hintMessage>Por favor, seleccione 'Personas que participaron en la actividad' en el menú resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2122,9 +2122,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Are you sure this is the correct denominator?</buggyMessage>
+            <buggyMessage>¿Estás seguro de que este es el denominador correcto?</buggyMessage>
             <successMessage />
-            <hintMessage>Please enter '2' in the highlighted field.</hintMessage>
+            <hintMessage>Por favor, ingrese '2' en el campo resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2188,9 +2188,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'NoInput' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin entrada' en el elemento resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2252,15 +2252,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>130</value>
+                        <value>300</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>How long is Emily's favorite movie?</hintMessage>
-            <hintMessage>Please enter '130' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Cuál es el total de pies cuadrados de alfombras que Ed tiene que instalar en su casa?</hintMessage>
+            <hintMessage>Por favor, ingrese '300' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2280,7 +2280,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">130</matcherParameter>
+                        <matcherParameter name="InputExpression">300</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -2323,15 +2323,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>91</value>
+                        <value>243</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>How much of the movie has Emily seen?</hintMessage>
-            <hintMessage>Read the problem statement to find the requested value.</hintMessage>
-            <hintMessage>Please enter '91' in the highlighted field.</hintMessage>
+            <hintMessage>¿Cuánta alfombra ha instalado Ed en su casa?</hintMessage>
+            <hintMessage>Lea el enunciado del problema para encontrar el valor solicitado.</hintMessage>
+            <hintMessage>Por favor, ingrese '243' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2351,7 +2351,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">91</matcherParameter>
+                        <matcherParameter name="InputExpression">243</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -2394,15 +2394,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>70</value>
+                        <value>81</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>What is 9100 / 130?</hintMessage>
-            <hintMessage>Please enter '70' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Qué es 24300/300?</hintMessage>
+            <hintMessage>Por favor, ingrese '81' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2422,7 +2422,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">70</matcherParameter>
+                        <matcherParameter name="InputExpression">81</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -2448,7 +2448,7 @@
         <SimSt />
     </edge>
     <edge>
-        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+        <actionLabel maxTraversals="1" minTraversals="0" preferPathMark="true">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -2465,16 +2465,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>Multiplying the denominator by what factor will change it to a hundred? Multiply the numerator by the same factor.</hintMessage>
-            <hintMessage>Multiplying 130 by 0 changes it to 100.</hintMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Dividir el denominador por qué factor lo cambiará a cien? Divida el numerador por el mismo factor.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage>Por favor, ingrese '3' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2494,7 +2494,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">3</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2519,7 +2519,7 @@
         <SimSt />
     </edge>
     <edge>
-        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+        <actionLabel maxTraversals="1" minTraversals="0" preferPathMark="true">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -2536,16 +2536,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>Multiplying the denominator by what factor will change it to a hundred? </hintMessage>
-            <hintMessage>Multiplying 130 by 0 changes it to 100.</hintMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>Dividir el denominador por qué factor lo cambiará a cien?</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage>Por favor, ingrese '3' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2565,7 +2565,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">3</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2606,15 +2606,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>130</value>
+                        <value>300</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>How long is Emily's favorite movie?</hintMessage>
-            <hintMessage>Please enter '130' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Cuál es el total de pies cuadrados de alfombras que Ed tiene que instalar en su casa?</hintMessage>
+            <hintMessage>Por favor, ingrese '300' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2634,7 +2634,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">130</matcherParameter>
+                        <matcherParameter name="InputExpression">300</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -2677,15 +2677,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>130</value>
+                        <value>300</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-            <hintMessage>How long is Emily's favorite movie?</hintMessage>
-            <hintMessage>Please enter '130' in the highlighted field.</hintMessage>
+            <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+            <hintMessage>¿Cuál es el total de pies cuadrados de alfombras que Ed tiene que instalar en su casa?</hintMessage>
+            <hintMessage>Por favor, ingrese '300' en el campo resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2705,7 +2705,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">130</matcherParameter>
+                        <matcherParameter name="InputExpression">300</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -2751,9 +2751,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2814,13 +2814,13 @@
                         <value>solverMethod</value>
                     </Action>
                     <Input>
-                        <value>means</value>
+                        <value>media</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2886,9 +2886,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter a lowercase letter.</buggyMessage>
+            <buggyMessage>Por favor, ingrese una letra minúscula.</buggyMessage>
             <successMessage />
-            <hintMessage>Please enter 'A' in the highlighted field.</hintMessage>
+            <hintMessage>Por favor, ingrese 'A' en el campo resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2949,13 +2949,13 @@
                         <value>divide</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2975,7 +2975,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">1</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="true">Tutor</Actor>
@@ -3000,7 +3000,7 @@
         <SimSt />
     </edge>
     <edge>
-        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+        <actionLabel maxTraversals="1" minTraversals="0" preferPathMark="true">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -3016,13 +3016,13 @@
                         <value>solverMethod</value>
                     </Action>
                     <Input>
-                        <value>fractions</value>
+                        <value>fracciones</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3087,9 +3087,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3154,9 +3154,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3221,9 +3221,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3288,9 +3288,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3355,9 +3355,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3422,9 +3422,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3489,9 +3489,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3556,9 +3556,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3623,9 +3623,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3690,9 +3690,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3757,9 +3757,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3824,9 +3824,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3887,13 +3887,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>9100</value>
+                        <value>24300</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3913,7 +3913,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">9100</matcherParameter>
+                        <matcherParameter name="single">24300</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3958,9 +3958,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4025,9 +4025,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4092,9 +4092,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4159,9 +4159,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter the value without the commas.</buggyMessage>
+            <buggyMessage>Por favor, ingrese el valor sin las comas.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4226,9 +4226,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4290,15 +4290,15 @@
                         <value>UpdateComboBox</value>
                     </Action>
                     <Input>
-                        <value>minutes of the movie Emily has already watched</value>
+                        <value>pies cuadrados de moqueta ya instalada</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>How many minutes of the movie represents the numerator of this fraction?</hintMessage>
-            <hintMessage>Read the problem statement to find the requested value.</hintMessage>
-            <hintMessage>Please select 'minutes of the movie Emily has already watched' from the highlighted menu.</hintMessage>
+            <hintMessage>¿Qué parte de la instalación de la alfombra representa en el numerador de esta fracción?</hintMessage>
+            <hintMessage>Lea el enunciado del problema para encontrar el valor solicitado.</hintMessage>
+            <hintMessage>Por favor, seleccione 'pies cuadrados. de alfombras ya instaladas 'en el menú resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4318,7 +4318,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">minutes of the movie Emily has already watched</matcherParameter>
+                        <matcherParameter name="single">pies cuadrados de moqueta ya instalada</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -4345,26 +4345,26 @@
     <productionRule>
         <ruleName>Identify-Cross-Multiply-method</ruleName>
         <productionSet>Percent-Application</productionSet>
-        <hintMessage>Look at the information you have gathered from the question. What will be the best method to solve this problem?</hintMessage>
-        <hintMessage>Is the denominator a multiple or a factor of one hundred?</hintMessage>
-        <hintMessage>Since the denominator is not a factor or a multiple of 100, which method will be the best method to solve this problem?</hintMessage>
-        <hintMessage>Please select 'Cross Multiplication' from the highlighted menu.</hintMessage>
+        <hintMessage>Mire la información que ha recopilado de la pregunta. ¿Cuál será el mejor método para solucionar este problema?</hintMessage>
+        <hintMessage>¿Es el denominador un múltiplo o un factor de cien?</hintMessage>
+        <hintMessage>Dado que el denominador no es un factor o un múltiplo de 100, ¿Cuál será el mejor método para resolver este problema?</hintMessage>
+        <hintMessage>Por favor, seleccione 'Multiplicación cruzada' en el menú resaltado.</hintMessage>
     </productionRule>
     <productionRule opportunities="1">
         <ruleName>Identify-Equivalent-Fraction-method</ruleName>
         <productionSet>Percent-Application</productionSet>
-        <hintMessage>Look at the information you have gathered from the question. What will be the best method to solve this problem?</hintMessage>
-        <hintMessage>Is the denominator a multiple or a factor of one hundred?</hintMessage>
-        <hintMessage>Since the denominator is a factor of 100, which method will be the best method to solve this problem?</hintMessage>
-        <hintMessage>Please select 'Equivalent Fractions' from the highlighted menu.</hintMessage>
+        <hintMessage>Mire la información que ha recopilado de la pregunta. ¿Cuál será el mejor método para solucionar este problema?</hintMessage>
+        <hintMessage>¿Es el denominador un múltiplo o un factor de cien?</hintMessage>
+        <hintMessage>Dado que el denominador es un factor de 100, ¿Cuál será el mejor método para resolver este problema?</hintMessage>
+        <hintMessage>Por favor, seleccione 'Fracciones equivalentes' en el menú resaltado.</hintMessage>
     </productionRule>
     <productionRule opportunities="2">
         <ruleName>Calculate-percent-from-expression</ruleName>
         <productionSet>Percent-Application</productionSet>
-        <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-        <hintMessage>What is the final percentage that represents the fraction on the left?</hintMessage>
-        <hintMessage>Divide the numerator by the factor you have chosen. The answer will be the final percentage.</hintMessage>
-        <hintMessage>Please enter '70' in the highlighted field.</hintMessage>
+        <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+        <hintMessage>¿Cuál es el porcentaje final que representa la fracción de la izquierda?</hintMessage>
+        <hintMessage></hintMessage>
+        <hintMessage>Por favor, ingrese '81' en el campo resaltado.</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>Identify-100-from-expression</ruleName>
@@ -4381,9 +4381,9 @@
     <productionRule opportunities="1">
         <ruleName>Identify-part-from-statement</ruleName>
         <productionSet>Percent-Application</productionSet>
-        <hintMessage>How much of the movie has Emily seen?</hintMessage>
-        <hintMessage>Read the problem statement to find the requested value. </hintMessage>
-        <hintMessage>Please enter '91' in the highlighted field.</hintMessage>
+        <hintMessage>¿Cuánta alfombra ha instalado Ed en su casa?</hintMessage>
+        <hintMessage>Lea la declaración del problema para encontrar el valor solicitado.</hintMessage>
+        <hintMessage>Por favor, ingrese '243' en el campo resaltado.</hintMessage>
     </productionRule>
     <productionRule opportunities="2">
         <ruleName>Identify-part-from-expression</ruleName>
@@ -4396,10 +4396,10 @@
     <productionRule opportunities="2">
         <ruleName>Calculate-factor-for-equivalent-fractions</ruleName>
         <productionSet>Percent-Application</productionSet>
-        <hintMessage>Fill out this section using the information you filled out above.</hintMessage>
-        <hintMessage>Multiplying the denominator by what factor will change it to a hundred? </hintMessage>
-        <hintMessage>Multiplying 130 by 0 changes it to 100.</hintMessage>
-        <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+        <hintMessage>Complete esta sección con la información que completó anteriormente.</hintMessage>
+        <hintMessage>Dividir el denominador por qué factor lo cambiará a cien?</hintMessage>
+        <hintMessage></hintMessage>
+        <hintMessage>Por favor, ingrese '3' en el campo resaltado.</hintMessage>
     </productionRule>
     <productionRule opportunities="1">
         <ruleName>Identify-denominator-label-from-statement</ruleName>

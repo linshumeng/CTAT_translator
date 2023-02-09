@@ -4,7 +4,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>3</ProblemName>
+                <ProblemName>4ESP</ProblemName>
             </properties>
         </message>
         <message>
@@ -19,7 +19,7 @@
                     <value>assignImage</value>
                 </Action>
                 <Input>
-                    <value>Assets/03.png</value>
+                    <value>Assets/04.png</value>
                 </Input>
             </properties>
         </message>
@@ -35,7 +35,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>%(imgNum)%</value>
+                    <value>%(imgnum)%</value>
                 </Input>
             </properties>
         </message>
@@ -51,7 +51,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>Using the set of shapes in the picture, answer questions 1 through 4 in the worksheet provided.</value>
+                    <value>Usando el conjunto de formas en la imagen, responda las preguntas 1 a 4 en la hoja de trabajo provista.</value>
                 </Input>
             </properties>
         </message>
@@ -67,7 +67,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>(1) What percent of the shapes are yellow?</value>
+                    <value>(1) ¿Qué porcentaje de las formas son círculos?</value>
                 </Input>
             </properties>
         </message>
@@ -83,7 +83,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>(2) What percent of the shapes are circles?</value>
+                    <value>(2) ¿Qué porcentaje de las formas son amarillas?</value>
                 </Input>
             </properties>
         </message>
@@ -99,7 +99,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>(3) What percent of the shapes are not yellow?</value>
+                    <value>(3) ¿Qué porcentaje de las formas son verdes o azules?</value>
                 </Input>
             </properties>
         </message>
@@ -115,7 +115,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>(4) What percent of the shapes are blue or red?</value>
+                    <value>(4) ¿Qué porcentaje de las formas son cuadrados?</value>
                 </Input>
             </properties>
         </message>
@@ -512,15 +512,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>50</value>
+                        <value>25</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
-            <hintMessage>What is the total number of shapes shown?</hintMessage>
-            <hintMessage>Try entering 50.</hintMessage>
+            <hintMessage>El siguiente paso es averiguar el número total de formas en la imagen.</hintMessage>
+            <hintMessage>¿Cuál es el número total de formas que se muestran?</hintMessage>
+            <hintMessage>Intente ingresar 25.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -540,7 +540,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">50</matcherParameter>
+                        <matcherParameter name="single">25</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -574,15 +574,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>5/50</value>
+                        <value>10/25</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
-            <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
-            <hintMessage>Try entering 5/50.</hintMessage>
+            <hintMessage>La proporción no reducida es una fracción que representa el número objetivo de artículos dividido por el número total de artículos.</hintMessage>
+            <hintMessage>Asegúrese de ingresar la proporción no reducida como una fracción, donde el número objetivo es el numerador y el número total es el denominador.</hintMessage>
+            <hintMessage>Intente ingresar 10/25.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -602,7 +602,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">5/50</matcherParameter>
+                        <matcherParameter name="single">10/25</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -636,16 +636,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>10/100</value>
+                        <value>40/100</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 5/50 to 100.</hintMessage>
-            <hintMessage>Do you know how to find an equivalent fraction of 5/50 that has denominator of 100? You already know the denominator, 100. Then, what would be its numerator?</hintMessage>
-            <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 5, and multiply it by 100 and then divide it by 50, the original denominator: 5*100/50.</hintMessage>
-            <hintMessage>Try entering 10/100.</hintMessage>
+            <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 10/25 a 100.</hintMessage>
+            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 10/25 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Una forma de encontrar el numerador para la razón de 100 es comenzar con el numerador original, 10, y multiplicarlo por 100 y luego dividirlo por 25, el denominador original: 10 * 100/25.</hintMessage>
+            <hintMessage>Intente ingresar 40/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -667,7 +667,7 @@
                         <matcherType>ExpressionMatcher</matcherType>
                         <matcherParameter name="InputExpression">and( 
     expressionMatches(
-        input, 5 / 50),
+        input, 10 / 25),
     rationalEquals(getDivisor(input),100)
 )
 </matcherParameter>
@@ -705,15 +705,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>10</value>
+                        <value>40</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 10/100. The percent representation is just the numerator of this ratio, 10.</hintMessage>
-            <hintMessage>If the ratio out 100 is 10/100, the percent is its numerator, 10.</hintMessage>
-            <hintMessage>Try entering 10%.</hintMessage>
+            <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la fila anterior, encontró la razón de 100, 40/100. La representación porcentual es solo el numerador de esta razón, 40.</hintMessage>
+            <hintMessage>Si la relación de 100 es 40/100, el porcentaje es su numerador, 40.</hintMessage>
+            <hintMessage>Intente ingresar el 40%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -731,9 +731,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="&quot;10%&quot;">
+                    <matcher replacementFormula="&quot;40%&quot;">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">5*100/50</matcherParameter>
+                        <matcherParameter name="InputExpression">10*100/25</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -768,16 +768,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0.1</value>
+                        <value>0.4</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The ratio out of 100 is written as 10/100. Please express this value as a decimal.</hintMessage>
-            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
-            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering <%=divEvaluate(fractionMake(5,50))%>.</hintMessage>
+            <hintMessage>La proporción de 100 se escribe como 40/100. Por favor, exprese este valor como decimal.</hintMessage>
+            <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
+            <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
+            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(10,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -797,7 +797,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, 5/50)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, 10/25)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -832,17 +832,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1/10</value>
+                        <value>2/5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To turn 5/50 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
-            <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
-            <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 5 and 50 without any remainder.</hintMessage>
-            <hintMessage>Need more help? Greatest common factor of 5 and 50 is 5.</hintMessage>
-            <hintMessage>Try entering <%=fractionsimplify(fractionMake(5,50))%>.</hintMessage>
+            <hintMessage>Para convertir 10/25 en una proporción reducida, simplifique la proporción tanto como sea posible hasta que ya no se pueda simplificar más.</hintMessage>
+            <hintMessage>Puede hacer esto encontrando factores comunes y dividiendo el numerador y el denominador hasta que no haya más factores comunes además de 1.</hintMessage>
+            <hintMessage>O intente encontrar el máximo factor común. Este es el mayor de todos los números que pueden dividir tanto a 10 como a 25 sin ningún resto.</hintMessage>
+            <hintMessage>Necesitas más ayuda? Máximo común divisor de 10 y 25 es 5.</hintMessage>
+            <hintMessage>Intente ingresar <%=fractionsimplify(fractionMake(10,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -862,7 +862,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(5,50)))</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(10,25)))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -897,15 +897,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>25</value>
+                        <value>5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To work through question 2, you must first find the number of shapes that are circles.</hintMessage>
-            <hintMessage>How many shapes are circles?</hintMessage>
-            <hintMessage>Try entering 25.</hintMessage>
+            <hintMessage>Para resolver la pregunta 2, primero debe encontrar la cantidad de formas que son amarillas.</hintMessage>
+            <hintMessage>¿Cuántas formas son amarillas?</hintMessage>
+            <hintMessage>Intente ingresar 5.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -925,7 +925,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">25</matcherParameter>
+                        <matcherParameter name="single">5</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -959,15 +959,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>50</value>
+                        <value>25</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
-            <hintMessage>What is the total number of shapes shown?</hintMessage>
-            <hintMessage>Try entering 50.</hintMessage>
+            <hintMessage>El siguiente paso es averiguar el número total de formas en la imagen.</hintMessage>
+            <hintMessage>¿Cuál es el número total de formas que se muestran?</hintMessage>
+            <hintMessage>Intente ingresar 25.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -987,7 +987,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">50</matcherParameter>
+                        <matcherParameter name="single">25</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1021,15 +1021,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>25/50</value>
+                        <value>5/25</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
-            <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
-            <hintMessage>Try entering 25/50.</hintMessage>
+            <hintMessage>La proporción no reducida es una fracción que representa el número objetivo de artículos dividido por el número total de artículos.</hintMessage>
+            <hintMessage>Asegúrese de ingresar la proporción no reducida como una fracción, donde el número objetivo es el numerador y el número total es el denominador.</hintMessage>
+            <hintMessage>Intente ingresar 5/25.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1049,7 +1049,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">25/50</matcherParameter>
+                        <matcherParameter name="single">5/25</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1083,16 +1083,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>50/100</value>
+                        <value>20/100</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 25/50 to 100.</hintMessage>
-            <hintMessage>Do you know how to find an equivalent fraction of 25/50 that has denominator of 100? You already know the denominator, 100. Then, what would be its numerator?</hintMessage>
-            <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 25, and multiply it by 100 and then divide it by 50, the original denominator: 25*100/50. </hintMessage>
-            <hintMessage>Try entering 50/100.</hintMessage>
+            <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 5/25 a 100.</hintMessage>
+            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 5/25 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 5/25 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Intente ingresar 20/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1114,7 +1114,7 @@
                         <matcherType>ExpressionMatcher</matcherType>
                         <matcherParameter name="InputExpression">and( 
     expressionMatches(
-        input, 25 / 50),
+        input, 5 / 25),
     rationalEquals(getDivisor(input),100)
 )
 </matcherParameter>
@@ -1152,15 +1152,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>50</value>
+                        <value>20</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 50/100. The percent representation is just the numerator of this ratio, 50.</hintMessage>
-            <hintMessage>If the ratio out 100 is 50/100, the percent is its numerator, 50.</hintMessage>
-            <hintMessage>Try entering 50%.</hintMessage>
+            <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la fila anterior, encontró la razón de 100, 20/100. La representación porcentual es solo el numerador de esta razón, 20.</hintMessage>
+            <hintMessage>Si la relación de 100 es 20/100, el porcentaje es su numerador, 20.</hintMessage>
+            <hintMessage>Intente ingresar el 20%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1178,9 +1178,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="&quot;50%&quot;">
+                    <matcher replacementFormula="&quot;20%&quot;">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">25*100/50</matcherParameter>
+                        <matcherParameter name="InputExpression">5*100/25</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1215,16 +1215,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0.5</value>
+                        <value>0.2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The ratio out of 100 is written as 50/100. Please express this value as a decimal.</hintMessage>
-            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
-            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering <%=divEvaluate(fractionMake(25,50))%>.</hintMessage>
+            <hintMessage>La proporción de 100 se escribe como 20/100. Por favor, exprese este valor como decimal.</hintMessage>
+            <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
+            <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
+            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(5,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1244,7 +1244,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,25/50)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,5/25)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1279,17 +1279,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1/2</value>
+                        <value>1/5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To turn 25/50 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
-            <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
-            <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 5 and 50 without any remainder.</hintMessage>
-            <hintMessage>Need more help? Greatest common factor of 25 and 50 is 25.</hintMessage>
-            <hintMessage>Try entering <%=fractionsimplify(fractionMake(25,50))%>.</hintMessage>
+            <hintMessage>Para convertir 5/25 en una proporción reducida, simplifique la proporción tanto como sea posible hasta que ya no se pueda simplificar más.</hintMessage>
+            <hintMessage>Puede hacer esto encontrando factores comunes y dividiendo el numerador y el denominador hasta que no haya más factores comunes además de 1.</hintMessage>
+            <hintMessage>O intente encontrar el máximo factor común. Este es el mayor de todos los números que pueden dividir tanto a 10 como a 25 sin ningún resto.</hintMessage>
+            <hintMessage>Necesitas más ayuda? Máximo común divisor de 5 y 25 es 5.</hintMessage>
+            <hintMessage>Intente ingresar <%=fractionsimplify(fractionMake(5,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1309,7 +1309,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(25,50)))</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(5,25)))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1344,15 +1344,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>45</value>
+                        <value>20</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To work through question 3, you must first find the number of shapes that are not yellow.</hintMessage>
-            <hintMessage>How many shapes are not yellow?</hintMessage>
-            <hintMessage>Try entering 45.</hintMessage>
+            <hintMessage>Para resolver la pregunta 3, primero debes encontrar la cantidad de formas que son verdes o azules.</hintMessage>
+            <hintMessage>¿Cuántas formas son verdes o azules?</hintMessage>
+            <hintMessage>Intente ingresar 20.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1372,7 +1372,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">45</matcherParameter>
+                        <matcherParameter name="single">20</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1406,15 +1406,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>50</value>
+                        <value>25</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
-            <hintMessage>What is the total number of shapes shown?</hintMessage>
-            <hintMessage>Try entering 50.</hintMessage>
+            <hintMessage>El siguiente paso es averiguar el número total de formas en la imagen.</hintMessage>
+            <hintMessage>¿Cuál es el número total de formas que se muestran?</hintMessage>
+            <hintMessage>Intente ingresar 25.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1434,7 +1434,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">50</matcherParameter>
+                        <matcherParameter name="single">25</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1468,15 +1468,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>45/50</value>
+                        <value>20/25</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
-            <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
-            <hintMessage>Try entering 45/50.</hintMessage>
+            <hintMessage>La proporción no reducida es una fracción que representa el número objetivo de artículos dividido por el número total de artículos.</hintMessage>
+            <hintMessage>Asegúrese de ingresar la proporción no reducida como una fracción, donde el número objetivo es el numerador y el número total es el denominador.</hintMessage>
+            <hintMessage>Intente ingresar 20/25.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1496,7 +1496,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">45/50</matcherParameter>
+                        <matcherParameter name="single">20/25</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1530,16 +1530,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>90/100</value>
+                        <value>80/100</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 45/50 to 100.</hintMessage>
-            <hintMessage>Do you know how to find an equivalent fraction of 45/50 that has denominator of 100? You already know the denominator, 100. Then, what would be its numerator?</hintMessage>
-            <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 45, and multiply it by 100 and then divide it by 50, the original denominator: 45*100/50. </hintMessage>
-            <hintMessage>Try entering 90/100.</hintMessage>
+            <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 20/25 a 100.</hintMessage>
+            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 20/25 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 20/25 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Intente ingresar 80/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1561,7 +1561,7 @@
                         <matcherType>ExpressionMatcher</matcherType>
                         <matcherParameter name="InputExpression">and( 
     expressionMatches(
-        input, 45 / 50),
+        input, 20 / 25),
     rationalEquals(getDivisor(input),100)
 )
 </matcherParameter>
@@ -1599,15 +1599,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>90</value>
+                        <value>80</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 90/100. The percent representation is just the numerator of this ratio, 90.</hintMessage>
-            <hintMessage>If the ratio out 100 is 90/100, the percent is its numerator, 90.</hintMessage>
-            <hintMessage>Try entering 90%.</hintMessage>
+            <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la fila anterior, encontró la proporción de 100, 80/100. La representación porcentual es solo el numerador de esta razón, 80.</hintMessage>
+            <hintMessage>Si la relación de 100 es 80/100, el porcentaje es su numerador, 80.</hintMessage>
+            <hintMessage>Intente ingresar el 80%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1625,9 +1625,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="&quot;90%&quot;">
+                    <matcher replacementFormula="&quot;80%&quot;">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">45*100/50</matcherParameter>
+                        <matcherParameter name="InputExpression">20*100/25</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -1662,16 +1662,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0.9</value>
+                        <value>0.8</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The ratio out of 100 is written as 90/100. Please express this value as a decimal.</hintMessage>
-            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
-            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering <%=divEvaluate(fractionMake(45,50))%>.</hintMessage>
+            <hintMessage>La proporción de 100 se escribe como 80/100. Por favor, exprese este valor como decimal.</hintMessage>
+            <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
+            <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
+            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(20,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1691,7 +1691,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,45/50)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,20/25)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1726,17 +1726,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>9/10</value>
+                        <value>4/5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To turn 45/50 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
-            <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
-            <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 5 and 50 without any remainder.</hintMessage>
-            <hintMessage>Need more help? Greatest common factor of 45 and 50 is 5.</hintMessage>
-            <hintMessage>Try entering <%=fractionsimplify(fractionMake(45,50))%>.</hintMessage>
+            <hintMessage>Para convertir 20/25 en una proporción reducida, simplifique la proporción tanto como sea posible hasta que no se pueda simplificar más.</hintMessage>
+            <hintMessage>Puede hacer esto encontrando factores comunes y dividiendo el numerador y el denominador hasta que no haya más factores comunes además de 1.</hintMessage>
+            <hintMessage>O intente encontrar el máximo factor común. Este es el mayor de todos los números que pueden dividir tanto a 10 como a 25 sin ningún resto.</hintMessage>
+            <hintMessage>Necesitas más ayuda? Máximo común divisor de 20 y 25 es 5.</hintMessage>
+            <hintMessage>Intente ingresar <%=fractionsimplify(fractionMake(20,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1756,7 +1756,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(45,50)))</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(20,25)))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1791,15 +1791,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>35</value>
+                        <value>15</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To work through question 4, you must first find the number of shapes that are blue or red.</hintMessage>
-            <hintMessage>How many shapes are blue or red?</hintMessage>
-            <hintMessage>Try entering 35.</hintMessage>
+            <hintMessage>Para resolver la pregunta 4, primero debes encontrar la cantidad de formas que son cuadrados.</hintMessage>
+            <hintMessage>¿Cuántas formas son cuadrados?</hintMessage>
+            <hintMessage>Intente ingresar 15.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1807,7 +1807,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">target4</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">35</matcherParameter>
+                <matcherParameter name="input">15</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
         </actionLabel>
@@ -1839,15 +1839,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>50</value>
+                        <value>25</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The next step is to figure out the total number of shapes in the picture.</hintMessage>
-            <hintMessage>What is the total number of shapes shown?</hintMessage>
-            <hintMessage>Try entering 50.</hintMessage>
+            <hintMessage>El siguiente paso es averiguar el número total de formas en la imagen.</hintMessage>
+            <hintMessage>¿Cuál es el número total de formas que se muestran?</hintMessage>
+            <hintMessage>Intente ingresar 25.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1867,7 +1867,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">50</matcherParameter>
+                        <matcherParameter name="single">25</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1901,15 +1901,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>35/50</value>
+                        <value>15/25</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
-            <hintMessage>Make sure you enter the unreduced ratio as a fraction, where the target number is the numerator and the total number is the denominator.</hintMessage>
-            <hintMessage>Try entering 35/50.</hintMessage>
+            <hintMessage>La proporción no reducida es una fracción que representa el número objetivo de artículos dividido por el número total de artículos.</hintMessage>
+            <hintMessage>Asegúrese de ingresar la proporción no reducida como una fracción, donde el número objetivo es el numerador y el número total es el denominador.</hintMessage>
+            <hintMessage>Intente ingresar 15/25.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1929,7 +1929,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">35/50</matcherParameter>
+                        <matcherParameter name="single">15/25</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1963,16 +1963,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>70/100</value>
+                        <value>60/100</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 35/50 to 100.</hintMessage>
-            <hintMessage>Do you know how to find an equivalent fraction of 35/50 that has denominator of 100? You already know the denominator. Then, what would be its numerator?</hintMessage>
-            <hintMessage>One way to find the numerator for the ratio out of 100 is to start with the original numerator, 35, and multiply it by 100 and then divide it by 50, the original denominator: 35*100/50. </hintMessage>
-            <hintMessage>Try entering 70/100.</hintMessage>
+            <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 15/25 a 100.</hintMessage>
+            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 15/25 que tiene un denominador de 100? Ya conoces el denominador. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 15/25 que tiene un denominador de 100? Ya conoces el denominador. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Intente ingresar 60/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1994,7 +1994,7 @@
                         <matcherType>ExpressionMatcher</matcherType>
                         <matcherParameter name="InputExpression">and( 
     expressionMatches(
-        input, 35 / 50),
+        input, 15 / 25),
     rationalEquals(getDivisor(input),100)
 )
 </matcherParameter>
@@ -2032,15 +2032,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>70</value>
+                        <value>60</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 70/100. The percent representation is just the numerator of this ratio, 70.</hintMessage>
-            <hintMessage>If the ratio out 100 is 70/100, the percent is its numerator, 70.</hintMessage>
-            <hintMessage>Try entering 70%.</hintMessage>
+            <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la fila anterior, encontró la razón de 100, 60/100. La representación porcentual es solo el numerador de esta razón, 60.</hintMessage>
+            <hintMessage>Si la relación de 100 es 60/100, el porcentaje es su numerador, 60.</hintMessage>
+            <hintMessage>Intente ingresar el 60%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2058,9 +2058,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="&quot;70%&quot;">
+                    <matcher replacementFormula="&quot;60%&quot;">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">35*100/50</matcherParameter>
+                        <matcherParameter name="InputExpression">15*100/25</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -2095,16 +2095,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0.7</value>
+                        <value>0.6</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The ratio out of 100 is written as 70/100. Please express this value as a decimal.</hintMessage>
-            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
-            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering <%=divEvaluate(fractionMake(35,50))%>.</hintMessage>
+            <hintMessage>La proporción de 100 se escribe como 60/100. Exprese este valor como decimal.</hintMessage>
+            <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
+            <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
+            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(15,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2124,7 +2124,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,35/50)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,15/25)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2159,17 +2159,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>7/10</value>
+                        <value>3/5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To turn 35/50 into a reduced ratio, simplify the ratio as much as possible until it cannot be simplified anymore.</hintMessage>
-            <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
-            <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 5 and 50 without any remainder.</hintMessage>
-            <hintMessage>Need more help? Greatest common factor of 35 and 50 is 5.</hintMessage>
-            <hintMessage>Try entering <%=fractionsimplify(fractionMake(35,50))%>.</hintMessage>
+            <hintMessage>Para convertir 15/25 en una proporción reducida, simplifique la proporción tanto como sea posible hasta que no se pueda simplificar más.</hintMessage>
+            <hintMessage>Puede hacer esto encontrando factores comunes y dividiendo el numerador y el denominador hasta que no haya más factores comunes además de 1.</hintMessage>
+            <hintMessage>O intente encontrar el máximo factor común. Este es el mayor de todos los números que pueden dividir tanto a 10 como a 25 sin ningún resto.</hintMessage>
+            <hintMessage>Necesitas más ayuda? Máximo común divisor de 15 y 25 es 5.</hintMessage>
+            <hintMessage>Intente ingresar <%=fractionsimplify(fractionMake(15,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2189,7 +2189,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(35,50)))</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, fractionsimplify(fractionMake(15,25)))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2228,9 +2228,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <hintMessage>Por favor, haga clic en el botón resaltado.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2269,15 +2269,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>10%</value>
+                        <value>40%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 10/100. The percent representation is just the numerator of this ratio, 10.</hintMessage>
-            <hintMessage>If the ratio out 100 is 10/100, the percent is its numerator, 10.</hintMessage>
-            <hintMessage>Try entering 10%.</hintMessage>
+            <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la fila anterior, encontró la razón de 100, 40/100. La representación porcentual es solo el numerador de esta razón, 40.</hintMessage>
+            <hintMessage>Si la relación de 100 es 40/100, el porcentaje es su numerador, 40.</hintMessage>
+            <hintMessage>Intente ingresar el 40%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2297,7 +2297,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">10%</matcherParameter>
+                        <matcherParameter name="single">40%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2330,16 +2330,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0.1</value>
+                        <value>0.4</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The ratio out of 100 is written as 10/100. Please express this value as a decimal.</hintMessage>
-            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
-            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering <%=divEvaluate(fractionMake(5,50))%>.</hintMessage>
+            <hintMessage>La proporción de 100 se escribe como 40/100. Por favor, exprese este valor como decimal.</hintMessage>
+            <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
+            <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
+            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(10,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2359,7 +2359,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input, 5/50)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input, 10/25)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2393,15 +2393,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>50%</value>
+                        <value>20%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 50/100. The percent representation is just the numerator of this ratio, 50.</hintMessage>
-            <hintMessage>If the ratio out 100 is 50/100, the percent is its numerator, 50.</hintMessage>
-            <hintMessage>Try entering 50%.</hintMessage>
+            <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la fila anterior, encontró la razón de 100, 20/100. La representación porcentual es solo el numerador de esta razón, 20.</hintMessage>
+            <hintMessage>Si la relación de 100 es 20/100, el porcentaje es su numerador, 20.</hintMessage>
+            <hintMessage>Intente ingresar el 20%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2421,7 +2421,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">50%</matcherParameter>
+                        <matcherParameter name="single">20%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2454,16 +2454,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0.5</value>
+                        <value>0.2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The ratio out of 100 is written as 50/100. Please express this value as a decimal.</hintMessage>
-            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
-            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering <%=divEvaluate(fractionMake(25,50))%>.</hintMessage>
+            <hintMessage>La proporción de 100 se escribe como 20/100. Por favor, exprese este valor como decimal.</hintMessage>
+            <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
+            <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
+            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(5,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2483,7 +2483,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,25/50)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,5/25)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2517,15 +2517,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>90%</value>
+                        <value>80%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 90/100. The percent representation is just the numerator of this ratio, 90.</hintMessage>
-            <hintMessage>If the ratio out 100 is 90/100, the percent is its numerator, 90.</hintMessage>
-            <hintMessage>Try entering 90%.</hintMessage>
+            <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la fila anterior, encontró la proporción de 100, 80/100. La representación porcentual es solo el numerador de esta razón, 80.</hintMessage>
+            <hintMessage>Si la relación de 100 es 80/100, el porcentaje es su numerador, 80.</hintMessage>
+            <hintMessage>Intente ingresar el 80%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2545,7 +2545,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">90%</matcherParameter>
+                        <matcherParameter name="single">80%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2578,16 +2578,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0.9</value>
+                        <value>0.8</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The ratio out of 100 is written as 90/100. Please express this value as a decimal.</hintMessage>
-            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
-            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering <%=divEvaluate(fractionMake(45,50))%>.</hintMessage>
+            <hintMessage>La proporción de 100 se escribe como 80/100. Por favor, exprese este valor como decimal.</hintMessage>
+            <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
+            <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
+            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(20,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2607,7 +2607,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,45/50)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,20/25)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2641,15 +2641,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>70%</value>
+                        <value>60%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Remember one percent (1%) is one out of 100. In the previous row, you found the ratio out of 100, 70/100. The percent representation is just the numerator of this ratio, 70.</hintMessage>
-            <hintMessage>If the ratio out 100 is 70/100, the percent is its numerator, 70.</hintMessage>
-            <hintMessage>Try entering 70%.</hintMessage>
+            <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la fila anterior, encontró la razón de 100, 60/100. La representación porcentual es solo el numerador de esta razón, 60.</hintMessage>
+            <hintMessage>Si la relación de 100 es 60/100, el porcentaje es su numerador, 60.</hintMessage>
+            <hintMessage>Intente ingresar el 60%.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2669,7 +2669,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">70%</matcherParameter>
+                        <matcherParameter name="single">60%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2702,16 +2702,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0.7</value>
+                        <value>0.6</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>The ratio out of 100 is written as 70/100. Please express this value as a decimal.</hintMessage>
-            <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
-            <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering <%=divEvaluate(fractionMake(35,50))%>.</hintMessage>
+            <hintMessage>La proporción de 100 se escribe como 60/100. Exprese este valor como decimal.</hintMessage>
+            <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
+            <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
+            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(15,25))%>.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2731,7 +2731,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(input,35/50)</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(input,15/25)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2765,11 +2765,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>simplify(5/50*10)</value>
+                        <value>simplificar (10/25 * 10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
+            <buggyMessage>¡UPS! Dividió el número porcentual solo por 10. Recuerde, los porcentajes son de 100, ¡así que debe dividirlos entre 100!</buggyMessage>
             <successMessage />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2790,7 +2790,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(5/50*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(10/25*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2824,13 +2824,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>simplify(5/50*10)</value>
+                        <value>simplificar (10/25 * 10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
+            <buggyMessage>¡UPS! Dividió el número porcentual solo por 10. Recuerde, los porcentajes son de 100, ¡así que debe dividirlos entre 100!</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2850,7 +2850,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(5/50*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(10/25*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2884,13 +2884,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>simplify(25/50*10)</value>
+                        <value>simplificar (5/25 * 10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
+            <buggyMessage>¡UPS! Dividió el número porcentual solo por 10. Recuerde, los porcentajes son de 100, ¡así que debe dividirlos entre 100!</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2910,7 +2910,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(25/50*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input, simplify(5/25*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2944,13 +2944,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>simplify(25/50*10)</value>
+                        <value>simplificar (5/25 * 10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
+            <buggyMessage>¡UPS! Dividió el número porcentual solo por 10. Recuerde, los porcentajes son de 100, ¡así que debe dividirlos entre 100!</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2970,7 +2970,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(25/50*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(5/25*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3004,13 +3004,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>simplify(45/50*10)</value>
+                        <value>simplificar (20/25 * 10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
+            <buggyMessage>¡UPS! Dividió el número porcentual solo por 10. Recuerde, los porcentajes son de 100, ¡así que debe dividirlos entre 100!</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3030,7 +3030,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(45/50*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(20/25*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3064,13 +3064,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>simplify(45/50*10)</value>
+                        <value>simplificar (20/25 * 10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
+            <buggyMessage>¡UPS! Dividió el número porcentual solo por 10. Recuerde, los porcentajes son de 100, ¡así que debe dividirlos entre 100!</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3090,7 +3090,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(45/50*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(20/25*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3124,13 +3124,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>simplify(35/50*10)</value>
+                        <value>simplificar (15/25 * 10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
+            <buggyMessage>¡UPS! Dividió el número porcentual solo por 10. Recuerde, los porcentajes son de 100, ¡así que debe dividirlos entre 100!</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3150,7 +3150,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(35/50*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(15/25*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3184,13 +3184,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>simplify(35/50*10)</value>
+                        <value>simplificar (15/25 * 10)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You divided the percent number only by 10. Remember, percents are out of 100, so you should divide them by 100!</buggyMessage>
+            <buggyMessage>¡UPS! Dividió el número porcentual solo por 10. Recuerde, los porcentajes son de 100, ¡así que debe dividirlos entre 100!</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3210,7 +3210,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(35/50*10))</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(input,simplify(15/25*10))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3245,15 +3245,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>5</value>
+                        <value>10</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>To work through question 1, you must first find the number of shapes that are yellow.</hintMessage>
-            <hintMessage>How many shapes are yellow?</hintMessage>
-            <hintMessage>Try entering 5.</hintMessage>
+            <hintMessage>Para resolver la pregunta 1, primero debe encontrar la cantidad de formas que son círculos.</hintMessage>
+            <hintMessage>¿Cuántas formas tienen círculos?</hintMessage>
+            <hintMessage>Intente ingresar 10.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3273,7 +3273,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">5</matcherParameter>
+                        <matcherParameter name="single">10</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3306,13 +3306,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>n/a</value>
+                        <value>n / A</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>-</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3332,7 +3332,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">n/a</matcherParameter>
+                        <matcherParameter name="single">n / A</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3365,13 +3365,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>n/a</value>
+                        <value>n / A</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>-</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3391,7 +3391,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">n/a</matcherParameter>
+                        <matcherParameter name="single">n / A</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3424,13 +3424,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>n/a</value>
+                        <value>n / A</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>-</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3450,7 +3450,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">n/a</matcherParameter>
+                        <matcherParameter name="single">n / A</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3483,13 +3483,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>n/a</value>
+                        <value>n / A</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>-</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_Valor' en el elemento resaltado.</hintMessage>
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3509,7 +3509,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">n/a</matcherParameter>
+                        <matcherParameter name="single">n / A</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3528,59 +3528,59 @@
     <productionRule opportunities="4">
         <ruleName>Enter-As-Decimal</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>Enter as decimal</label>
-        <hintMessage>The ratio out of 100 is written as <%= 5/50*100 %>/100. Please express this value as a decimal.</hintMessage>
-        <hintMessage>When you divide a number by 10, you move the decimal point in that number over to the left one place. If it's a whole number, there is an 'invisible' decimal point to the right of it, like this: "10."</hintMessage>
-        <hintMessage>Dividing by 100 is equivalent to dividing by 10, then dividing by 10 again.</hintMessage>
-        <hintMessage>Try entering <%=divEvaluate(fractionMake(5,50))%>.</hintMessage>
+        <label>Ingrese como decimal</label>
+        <hintMessage>La proporción de 100 se escribe como <% = 10/25 * 100%> / 100. Por favor, exprese este valor como decimal.</hintMessage>
+        <hintMessage>Cuando divide un número por 10, mueve el punto decimal en ese número hacia la izquierda un lugar. Si es un número entero, hay un punto decimal 'invisible' a la derecha, como este: "40".</hintMessage>
+        <hintMessage>Dividir por 100 equivale a dividir por 10 y luego volver a dividir por 10.</hintMessage>
+        <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(10,25))%>.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-Reduced-Fraction</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>Enter reduced fraction</label>
-        <hintMessage>To make the unreduced ratio, 5/50, a reduced fraction, first find the greatest common factor of the numerator and the denominator.</hintMessage>
-        <hintMessage>5 is the numerator, and 50 is the denominator. Divide 5 and 50 by their greatest common factor.</hintMessage>
-        <hintMessage>Try entering <%=fractionsimplify(fractionMake(5,50))%>.</hintMessage>
+        <label>Ingrese fracción reducida</label>
+        <hintMessage>Para hacer que la razón no reducida, 10/25, sea una fracción reducida, primero encuentra el mayor factor común del numerador y el denominador.</hintMessage>
+        <hintMessage>10 es el numerador y 25 es el denominador. Divida 10 y 25 por su máximo común divisor.</hintMessage>
+        <hintMessage>Intente ingresar <%=fractionsimplify(fractionMake(10,25))%>.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-As-Percent</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>Enter as percent</label>
-        <hintMessage>Remember one percent (1%) is one out of 100. In the last column, you found the ratio out of 100, <%= 5/50*100 %>/100. The percent representation is just the numerator of this ratio, <%= 5/50*100 %>.</hintMessage>
-        <hintMessage>If the ratio out 100 is <%= 5/50*100 %>, then the percent is <%= 5/50*100 %> as well.</hintMessage>
-        <hintMessage>Try entering <%= 5/50*100 %>.</hintMessage>
+        <label>Ingrese como porcentaje</label>
+        <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la última columna, encontró la proporción de 100, <% = 10/25 * 100%> / 100. La representación porcentual es solo el numerador de esta relación, <% = 10/25 * 100%>.</hintMessage>
+        <hintMessage>Si la relación de 100 es <% = 10/25 * 100%>, entonces el porcentaje también es <% = 10/25 * 100%>.</hintMessage>
+        <hintMessage>Intente ingresar <% = 10/25 * 100%>.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Count-Total-Items</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>Count total items</label>
-        <hintMessage>The next step is to figure out the total number of shapes that you see in the picture.</hintMessage>
-        <hintMessage>How many total shapes do you see here?</hintMessage>
-        <hintMessage>Try entering 50.</hintMessage>
+        <label>Contar elementos totales</label>
+        <hintMessage>El siguiente paso es averiguar el número total de formas que ves en la imagen.</hintMessage>
+        <hintMessage>¿Cuántas formas totales ves aquí?</hintMessage>
+        <hintMessage>Intente ingresar 25.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Count-Target-Items</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>Count target items</label>
-        <hintMessage>To work through question 1, you must first find the number of shapes that are not blue.</hintMessage>
-        <hintMessage>How many shapes in the picture above are not blue?</hintMessage>
-        <hintMessage>Try entering 9.</hintMessage>
+        <label>Contar elementos de destino</label>
+        <hintMessage>Para resolver la pregunta 1, primero debe encontrar la cantidad de formas que no son azules.</hintMessage>
+        <hintMessage>¿Cuántas formas en la imagen de arriba no son azules?</hintMessage>
+        <hintMessage>Intente ingresar 9.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-Unreduced-Ratio</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>Enter unreduced ratio</label>
-        <hintMessage>The unreduced ratio is a fraction representing the target number of items divided by the total number of items.</hintMessage>
-        <hintMessage>Make sure you enter the unreduced ratio as a fraction, the target number is the numerator and the total number is the denominator.</hintMessage>
-        <hintMessage>Try entering 5/50.</hintMessage>
+        <label>Ingrese la proporción no reducida</label>
+        <hintMessage>La proporción no reducida es una fracción que representa el número objetivo de artículos dividido por el número total de artículos.</hintMessage>
+        <hintMessage>Asegúrese de ingresar la proporción no reducida como una fracción, el número objetivo es el numerador y el número total es el denominador.</hintMessage>
+        <hintMessage>Intente ingresar 10/25.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-As-Fraction-Out-100</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
-        <label>Enter as fraction out of 100</label>
-        <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 5/50 to 100.</hintMessage>
-        <hintMessage>One way to find the numerator for the ratio out of 100 is to multiply the original numerator, 5, by 100 and then divide by the original denominator, 50.</hintMessage>
-        <hintMessage>Try entering <%= 5/50*100 %>/100.</hintMessage>
+        <label>Ingrese como fracción de 100</label>
+        <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 10/25 a 100.</hintMessage>
+        <hintMessage>Una forma de encontrar el numerador para la razón de 100 es multiplicar el numerador original, 10, por 100 y luego dividir por el denominador original, 25.</hintMessage>
+        <hintMessage>Intente ingresar <% = 10/25 * 100%> / 100.</hintMessage>
     </productionRule>
     <EdgesGroups ordered="false" />
 </stateGraph>
