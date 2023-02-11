@@ -777,7 +777,7 @@
             <hintMessage>The ratio out of 100 is written as 70/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;=divEvaluate(fractionMake(7,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(7,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -842,7 +842,7 @@
             <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
             <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 7 and 10 without any remainder.</hintMessage>
             <hintMessage>Need more help? Greatest common factor of 7 and 10 is 1.</hintMessage>
-            <hintMessage>Try entering &lt;=fractionsimplify(fractionMake(7,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(7,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1224,7 +1224,7 @@
             <hintMessage>The ratio out of 100 is written as 90/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;=divEvaluate(fractionMake(9,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(9,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1289,7 +1289,7 @@
             <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
             <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 7 and 10 without any remainder.</hintMessage>
             <hintMessage>Need more help? Greatest common factor of 9 and 10 is 1.</hintMessage>
-            <hintMessage>Try entering &lt;=fractionsimplify(fractionMake(9,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(9,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1671,7 +1671,7 @@
             <hintMessage>The ratio out of 100 is written as 40/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;=divEvaluate(fractionMake(4,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(4,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1736,7 +1736,7 @@
             <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
             <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 7 and 10 without any remainder.</hintMessage>
             <hintMessage>Need more help? Greatest common factor of 4 and 10 is 2.</hintMessage>
-            <hintMessage>Try entering &lt;=fractionsimplify(fractionMake(4,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(4,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2104,7 +2104,7 @@
             <hintMessage>The ratio out of 100 is written as 10/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;=divEvaluate(fractionMake(1,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(1,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2169,7 +2169,7 @@
             <hintMessage>You can do this by finding common factors, and divide the numerator and the denominator until there are no more common factors other than 1.</hintMessage>
             <hintMessage>Or, try finding the greatest common factor. This is the biggest of all numbers that can divide both 7 and 10 without any remainder.</hintMessage>
             <hintMessage>Need more help? Greatest common factor of 1 and 10 is 1.</hintMessage>
-            <hintMessage>Try entering &lt;=fractionsimplify(fractionMake(1,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(1,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2339,7 +2339,7 @@
             <hintMessage>The ratio out of 100 is written as 70/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;=divEvaluate(fractionMake(7,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(7,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2463,7 +2463,7 @@
             <hintMessage>The ratio out of 100 is written as 90/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;=divEvaluate(fractionMake(9,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(9,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2587,7 +2587,7 @@
             <hintMessage>The ratio out of 100 is written as 40/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;=divEvaluate(fractionMake(4,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(4,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2711,7 +2711,7 @@
             <hintMessage>The ratio out of 100 is written as 10/100. Please express this value as a decimal.</hintMessage>
             <hintMessage>To express the ratio as a decimal, simply divide the numerator by the denominator. Remember, dividing by 100 is like to dividing by 10, then dividing by 10 again.</hintMessage>
             <hintMessage>To divide the number by 10, hop the decimal point over one place to the LEFT. If it's a whole number, there is an 'invisible' decimal point at the right side of the number!</hintMessage>
-            <hintMessage>Try entering &lt;=divEvaluate(fractionMake(1,10))&gt;.</hintMessage>
+            <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(1,10))%&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3529,10 +3529,10 @@
         <ruleName>Enter-As-Decimal</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
         <label>Enter as decimal</label>
-        <hintMessage>The ratio out of 100 is written as &lt;= 7/10*100 &gt;/100. Please express this value as a decimal.</hintMessage>
+        <hintMessage>The ratio out of 100 is written as &lt;%= 7/10*100 %&gt;/100. Please express this value as a decimal.</hintMessage>
         <hintMessage>When you divide a number by 10, you move the decimal point in that number over to the left one place. If it's a whole number, there is an 'invisible' decimal point to the right of it, like this: "70."</hintMessage>
         <hintMessage>Dividing by 100 is equivalent to dividing by 10, then dividing by 10 again.</hintMessage>
-        <hintMessage>Try entering &lt;=divEvaluate(fractionMake(7,10))&gt;.</hintMessage>
+        <hintMessage>Try entering &lt;%=divEvaluate(fractionMake(7,10))%&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-Reduced-Fraction</ruleName>
@@ -3540,15 +3540,15 @@
         <label>Enter reduced fraction</label>
         <hintMessage>To make the unreduced ratio, 7/10, a reduced fraction, first find the greatest common factor of the numerator and the denominator.</hintMessage>
         <hintMessage>7 is the numerator, and 10 is the denominator. Divide 7 and 10 by their greatest common factor.</hintMessage>
-        <hintMessage>Try entering &lt;=fractionsimplify(fractionMake(7,10))&gt;.</hintMessage>
+        <hintMessage>Try entering &lt;%=fractionsimplify(fractionMake(7,10))%&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-As-Percent</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
         <label>Enter as percent</label>
-        <hintMessage>Remember one percent (1%) is one out of 100. In the last column, you found the ratio out of 100, &lt;= 7/10*100 &gt;/100. The percent representation is just the numerator of this ratio, &lt;= 7/10*100 &gt;.</hintMessage>
-        <hintMessage>If the ratio out 100 is &lt;= 7/10*100 &gt;, then the percent is &lt;= 7/10*100 &gt; as well.</hintMessage>
-        <hintMessage>Try entering &lt;= 7/10*100 &gt;.</hintMessage>
+        <hintMessage>Remember one percent (1%) is one out of 100. In the last column, you found the ratio out of 100, &lt;%= 7/10*100 %&gt;/100. The percent representation is just the numerator of this ratio, &lt;%= 7/10*100 %&gt;.</hintMessage>
+        <hintMessage>If the ratio out 100 is &lt;%= 7/10*100 %&gt;, then the percent is &lt;%= 7/10*100 %&gt; as well.</hintMessage>
+        <hintMessage>Try entering &lt;%= 7/10*100 %&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Count-Total-Items</ruleName>
@@ -3580,7 +3580,7 @@
         <label>Enter as fraction out of 100</label>
         <hintMessage>To express the unreduced ratio as a ratio out of 100, first convert the denominator of 7/10 to 100.</hintMessage>
         <hintMessage>One way to find the numerator for the ratio out of 100 is to multiply the original numerator, 7, by 100 and then divide by the original denominator, 10.</hintMessage>
-        <hintMessage>Try entering &lt;= 7/10*100 &gt;/100.</hintMessage>
+        <hintMessage>Try entering &lt;%= 7/10*100 %&gt;/100.</hintMessage>
     </productionRule>
     <EdgesGroups ordered="false" />
 </stateGraph>
