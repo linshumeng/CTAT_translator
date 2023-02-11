@@ -777,7 +777,7 @@
             <hintMessage>La proporción de 100 se escribe como 5/100. Por favor, exprese este valor como decimal.</hintMessage>
             <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
             <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
-            <hintMessage>Intente ingresar <% = divEvaluate (fracciónMake (1,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt; = divEvaluate (fracciónMake (1,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -842,7 +842,7 @@
             <hintMessage>Puede hacer esto encontrando factores comunes y dividiendo el numerador y el denominador hasta que no haya más factores comunes además de 1.</hintMessage>
             <hintMessage>O intente encontrar el máximo factor común. Este es el mayor de todos los números que pueden dividir tanto a 1 como a 20 sin ningún resto.</hintMessage>
             <hintMessage>Necesitas más ayuda? Máximo común divisor de 1 y 20 es 1.</hintMessage>
-            <hintMessage>Intente ingresar <% = fracctionsimplify (transactionMake (1,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt; = fracctionsimplify (transactionMake (1,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1224,7 +1224,7 @@
             <hintMessage>La proporción de 100 se escribe como 40/100. Por favor, exprese este valor como decimal.</hintMessage>
             <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
             <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
-            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(8,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt;=divEvaluate(fractionMake(8,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1289,7 +1289,7 @@
             <hintMessage>Puede hacer esto encontrando factores comunes y dividiendo el numerador y el denominador hasta que no haya más factores comunes además de 1.</hintMessage>
             <hintMessage>O intente encontrar el máximo factor común. Este es el mayor de todos los números que pueden dividir tanto a 1 como a 20 sin ningún resto.</hintMessage>
             <hintMessage>Necesitas más ayuda? Máximo común divisor de 8 y 20 es 4.</hintMessage>
-            <hintMessage>Intente ingresar <%=fractionsimplify(fractionMake(8,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt;=fractionsimplify(fractionMake(8,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1671,7 +1671,7 @@
             <hintMessage>La proporción de 100 se escribe como 25/100. Exprese este valor como decimal.</hintMessage>
             <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
             <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
-            <hintMessage>Intente ingresar <% = divEvaluate (fracciónMake (5,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt; = divEvaluate (fracciónMake (5,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1736,7 +1736,7 @@
             <hintMessage>Puede hacer esto encontrando factores comunes y dividiendo el numerador y el denominador hasta que no haya más factores comunes además de 1.</hintMessage>
             <hintMessage>O intente encontrar el máximo factor común. Este es el mayor de todos los números que pueden dividir tanto a 1 como a 20 sin ningún resto.</hintMessage>
             <hintMessage>Necesitas más ayuda? Máximo común divisor de 5 y 20 es 5.</hintMessage>
-            <hintMessage>Intente ingresar <%=fractionsimplify (fractionMake (5,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt;=fractionsimplify (fractionMake (5,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2104,7 +2104,7 @@
             <hintMessage>La proporción de 100 se escribe como 75/100. Por favor, exprese este valor como decimal.</hintMessage>
             <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
             <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
-            <hintMessage>Intente ingresar <% = divEvaluate (fracciónMake (15,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt; = divEvaluate (fracciónMake (15,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2169,7 +2169,7 @@
             <hintMessage>Puede hacer esto encontrando factores comunes y dividiendo el numerador y el denominador hasta que no haya más factores comunes además de 1.</hintMessage>
             <hintMessage>O intente encontrar el máximo factor común. Este es el mayor de todos los números que pueden dividir tanto a 1 como a 20 sin ningún resto.</hintMessage>
             <hintMessage>Necesitas más ayuda? Máximo común divisor de 15 y 20 es 5.</hintMessage>
-            <hintMessage>Intente ingresar <%=fractionsimplify(fractionMake(15,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt;=fractionsimplify(fractionMake(15,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2339,7 +2339,7 @@
             <hintMessage>La proporción de 100 se escribe como 5/100. Por favor, exprese este valor como decimal.</hintMessage>
             <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
             <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
-            <hintMessage>Intente ingresar <% = divEvaluate (fracciónMake (1,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt; = divEvaluate (fracciónMake (1,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2463,7 +2463,7 @@
             <hintMessage>La proporción de 100 se escribe como 40/100. Por favor, exprese este valor como decimal.</hintMessage>
             <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
             <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
-            <hintMessage>Intente ingresar <%=divEvaluate(fractionMake(8,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt;=divEvaluate(fractionMake(8,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2587,7 +2587,7 @@
             <hintMessage>La proporción de 100 se escribe como 25/100. Exprese este valor como decimal.</hintMessage>
             <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
             <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
-            <hintMessage>Intente ingresar <% = divEvaluate (fracciónMake (5,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt; = divEvaluate (fracciónMake (5,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2711,7 +2711,7 @@
             <hintMessage>La proporción de 100 se escribe como 75/100. Por favor, exprese este valor como decimal.</hintMessage>
             <hintMessage>Para expresar la razón como decimal, simplemente divida el numerador por el denominador. Recuerde, dividir por 100 es como dividir por 10 y luego dividir por 10 nuevamente.</hintMessage>
             <hintMessage>Para dividir el número por 10, salte el punto decimal un lugar hacia la IZQUIERDA. Si es un número entero, ¡hay un punto decimal 'invisible' en el lado derecho del número!</hintMessage>
-            <hintMessage>Intente ingresar <% = divEvaluate (fracciónMake (15,20))%>.</hintMessage>
+            <hintMessage>Intente ingresar &lt; = divEvaluate (fracciónMake (15,20))&gt;.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3529,10 +3529,10 @@
         <ruleName>Enter-As-Decimal</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
         <label>Ingrese como decimal</label>
-        <hintMessage>La proporción de 100 se escribe como <% = 1/20 * 100%> / 100. Por favor, exprese este valor como decimal.</hintMessage>
+        <hintMessage>La proporción de 100 se escribe como &lt; = 1/20 * 100&gt; / 100. Por favor, exprese este valor como decimal.</hintMessage>
         <hintMessage>Cuando divide un número por 10, mueve el punto decimal en ese número hacia la izquierda un lugar. Si es un número entero, hay un punto decimal 'invisible' a la derecha, como este: "5".</hintMessage>
         <hintMessage>Dividir por 100 equivale a dividir por 10 y luego volver a dividir por 10.</hintMessage>
-        <hintMessage>Intente ingresar <% = divEvaluate (fracciónMake (1,20))%>.</hintMessage>
+        <hintMessage>Intente ingresar &lt; = divEvaluate (fracciónMake (1,20))&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-Reduced-Fraction</ruleName>
@@ -3540,15 +3540,15 @@
         <label>Ingrese fracción reducida</label>
         <hintMessage>Para hacer la razón no reducida, 1/20, una fracción reducida, primero encuentra el máximo común factor del numerador y el denominador.</hintMessage>
         <hintMessage>1 es el numerador y 20 es el denominador. Divida 1 y 20 por su máximo común denominador.</hintMessage>
-        <hintMessage>Intente ingresar <% = fracctionsimplify (transactionMake (1,20))%>.</hintMessage>
+        <hintMessage>Intente ingresar &lt; = fracctionsimplify (transactionMake (1,20))&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Enter-As-Percent</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
         <label>Ingrese como porcentaje</label>
-        <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la última columna, encontró la proporción de 100, <% = 1/20 * 100%> / 100. La representación porcentual es solo el numerador de esta relación, <% = 1/20 * 100%>.</hintMessage>
-        <hintMessage>Si la proporción de 100 es <% = 1/20 * 100%>, entonces el porcentaje también es <% = 1/20 * 100%>.</hintMessage>
-        <hintMessage>Intente ingresar <% = 1/20 * 100%>.</hintMessage>
+        <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la última columna, encontró la proporción de 100, &lt; = 1/20 * 100&gt; / 100. La representación porcentual es solo el numerador de esta relación, &lt; = 1/20 * 100&gt;.</hintMessage>
+        <hintMessage>Si la proporción de 100 es &lt; = 1/20 * 100&gt;, entonces el porcentaje también es &lt; = 1/20 * 100&gt;.</hintMessage>
+        <hintMessage>Intente ingresar &lt; = 1/20 * 100&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>Count-Total-Items</ruleName>
@@ -3580,7 +3580,7 @@
         <label>Ingrese como fracción de 100</label>
         <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 1/20 a 100.</hintMessage>
         <hintMessage>Una forma de encontrar el numerador para la razón de 100 es multiplicar el numerador original, 1, por 100 y luego dividir por el denominador original, 20.</hintMessage>
-        <hintMessage>Intente ingresar <% = 1/20 * 100%> / 100.</hintMessage>
+        <hintMessage>Intente ingresar &lt; = 1/20 * 100&gt; / 100.</hintMessage>
     </productionRule>
     <EdgesGroups ordered="false" />
 </stateGraph>
