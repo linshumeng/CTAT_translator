@@ -3351,7 +3351,7 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value>error</value>
                     </Input>
                 </properties>
             </message>
@@ -3377,7 +3377,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single"></matcherParameter>
+                        <matcherParameter name="single">error</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3418,7 +3418,7 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value>error</value>
                     </Input>
                 </properties>
             </message>
@@ -3444,7 +3444,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single"></matcherParameter>
+                        <matcherParameter name="single">error</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>

@@ -123,7 +123,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>fotos es</value>
+                    <value>del</value>
                 </Input>
             </properties>
         </message>
@@ -4382,7 +4382,7 @@
         <ruleName>Identify-part-from-statement</ruleName>
         <productionSet>Percent-Application</productionSet>
         <hintMessage>¿Cuántas fotos le dio Kelly a su familia?</hintMessage>
-        <hintMessage>Lea el enunciado del problema para encontrar el valor solicitado.</hintMessage>
+        <hintMessage>Lea la declaración del problema para encontrar el valor solicitado.</hintMessage>
         <hintMessage>Por favor, ingrese '32' en el campo resaltado.</hintMessage>
     </productionRule>
     <productionRule opportunities="2">

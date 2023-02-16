@@ -107,7 +107,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>¿Qué porcentaje del precio original le devolvió la tienda a Jane? Si no está seguro, consulte el área de resolución de proporciones opcional.</value>
+                    <value>los dólares son</value>
                 </Input>
             </properties>
         </message>
