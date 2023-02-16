@@ -1083,7 +1083,7 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>95/100</value>
+                        <value>35/100</value>
                     </Input>
                 </properties>
             </message>
@@ -1091,7 +1091,7 @@
             <successMessage />
             <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 14/40 a 100.</hintMessage>
             <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 14/40 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
-            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 14/40 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Una forma de encontrar el numerador para la relación de 100 es comenzar con el numerador original, 14, y multiplicarlo por 100 y luego dividirlo por 40, el denominador original: 14*100/40.</hintMessage>
             <hintMessage>Intente ingresar 35/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1538,7 +1538,7 @@
             <successMessage />
             <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 9/40 a 100.</hintMessage>
             <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 9/40 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
-            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 9/40 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Una forma de encontrar el numerador para la relación de 100 es comenzar con el numerador original, 9, y multiplicarlo por 100 y luego dividirlo por 40, el denominador original: 9*100/40.</hintMessage>
             <hintMessage>Intente ingresar 22.5 / 100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1971,7 +1971,7 @@
             <successMessage />
             <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 26/40 a 100.</hintMessage>
             <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 26/40 que tiene un denominador de 100? Ya conoces el denominador. Entonces, ¿Cuál sería su numerador?</hintMessage>
-            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 26/40 que tiene un denominador de 100? Ya conoces el denominador. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Una forma de encontrar el numerador para la relación de 100 es comenzar con el numerador original, 26, y multiplicarlo por 100 y luego dividirlo por 40, el denominador original: 26*100/40.</hintMessage>
             <hintMessage>Intente ingresar 65/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2517,7 +2517,7 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>35%</value>
+                        <value>22.5%</value>
                     </Input>
                 </properties>
             </message>

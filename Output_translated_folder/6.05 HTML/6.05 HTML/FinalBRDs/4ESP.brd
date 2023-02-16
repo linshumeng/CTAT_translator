@@ -1091,7 +1091,7 @@
             <successMessage />
             <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 5/25 a 100.</hintMessage>
             <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 5/25 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
-            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 5/25 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Una forma de encontrar el numerador para la relación de 100 es comenzar con el numerador original, 5, y multiplicarlo por 100 y luego dividirlo por 25, el denominador original: 5*100/25.</hintMessage>
             <hintMessage>Intente ingresar 20/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1538,7 +1538,7 @@
             <successMessage />
             <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 20/25 a 100.</hintMessage>
             <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 20/25 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
-            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 20/25 que tiene un denominador de 100? Ya conoces el denominador, 100. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Una forma de encontrar el numerador para la relación de 100 es comenzar con el numerador original, 20, y multiplicarlo por 100 y luego dividirlo por 25, el denominador original: 20*100/25.</hintMessage>
             <hintMessage>Intente ingresar 80/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1971,7 +1971,7 @@
             <successMessage />
             <hintMessage>Para expresar la razón no reducida como una razón de 100, primero convierta el denominador de 15/25 a 100.</hintMessage>
             <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 15/25 que tiene un denominador de 100? Ya conoces el denominador. Entonces, ¿Cuál sería su numerador?</hintMessage>
-            <hintMessage>¿Sabes cómo encontrar una fracción equivalente de 15/25 que tiene un denominador de 100? Ya conoces el denominador. Entonces, ¿Cuál sería su numerador?</hintMessage>
+            <hintMessage>Una forma de encontrar el numerador para la relación de 100 es comenzar con el numerador original, 15, y multiplicarlo por 100 y luego dividirlo por 25, el denominador original: 15*100/25.</hintMessage>
             <hintMessage>Intente ingresar 60/100.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
