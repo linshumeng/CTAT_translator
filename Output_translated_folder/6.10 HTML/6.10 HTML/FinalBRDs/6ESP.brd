@@ -1,10 +1,10 @@
-<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="state7" tutorType="Example-tracing Tutor">
+<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="state27" tutorType="Example-tracing Tutor">
     <startNodeMessages>
         <message>
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>7</ProblemName>
+                <ProblemName>6ESP</ProblemName>
             </properties>
         </message>
         <message>
@@ -19,7 +19,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>1. Enter 0.808 to show the place value of each digit (simplest form).</value>
+                    <value>1. Ingrese 3.142 para mostrar el valor posicional de cada dígito (forma más simple).</value>
                 </Input>
             </properties>
         </message>
@@ -35,7 +35,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>2. What if the number of thousandths is 18?</value>
+                    <value>2. ¿Qué pasa si el número de centésimas es 14?</value>
                 </Input>
             </properties>
         </message>
@@ -51,7 +51,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>3. What if you have 10 hundredths?</value>
+                    <value>3. ¿Qué pasa si tienes 22 milésimas?</value>
                 </Input>
             </properties>
         </message>
@@ -61,13 +61,13 @@
                 <MessageType>InterfaceAction</MessageType>
                 <transaction_id>04E03915-2D5D-EB17-1E7C-0E50BCD8328B</transaction_id>
                 <Selection>
-                    <value>r2c4</value>
+                    <value>r2c3</value>
                 </Selection>
                 <Action>
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>18</value>
+                    <value>14</value>
                 </Input>
             </properties>
         </message>
@@ -77,13 +77,13 @@
                 <MessageType>InterfaceAction</MessageType>
                 <transaction_id>0DE54FC7-92E9-D9FD-A69D-14C94478EF52</transaction_id>
                 <Selection>
-                    <value>r3c3</value>
+                    <value>r3c4</value>
                 </Selection>
                 <Action>
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>10</value>
+                    <value>22</value>
                 </Input>
             </properties>
         </message>
@@ -95,7 +95,7 @@
         </message>
     </startNodeMessages>
     <node locked="false" doneState="false">
-        <text>7</text>
+        <text>6ESP</text>
         <uniqueID>1</uniqueID>
         <dimension>
             <x>668</x>
@@ -247,7 +247,7 @@
         </dimension>
     </node>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -264,15 +264,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage></hintMessage>
-            <hintMessage></hintMessage>
-            <hintMessage></hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=givenValue(3142, 1)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -293,7 +293,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">givenValue(808, 1)</matcherParameter>
+                        <matcherParameter name="InputExpression">givenValue(3142, 1)</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -327,15 +327,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>8</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=givenValue(808, 2)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=givenValue(3142, 2)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -356,7 +356,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">givenValue(808, 2)</matcherParameter>
+                        <matcherParameter name="InputExpression">givenValue(3142, 2)</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -390,15 +390,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>4</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=givenValue(808, 3)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=givenValue(3142, 3)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -419,7 +419,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">givenValue(808, 3)</matcherParameter>
+                        <matcherParameter name="InputExpression">givenValue(3142, 3)</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -453,15 +453,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>8</value>
+                        <value>2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=givenValue(808, 4)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=givenValue(3142, 4)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -482,7 +482,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">givenValue(808, 4)</matcherParameter>
+                        <matcherParameter name="InputExpression">givenValue(3142, 4)</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -499,7 +499,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -516,15 +516,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage></hintMessage>
-            <hintMessage></hintMessage>
-            <hintMessage></hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(3142, r2c1, r2c2, r2c3, r2c4, 1)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -545,7 +545,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r2c1, r2c2, r2c3, r2c4, 1) &amp;&amp; input == preferredValue(808, r2c1, r2c2, r2c3, r2c4, 1)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r2c1, r2c2, r2c3, r2c4, 1) &amp;&amp; input == preferredValue(3142, r2c1, r2c2, r2c3, r2c4, 1)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -562,7 +562,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="false" minTraversals="0" maxTraversals="1">
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -583,7 +583,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -605,7 +605,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r2c1, r2c2, r2c3, r2c4, 1) &amp;&amp; input != preferredValue(808, r2c1, r2c2, r2c3, r2c4, 1)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r2c1, r2c2, r2c3, r2c4, 1) &amp;&amp; input != preferredValue(3142, r2c1, r2c2, r2c3, r2c4, 1)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -639,15 +639,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>7</value>
+                        <value>0</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=preferredValue(808, r2c1, r2c2, r2c3, r2c4, 2)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(3142, r2c1, r2c2, r2c3, r2c4, 2)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -668,7 +668,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r2c1, r2c2, r2c3, r2c4, 2) &amp;&amp; input == preferredValue(808, r2c1, r2c2, r2c3, r2c4, 2)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r2c1, r2c2, r2c3, r2c4, 2) &amp;&amp; input == preferredValue(3142, r2c1, r2c2, r2c3, r2c4, 2)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -706,7 +706,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -728,7 +728,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r2c1, r2c2, r2c3, r2c4, 2) &amp;&amp; input != preferredValue(808, r2c1, r2c2, r2c3, r2c4, 2)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r2c1, r2c2, r2c3, r2c4, 2) &amp;&amp; input != preferredValue(3142, r2c1, r2c2, r2c3, r2c4, 2)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -756,21 +756,21 @@
                     <MessageType>InterfaceAction</MessageType>
                     <transaction_id>0319CC0F-D3CD-4FFA-C57B-67395AAC55EE</transaction_id>
                     <Selection>
-                        <value>r2c3</value>
+                        <value>r2c4</value>
                     </Selection>
                     <Action>
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>9</value>
+                        <value>2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=preferredValue(808, r2c1, r2c2, r2c3, r2c4, 3)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(3142, r2c1, r2c2, r2c3, r2c4, 4)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -779,7 +779,7 @@
                 <Selection>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">r2c3</matcherParameter>
+                        <matcherParameter name="single">r2c4</matcherParameter>
                     </matcher>
                 </Selection>
                 <Action>
@@ -791,7 +791,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r2c1, r2c2, r2c3, r2c4, 3) &amp;&amp; input == preferredValue(808, r2c1, r2c2, r2c3, r2c4, 3)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r2c1, r2c2, r2c3, r2c4, 4) &amp;&amp; input == preferredValue(3142, r2c1, r2c2, r2c3, r2c4, 4)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -819,17 +819,17 @@
                     <MessageType>InterfaceAction</MessageType>
                     <transaction_id>0692AD57-1225-EC43-1211-4EDE5B1EC5B8</transaction_id>
                     <Selection>
-                        <value>r2c3</value>
+                        <value>r2c4</value>
                     </Selection>
                     <Action>
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>9</value>
+                        <value>2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <hintMessage />
             <callbackFn />
@@ -840,7 +840,7 @@
                 <Selection>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">r2c3</matcherParameter>
+                        <matcherParameter name="single">r2c4</matcherParameter>
                     </matcher>
                 </Selection>
                 <Action>
@@ -852,7 +852,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r2c1, r2c2, r2c3, r2c4, 3) &amp;&amp; input != preferredValue(808, r2c1, r2c2, r2c3, r2c4, 3)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r2c1, r2c2, r2c3, r2c4, 4) &amp;&amp; input != preferredValue(3142, r2c1, r2c2, r2c3, r2c4, 4)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -885,14 +885,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -945,14 +945,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1005,14 +1005,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1066,15 +1066,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage></hintMessage>
-            <hintMessage></hintMessage>
-            <hintMessage></hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(3142, r3c1, r3c2, r3c3, r3c4, 1)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1095,7 +1095,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r3c1, r3c2, r3c3, r3c4, 1) &amp;&amp; input == preferredValue(808, r3c1, r3c2, r3c3, r3c4, 1)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r3c1, r3c2, r3c3, r3c4, 1) &amp;&amp; input == preferredValue(3142, r3c1, r3c2, r3c3, r3c4, 1)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1133,7 +1133,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -1155,7 +1155,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r3c1, r3c2, r3c3, r3c4, 1) &amp;&amp; input != preferredValue(808, r3c1, r3c2, r3c3, r3c4, 1)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r3c1, r3c2, r3c3, r3c4, 1) &amp;&amp; input != preferredValue(3142, r3c1, r3c2, r3c3, r3c4, 1)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1188,14 +1188,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1249,15 +1249,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>7</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=preferredValue(808, r3c1, r3c2, r3c3, r3c4, 2)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(3142, r3c1, r3c2, r3c3, r3c4, 2)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1278,7 +1278,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r3c1, r3c2, r3c3, r3c4, 2) &amp;&amp; input == preferredValue(808, r3c1, r3c2, r3c3, r3c4, 2)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r3c1, r3c2, r3c3, r3c4, 2) &amp;&amp; input == preferredValue(3142, r3c1, r3c2, r3c3, r3c4, 2)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1316,7 +1316,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -1338,7 +1338,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r3c1, r3c2, r3c3, r3c4, 2) &amp;&amp; input != preferredValue(808, r3c1, r3c2, r3c3, r3c4, 2)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r3c1, r3c2, r3c3, r3c4, 2) &amp;&amp; input != preferredValue(3142, r3c1, r3c2, r3c3, r3c4, 2)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1366,21 +1366,21 @@
                     <MessageType>InterfaceAction</MessageType>
                     <transaction_id>60020B03-7A9C-4DC6-C5EA-28C09C80925A</transaction_id>
                     <Selection>
-                        <value>r3c4</value>
+                        <value>r3c3</value>
                     </Selection>
                     <Action>
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>8</value>
+                        <value>4</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=preferredValue(808, r3c1, r3c2, r3c3, r3c4, 4)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(3142 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(3142, r3c1, r3c2, r3c3, r3c4, 3)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1389,7 +1389,7 @@
                 <Selection>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">r3c4</matcherParameter>
+                        <matcherParameter name="single">r3c3</matcherParameter>
                     </matcher>
                 </Selection>
                 <Action>
@@ -1401,7 +1401,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r3c1, r3c2, r3c3, r3c4, 4) &amp;&amp; input == preferredValue(808, r3c1, r3c2, r3c3, r3c4, 4)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r3c1, r3c2, r3c3, r3c4, 3) &amp;&amp; input == preferredValue(3142, r3c1, r3c2, r3c3, r3c4, 3)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1429,7 +1429,7 @@
                     <MessageType>InterfaceAction</MessageType>
                     <transaction_id>02F6FFC7-60E4-E8CE-6907-AB3886C45CA3</transaction_id>
                     <Selection>
-                        <value>r3c4</value>
+                        <value>r3c3</value>
                     </Selection>
                     <Action>
                         <value>UpdateTextField</value>
@@ -1439,7 +1439,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -1449,7 +1449,7 @@
                 <Selection>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">r3c4</matcherParameter>
+                        <matcherParameter name="single">r3c3</matcherParameter>
                     </matcher>
                 </Selection>
                 <Action>
@@ -1461,7 +1461,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">validValue(input, 808, r3c1, r3c2, r3c3, r3c4, 4) &amp;&amp; input != preferredValue(808, r3c1, r3c2, r3c3, r3c4, 4)</matcherParameter>
+                        <matcherParameter name="InputExpression">validValue(input, 3142, r3c1, r3c2, r3c3, r3c4, 3) &amp;&amp; input != preferredValue(3142, r3c1, r3c2, r3c3, r3c4, 3)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1494,14 +1494,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1554,14 +1554,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1618,9 +1618,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <hintMessage>Por favor, haga clic en el botón resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>

@@ -4,7 +4,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>7</ProblemName>
+                <ProblemName>7ESP</ProblemName>
             </properties>
         </message>
         <message>
@@ -19,7 +19,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>1. Enter 0.808 to show the place value of each digit (simplest form).</value>
+                    <value>1. Ingrese 0.808 para mostrar el valor posicional de cada dígito (forma más simple).</value>
                 </Input>
             </properties>
         </message>
@@ -35,7 +35,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>2. What if the number of thousandths is 18?</value>
+                    <value>2. ¿Qué pasa si el número de milésimas es 18?</value>
                 </Input>
             </properties>
         </message>
@@ -51,7 +51,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>3. What if you have 10 hundredths?</value>
+                    <value>3. ¿Qué pasa si tienes 10 centésimos?</value>
                 </Input>
             </properties>
         </message>
@@ -95,7 +95,7 @@
         </message>
     </startNodeMessages>
     <node locked="false" doneState="false">
-        <text>7</text>
+        <text>7ESP</text>
         <uniqueID>1</uniqueID>
         <dimension>
             <x>668</x>
@@ -268,7 +268,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <hintMessage></hintMessage>
             <hintMessage></hintMessage>
@@ -331,11 +331,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=givenValue(808, 2)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=givenValue(808, 2)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -394,11 +394,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=givenValue(808, 3)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=givenValue(808, 3)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -457,11 +457,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=givenValue(808, 4)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=givenValue(808, 4)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -520,7 +520,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <hintMessage></hintMessage>
             <hintMessage></hintMessage>
@@ -583,7 +583,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -643,11 +643,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=preferredValue(808, r2c1, r2c2, r2c3, r2c4, 2)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(808, r2c1, r2c2, r2c3, r2c4, 2)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -706,7 +706,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -766,11 +766,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=preferredValue(808, r2c1, r2c2, r2c3, r2c4, 3)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(808, r2c1, r2c2, r2c3, r2c4, 3)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -829,7 +829,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <hintMessage />
             <callbackFn />
@@ -885,14 +885,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -945,14 +945,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1005,14 +1005,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1070,7 +1070,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <hintMessage></hintMessage>
             <hintMessage></hintMessage>
@@ -1133,7 +1133,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -1188,14 +1188,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1253,11 +1253,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=preferredValue(808, r3c1, r3c2, r3c3, r3c4, 2)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(808, r3c1, r3c2, r3c3, r3c4, 2)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1316,7 +1316,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -1376,11 +1376,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; should you enter to get &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; you can have without going over &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
-            <hintMessage>Try entering &lt;%=preferredValue(808, r3c1, r3c2, r3c3, r3c4, 4)%&gt;</hintMessage>
+            <hintMessage>Si ya ha ingresado &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. ¿Cuántos &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; debe ingresar para obtener &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>¿Cuál es el mayor número de &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; que puede tener sin repasar &lt;%=fmtDecimal(808 / 1000, 3)%&gt;?</hintMessage>
+            <hintMessage>Intenta entrar &lt;%=preferredValue(808, r3c1, r3c2, r3c3, r3c4, 4)%&gt;</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1439,7 +1439,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -1494,14 +1494,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1554,14 +1554,14 @@
                         <value>No_Action</value>
                     </Action>
                     <Input>
-                        <value>No_Value</value>
+                        <value>Sin_valor</value>
                     </Input>
                     <transaction_id>Te3bd3768-3aa7-4725-8769-25da080ea079</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>Por favor, proporcione su respuesta 'Sin_valor' en el elemento resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1618,9 +1618,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>No, esto no es correcto.</buggyMessage>
             <successMessage />
-            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <hintMessage>Por favor, haga clic en el botón resaltado.</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>

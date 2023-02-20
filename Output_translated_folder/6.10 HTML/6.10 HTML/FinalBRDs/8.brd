@@ -1,5 +1,3 @@
-<?xml version="1.0" standalone="yes"?>
-
 <stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="state1" tutorType="Example-tracing Tutor">
     <startNodeMessages>
         <message>
@@ -250,9 +248,9 @@
     </node>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>3</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -271,11 +269,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; should you enter to get &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; you can have without going over &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>Try entering &lt;%=givenValue(2710, 1)%&gt;</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -313,9 +311,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>4</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -334,11 +332,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; should you enter to get &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; you can have without going over &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>Try entering &lt;%=givenValue(2710, 2)%&gt;</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -376,9 +374,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>1</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -397,11 +395,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r1c1, r1c2, r1c3, r1c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; should you enter to get &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; you can have without going over &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>Try entering &lt;%=givenValue(2710, 3)%&gt;</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -439,9 +437,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>2</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -460,11 +458,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage></hintMessage>
             <hintMessage></hintMessage>
             <hintMessage></hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -502,9 +500,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>5</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -523,11 +521,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; should you enter to get &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; you can have without going over &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>Try entering &lt;%=preferredValue(2710, r2c1, r2c2, r2c3, r2c4, 1)%&gt;</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -565,9 +563,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>7</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -586,8 +584,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -625,9 +623,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>16</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -646,11 +644,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; should you enter to get &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; you can have without going over &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>Try entering &lt;%=preferredValue(2710, r2c1, r2c2, r2c3, r2c4, 3)%&gt;</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -688,9 +686,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>17</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -709,8 +707,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -748,9 +746,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>18</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -769,11 +767,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r2c1, r2c2, r2c3, r2c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; should you enter to get &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 4)%&gt; you can have without going over &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>Try entering &lt;%=preferredValue(2710, r2c1, r2c2, r2c3, r2c4, 4)%&gt;</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -811,9 +809,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="0" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>19</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -832,9 +830,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage></hintMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <hintMessage />
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -872,9 +870,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="0">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>21</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -893,9 +891,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -932,9 +930,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="0">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>24</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -953,9 +951,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -992,9 +990,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="0">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>27</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1013,9 +1011,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1052,9 +1050,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>29</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1073,11 +1071,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; should you enter to get &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 1)%&gt; you can have without going over &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>Try entering &lt;%=preferredValue(2710, r3c1, r3c2, r3c3, r3c4, 1)%&gt;</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1115,9 +1113,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>30</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1136,8 +1134,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1175,9 +1173,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="0">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>32</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1196,9 +1194,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1235,9 +1233,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>33</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1256,11 +1254,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; should you enter to get &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 2)%&gt; you can have without going over &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>Try entering &lt;%=preferredValue(2710, r3c1, r3c2, r3c3, r3c4, 2)%&gt;</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1298,9 +1296,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>34</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1319,8 +1317,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1358,9 +1356,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>36</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1379,11 +1377,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>If you have already entered &lt;%=fmtDecimal(totalRow([r3c1, r3c2, r3c3, r3c4]) / 1000, 3)%&gt;. How many &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; should you enter to get &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>What is the highest number of &lt;%=cellLabel(&quot;ones&quot;, &quot;tenths&quot;, &quot;hundredths&quot;, &quot;thousandths&quot;, 3)%&gt; you can have without going over &lt;%=fmtDecimal(2710 / 1000, 3)%&gt;?</hintMessage>
             <hintMessage>Try entering &lt;%=preferredValue(2710, r3c1, r3c2, r3c3, r3c4, 3)%&gt;</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1421,9 +1419,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>37</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1442,8 +1440,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1481,9 +1479,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="0">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>39</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1502,9 +1500,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1541,9 +1539,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="0">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>41</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1562,9 +1560,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1601,9 +1599,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>42</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1621,9 +1619,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please click on the highlighted button.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1672,29 +1670,29 @@
     </productionRule>
     <EdgesGroups ordered="true">
         <group name="Row2" ordered="false" reenterable="true">
-            <link id="16"/>
-            <link id="17"/>
-            <link id="18"/>
-            <link id="24"/>
-            <link id="7"/>
-            <link id="5"/>
-            <link id="21"/>
-            <link id="27"/>
-            <link id="19"/></group>
+            <link id="16" />
+            <link id="17" />
+            <link id="18" />
+            <link id="24" />
+            <link id="7" />
+            <link id="5" />
+            <link id="21" />
+            <link id="27" />
+            <link id="19" /></group>
         <group name="Row3" ordered="false" reenterable="true">
-            <link id="39"/>
-            <link id="36"/>
-            <link id="34"/>
-            <link id="37"/>
-            <link id="41"/>
-            <link id="30"/>
-            <link id="29"/>
-            <link id="32"/>
-            <link id="33"/></group>
+            <link id="39" />
+            <link id="36" />
+            <link id="34" />
+            <link id="37" />
+            <link id="41" />
+            <link id="30" />
+            <link id="29" />
+            <link id="32" />
+            <link id="33" /></group>
         <group name="Row1" ordered="false" reenterable="true">
-            <link id="3"/>
-            <link id="2"/>
-            <link id="1"/>
-            <link id="4"/></group>
+            <link id="3" />
+            <link id="2" />
+            <link id="1" />
+            <link id="4" /></group>
     </EdgesGroups>
 </stateGraph>
