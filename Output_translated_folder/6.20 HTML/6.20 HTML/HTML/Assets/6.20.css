@@ -1,0 +1,70 @@
+.CTATProblemSolving {
+  flex-flow: column;
+}
+.CTATProblem, .CTATSolution {
+  flex: auto;
+}
+.CTATProblem {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 20px;
+}
+.CTATSolution {
+  width: calc(100% - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#number_lines {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.line_block {
+  flex: 1;
+}
+.line_block + .line_block {
+  margin-left: 10px;
+}
+@media (max-width: 819px) {
+  .line_block + .line_block {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+.line_block > p, .line_block > .CTATTextField {
+  display: inline;
+}
+.line {
+  display: flex;
+}
+.line_controls {
+  width: 40px;
+  padding-left: 10px;
+  text-align: center;
+}
+.line_controls div {
+  width: inherit;
+}
+.line_controls .CTATNumericStepper {
+  margin-top: 20px;
+}
+.line_controls .CTATSubmitButton {
+  margin-top: 10px;
+}
+.CTATNumberLine {
+  flex: 1;
+  width: auto;
+  min-width: 345px;
+}
+@media (max-width: 819px) {
+  .CTATNumberLine {
+    min-width: 350px;
+  }
+}
+#final {
+  text-align: center;
+}
+#question {
+  margin-bottom: 10px;
+}
