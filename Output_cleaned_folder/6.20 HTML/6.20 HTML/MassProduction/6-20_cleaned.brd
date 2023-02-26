@@ -1,12 +1,12 @@
 <?xml version="1.0" standalone="yes"?>
 
-<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="finalStep" tutorType="Example-tracing Tutor">
+<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="%(startStateNodeName)%" tutorType="Example-tracing Tutor">
     <startNodeMessages>
         <message>
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>00bubble</ProblemName>
+                <ProblemName>01book</ProblemName>
             </properties>
         </message>
         <message>
@@ -21,7 +21,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>Ted figured out how far his friends in the neighborhood live from him. He measured the distance from his house to his friends' houses by fractions of a block. Which friend lives closer to Ted?</value>
+                    <value>%(statement)%</value>
                 </Input>
             </properties>
         </message>
@@ -37,7 +37,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>Jan's house is 1/3 of a block away.</value>
+                    <value>%(var1-statement)%</value>
                 </Input>
             </properties>
         </message>
@@ -53,7 +53,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>Jill's house is 1/5 of a block away.</value>
+                    <value>%(var2-statement)%</value>
                 </Input>
             </properties>
         </message>
@@ -69,7 +69,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>Block to Jan's house</value>
+                    <value>%(line1)%</value>
                 </Input>
             </properties>
         </message>
@@ -85,7 +85,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>Block to Jill's house</value>
+                    <value>%(line2)%</value>
                 </Input>
             </properties>
         </message>
@@ -100,7 +100,7 @@
                     <value>set_maximum</value>
                 </Action>
                 <Input>
-                    <value>1</value>
+                    <value>%(Rbound)%</value>
                 </Input>
             </properties>
         </message>
@@ -115,7 +115,7 @@
                     <value>set_maximum</value>
                 </Action>
                 <Input>
-                    <value>1</value>
+                    <value>%(Rbound)%</value>
                 </Input>
             </properties>
         </message>
@@ -130,7 +130,7 @@
                     <value>setLabels</value>
                 </Action>
                 <Input>
-                    <value>-----,Jan lives close to Ted.,Jill lives closer to Ted.,Both live the same distance from Ted.</value>
+                    <value>%(Input_8_ch1ch2ch3)%</value>
                 </Input>
             </properties>
         </message>
@@ -146,7 +146,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>Who lives closer to Ted?</value>
+                    <value>%(compQuestion)%</value>
                 </Input>
             </properties>
         </message>
@@ -158,7 +158,7 @@
         </message>
     </startNodeMessages>
     <node locked="false" doneState="false">
-        <text>00bubble</text>
+        <text>01book</text>
         <uniqueID>1</uniqueID>
         <dimension>
             <x>300</x>
@@ -295,15 +295,15 @@
                         <value>Update</value>
                     </Action>
                     <Input>
-                        <value>3</value>
+                        <value>%(den1)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>What is the fraction that should be placed on this number line? Divide the number line by entering the number of divisions to make, and press OK.</hintMessage>
-            <hintMessage>The fraction 1/3 should be placed here. What is the denominator? Use the denominator to evenly divide the number line.</hintMessage>
-            <hintMessage>Enter 3 into the box and press OK.</hintMessage>
+            <hintMessage>%(hintMessage_1_fraction_placed_number_line)%</hintMessage>
+            <hintMessage>%(hintMessage_2_fraction_frac1_placed_denominator)%</hintMessage>
+            <hintMessage>%(hintMessage_3_enter_den1_box_press)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -324,7 +324,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">3</matcherParameter>
+                        <matcherParameter name="single">%(den1)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -356,12 +356,12 @@
                         <value>set_denominator</value>
                     </Action>
                     <Input>
-                        <value>3</value>
+                        <value>%(den1)%</value>
                     </Input>
                     <transaction_id>9fba9068-54dd-8f8c-0fa9-ed36f660e8ae</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -383,7 +383,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">3</matcherParameter>
+                        <matcherParameter name="single">%(den1)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
@@ -416,15 +416,15 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>1/3</value>
+                        <value>%(frac1)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Click on the spot where the first fraction would be on this number line.</hintMessage>
-            <hintMessage>What is the numerator of the fraction 1/3? The numerator represents the number of parts you should count.</hintMessage>
-            <hintMessage>Count - part(s) from the left and click on the spot.</hintMessage>
+            <hintMessage>%(hintMessage_4_click_spot_first_fraction)%</hintMessage>
+            <hintMessage>%(hintMessage_5_numerator_fraction_frac1_numerator)%</hintMessage>
+            <hintMessage>%(hintMessage_6_count_num1_parts_left)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -445,7 +445,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">1/3</matcherParameter>
+                        <matcherParameter name="single">%(frac1)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -479,15 +479,15 @@
                         <value>Update</value>
                     </Action>
                     <Input>
-                        <value>5</value>
+                        <value>%(den2)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>What is the fraction that should be placed on this number line? Divide the number line by entering the number of divisions to make, and press OK.</hintMessage>
-            <hintMessage>The fraction 1/5 should be placed here. What is the denominator? Use the denominator to evenly divide the number line.</hintMessage>
-            <hintMessage>Enter 5 into the box and press OK.</hintMessage>
+            <hintMessage>%(div2-h1)%</hintMessage>
+            <hintMessage>%(div2-h2)%</hintMessage>
+            <hintMessage>%(div2-h3)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -508,7 +508,7 @@
                 <Input>
                     <matcher>
                         <matcherType>RegexMatcher</matcherType>
-                        <matcherParameter name="single">5</matcherParameter>
+                        <matcherParameter name="single">%(den2)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -541,12 +541,12 @@
                         <value>set_denominator</value>
                     </Action>
                     <Input>
-                        <value>5</value>
+                        <value>%(den2)%</value>
                     </Input>
                     <transaction_id>9fba9068-54dd-8f8c-0fa9-ed36f660e8ae</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Correct Action</actionType>
@@ -568,7 +568,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">5</matcherParameter>
+                        <matcherParameter name="single">%(den2)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
@@ -601,15 +601,15 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>1/5</value>
+                        <value>%(frac2)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Click on the spot where the second fraction would be on this number line.</hintMessage>
-            <hintMessage>What is the numerator of the fraction 1/5? The numerator represents the number of parts you should count.</hintMessage>
-            <hintMessage>Count - part(s) from the left and click on the spot.</hintMessage>
+            <hintMessage>%(lin2-h1)%</hintMessage>
+            <hintMessage>%(lin2-h2)%</hintMessage>
+            <hintMessage>%(lin2-h3)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -630,7 +630,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">equals(1/5, eval(input))</matcherParameter>
+                        <matcherParameter name="InputExpression">equals(%(frac2)%, eval(input))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -664,16 +664,16 @@
                         <value>UpdateComboBox</value>
                     </Action>
                     <Input>
-                        <value>Jill lives closer to Ted.</value>
+                        <value>%(ch-ans)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Choose the correct statement from the choices. What are you looking for? The larger or smaller fraction?</hintMessage>
-            <hintMessage>You are looking for the fraction that is smaller. Look at the fractions you placed on the number lines, which one is smaller?</hintMessage>
-            <hintMessage>The smaller fraction is placed on the number line for the Block to Jill's house.</hintMessage>
-            <hintMessage>Click on the highlighted element and select 'Jill lives closer to Ted.'</hintMessage>
+            <hintMessage>%(hintMessage_13_choose_correct_statement_choices)%</hintMessage>
+            <hintMessage>%(hintMessage_14_looking_fraction_smallbig_look)%</hintMessage>
+            <hintMessage>%(comp-h)%</hintMessage>
+            <hintMessage>%(hintMessage_16_click_highlighted_element_select)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -694,7 +694,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">Jill lives closer to Ted.</matcherParameter>
+                        <matcherParameter name="single">%(ch-ans)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -702,7 +702,7 @@
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>FracLess1 6-17_Fraction_Identification</text>
+            <text>%(skillName)% 6-17_Fraction_Identification</text>
             <indicator>-1</indicator>
         </rule>
         <rule>
@@ -732,13 +732,13 @@
                         <value>ButtonPressed</value>
                     </Action>
                     <Input>
-                        <value>-1</value>
+                        <value>%(Input_24_1)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage>Good job!</successMessage>
-            <hintMessage>You are done! Click on the "done" button to finish.</hintMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <successMessage>%(successMessage_8_good_job)%</successMessage>
+            <hintMessage>%(hintMessage_17_done_click_done_button)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -778,13 +778,13 @@
                         <value>Update</value>
                     </Action>
                     <Input>
-                        <value>-</value>
+                        <value>%(num1)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You put the numerator of the fraction. Remember, denominator represents the total number of divisions!</buggyMessage>
+            <buggyMessage>%(buggyMessage_9_oops_put_numerator_fraction)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_18_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -805,7 +805,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">-</matcherParameter>
+                        <matcherParameter name="single">%(num1)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -843,9 +843,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Press OK to check to see if you divided your line correctly! Or correct your division if it is wrong.</buggyMessage>
+            <buggyMessage>%(buggyMessage_10_press_ok_check_see)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <hintMessage>%(hintMessage_19_please_click_highlighted_button)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -897,11 +897,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>-</value>
+                        <value>%(badFrac1)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>-. 1/3 means '- out of 3 equal pieces'. So start at "0" and then move over - piece(s) to the right.</buggyMessage>
+            <buggyMessage>%(buggyMessage_11_badfrac1_frac1_means_num1)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -923,7 +923,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">-</matcherParameter>
+                        <matcherParameter name="single">%(badFrac1)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -956,13 +956,13 @@
                         <value>Update</value>
                     </Action>
                     <Input>
-                        <value>-</value>
+                        <value>%(num2)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Oops! You put the numerator of the fraction. Remember, denominator represents the total number of divisions!</buggyMessage>
+            <buggyMessage>%(buggyMessage_9_oops_put_numerator_fraction)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_18_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -983,7 +983,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">-</matcherParameter>
+                        <matcherParameter name="single">%(num2)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1020,7 +1020,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Press OK to check to see if you divided your line correctly! Or correct your division if it is wrong.</buggyMessage>
+            <buggyMessage>%(buggyMessage_10_press_ok_check_see)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -1073,11 +1073,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>-</value>
+                        <value>%(badFrac2)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>-. 1/5 means '- out of 5 equal pieces'. So start at "0" and then move over - piece(s) to the right.</buggyMessage>
+            <buggyMessage>%(buggyMessage_14_badfrac2_frac2_means_num2)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -1099,7 +1099,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">-</matcherParameter>
+                        <matcherParameter name="single">%(badFrac2)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1117,33 +1117,33 @@
     <productionRule opportunities="1">
         <ruleName>compFrac</ruleName>
         <productionSet>6-20_Fraction_Ordering</productionSet>
-        <label>Compare values of the fractions</label>
+        <label>%(label_1_compare_values_fractions)%</label>
     </productionRule>
     <productionRule opportunities="2">
         <ruleName>DivNumLine</ruleName>
         <productionSet>6-17_Fraction_Identification</productionSet>
-        <label>Divide the number line</label>
-        <hintMessage>Into how many %(div-h1)% Enter the number and click OK.</hintMessage>
-        <hintMessage>Look at the fraction in the problem. The denominator shows the number of %(div-h2)%, which shows the number of divisions to make.</hintMessage>
-        <hintMessage>The fraction is %(frac)%. The denominator is %(den)%.</hintMessage>
-        <hintMessage>Enter %(den)% into the box, and click OK.</hintMessage>
+        <label>%(label_2_divide_number_line)%</label>
+        <hintMessage>%(hintMessage_21_many_divh1_enter_number)%</hintMessage>
+        <hintMessage>%(hintMessage_22_look_fraction_problem_denominator)%</hintMessage>
+        <hintMessage>%(hintMessage_23_fraction_frac_denominator_den)%</hintMessage>
+        <hintMessage>%(hintMessage_24_enter_den_box_click)%</hintMessage>
     </productionRule>
     <productionRule opportunities="2">
         <ruleName>FindValueNumLine</ruleName>
         <productionSet>6-17_Fraction_Identification</productionSet>
-        <label>Find a value on the number line</label>
-        <hintMessage>Find the fraction in the problem. Click on the spot where the fraction would lie on the number line.</hintMessage>
-        <hintMessage>The numerator shows you how many %(line-h)%.</hintMessage>
-        <hintMessage>The fraction in this problem is %(frac)%. What is its numerator?</hintMessage>
-        <hintMessage>The numerator of %(frac)% is %(num)%. Count %(num)% parts from the left on the number line. Click on that mark.</hintMessage>
+        <label>%(label_3_find_value_number_line)%</label>
+        <hintMessage>%(hintMessage_25_find_fraction_problem_click)%</hintMessage>
+        <hintMessage>%(hintMessage_26_numerator_shows_many_lineh)%</hintMessage>
+        <hintMessage>%(hintMessage_27_fraction_problem_frac_numerator)%</hintMessage>
+        <hintMessage>%(hintMessage_28_numerator_frac_num_count)%</hintMessage>
     </productionRule>
     <productionRule opportunities="1">
-        <ruleName>FracLess1</ruleName>
+        <ruleName>%(skillName)%</ruleName>
         <productionSet>6-17_Fraction_Identification</productionSet>
-        <label>Work with fraction less then 1</label>
-        <hintMessage>Compare the fraction above Which fraction is smaller?</hintMessage>
-        <hintMessage>You are looking for</hintMessage>
-        <hintMessage>Jill lives closer to Ted.</hintMessage>
+        <label>%(skillLabel)%</label>
+        <hintMessage>%(hintMessage_29_compare_fraction_fraction_smallbig)%</hintMessage>
+        <hintMessage>%(hintMessage_30_looking)%</hintMessage>
+        <hintMessage>%(ch-ans)%</hintMessage>
     </productionRule>
     <EdgesGroups ordered="true">
         <group name="wholeThing" ordered="false" reenterable="true">

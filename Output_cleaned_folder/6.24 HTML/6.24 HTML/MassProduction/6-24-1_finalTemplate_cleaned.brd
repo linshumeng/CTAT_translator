@@ -1,12 +1,12 @@
 <?xml version="1.0" standalone="yes"?>
 
-<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="" tutorType="Example-tracing Tutor">
+<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="%(startStateNodeName)%" tutorType="Example-tracing Tutor">
     <startNodeMessages>
         <message>
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>Problem 7</ProblemName>
+                <ProblemName>mas_pro1</ProblemName>
             </properties>
         </message>
         <message>
@@ -21,7 +21,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>Thomas rides 8 blocks to school every day. Today, he stopped to rest after 6 blocks. </value>
+                    <value>%(Input_1_jennifer_went_trip_driven)%</value>
                 </Input>
             </properties>
         </message>
@@ -37,7 +37,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>How far did Thomas ride his bike to school every day?</value>
+                    <value>%(Input_2_many_miles_jennifer_driven)%</value>
                 </Input>
             </properties>
         </message>
@@ -53,7 +53,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>How many blocks did Thomas ride before resting?</value>
+                    <value>%(Input_3_fraction_distance_jennifer_driven)%</value>
                 </Input>
             </properties>
         </message>
@@ -69,7 +69,7 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>What ratio of the distance did he ride before resting?</value>
+                    <value>%(Input_4_many_miles_110_trip)%</value>
                 </Input>
             </properties>
         </message>
@@ -85,7 +85,23 @@
                     <value>UpdateTextArea</value>
                 </Action>
                 <Input>
-                    <value>How many more blocks does Thomas have left to ride?</value>
+                    <value>%(Input_5_many_total_miles_jennifer)%</value>
+                </Input>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <transaction_id>04A47809-53D6-D718-DE9C-4E7D9BD5283C</transaction_id>
+                <Selection>
+                    <value>q5text</value>
+                </Selection>
+                <Action>
+                    <value>UpdateTextArea</value>
+                </Action>
+                <Input>
+                    <value>%(Input_6_many_miles_jennifer_drive)%</value>
                 </Input>
             </properties>
         </message>
@@ -97,7 +113,7 @@
         </message>
     </startNodeMessages>
     <node locked="false" doneState="false">
-        <text>Problem 7</text>
+        <text>EQR-1</text>
         <uniqueID>1</uniqueID>
         <dimension>
             <x>189</x>
@@ -105,59 +121,75 @@
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state10</text>
-        <uniqueID>11</uniqueID>
+        <text>state1</text>
+        <uniqueID>2</uniqueID>
         <dimension>
             <x>211</x>
-            <y>141</y>
+            <y>144</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state11</text>
-        <uniqueID>12</uniqueID>
+        <text>state2</text>
+        <uniqueID>3</uniqueID>
         <dimension>
             <x>211</x>
-            <y>251</y>
+            <y>254</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state12</text>
-        <uniqueID>13</uniqueID>
+        <text>state3</text>
+        <uniqueID>4</uniqueID>
         <dimension>
             <x>211</x>
-            <y>361</y>
+            <y>364</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state13</text>
-        <uniqueID>14</uniqueID>
+        <text>state4</text>
+        <uniqueID>5</uniqueID>
         <dimension>
             <x>211</x>
-            <y>471</y>
+            <y>474</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state14</text>
-        <uniqueID>15</uniqueID>
+        <text>state5</text>
+        <uniqueID>6</uniqueID>
         <dimension>
             <x>211</x>
-            <y>581</y>
+            <y>584</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state15</text>
-        <uniqueID>16</uniqueID>
+        <text>state6</text>
+        <uniqueID>7</uniqueID>
         <dimension>
             <x>211</x>
-            <y>691</y>
+            <y>694</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state7</text>
+        <uniqueID>8</uniqueID>
+        <dimension>
+            <x>211</x>
+            <y>804</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state8</text>
+        <uniqueID>9</uniqueID>
+        <dimension>
+            <x>211</x>
+            <y>914</y>
         </dimension>
     </node>
     <node locked="false" doneState="true">
         <text>Done</text>
-        <uniqueID>17</uniqueID>
+        <uniqueID>10</uniqueID>
         <dimension>
-            <x>261</x>
-            <y>810</y>
+            <x>214</x>
+            <y>1024</y>
         </dimension>
     </node>
     <edge>
@@ -165,12 +197,12 @@
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
-            <uniqueID>22</uniqueID>
+            <uniqueID>3</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>0C936E67-211F-0C43-7DA4-33A43BBDF1D3</transaction_id>
+                    <transaction_id>0B929F7F-82F6-028B-1288-EB358D78894C</transaction_id>
                     <Selection>
                         <value>answer1</value>
                     </Selection>
@@ -178,32 +210,48 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>8</value>
+                        <value>%(given)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please enter '8' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_1_given_number_problem_description)%</hintMessage>
+            <hintMessage>%(hintMessage_2_number_problem_description_represents)%</hintMessage>
+            <hintMessage>%(hintMessage_3_please_enter_140_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
-            <matcher>
-                <matcherType>ExactMatcher</matcherType>
-                <matcherParameter name="selection">answer1</matcherParameter>
-                <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">8</matcherParameter>
-                <matcherParameter name="actor">Student</matcherParameter>
-            </matcher>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">answer1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">%(given)%</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>%(given_skill1)% Ratios</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>1</sourceID>
-        <destID>11</destID>
+        <destID>2</destID>
         <traversalCount>0</traversalCount>
         <SimSt />
     </edge>
@@ -212,12 +260,12 @@
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
-            <uniqueID>24</uniqueID>
+            <uniqueID>5</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>02A15589-1426-C620-DB03-856EA53B5913</transaction_id>
+                    <transaction_id>04BDE6FD-8DDE-1E7D-DA05-B24DE1DA2D8B</transaction_id>
                     <Selection>
                         <value>answer2</value>
                     </Selection>
@@ -225,13 +273,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>6</value>
+                        <value>%(Input_9_numerdenom)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please enter '6' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_4_given_number_problem_description)%</hintMessage>
+            <hintMessage>%(hintMessage_5_number_problem_description_represents)%</hintMessage>
+            <hintMessage>%(hintMessage_6_please_enter_710_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -240,17 +290,17 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">answer2</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">6</matcherParameter>
+                <matcherParameter name="input">%(numer)%/%(denom)%</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>%(given_skill2)% Ratios</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>11</sourceID>
-        <destID>12</destID>
+        <sourceID>2</sourceID>
+        <destID>3</destID>
         <traversalCount>0</traversalCount>
         <SimSt />
     </edge>
@@ -259,12 +309,12 @@
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
-            <uniqueID>26</uniqueID>
+            <uniqueID>7</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>7509C35D-8ECC-3697-EC23-F0C2140BF18C</transaction_id>
+                    <transaction_id>0A96FA8D-1B2E-D2D1-D587-166DF14A77D5</transaction_id>
                     <Selection>
                         <value>show_work3</value>
                     </Selection>
@@ -272,13 +322,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>6/8</value>
+                        <value>%(expression1)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please enter 'expressionMatches(6/8,input)' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_7_mathematical_expression_use_solve)%</hintMessage>
+            <hintMessage>%(hintMessage_8_try_dividing_one_givens)%</hintMessage>
+            <hintMessage>%(hintMessage_9_please_enter_1407_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -299,7 +351,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(6/8,input)</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches(%(given)%/%(numer)%,input)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -308,11 +360,11 @@
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>%(show_work_skill1)% Ratios</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>12</sourceID>
-        <destID>13</destID>
+        <sourceID>3</sourceID>
+        <destID>4</destID>
         <traversalCount>0</traversalCount>
         <SimSt />
     </edge>
@@ -321,12 +373,12 @@
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
-            <uniqueID>28</uniqueID>
+            <uniqueID>9</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>0E365C43-9E68-C01C-9692-EC5C3D96DAC5</transaction_id>
+                    <transaction_id>2DCF6153-4072-1C2B-710A-42F3D27D5628</transaction_id>
                     <Selection>
                         <value>answer3</value>
                     </Selection>
@@ -334,13 +386,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>6/8</value>
+                        <value>%(value1)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please enter '6/8' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_10_whats_answer_mathematical_expression)%</hintMessage>
+            <hintMessage>%(hintMessage_11_number_show_work_step)%</hintMessage>
+            <hintMessage>%(hintMessage_12_please_enter_20_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -361,8 +415,8 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches(6/8,input)</matcherParameter>
-                        <matcherParameter name="relation">boolean</matcherParameter>
+                        <matcherParameter name="InputExpression">%(given)%/%(numer)%</matcherParameter>
+                        <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -370,11 +424,11 @@
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>%(answer_skill1)% Ratios</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>13</sourceID>
-        <destID>14</destID>
+        <sourceID>4</sourceID>
+        <destID>5</destID>
         <traversalCount>0</traversalCount>
         <SimSt />
     </edge>
@@ -383,12 +437,12 @@
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
-            <uniqueID>30</uniqueID>
+            <uniqueID>11</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>76B76B53-AEC5-0C4E-8D3D-F9A143E9BC13</transaction_id>
+                    <transaction_id>002B05BB-9E1B-67F0-65F5-3F0EABC6903C</transaction_id>
                     <Selection>
                         <value>show_work4</value>
                     </Selection>
@@ -400,9 +454,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please enter 'expressionMatches((1-6/8)*8,input)' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_13_mathematical_expression_use_solve)%</hintMessage>
+            <hintMessage>%(hintMessage_14_try_multiplying_previous_answer)%</hintMessage>
+            <hintMessage>%(hintMessage_15_please_enter_2010_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -423,7 +479,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">expressionMatches((1-6/8)*8,input)</matcherParameter>
+                        <matcherParameter name="InputExpression">expressionMatches((%(given)%/%(numer)%)*%(denom)%,input)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -432,11 +488,11 @@
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>%(show_work_skill2)% Ratios</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>14</sourceID>
-        <destID>15</destID>
+        <sourceID>5</sourceID>
+        <destID>6</destID>
         <traversalCount>0</traversalCount>
         <SimSt />
     </edge>
@@ -445,12 +501,12 @@
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
-            <uniqueID>32</uniqueID>
+            <uniqueID>13</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>04B8EE15-EBFC-8268-21EA-81B98A44CB51</transaction_id>
+                    <transaction_id>3B126705-C315-8798-BCBD-610403BA0481</transaction_id>
                     <Selection>
                         <value>answer4</value>
                     </Selection>
@@ -458,13 +514,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1-6/8)*8</value>
+                        <value>%(value2)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please enter '1-6/8)*8' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_16_whats_answer_mathematical_expression)%</hintMessage>
+            <hintMessage>%(hintMessage_17_number_show_work_step)%</hintMessage>
+            <hintMessage>%(hintMessage_18_please_enter_200_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -485,7 +543,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">(1-6/8)*8</matcherParameter>
+                        <matcherParameter name="InputExpression">(%(given)%/%(numer)%)*%(denom)%</matcherParameter>
                         <matcherParameter name="relation">=</matcherParameter>
                     </matcher>
                 </Input>
@@ -494,11 +552,11 @@
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>%(answer_skill2)% Ratios</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>15</sourceID>
-        <destID>16</destID>
+        <sourceID>6</sourceID>
+        <destID>7</destID>
         <traversalCount>0</traversalCount>
         <SimSt />
     </edge>
@@ -507,12 +565,140 @@
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
-            <uniqueID>34</uniqueID>
+            <uniqueID>15</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>4885A7A7-8B9B-317D-D451-ECAA267F3B7D</transaction_id>
+                    <transaction_id>0EA602B3-1C41-76E1-9A38-609DF70AF20D</transaction_id>
+                    <Selection>
+                        <value>show_work5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>%(expression3)%</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <successMessage />
+            <hintMessage>%(hintMessage_19_mathematical_expression_use_solve)%</hintMessage>
+            <hintMessage>%(hintMessage_20_try_subtracting_one_givens)%</hintMessage>
+            <hintMessage>%(hintMessage_21_please_enter_200140_highlighted)%</hintMessage>
+            <callbackFn />
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">show_work5</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExpressionMatcher</matcherType>
+                        <matcherParameter name="InputExpression">expressionMatches((%(given)%/%(numer)%)*%(denom)%-%(given)%,input)</matcherParameter>
+                        <matcherParameter name="relation">boolean</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>%(show_work_skill3)% Ratios</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>7</sourceID>
+        <destID>8</destID>
+        <traversalCount>0</traversalCount>
+        <SimSt />
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
+            <uniqueID>17</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>7D8CEB0B-CB81-3227-CE1A-7596E3F64BE1</transaction_id>
+                    <Selection>
+                        <value>answer5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>%(Input_20_value5)%</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
+            <successMessage />
+            <hintMessage>%(hintMessage_22_whats_answer_mathematical_expression)%</hintMessage>
+            <hintMessage>%(hintMessage_23_number_show_work_step)%</hintMessage>
+            <hintMessage>%(hintMessage_24_please_enter_60_highlighted)%</hintMessage>
+            <callbackFn />
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">answer5</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExpressionMatcher</matcherType>
+                        <matcherParameter name="InputExpression">(%(given)%/%(numer)%)*%(denom)%-%(given)%</matcherParameter>
+                        <matcherParameter name="relation">=</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>%(answer_skill3)% Ratios</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>8</sourceID>
+        <destID>9</destID>
+        <traversalCount>0</traversalCount>
+        <SimSt />
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
+            <uniqueID>19</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>061247F3-F462-0725-EC6C-877E2B154458</transaction_id>
                     <Selection>
                         <value>done</value>
                     </Selection>
@@ -520,13 +706,13 @@
                         <value>ButtonPressed</value>
                     </Action>
                     <Input>
-                        <value>-1</value>
+                        <value>%(Input_22_1)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <hintMessage>%(hintMessage_25_please_click_highlighted_button)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -544,10 +730,50 @@
             <text>unnamed</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>16</sourceID>
-        <destID>17</destID>
+        <sourceID>9</sourceID>
+        <destID>10</destID>
         <traversalCount>0</traversalCount>
         <SimSt />
     </edge>
+    <productionRule opportunities="1">
+        <ruleName>%(given_skill2)%</ruleName>
+        <productionSet>Ratios</productionSet>
+        <label>%(given_skill2_shown)%</label>
+    </productionRule>
+    <productionRule opportunities="1">
+        <ruleName>%(answer_skill2)%</ruleName>
+        <productionSet>Ratios</productionSet>
+        <label>%(answer_skill2_shown)%</label>
+    </productionRule>
+    <productionRule opportunities="1">
+        <ruleName>%(show_work_skill1)%</ruleName>
+        <productionSet>Ratios</productionSet>
+        <label>%(show_work_skill1_shown)%</label>
+    </productionRule>
+    <productionRule opportunities="1">
+        <ruleName>%(answer_skill3)%</ruleName>
+        <productionSet>Ratios</productionSet>
+        <label>%(answer_skill3_shown)%</label>
+    </productionRule>
+    <productionRule opportunities="1">
+        <ruleName>%(given_skill1)%</ruleName>
+        <productionSet>Ratios</productionSet>
+        <label>%(given_skill1_shown)%</label>
+    </productionRule>
+    <productionRule opportunities="1">
+        <ruleName>%(show_work_skill3)%</ruleName>
+        <productionSet>Ratios</productionSet>
+        <label>%(show_work_skill3_shown)%</label>
+    </productionRule>
+    <productionRule opportunities="1">
+        <ruleName>%(show_work_skill2)%</ruleName>
+        <productionSet>Ratios</productionSet>
+        <label>%(show_work_skill2_shown)%</label>
+    </productionRule>
+    <productionRule opportunities="1">
+        <ruleName>%(answer_skill1)%</ruleName>
+        <productionSet>Ratios</productionSet>
+        <label>%(answer_skill1_shown)%</label>
+    </productionRule>
     <EdgesGroups ordered="true" />
 </stateGraph>

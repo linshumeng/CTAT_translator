@@ -162,9 +162,9 @@
     </node>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>22</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -183,9 +183,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please enter '400' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -205,13 +205,13 @@
         <sourceID>1</sourceID>
         <destID>11</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>24</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -230,9 +230,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please enter '375' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -252,13 +252,13 @@
         <sourceID>11</sourceID>
         <destID>12</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>26</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -277,9 +277,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please enter 'expressionMatches(375/400,input)' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -314,13 +314,13 @@
         <sourceID>12</sourceID>
         <destID>13</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>28</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -339,9 +339,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please enter '375/400' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -376,13 +376,13 @@
         <sourceID>13</sourceID>
         <destID>14</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>30</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -401,9 +401,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please enter 'expressionMatches((1-375/400)*400,input)' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -438,13 +438,13 @@
         <sourceID>14</sourceID>
         <destID>15</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>32</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -463,9 +463,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please enter '1-375/400)*400' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -500,13 +500,13 @@
         <sourceID>15</sourceID>
         <destID>16</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>34</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -525,9 +525,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please click on the highlighted button.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -547,8 +547,7 @@
         <sourceID>16</sourceID>
         <destID>17</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
-    <EdgesGroups ordered="true"></EdgesGroups>
+    <EdgesGroups ordered="true" />
 </stateGraph>
-
