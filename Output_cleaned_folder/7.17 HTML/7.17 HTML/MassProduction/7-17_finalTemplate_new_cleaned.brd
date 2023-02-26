@@ -1,3 +1,5 @@
+<?xml version="1.0" standalone="yes"?>
+
 <stateGraph caseInsensitive="true" firstCheckAllStates="true" highlightRightSelection="true" lockWidget="true" startStateNodeName="%(startStateNodeName)%" suppressStudentFeedback="false" unordered="false" version="2.1">
     <startNodeMessages>
         <message>
