@@ -1,5 +1,3 @@
-<?xml version="1.0" standalone="yes"?>
-
 <stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="state7" tutorType="Example-tracing Tutor">
     <startNodeMessages>
         <message>
@@ -194,9 +192,9 @@
     </node>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>3</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -215,11 +213,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>This is a given number in the problem description</hintMessage>
             <hintMessage>What number in the problem description represents the value in question?</hintMessage>
             <hintMessage>Please enter '72' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -253,13 +251,13 @@
         <sourceID>1</sourceID>
         <destID>2</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>5</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -278,11 +276,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>This is a given number in the problem description</hintMessage>
             <hintMessage>What number in the problem description represents the value in question?</hintMessage>
             <hintMessage>Please enter '4/5' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -302,13 +300,13 @@
         <sourceID>2</sourceID>
         <destID>3</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>7</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -327,11 +325,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>What mathematical expression should you use to solve this problem?</hintMessage>
             <hintMessage>Try dividing one of the givens by the number of parts of his workout already completed.</hintMessage>
             <hintMessage>Please enter '72/4' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -366,13 +364,13 @@
         <sourceID>3</sourceID>
         <destID>4</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>9</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -391,11 +389,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>What's the answer to the mathematical expression you used in the previous step?</hintMessage>
             <hintMessage>What number did the 'show your work' step give you?</hintMessage>
             <hintMessage>Please enter '18' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -430,13 +428,13 @@
         <sourceID>4</sourceID>
         <destID>5</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>11</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -455,11 +453,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>What mathematical expression should you use to solve this problem?</hintMessage>
             <hintMessage>Try multiplying your previous answer by the number of total parts of his workout.</hintMessage>
             <hintMessage>Please enter '18*5' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -494,13 +492,13 @@
         <sourceID>5</sourceID>
         <destID>6</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>13</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -519,11 +517,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>What's the answer to the mathematical expression you used in the previous step?</hintMessage>
             <hintMessage>What number did the 'show your work' step give you?</hintMessage>
             <hintMessage>Please enter '90' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -558,13 +556,13 @@
         <sourceID>6</sourceID>
         <destID>7</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>15</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -583,11 +581,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>What mathematical expression should you use to solve this problem?</hintMessage>
             <hintMessage>Try subtracting your previous answer from one of the givens.</hintMessage>
             <hintMessage>Please enter '90-72' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -622,13 +620,13 @@
         <sourceID>7</sourceID>
         <destID>8</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>17</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -647,11 +645,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>What's the answer to the mathematical expression you used in the previous step?</hintMessage>
             <hintMessage>What number did the 'show your work' step give you?</hintMessage>
             <hintMessage>Please enter '18' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -686,13 +684,13 @@
         <sourceID>8</sourceID>
         <destID>9</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>19</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -711,9 +709,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please click on the highlighted button.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -733,7 +731,7 @@
         <sourceID>9</sourceID>
         <destID>10</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <productionRule opportunities="1">
         <ruleName>Enter_given_ratio</ruleName>
@@ -775,6 +773,5 @@
         <productionSet>Ratios</productionSet>
         <label>Solve for part</label>
     </productionRule>
-    <EdgesGroups ordered="true"></EdgesGroups>
+    <EdgesGroups ordered="true" />
 </stateGraph>
-

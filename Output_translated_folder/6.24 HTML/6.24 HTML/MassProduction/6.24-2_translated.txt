@@ -1,0 +1,58 @@
+Problem Name	Problem 4	Problem 4ESP	Problem 5	Problem 5ESP	Problem 6	Problem 6ESP	Problem 7	Problem 7ESP
+%(startStateNodeName)%								
+%(Input_1_tom_needs_make_400)%	Tom needs to make 400 copies and has made 375.	Tom necesita hacer 400 copias y ha hecho 375.	Jerome is baking 60 brownies and has finished 36 of them.	Jerome está horneando 60 brownies y ha terminado 36 de ellas.	Annie's scout troop has a goal of selling 250 boxes of cookies. They have sold 175 of them.	La tropa de exploradores de Annie tiene el objetivo de vender 250 cajas de galletas. Han vendido 175 de ellos.	Thomas rides 8 blocks to school every day. Today, he stopped to rest after 6 blocks. 	Thomas viaja 8 cuadras a la escuela todos los días. Hoy se detuvo a descansar después de 6 cuadras.
+%(Input_2_many_total_copies_tom)%	How many total copies is Tom going to make?	¿Cuántas copias en total va a hacer Tom?	How many total brownies is Jerome going to bake?	¿Cuántos brownies en total va a hornear Jerome?	How many boxes of cookies does Annie's scout troop want to sell?	¿Cuántas cajas de galletas quiere vender la tropa de exploradores de Annie?	How far did Thomas ride his bike to school every day?	¿Hasta dónde llegaba Thomas en bicicleta a la escuela todos los días?
+%(Input_3_many_copies_tom_made)%	How many copies has Tom made?	¿Cuántas copias ha hecho Tom?	How many brownies has Jerome baked?	¿Cuántos brownies ha horneado Jerome?	How many boxes of cookie have they sold?	¿Cuántas cajas de galletas han vendido?	How many blocks did Thomas ride before resting?	¿Cuántas cuadras recorrió Thomas antes de descansar?
+%(Input_4_ratio_total_number_copies)%	What ratio of the total number of copies has Tom made?	¿Qué proporción del número total de copias ha hecho Tom?	What ratio of the total number has Jerome baked?	¿Qué proporción del número total ha horneado Jerome?	What ratio of the total number have they sold?	¿Qué proporción del número total han vendido?	What ratio of the distance did he ride before resting?	¿Qué proporción de la distancia recorrió antes de descansar?
+%(Input_5_many_copies_tom_still)%	How many copies does Tom still need to make?	¿Cuántas copias necesita todavía hacer Tom?	How many brownies does Jerome still need to bake?	¿Cuántos brownies todavía necesita hornear Jerome?	How many boxes of cookies do they still need to sell?	¿Cuántas cajas de galletas todavía necesitan vender?	How many more blocks does Thomas have left to ride?	¿Cuántas cuadras más le quedan a Thomas por recorrer?
+%(6)%	 	[google]error	 	[google]error	 	[google]error	 	[google]error
+								
+%(given)%								
+%(numer)%	375	375	36	36	175	175	6	6
+%(denom)%	400	400	60	60	250	250	8	8
+								
+%(hint11)%								
+%(hint12)%								
+%(hint13)%								
+								
+%(hint21)%								
+%(hint22)%								
+%(hint23)%								
+								
+%(hint31)%								
+%(hint32)%								
+%(hint33)%								
+								
+%(hint41)%								
+%(hint42)%								
+%(hint43)%								
+								
+%(hint51)%								
+%(hint52)%								
+%(hint53)%								
+								
+%(hint61)%								
+%(hint62)%								
+%(hint63)%								
+								
+%(hint71)%								
+%(hint72)%								
+%(hint73)%								
+								
+%(hint81)%								
+%(hint82)%								
+%(hint83)%								
+								
+%(expression1)%	375/400	375/400	36/60	36/60	175/250	175/250	6/8	6/8
+%(hintMessage_6_please_enter_1375400400_highlighted)%	Please enter '1-375/400)*400' in the highlighted field.	Por favor, ingrese '1-375 / 400) * 400' en el campo resaltado.	Please enter '1-36/60)*60' in the highlighted field.	Por favor, ingrese '1-36 / 60) * 60' en el campo resaltado.	Please enter '1-175/250)*250' in the highlighted field.	Por favor, ingrese '1-175 / 250) * 250' en el campo resaltado.	Please enter '1-6/8)*8' in the highlighted field.	Por favor, ingrese '1-6 / 8) * 8' en el campo resaltado.
+%(hintMessage_5_please_enter_expressionmatches1375400400input_highlighted)%	Please enter 'expressionMatches((1-375/400)*400,input)' in the highlighted field.	Por favor, ingrese 'expressionMatches ((1-375 / 400) * 400, input)' en el campo resaltado.	Please enter 'expressionMatches((1-36/60)*60,input)' in the highlighted field.	Por favor, ingrese 'expressionMatches ((1-36 / 60) * 60, input)' en el campo resaltado.	Please enter 'expressionMatches((1-175/250)*250,input)' in the highlighted field.	Por favor, ingrese 'expressionMatches ((1-175 / 250) * 250, input)' en el campo resaltado.	Please enter 'expressionMatches((1-6/8)*8,input)' in the highlighted field.	Por favor, ingrese 'expressionMatches ((1-6 / 8) * 8, input)' en el campo resaltado.
+%(buggyMessage_1_correct)%	No, this is not correct.	No, esto no es correcto.	No, this is not correct.	No, esto no es correcto.	No, this is not correct.	No, esto no es correcto.	No, this is not correct.	No, esto no es correcto.
+%(hintMessage_2_please_enter_375_highlighted)%	Please enter '375' in the highlighted field.	Por favor, ingrese '375' en el campo resaltado.	Please enter '36' in the highlighted field.	Por favor, ingrese '36' en el campo resaltado.	Please enter '175' in the highlighted field.	Por favor, ingrese '175' en el campo resaltado.	Please enter '6' in the highlighted field.	Por favor, ingrese '6' en el campo resaltado.
+%(hintMessage_3_please_enter_expressionmatches375400input_highlighted)%	Please enter 'expressionMatches(375/400,input)' in the highlighted field.	Por favor, ingrese 'expressionMatches (375/400, input)' en el campo resaltado.	Please enter 'expressionMatches(36/60,input)' in the highlighted field.	"Por favor ingrese ""expressionMatches (36/60, input)"" en el campo resaltado."	Please enter 'expressionMatches(175/250,input)' in the highlighted field.	Por favor, ingrese 'expressionMatches (175/250, input)' en el campo resaltado.	Please enter 'expressionMatches(6/8,input)' in the highlighted field.	Por favor, ingrese 'expressionMatches (6/8, input)' en el campo resaltado.
+%(hintMessage_7_please_click_highlighted_button)%	Please click on the highlighted button.	Por favor, haga clic en el botón resaltado.	Please click on the highlighted button.	Por favor, haga clic en el botón resaltado.	Please click on the highlighted button.	Por favor, haga clic en el botón resaltado.	Please click on the highlighted button.	Por favor, haga clic en el botón resaltado.
+%(hintMessage_4_please_enter_375400_highlighted)%	Please enter '375/400' in the highlighted field.	Por favor ingrese '375/400' en el campo resaltado.	Please enter '36/60' in the highlighted field.	Por favor, introduzca '36 / 60 'en el campo resaltado.	Please enter '175/250' in the highlighted field.	Por favor, ingrese '175/250' en el campo resaltado.	Please enter '6/8' in the highlighted field.	Por favor, ingrese '6/8' en el campo resaltado.
+%(hintMessage_1_please_enter_400_highlighted)%	Please enter '400' in the highlighted field.	Por favor, introduzca '400' en el campo resaltado.	Please enter '60' in the highlighted field.	Por favor, ingrese '60' en el campo resaltado.	Please enter '250' in the highlighted field.	Por favor, ingrese '250' en el campo resaltado.	Please enter '8' in the highlighted field.	Por favor, ingrese '8' en el campo resaltado.
+%(Input_10_numerdenom)%	375/400	375/400	36/60	36/60	175/250	175/250	6/8	6/8
+%(Input_12_expression2)%	%(expression2)%	20*10	%(expression2)%	20*10	%(expression2)%	20*10	%(expression2)%	20*10
+%(Input_14_1numerdenomdenom)%	1-375/400)*400	[google]1-375/400)*400	1-36/60)*60	[google]1-36/60)*60	1-175/250)*250	[google]1-175/250)*250	1-6/8)*8	[google]1-6/8)*8
+%(Input_16_1)%	-1	-1	-1	-1	-1	-1	-1	-1

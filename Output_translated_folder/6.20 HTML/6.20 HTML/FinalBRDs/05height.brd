@@ -1,5 +1,3 @@
-<?xml version="1.0" standalone="yes"?>
-
 <stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="" tutorType="Example-tracing Tutor">
     <startNodeMessages>
         <message>
@@ -279,9 +277,9 @@
     </node>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>1</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -300,11 +298,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>What is the fraction that should be placed on this number line? Divide the number line by entering the number of divisions to make, and press OK.</hintMessage>
             <hintMessage>The fraction 5/12 should be placed here. What is the denominator? Use the denominator to evenly divide the number line.</hintMessage>
             <hintMessage>Enter 12 into the box and press OK.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -341,9 +339,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>2</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -362,8 +360,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -400,9 +398,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>3</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -421,11 +419,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Click on the spot where the first fraction would be on this number line.</hintMessage>
             <hintMessage>What is the numerator of the fraction 5/12? The numerator represents the number of parts you should count.</hintMessage>
             <hintMessage>Count 5 part(s) from the left and click on the spot.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -459,13 +457,13 @@
         <sourceID>3</sourceID>
         <destID>4</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>4</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -484,11 +482,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>What is the fraction that should be placed on this number line? Divide the number line by entering the number of divisions to make, and press OK.</hintMessage>
             <hintMessage>The fraction 1/2 should be placed here. What is the denominator? Use the denominator to evenly divide the number line.</hintMessage>
             <hintMessage>Enter 2 into the box and press OK.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -522,13 +520,13 @@
         <sourceID>4</sourceID>
         <destID>5</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>5</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -547,8 +545,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -585,9 +583,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>6</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -606,11 +604,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Click on the spot where the second fraction would be on this number line.</hintMessage>
             <hintMessage>What is the numerator of the fraction 1/2? The numerator represents the number of parts you should count.</hintMessage>
             <hintMessage>Count 1 part(s) from the left and click on the spot.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -648,9 +646,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>7</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -669,12 +667,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Choose the correct statement from the choices. What are you looking for? The larger or smaller fraction?</hintMessage>
             <hintMessage>You are looking for the fraction that is larger. Look at the fractions you placed on the number lines, which one is larger?</hintMessage>
             <hintMessage>The larger fraction is placed on the number line for the Nicole's growth.</hintMessage>
             <hintMessage>Click on the highlighted element and select 'Nicole grew more.'</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -712,13 +710,13 @@
         <sourceID>7</sourceID>
         <destID>8</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>8</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -739,7 +737,7 @@
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage>Good job!</successMessage>
             <hintMessage>You are done! Click on the "done" button to finish.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -759,13 +757,13 @@
         <sourceID>8</sourceID>
         <destID>9</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>101</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -783,9 +781,9 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You put the numerator of the fraction. Remember, denominator represents the total number of divisions!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -819,13 +817,13 @@
         <sourceID>1</sourceID>
         <destID>10</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>301</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -839,14 +837,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value />
                     </Input>
                 </properties>
             </message>
             <buggyMessage>Press OK to check to see if you divided your line correctly! Or correct your division if it is wrong.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please click on the highlighted button.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -878,13 +876,13 @@
         <sourceID>3</sourceID>
         <destID>11</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>302</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -902,8 +900,8 @@
                 </properties>
             </message>
             <buggyMessage>4/12. 5/12 means '5 out of 12 equal pieces'. So start at "0" and then move over 5 piece(s) to the right.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -937,13 +935,13 @@
         <sourceID>3</sourceID>
         <destID>12</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>401</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -961,9 +959,9 @@
                 </properties>
             </message>
             <buggyMessage>Oops! You put the numerator of the fraction. Remember, denominator represents the total number of divisions!</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -997,13 +995,13 @@
         <sourceID>4</sourceID>
         <destID>14</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>601</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1016,13 +1014,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value />
                     </Input>
                 </properties>
             </message>
             <buggyMessage>Press OK to check to see if you divided your line correctly! Or correct your division if it is wrong.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1054,13 +1052,13 @@
         <sourceID>6</sourceID>
         <destID>15</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>602</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1078,8 +1076,8 @@
                 </properties>
             </message>
             <buggyMessage>0/2. 1/2 means '1 out of 2 equal pieces'. So start at "0" and then move over 1 piece(s) to the right.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1147,16 +1145,15 @@
     </productionRule>
     <EdgesGroups ordered="true">
         <group name="wholeThing" ordered="false" reenterable="true">
-            <link id="7"/>
+            <link id="7" />
             <group name="line1" ordered="true" reenterable="true">
-                <link id="1"/>
-                <link id="2"/>
-                <link id="3"/></group>
+                <link id="1" />
+                <link id="2" />
+                <link id="3" /></group>
             <group name="line2" ordered="true" reenterable="true">
-                <link id="4"/>
-                <link id="5"/>
-                <link id="6"/></group>
+                <link id="4" />
+                <link id="5" />
+                <link id="6" /></group>
         </group>
     </EdgesGroups>
 </stateGraph>
-

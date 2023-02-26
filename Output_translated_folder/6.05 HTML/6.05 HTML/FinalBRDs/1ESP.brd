@@ -1,3 +1,5 @@
+<?xml version="1.0" standalone="yes"?>
+
 <stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="true" lockWidget="true" version="2.1" suppressStudentFeedback="false" highlightRightSelection="true" startStateNodeName="example1">
     <startNodeMessages>
         <message>
@@ -3546,8 +3548,8 @@
         <ruleName>Enter-As-Percent</ruleName>
         <productionSet>Fractions-Decimals-Percents</productionSet>
         <label>Ingrese como porcentaje</label>
-        <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la última columna, encontró la relación de 100, &lt;%= 100/100*100 %&gt;/100. The percent representation is just the numerator of this ratio, &lt;%= 100/100*100 %&gt;.</hintMessage>
-        <hintMessage>Si la relación out 100 es &lt;%= 100/100*100 %&gt;, then the percent is &lt;%= 100/100*100 %&gt; también.</hintMessage>
+        <hintMessage>Recuerde que el uno por ciento (1%) es uno de cada 100. En la última columna, encontró la relación de 100, &lt;%= 100/100*100 %&gt;/100. La representación porcentual es solo el numerador de esta relación, &lt;%= 100/100*100 %&gt;.</hintMessage>
+        <hintMessage>Si la relación de 100 es &lt;%= 100/100*100 %&gt;, entonces el porcentaje es &lt;%= 100/100*100 %&gt; también.</hintMessage>
         <hintMessage>Intente ingresar &lt;%= 100/100*100 %&gt;.</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
