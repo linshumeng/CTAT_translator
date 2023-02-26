@@ -5,7 +5,7 @@ Problem Name	Problem 4	Problem 4ESP	Problem 5	Problem 5ESP	Problem 6	Problem 6ES
 %(Input_3_many_copies_tom_made)%	How many copies has Tom made?	¿Cuántas copias ha hecho Tom?	How many brownies has Jerome baked?	¿Cuántos brownies ha horneado Jerome?	How many boxes of cookie have they sold?	¿Cuántas cajas de galletas han vendido?	How many blocks did Thomas ride before resting?	¿Cuántas cuadras recorrió Thomas antes de descansar?
 %(Input_4_ratio_total_number_copies)%	What ratio of the total number of copies has Tom made?	¿Qué proporción del número total de copias ha hecho Tom?	What ratio of the total number has Jerome baked?	¿Qué proporción del número total ha horneado Jerome?	What ratio of the total number have they sold?	¿Qué proporción del número total han vendido?	What ratio of the distance did he ride before resting?	¿Qué proporción de la distancia recorrió antes de descansar?
 %(Input_5_many_copies_tom_still)%	How many copies does Tom still need to make?	¿Cuántas copias necesita todavía hacer Tom?	How many brownies does Jerome still need to bake?	¿Cuántos brownies todavía necesita hornear Jerome?	How many boxes of cookies do they still need to sell?	¿Cuántas cajas de galletas todavía necesitan vender?	How many more blocks does Thomas have left to ride?	¿Cuántas cuadras más le quedan a Thomas por recorrer?
-%(6)%	 	error	 	error	 	error	 	error
+%(6)%								
 								
 %(given)%								
 %(numer)%	375	375	36	36	175	175	6	6
