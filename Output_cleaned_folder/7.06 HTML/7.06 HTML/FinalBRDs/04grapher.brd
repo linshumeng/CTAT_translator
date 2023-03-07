@@ -1442,9 +1442,9 @@
     </node>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>77</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1463,13 +1463,13 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The Y-axis is where you enter the dependent quantity. What would be a good name for the dependent quantity?</hintMessage>
-            <hintMessage>&lt;%=quantity2 ? "The dependent quantity name is the same as your name for the right column." : "Read the introduction again. The dependent quantity is exactly what it sounds like: what is the quantity that depends on something else?"%&gt;</hintMessage>
-            <hintMessage>&lt;%=quantity2 ? "Look at what you named the right column." : "The time is set. Depending on the time, the ... changes."%&gt;</hintMessage>
-            <hintMessage>&lt;%=quantity2 ? "The right column is called '" + quantity2 + "'." : "The time is set. Depending on the time, the tree height changes."%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=quantity2 || "tree height"%&gt;' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <hintMessage>&lt;%=quantity2 ? &quot;The dependent quantity name is the same as your name for the right column.&quot; : &quot;Read the introduction again. The dependent quantity is exactly what it sounds like: what is the quantity that depends on something else?&quot;%&gt;</hintMessage>
+            <hintMessage>&lt;%=quantity2 ? &quot;Look at what you named the right column.&quot; : &quot;The time is set. Depending on the time, the ... changes.&quot;%&gt;</hintMessage>
+            <hintMessage>&lt;%=quantity2 ? &quot;The right column is called '&quot; + quantity2 + &quot;'.&quot; : &quot;The time is set. Depending on the time, the tree height changes.&quot;%&gt;</hintMessage>
+            <hintMessage>Please enter '&lt;%=quantity2 || &quot;tree height&quot;%&gt;' in the highlighted field.</hintMessage>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1489,7 +1489,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">quantity2 ? input.toLowerCase() == quantity2.toLowerCase() : [&quot;growth&quot;,&quot;tree growth&quot;,&quot;tree height&quot;,&quot;height&quot;,&quot;size&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">quantity2 ? input.toLowerCase() == quantity2.toLowerCase() : ["growth","tree growth","tree height","height","size"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1504,13 +1504,13 @@
         <sourceID>27</sourceID>
         <destID>28</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>79</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1529,11 +1529,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>In what unit would you measure time?</hintMessage>
-            <hintMessage>&lt;%=unit1 ? "The X-axis unit should be the same as the unit in the left column." : "Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for time?"%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=unit1 || "years"%&gt;' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <hintMessage>&lt;%=unit1 ? &quot;The X-axis unit should be the same as the unit in the left column.&quot; : &quot;Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for time?&quot;%&gt;</hintMessage>
+            <hintMessage>Please enter '&lt;%=unit1 || &quot;years&quot;%&gt;' in the highlighted field.</hintMessage>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1553,7 +1553,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">unit1 ? input.toLowerCase() == unit1.toLowerCase() : [&quot;year&quot;,&quot;years&quot;,&quot;yrs&quot;,&quot;yr&quot;,&quot;number of years&quot;,&quot;#years&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">unit1 ? input.toLowerCase() == unit1.toLowerCase() : ["year","years","yrs","yr","number of years","#years"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1568,13 +1568,13 @@
         <sourceID>28</sourceID>
         <destID>29</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>75</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1593,13 +1593,13 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The X-axis is where you enter the independent quantity. What would be a good name for the independent quantity?</hintMessage>
-            <hintMessage>The independent quantity is the quantity already known. &lt;%=quantity1 ? "It is the same as what you named the left column." : "Read the introduction again. What is the set quantity that is known?"%&gt;</hintMessage>
-            <hintMessage>&lt;%=quantity1 ? "Look at what you named the left-column." : "The dependent quantity depends on the independent quantity. In this case: tree height depends on ..."%&gt;</hintMessage>
-            <hintMessage>&lt;%=quantity1 ? "You named the X-axis '" + quantity1 + "'." : "The dependent quantity depends on the independent quantity. In this case: tree height depends on time."%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=quantity1 || "time"%&gt;' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <hintMessage>The independent quantity is the quantity already known. &lt;%=quantity1 ? &quot;It is the same as what you named the left column.&quot; : &quot;Read the introduction again. What is the set quantity that is known?&quot;%&gt;</hintMessage>
+            <hintMessage>&lt;%=quantity1 ? &quot;Look at what you named the left-column.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: tree height depends on ...&quot;%&gt;</hintMessage>
+            <hintMessage>&lt;%=quantity1 ? &quot;You named the X-axis '&quot; + quantity1 + &quot;'.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: tree height depends on time.&quot;%&gt;</hintMessage>
+            <hintMessage>Please enter '&lt;%=quantity1 || &quot;time&quot;%&gt;' in the highlighted field.</hintMessage>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1619,7 +1619,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">quantity1 ? input.toLowerCase() == quantity1.toLowerCase() : [&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">quantity1 ? input.toLowerCase() == quantity1.toLowerCase() : ["time","duration","period"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1634,13 +1634,13 @@
         <sourceID>12</sourceID>
         <destID>27</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="0" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>444</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1659,9 +1659,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 1 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1696,13 +1696,13 @@
         <sourceID>14</sourceID>
         <destID>90</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>446</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1721,9 +1721,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 1 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1758,13 +1758,13 @@
         <sourceID>14</sourceID>
         <destID>91</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>447</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1783,9 +1783,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 1 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1820,13 +1820,13 @@
         <sourceID>14</sourceID>
         <destID>92</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>182</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1845,9 +1845,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 1 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1882,13 +1882,13 @@
         <sourceID>14</sourceID>
         <destID>43</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>226</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1907,9 +1907,9 @@
                 </properties>
             </message>
             <buggyMessage>Warning: by changing the boundaries, one of your points went out of bounds.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'PointOutOfBounds' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1943,13 +1943,13 @@
         <sourceID>86</sourceID>
         <destID>46</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>453</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1968,9 +1968,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 2 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2005,13 +2005,13 @@
         <sourceID>36</sourceID>
         <destID>94</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>454</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2030,9 +2030,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 2 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2067,13 +2067,13 @@
         <sourceID>36</sourceID>
         <destID>95</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>455</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2092,9 +2092,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 2 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2129,13 +2129,13 @@
         <sourceID>36</sourceID>
         <destID>96</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>456</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2154,9 +2154,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 2 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2191,13 +2191,13 @@
         <sourceID>36</sourceID>
         <destID>97</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>457</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2216,9 +2216,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 3 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box)</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2253,13 +2253,13 @@
         <sourceID>53</sourceID>
         <destID>98</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>458</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2278,9 +2278,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 3 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2315,13 +2315,13 @@
         <sourceID>53</sourceID>
         <destID>99</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>459</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2340,9 +2340,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 3 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2377,13 +2377,13 @@
         <sourceID>53</sourceID>
         <destID>100</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>460</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2402,9 +2402,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 3 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2439,13 +2439,13 @@
         <sourceID>53</sourceID>
         <destID>101</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>468</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2464,9 +2464,9 @@
                 </properties>
             </message>
             <buggyMessage>Warning: by changing the boundaries, one of your points went out of bounds.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'PointOutOfBounds' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2500,13 +2500,13 @@
         <sourceID>104</sourceID>
         <destID>107</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>504</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2525,9 +2525,9 @@
                 </properties>
             </message>
             <buggyMessage>Please work on defining the coordinates of the second point in the table first.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2562,13 +2562,13 @@
         <sourceID>30</sourceID>
         <destID>114</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>511</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2587,9 +2587,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please click on the highlighted button.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2609,13 +2609,13 @@
         <sourceID>80</sourceID>
         <destID>116</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>531</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2634,9 +2634,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 5 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2671,13 +2671,13 @@
         <sourceID>71</sourceID>
         <destID>127</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>532</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2696,9 +2696,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 5 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2733,13 +2733,13 @@
         <sourceID>71</sourceID>
         <destID>128</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>533</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2758,9 +2758,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 5 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2795,13 +2795,13 @@
         <sourceID>71</sourceID>
         <destID>129</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>534</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2820,9 +2820,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 5 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2857,13 +2857,13 @@
         <sourceID>71</sourceID>
         <destID>130</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>418</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2882,11 +2882,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Look at the fifth question: "The tallest coastal redwood is 378 feet tall. Assuming it had the same growth rate of 1.8 ft. per year throughout its life, how old is it?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is 378 &lt;%=unit2%&gt;.</hintMessage>
             <hintMessage>Please enter '378' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2920,13 +2920,13 @@
         <sourceID>132</sourceID>
         <destID>71</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>391</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2945,12 +2945,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Now that you placed a point for the fourth question, look-up what its X-value is to find the &lt;%=quantity1%&gt;.</hintMessage>
             <hintMessage>Hover your mouse over the point to see the coordinates.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is at 40 &lt;%=unit1%&gt;.</hintMessage>
             <hintMessage>Please enter '40' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2984,13 +2984,13 @@
         <sourceID>69</sourceID>
         <destID>132</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>521</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3009,9 +3009,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 4 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3046,13 +3046,13 @@
         <sourceID>70</sourceID>
         <destID>123</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>524</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3071,9 +3071,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 4 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3108,13 +3108,13 @@
         <sourceID>70</sourceID>
         <destID>126</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>522</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3133,9 +3133,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 4 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3170,13 +3170,13 @@
         <sourceID>70</sourceID>
         <destID>124</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>523</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3195,9 +3195,9 @@
                 </properties>
             </message>
             <buggyMessage>The point for question 4 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3232,13 +3232,13 @@
         <sourceID>70</sourceID>
         <destID>125</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>549</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3257,9 +3257,9 @@
                 </properties>
             </message>
             <buggyMessage>You need at least two points on the graph before you can draw a line.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'curveNeedsMorePoints' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3293,13 +3293,13 @@
         <sourceID>86</sourceID>
         <destID>134</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>506</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3318,9 +3318,9 @@
                 </properties>
             </message>
             <buggyMessage>Please work on defining the coordinates of the third point in the table first.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3355,13 +3355,13 @@
         <sourceID>38</sourceID>
         <destID>115</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>81</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3380,8 +3380,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. The unit for the Y-axis is "feet".</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3401,7 +3401,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!unit2 &amp;&amp; ![&quot;feet&quot;,&quot;foot&quot;,&quot;ft&quot;,&quot;ft.&quot;].includes(input.toLowerCase())
+                        <matcherParameter name="InputExpression">!unit2 &amp;&amp; !["feet","foot","ft","ft."].includes(input.toLowerCase())
                         </matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
@@ -3417,13 +3417,13 @@
         <sourceID>29</sourceID>
         <destID>156</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>606</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3442,8 +3442,8 @@
                 </properties>
             </message>
             <buggyMessage>The unit of the Y-axis needs to be the same as the right unit in the table.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3478,13 +3478,13 @@
         <sourceID>29</sourceID>
         <destID>164</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>605</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3503,8 +3503,8 @@
                 </properties>
             </message>
             <buggyMessage>The unit of the X-axis needs to be the same as the left unit in the table.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3539,13 +3539,13 @@
         <sourceID>28</sourceID>
         <destID>163</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>604</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3564,8 +3564,8 @@
                 </properties>
             </message>
             <buggyMessage>The name of the Y-axis needs to be the same as the quantity in the rightmost table column.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3600,13 +3600,13 @@
         <sourceID>27</sourceID>
         <destID>162</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>603</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3625,8 +3625,8 @@
                 </properties>
             </message>
             <buggyMessage>The name of the X-axis needs to be the same as the quantity in the leftmost table column.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3661,13 +3661,13 @@
         <sourceID>12</sourceID>
         <destID>161</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>602</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3686,8 +3686,8 @@
                 </properties>
             </message>
             <buggyMessage>The right table unit needs to be the same as the unit of the Y-axis.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3722,13 +3722,13 @@
         <sourceID>11</sourceID>
         <destID>160</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>600</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3747,8 +3747,8 @@
                 </properties>
             </message>
             <buggyMessage>The right quantity needs to be the same as the name you gave to the Y-axis.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3783,13 +3783,13 @@
         <sourceID>9</sourceID>
         <destID>158</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>630</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3808,8 +3808,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. The unit for the X-axis is "years".</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3829,7 +3829,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!unit1 &amp;&amp; ![&quot;year&quot;,&quot;years&quot;,&quot;yrs&quot;,&quot;yr&quot;,&quot;number of years&quot;,&quot;#years&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!unit1 &amp;&amp; !["year","years","yrs","yr","number of years","#years"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3844,13 +3844,13 @@
         <sourceID>28</sourceID>
         <destID>178</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>628</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3869,8 +3869,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. Try to name the Y-axis "tree height".</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3890,7 +3890,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!quantity2 &amp;&amp; ![&quot;growth&quot;,&quot;tree growth&quot;,&quot;tree height&quot;,&quot;height&quot;,&quot;size&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!quantity2 &amp;&amp; !["growth","tree growth","tree height","height","size"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3905,13 +3905,13 @@
         <sourceID>27</sourceID>
         <destID>176</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>626</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3930,8 +3930,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. Try to name the X-axis "time".</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -3951,7 +3951,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!quantity1 &amp;&amp; ![&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!quantity1 &amp;&amp; !["time","duration","period"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3966,13 +3966,13 @@
         <sourceID>12</sourceID>
         <destID>174</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>624</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -3991,8 +3991,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. Try to name the right unit "feet".</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4027,13 +4027,13 @@
         <sourceID>11</sourceID>
         <destID>172</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>422</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4052,7 +4052,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>This highlighted box is where you enter the equation of the line you've drawn before.</hintMessage>
             <hintMessage>The first part is given: 'y ='. Please fill in the equation after the '=' sign.</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; depends on the &lt;%=quantity1%&gt;. Let's call &lt;%=quantity2%&gt; 'y' and &lt;%=quantity1%&gt; 'x'. Now to complete the equation y = ...</hintMessage>
@@ -4061,7 +4061,7 @@
             <hintMessage>It says &lt;%=quantity2%&gt; (y) EQUALS &lt;%=quantity1%&gt; (x) TIMES 1.8 .</hintMessage>
             <hintMessage>It says y EQUALS x TIMES 1.8 .</hintMessage>
             <hintMessage>Please enter '1.8 * x ' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4096,13 +4096,13 @@
         <sourceID>78</sourceID>
         <destID>80</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>733</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4121,8 +4121,8 @@
                 </properties>
             </message>
             <buggyMessage>Please work on defining the &lt;%=quantity2%&gt; of question 5 in the table first.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4157,13 +4157,13 @@
         <sourceID>132</sourceID>
         <destID>209</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>734</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4182,8 +4182,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. What is the &lt;%=quantity2%&gt; for question 5?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4216,13 +4216,13 @@
         <sourceID>132</sourceID>
         <destID>210</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>735</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4241,8 +4241,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. Look at the point you just plotted: what is the &lt;%=quantity1%&gt; on this point?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4275,13 +4275,13 @@
         <sourceID>76</sourceID>
         <destID>211</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>699</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4300,8 +4300,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. Look at the point you just plotted: what is the &lt;%=quantity1%&gt; on this point?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4334,13 +4334,13 @@
         <sourceID>69</sourceID>
         <destID>205</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>34</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4359,13 +4359,13 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The Y-axis is where you enter the dependent quantity. What would be a good name for the dependent quantity?</hintMessage>
-            <hintMessage>&lt;%=graphLabelY ? "The dependent quantity name is the same as your name for the right column." : "Read the introduction again. The dependent quantity is exactly what it sounds like: what is the quantity that depends on something else?"%&gt;</hintMessage>
-            <hintMessage>&lt;%=graphLabelY ? "Look at what you named the right column." : "The time is set. Depending on the time, the ... changes."%&gt;</hintMessage>
-            <hintMessage>&lt;%=graphLabelY ? "The right column is called '" + graphLabelY + "'." : "The time is set. Depending on the time, the tree height changes."%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=graphLabelY || "tree height"%&gt;' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <hintMessage>&lt;%=graphLabelY ? &quot;The dependent quantity name is the same as your name for the right column.&quot; : &quot;Read the introduction again. The dependent quantity is exactly what it sounds like: what is the quantity that depends on something else?&quot;%&gt;</hintMessage>
+            <hintMessage>&lt;%=graphLabelY ? &quot;Look at what you named the right column.&quot; : &quot;The time is set. Depending on the time, the ... changes.&quot;%&gt;</hintMessage>
+            <hintMessage>&lt;%=graphLabelY ? &quot;The right column is called '&quot; + graphLabelY + &quot;'.&quot; : &quot;The time is set. Depending on the time, the tree height changes.&quot;%&gt;</hintMessage>
+            <hintMessage>Please enter '&lt;%=graphLabelY || &quot;tree height&quot;%&gt;' in the highlighted field.</hintMessage>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4385,7 +4385,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphLabelY ? input.toLowerCase() == graphLabelY.toLowerCase() : [&quot;growth&quot;,&quot;tree growth&quot;,&quot;tree height&quot;,&quot;height&quot;,&quot;size&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphLabelY ? input.toLowerCase() == graphLabelY.toLowerCase() : ["growth","tree growth","tree height","height","size"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4400,13 +4400,13 @@
         <sourceID>9</sourceID>
         <destID>212</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>641</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4425,8 +4425,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. The length of the tree increases with 1.8 feet every one year. What would the tree height be when the time is 10 years?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4461,13 +4461,13 @@
         <sourceID>13</sourceID>
         <destID>183</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>133</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4486,11 +4486,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Look at the second question: "And in 30 years?" How would you calculate the tree height?</hintMessage>
             <hintMessage>The length of the tree increases with 1.8 feet every one year. So in 30 years the tree has grown 30 * 1.8 feet.</hintMessage>
             <hintMessage>Please enter '54' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4525,13 +4525,13 @@
         <sourceID>35</sourceID>
         <destID>36</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>40</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4550,11 +4550,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Look at the first question: "If you plant one now, how tall is it likely to be in ten years?" How would you calculate the tree height?</hintMessage>
             <hintMessage>The length of the tree increases with 1.8 feet every one year. So in 10 years the tree has grown 10 * 1.8 feet.</hintMessage>
             <hintMessage>Please enter '18' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4589,13 +4589,13 @@
         <sourceID>13</sourceID>
         <destID>14</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>265</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4614,11 +4614,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Look at the third question: "These trees grow to be very old. How tall will it be in 100 years?" How would you calculate the tree height?</hintMessage>
             <hintMessage>The length of the tree increases with 1.8 feet every one year. So in 100 years the tree has grown 100 * 1.8 feet.</hintMessage>
             <hintMessage>Please enter '180' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4653,13 +4653,13 @@
         <sourceID>52</sourceID>
         <destID>53</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>682</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4678,8 +4678,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. What is the time in question 3?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4714,13 +4714,13 @@
         <sourceID>38</sourceID>
         <destID>200</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>681</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4739,8 +4739,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. The length of the tree increases with 1.8 feet every one year. What would the tree height be when the time is 100 years?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4775,13 +4775,13 @@
         <sourceID>52</sourceID>
         <destID>199</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>664</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4800,8 +4800,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. What is the time in question 2?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4836,13 +4836,13 @@
         <sourceID>30</sourceID>
         <destID>195</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>663</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4861,8 +4861,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. The length of the tree increases with 1.8 feet every one year. What would the tree height be when the time is 30 years?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4897,13 +4897,13 @@
         <sourceID>35</sourceID>
         <destID>194</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>769</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4922,8 +4922,8 @@
                 </properties>
             </message>
             <buggyMessage>Yes, "&lt;%=input%&gt;" is the independent quantity. Try to enter the independent quantity "&lt;%=input%&gt;" in left column instead of the right column.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -4943,7 +4943,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">[&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase()) &amp;&amp; ![&quot;growth&quot;,&quot;tree growth&quot;,&quot;tree height&quot;,&quot;height&quot;,&quot;size&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; !["growth","tree growth","tree height","height","size"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4958,13 +4958,13 @@
         <sourceID>9</sourceID>
         <destID>214</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>620</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -4983,8 +4983,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. Try to name the dependent quantity "tree height".</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5004,7 +5004,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphLabelY &amp;&amp; ![&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase()) &amp;&amp; ![&quot;growth&quot;,&quot;tree growth&quot;,&quot;tree height&quot;,&quot;height&quot;,&quot;size&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphLabelY &amp;&amp; !["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; !["growth","tree growth","tree height","height","size"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5019,13 +5019,13 @@
         <sourceID>9</sourceID>
         <destID>168</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>622</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5044,8 +5044,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. Try to name the left unit "years".</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5065,7 +5065,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphUnitX &amp;&amp; ![&quot;year&quot;,&quot;years&quot;,&quot;yrs&quot;,&quot;yr&quot;,&quot;number of years&quot;,&quot;#years&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphUnitX &amp;&amp; !["year","years","yrs","yr","number of years","#years"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5080,13 +5080,13 @@
         <sourceID>212</sourceID>
         <destID>170</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>601</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5105,8 +5105,8 @@
                 </properties>
             </message>
             <buggyMessage>The left table unit needs to be the same as the unit of the X-axis.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5141,13 +5141,13 @@
         <sourceID>212</sourceID>
         <destID>159</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>36</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5166,11 +5166,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>In what unit would you measure time?</hintMessage>
-            <hintMessage>&lt;%=graphUnitX ? "The left column unit should be the same as the unit on the X-axis." : "Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for time?"%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=graphUnitX || "years"%&gt;' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <hintMessage>&lt;%=graphUnitX ? &quot;The left column unit should be the same as the unit on the X-axis.&quot; : &quot;Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for time?&quot;%&gt;</hintMessage>
+            <hintMessage>Please enter '&lt;%=graphUnitX || &quot;years&quot;%&gt;' in the highlighted field.</hintMessage>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5190,7 +5190,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphUnitX ? input.toLowerCase() == graphUnitX.toLowerCase() : [&quot;year&quot;,&quot;years&quot;,&quot;yrs&quot;,&quot;yr&quot;,&quot;number of years&quot;,&quot;#years&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphUnitX ? input.toLowerCase() == graphUnitX.toLowerCase() : ["year","years","yrs","yr","number of years","#years"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5205,13 +5205,13 @@
         <sourceID>212</sourceID>
         <destID>11</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>805</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5225,13 +5225,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value />
                     </Input>
                 </properties>
             </message>
             <buggyMessage>Please draw a line by clicking on two of the points.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5266,13 +5266,13 @@
         <sourceID>58</sourceID>
         <destID>223</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>24</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5286,14 +5286,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value />
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter &lt;%=!tableHeaders ? "the table headings (quantity name and unit) and " : ""%&gt;the axis labels before you plot points.</buggyMessage>
-            <successMessage></successMessage>
+            <buggyMessage>Please enter &lt;%=!tableHeaders ? &quot;the table headings (quantity name and unit) and &quot; : &quot;&quot;%&gt;the axis labels before you plot points.</buggyMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '(4.14,3.8)' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5328,13 +5328,13 @@
         <sourceID>1</sourceID>
         <destID>8</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>840</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5353,8 +5353,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. Read this line carefully: 'It grows an average 1.8 feet per year.' Try to make this an equation in the form y = x * ...</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5387,13 +5387,13 @@
         <sourceID>78</sourceID>
         <destID>235</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>832</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5412,8 +5412,8 @@
                 </properties>
             </message>
             <buggyMessage>The 'y =' part of the equation is already given. Focus instead on the second part: ... * x</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5447,13 +5447,13 @@
         <sourceID>78</sourceID>
         <destID>232</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>618</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5472,8 +5472,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. Try to name the independent quantity "time".</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5493,7 +5493,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphLabelX &amp;&amp; ![&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase()) &amp;&amp; ![&quot;growth&quot;,&quot;tree growth&quot;,&quot;tree height&quot;,&quot;height&quot;,&quot;size&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphLabelX &amp;&amp; !["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; !["growth","tree growth","tree height","height","size"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5511,9 +5511,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>774</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5532,8 +5532,8 @@
                 </properties>
             </message>
             <buggyMessage>Yes, "&lt;%=input%&gt;" is the dependent quantity. Try to enter the dependent quantity "&lt;%=input%&gt;" in right column instead of the left column.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5553,7 +5553,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">![&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase()) &amp;&amp; [&quot;growth&quot;,&quot;tree growth&quot;,&quot;tree height&quot;,&quot;height&quot;,&quot;size&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; ["growth","tree growth","tree height","height","size"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5571,9 +5571,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>599</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5592,8 +5592,8 @@
                 </properties>
             </message>
             <buggyMessage>The left quantity needs to be the same as the name you gave to the X-axis.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5631,9 +5631,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>31</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5652,13 +5652,13 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>The left column is where you enter the quantities the independent quantity. What would be a good name for the independent quantity?</hintMessage>
-            <hintMessage>The independent quantity is the variable that is set. &lt;%=graphLabelX ? "It is the same as what you named the X-axis." : "Read the introduction again. What is the set quantity that is known?"%&gt;</hintMessage>
-            <hintMessage>&lt;%=graphLabelX ? "Look at what you named the X-axis." : "The dependent quantity depends on the independent quantity. In this case: tree height depends on ..."%&gt;</hintMessage>
-            <hintMessage>&lt;%=graphLabelX ? "You named the X-axis '" + graphLabelX + "'." : "The dependent quantity depends on the independent quantity. In this case: tree height depends on time."%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=graphLabelX || "time"%&gt;' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <hintMessage>The independent quantity is the variable that is set. &lt;%=graphLabelX ? &quot;It is the same as what you named the X-axis.&quot; : &quot;Read the introduction again. What is the set quantity that is known?&quot;%&gt;</hintMessage>
+            <hintMessage>&lt;%=graphLabelX ? &quot;Look at what you named the X-axis.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: tree height depends on ...&quot;%&gt;</hintMessage>
+            <hintMessage>&lt;%=graphLabelX ? &quot;You named the X-axis '&quot; + graphLabelX + &quot;'.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: tree height depends on time.&quot;%&gt;</hintMessage>
+            <hintMessage>Please enter '&lt;%=graphLabelX || &quot;time&quot;%&gt;' in the highlighted field.</hintMessage>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5678,7 +5678,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphLabelX ? input.toLowerCase() == graphLabelX.toLowerCase() : [&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphLabelX ? input.toLowerCase() == graphLabelX.toLowerCase() : ["time","duration","period"].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5696,9 +5696,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>849</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -5717,9 +5717,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5756,9 +5756,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>64</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5777,12 +5777,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>You are asked to plot the point for question 1 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=10 &gt; graphMaxX ? "adjust the right boundary by changing its value to higher than 10, then " : ""%&gt;&lt;%=graphMinX &gt; 10 ? "adjust the left boundary by lowering it to less than 10, then " : ""%&gt;&lt;%=18 &gt; graphMaxY ? "adjust the upper boundary by increasing its value to more than 18, then " : ""%&gt;&lt;%=graphMinY &gt; 18 ? "change the lower boundary by decreasing it to less than 18, then " : ""%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=10 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 10, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 10 ? &quot;adjust the left boundary by lowering it to less than 10, then &quot; : &quot;&quot;%&gt;&lt;%=18 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 18, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 18 ? &quot;change the lower boundary by decreasing it to less than 18, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 10 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 18 &lt;%=unit2%&gt;. Click on the spot where 10 &lt;%=unit1%&gt; and 18 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(10, 18)' to add the point.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5820,9 +5820,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>648</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5840,9 +5840,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? "change the Y-axis scale to make it easier to add the point, then " : ""%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? "change the X-axis scale to make it easier to add the point, then " : ""%&gt;place the point at a &lt;%=quantity1%&gt; of 10 &lt;%=unit1 || "years"%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 18 &lt;%=unit2 || "feet"%&gt; (bottom-to-top).</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 10 &lt;%=unit1 || &quot;years&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 18 &lt;%=unit2 || &quot;feet&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5880,9 +5880,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>139</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5901,12 +5901,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>You are asked to plot the point for question 2 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=30 &gt; graphMaxX ? "adjust the right boundary by changing its value to higher than 30, then " : ""%&gt;&lt;%=graphMinX &gt; 30 ? "adjust the left boundary by lowering it to less than 30, then " : ""%&gt;&lt;%=54 &gt; graphMaxY ? "adjust the upper boundary by increasing its value to more than 54, then " : ""%&gt;&lt;%=graphMinY &gt; 54 ? "change the lower boundary by decreasing it to less than 54, then " : ""%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=30 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 30, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 30 ? &quot;adjust the left boundary by lowering it to less than 30, then &quot; : &quot;&quot;%&gt;&lt;%=54 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 54, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 54 ? &quot;change the lower boundary by decreasing it to less than 54, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 30 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 54 &lt;%=unit2%&gt;. Click on the spot where 30 &lt;%=unit1%&gt; and 54 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(30, 54)' to add the point.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -5944,9 +5944,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>661</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -5964,9 +5964,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? "change the Y-axis scale to make it easier to add the point, then " : ""%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? "change the X-axis scale to make it easier to add the point, then " : ""%&gt;place the point at a &lt;%=quantity1%&gt; of 30 &lt;%=unit1 || "years"%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 54 &lt;%=unit2 || "feet"%&gt; (bottom-to-top).</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 30 &lt;%=unit1 || &quot;years&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 54 &lt;%=unit2 || &quot;feet&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6004,9 +6004,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>277</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6025,12 +6025,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>You are asked to plot the point for question 3 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=100 &gt; graphMaxX ? "adjust the right boundary by changing its value to higher than 100, then " : ""%&gt;&lt;%=graphMinX &gt; 100 ? "adjust the left boundary by lowering it to less than 100, then " : ""%&gt;&lt;%=180 &gt; graphMaxY ? "adjust the upper boundary by increasing its value to more than 180, then " : ""%&gt;&lt;%=graphMinY &gt; 180 ? "change the lower boundary by decreasing it to less than 180, then " : ""%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=100 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 100, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 100 ? &quot;adjust the left boundary by lowering it to less than 100, then &quot; : &quot;&quot;%&gt;&lt;%=180 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 180, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 180 ? &quot;change the lower boundary by decreasing it to less than 180, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 100 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 180 &lt;%=unit2%&gt;. Click on the spot where 100 &lt;%=unit1%&gt; and 180 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(100, 180)' to add the point.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6068,9 +6068,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>678</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6088,9 +6088,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? "change the Y-axis scale to make it easier to add the point, then " : ""%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? "change the X-axis scale to make it easier to add the point, then " : ""%&gt;place the point at a &lt;%=quantity1%&gt; of 100 &lt;%=unit1 || "years"%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 180 &lt;%=unit2 || "feet"%&gt; (bottom-to-top).</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 100 &lt;%=unit1 || &quot;years&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 180 &lt;%=unit2 || &quot;feet&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6128,9 +6128,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>859</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -6148,9 +6148,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6187,9 +6187,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>861</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -6208,9 +6208,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6247,9 +6247,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>383</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6268,12 +6268,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>You are asked to plot the point for question 4 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-            <hintMessage>Please &lt;%=40 &gt; graphMaxX ? "adjust the right boundary by changing its value to higher than 40, then " : ""%&gt;&lt;%=graphMinX &gt; 40 ? "adjust the left boundary by lowering it to less than 40, then " : ""%&gt;&lt;%=72 &gt; graphMaxY ? "adjust the upper boundary by increasing its value to more than 72, then " : ""%&gt;&lt;%=graphMinY &gt; 72 ? "change the lower boundary by decreasing it to less than 72, then " : ""%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=40 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 40, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 40 ? &quot;adjust the left boundary by lowering it to less than 40, then &quot; : &quot;&quot;%&gt;&lt;%=72 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 72, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 72 ? &quot;change the lower boundary by decreasing it to less than 72, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 72 &lt;%=unit2%&gt;. Click on the spot where 72 &lt;%=unit2%&gt; intersects the line.</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(40, 72)' to add the point.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6311,9 +6311,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>592</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6331,9 +6331,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to &lt;%=40 &gt; graphMaxX ? "adjust the right boundary of the X-axis by changing its value to higher than 40, then " : ""%&gt;&lt;%=graphMinX &gt; 40 ? "adjust the left boundary of the X-axis by lowering it to less than 40, then " : ""%&gt;&lt;%=72 &gt; graphMaxY ? "adjust the upper boundary of the Y-axis by increasing its value to more than 72, then " : ""%&gt;&lt;%=graphMinY &gt; 72 ? "change the lower boundary of the Y-axis by decreasing it to less than 72, then " : ""%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? "change the Y-axis scale to make it easier to add the point, then " : ""%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? "change the X-axis scale to make it easier to add the point, then " : ""%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 72 &lt;%=unit2%&gt;.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <buggyMessage>No, this is not correct. Try to &lt;%=40 > graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 40, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 40 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 40, then &quot; : &quot;&quot;%&gt;&lt;%=72 > graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 72, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 72 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 72, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 72 &lt;%=unit2%&gt;.</buggyMessage>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6371,9 +6371,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>866</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -6392,9 +6392,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6431,9 +6431,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>807</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -6451,9 +6451,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6490,9 +6490,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>872</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6511,8 +6511,8 @@
                 </properties>
             </message>
             <buggyMessage>Please work on defining the &lt;%=quantity1%&gt; of question 4 in the table.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6550,9 +6550,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>403</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6571,12 +6571,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>You are asked to plot the point for question 5 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-            <hintMessage>Please &lt;%=210 &gt; graphMaxX ? "adjust the right boundary by changing its value to higher than 210, then " : ""%&gt;&lt;%=graphMinX &gt; 210 ? "adjust the left boundary by lowering it to less than 210, then " : ""%&gt;&lt;%=378 &gt; graphMaxY ? "adjust the upper boundary by increasing its value to more than 378, then " : ""%&gt;&lt;%=graphMinY &gt; 378 ? "change the lower boundary by decreasing it to less than 378, then " : ""%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=210 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 210, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 210 ? &quot;adjust the left boundary by lowering it to less than 210, then &quot; : &quot;&quot;%&gt;&lt;%=378 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 378, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 378 ? &quot;change the lower boundary by decreasing it to less than 378, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 378 &lt;%=unit2%&gt;. Click on the spot where 378 &lt;%=unit2%&gt; intersects the line.</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(210, 378)' to add the point.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6614,9 +6614,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>594</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6634,9 +6634,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to &lt;%=210 &gt; graphMaxX ? "adjust the right boundary of the X-axis by changing its value to higher than 210, then " : ""%&gt;&lt;%=graphMinX &gt; 210 ? "adjust the left boundary of the X-axis by lowering it to less than 210, then " : ""%&gt;&lt;%=378 &gt; graphMaxY ? "adjust the upper boundary of the Y-axis by increasing its value to more than 378, then " : ""%&gt;&lt;%=graphMinY &gt; 378 ? "change the lower boundary of the Y-axis by decreasing it to less than 378, then " : ""%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? "change the Y-axis scale to make it easier to add the point, then " : ""%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? "change the X-axis scale to make it easier to add the point, then " : ""%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 378 &lt;%=unit2%&gt;.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <buggyMessage>No, this is not correct. Try to &lt;%=210 > graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 210, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 210 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 210, then &quot; : &quot;&quot;%&gt;&lt;%=378 > graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 378, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 378 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 378, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 378 &lt;%=unit2%&gt;.</buggyMessage>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6674,9 +6674,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>884</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -6695,9 +6695,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6734,9 +6734,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>806</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -6754,9 +6754,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6793,9 +6793,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>890</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6814,8 +6814,8 @@
                 </properties>
             </message>
             <buggyMessage>Please work on defining the &lt;%=quantity1%&gt; of question 5 in the table.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6853,9 +6853,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>892</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6874,8 +6874,8 @@
                 </properties>
             </message>
             <buggyMessage>Please work on defining the equation in the table.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6913,9 +6913,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>135</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -6934,11 +6934,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Look at the second question: "And in 30 years?" What is the time here?</hintMessage>
             <hintMessage>The time is 30 years.</hintMessage>
             <hintMessage>Please enter '30' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -6976,9 +6976,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>911</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -6997,9 +6997,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7036,9 +7036,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>267</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -7057,11 +7057,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Look at the third question: "These trees grow to be very old. How tall will it be in 100 years?" What is the time here?</hintMessage>
             <hintMessage>The time is 100 years.</hintMessage>
             <hintMessage>Please enter '100' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7099,9 +7099,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>798</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7119,9 +7119,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7158,9 +7158,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>902</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7179,9 +7179,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7218,9 +7218,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>796</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7238,9 +7238,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7277,9 +7277,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>894</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7298,9 +7298,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7337,9 +7337,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>800</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7357,9 +7357,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7396,9 +7396,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>905</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7417,9 +7417,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7456,9 +7456,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>334</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -7472,15 +7472,15 @@
                         <value>AddLine</value>
                     </Action>
                     <Input>
-                        <value></value>
+                        <value />
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Observe that the points on the graph have turned green. Please click on two of the points on your graph to draw a line between them.</hintMessage>
             <hintMessage>A line is defined by two points. For this step, try clicking on two of the points you already placed to draw a line between them.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7517,9 +7517,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>464</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7537,9 +7537,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7576,9 +7576,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>934</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7597,9 +7597,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7636,9 +7636,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>947</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7657,9 +7657,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7696,9 +7696,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>945</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -7717,9 +7717,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7756,9 +7756,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>416</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -7777,12 +7777,12 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Now that you placed a point for the fifth question, look-up what its X-value is to find the &lt;%=quantity1%&gt;.</hintMessage>
             <hintMessage>Hover your mouse over the point to see the coordinates.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is at 210 &lt;%=unit1%&gt;.</hintMessage>
             <hintMessage>Please enter '210' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7819,9 +7819,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>642</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -7840,8 +7840,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. What is the time in question 1?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7879,9 +7879,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>42</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -7900,11 +7900,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Look at the first question: "If you plant one now, how tall is it likely to be in ten years?" What is the time here?</hintMessage>
             <hintMessage>The time is 10 &lt;%=unit1%&gt;.</hintMessage>
             <hintMessage>Please enter '10' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -7942,9 +7942,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>19</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -7963,9 +7963,9 @@
                 </properties>
             </message>
             <buggyMessage>Please work on defining the coordinates of the first point in the table first.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8003,9 +8003,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>698</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -8024,8 +8024,8 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct. What is the &lt;%=quantity2%&gt; for question 4?</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8061,9 +8061,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>693</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -8082,8 +8082,8 @@
                 </properties>
             </message>
             <buggyMessage>Please work on defining the &lt;%=quantity2%&gt; of question 4 in the table first.</buggyMessage>
-            <successMessage></successMessage>
-            <callbackFn></callbackFn>
+            <successMessage />
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8121,9 +8121,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>389</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -8142,11 +8142,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Look at the fourth question: "How old is a 72 feet tall tree likely to be?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is 72 &lt;%=unit2%&gt;.</hintMessage>
             <hintMessage>Please enter '72' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8183,9 +8183,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>38</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -8204,11 +8204,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>In what unit would you measure tree height?</hintMessage>
-            <hintMessage>&lt;%=graphUnitY ? "The right column unit should be the same as the unit on the Y-axis." : "Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for tree height?"%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=graphUnitY || "feet"%&gt;' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <hintMessage>&lt;%=graphUnitY ? &quot;The right column unit should be the same as the unit on the Y-axis.&quot; : &quot;Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for tree height?&quot;%&gt;</hintMessage>
+            <hintMessage>Please enter '&lt;%=graphUnitY || &quot;feet&quot;%&gt;' in the highlighted field.</hintMessage>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8228,7 +8228,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphUnitY ? input.toLowerCase() == graphUnitY.toLowerCase() : [&quot;feet&quot;,&quot;foot&quot;,&quot;ft&quot;,&quot;ft.&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphUnitY ? input.toLowerCase() == graphUnitY.toLowerCase() : ["feet","foot","ft","ft."].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -8246,9 +8246,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>787</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -8266,9 +8266,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8305,16 +8305,16 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>970</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
                 <properties>
                     <MessageType>CorrectAction</MessageType>
                     <Selection>
-                        <value></value>
+                        <value />
                     </Selection>
                     <Action>
                         <value>UpdateTextField</value>
@@ -8326,9 +8326,9 @@
                 </properties>
             </message>
             <buggyMessage>Please enter the table headings (quantity name and unit) before you enter values.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8365,9 +8365,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>997</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -8377,18 +8377,18 @@
                         <value>root</value>
                     </Selection>
                     <Action>
-                        <value></value>
+                        <value />
                     </Action>
                     <Input>
-                        <value></value>
+                        <value />
                     </Input>
                     <transaction_id>Tf94bf82d-af1d-4721-8c2e-ba8d13902abe</transaction_id>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8423,9 +8423,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>563</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -8443,9 +8443,9 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8482,9 +8482,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>632</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -8503,11 +8503,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>In what unit would you measure tree height?</hintMessage>
-            <hintMessage>&lt;%=unit2 ? "The right column unit should be the same as the unit on the Y-axis." : "Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for tree height?"%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=unit2 || "feet"%&gt;' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
+            <hintMessage>&lt;%=unit2 ? &quot;The right column unit should be the same as the unit on the Y-axis.&quot; : &quot;Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for tree height?&quot;%&gt;</hintMessage>
+            <hintMessage>Please enter '&lt;%=unit2 || &quot;feet&quot;%&gt;' in the highlighted field.</hintMessage>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8527,7 +8527,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">unit2 ? input.toLowerCase() == unit2.toLowerCase() : [&quot;feet&quot;,&quot;foot&quot;,&quot;ft&quot;,&quot;ft.&quot;].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">unit2 ? input.toLowerCase() == unit2.toLowerCase() : ["feet","foot","ft","ft."].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -8545,9 +8545,9 @@
     </edge>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>1000</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -8557,18 +8557,18 @@
                         <value>root</value>
                     </Selection>
                     <Action>
-                        <value></value>
+                        <value />
                     </Action>
                     <Input>
-                        <value></value>
+                        <value />
                     </Input>
                     <transaction_id>T1dc14a1d-5f6f-4724-8355-08297ea06a3c</transaction_id>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
-            <callbackFn></callbackFn>
+            <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -8607,10 +8607,10 @@
         <label>Name quantities</label>
         <description>The student is able to derive the dependant and independent quantities from a cover story</description>
         <hintMessage>The left column is where you enter the quantities the independent quantity. What would be a good name for the independent quantity?</hintMessage>
-        <hintMessage>The independent quantity is the variable that is set. &lt;%=graphLabelX ? "It is the same as what you named the X-axis." : "Read the introduction again. What is the set quantity that is known?"%&gt;</hintMessage>
-        <hintMessage>&lt;%=graphLabelX ? "Look at what you named the X-axis." : "The dependent quantity depends on the independent quantity. In this case: tree height depends on ..."%&gt;</hintMessage>
-        <hintMessage>&lt;%=graphLabelX ? "You named the X-axis '" + graphLabelX + "'." : "The dependent quantity depends on the independent quantity. In this case: tree height depends on time."%&gt;</hintMessage>
-        <hintMessage>Please enter '&lt;%=graphLabelX || "time"%&gt;' in the highlighted field.</hintMessage>
+        <hintMessage>The independent quantity is the variable that is set. &lt;%=graphLabelX ? &quot;It is the same as what you named the X-axis.&quot; : &quot;Read the introduction again. What is the set quantity that is known?&quot;%&gt;</hintMessage>
+        <hintMessage>&lt;%=graphLabelX ? &quot;Look at what you named the X-axis.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: tree height depends on ...&quot;%&gt;</hintMessage>
+        <hintMessage>&lt;%=graphLabelX ? &quot;You named the X-axis '&quot; + graphLabelX + &quot;'.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: tree height depends on time.&quot;%&gt;</hintMessage>
+        <hintMessage>Please enter '&lt;%=graphLabelX || &quot;time&quot;%&gt;' in the highlighted field.</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>enter_given_y</ruleName>
@@ -8627,7 +8627,7 @@
         <label>Plot point on line</label>
         <description>The student is able to find a point on a line given the Y-value</description>
         <hintMessage>You are asked to plot the point for question 4 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-        <hintMessage>Please &lt;%=40 &gt; graphMaxX ? "adjust the right boundary by changing its value to higher than 40, then " : ""%&gt;&lt;%=graphMinX &gt; 40 ? "adjust the left boundary by lowering it to less than 40, then " : ""%&gt;&lt;%=72 &gt; graphMaxY ? "adjust the upper boundary by increasing its value to more than 72, then " : ""%&gt;&lt;%=graphMinY &gt; 72 ? "change the lower boundary by decreasing it to less than 72, then " : ""%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+        <hintMessage>Please &lt;%=40 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 40, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 40 ? &quot;adjust the left boundary by lowering it to less than 40, then &quot; : &quot;&quot;%&gt;&lt;%=72 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 72, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 72 ? &quot;change the lower boundary by decreasing it to less than 72, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
         <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 72 &lt;%=unit2%&gt;. Click on the spot where 72 &lt;%=unit2%&gt; intersects the line.</hintMessage>
         <hintMessage>Click on the graph at the coordinates '(40, 72)' to add the point.</hintMessage>
     </productionRule>
@@ -8687,8 +8687,8 @@
         <label>Name units</label>
         <description>The student is able to define units for the quantities</description>
         <hintMessage>In what unit would you measure time?</hintMessage>
-        <hintMessage>&lt;%=graphUnitX ? "The left column unit should be the same as the unit on the X-axis." : "Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for time?"%&gt;</hintMessage>
-        <hintMessage>Please enter '&lt;%=graphUnitX || "years"%&gt;' in the highlighted field.</hintMessage>
+        <hintMessage>&lt;%=graphUnitX ? &quot;The left column unit should be the same as the unit on the X-axis.&quot; : &quot;Look at the introduction: 'It grows an average 1.8 feet per year.' What measurement would you use for time?&quot;%&gt;</hintMessage>
+        <hintMessage>Please enter '&lt;%=graphUnitX || &quot;years&quot;%&gt;' in the highlighted field.</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>plot_points_given_coords</ruleName>
@@ -8696,140 +8696,140 @@
         <label>Plot point given coords</label>
         <description>The student is able to find a point on a 2D graph given the coordinates</description>
         <hintMessage>You are asked to plot the point for question 1 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-        <hintMessage>Please &lt;%=10 &gt; graphMaxX ? "adjust the right boundary by changing its value to higher than 10, then " : ""%&gt;&lt;%=graphMinX &gt; 10 ? "adjust the left boundary by lowering it to less than 10, then " : ""%&gt;&lt;%=18 &gt; graphMaxY ? "adjust the upper boundary by increasing its value to more than 18, then " : ""%&gt;&lt;%=graphMinY &gt; 18 ? "change the lower boundary by decreasing it to less than 18, then " : ""%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+        <hintMessage>Please &lt;%=10 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 10, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 10 ? &quot;adjust the left boundary by lowering it to less than 10, then &quot; : &quot;&quot;%&gt;&lt;%=18 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 18, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 18 ? &quot;change the lower boundary by decreasing it to less than 18, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
         <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 10 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 18 &lt;%=unit2%&gt;. Click on the spot where 10 &lt;%=unit1%&gt; and 18 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
         <hintMessage>Click on the graph at the coordinates '(10, 18)' to add the point.</hintMessage>
     </productionRule>
     <EdgesGroups ordered="true">
         <group name="InitialPoints" ordered="false" reenterable="true">
-            <link id="31"/>
-            <link id="599"/>
-            <link id="618"/>
-            <link id="774"/>
-            <link id="24"/>
-            <link id="34"/>
-            <link id="600"/>
-            <link id="620"/>
-            <link id="769"/>
-            <link id="36"/>
-            <link id="601"/>
-            <link id="622"/>
-            <link id="602"/>
-            <link id="624"/>
-            <link id="75"/>
-            <link id="603"/>
-            <link id="626"/>
-            <link id="77"/>
-            <link id="604"/>
-            <link id="628"/>
-            <link id="79"/>
-            <link id="605"/>
-            <link id="630"/>
-            <link id="81"/>
-            <link id="606"/>
-            <link id="38"/>
-            <link id="849"/>
-            <link id="911"/>
-            <link id="787"/>
-            <link id="226"/>
-            <link id="334"/>
-            <link id="549"/>
-            <link id="642"/>
-            <link id="970"/>
-            <link id="997"/>
-            <link id="563"/>
-            <link id="632"/>
-            <link id="1000"/>
-            <link id="641"/>
-            <link id="648"/>
-            <link id="444"/>
-            <link id="182"/>
-            <link id="446"/>
-            <link id="447"/>
-            <link id="504"/>
-            <link id="664"/>
-            <link id="663"/>
-            <link id="661"/>
-            <link id="453"/>
-            <link id="454"/>
-            <link id="455"/>
-            <link id="456"/>
-            <link id="506"/>
-            <link id="682"/>
-            <link id="681"/>
-            <link id="678"/>
-            <link id="457"/>
-            <link id="458"/>
-            <link id="459"/>
-            <link id="460"/>
-            <link id="805"/>
-            <link id="19"/>
+            <link id="31" />
+            <link id="599" />
+            <link id="618" />
+            <link id="774" />
+            <link id="24" />
+            <link id="34" />
+            <link id="600" />
+            <link id="620" />
+            <link id="769" />
+            <link id="36" />
+            <link id="601" />
+            <link id="622" />
+            <link id="602" />
+            <link id="624" />
+            <link id="75" />
+            <link id="603" />
+            <link id="626" />
+            <link id="77" />
+            <link id="604" />
+            <link id="628" />
+            <link id="79" />
+            <link id="605" />
+            <link id="630" />
+            <link id="81" />
+            <link id="606" />
+            <link id="38" />
+            <link id="849" />
+            <link id="911" />
+            <link id="787" />
+            <link id="226" />
+            <link id="334" />
+            <link id="549" />
+            <link id="642" />
+            <link id="970" />
+            <link id="997" />
+            <link id="563" />
+            <link id="632" />
+            <link id="1000" />
+            <link id="641" />
+            <link id="648" />
+            <link id="444" />
+            <link id="182" />
+            <link id="446" />
+            <link id="447" />
+            <link id="504" />
+            <link id="664" />
+            <link id="663" />
+            <link id="661" />
+            <link id="453" />
+            <link id="454" />
+            <link id="455" />
+            <link id="456" />
+            <link id="506" />
+            <link id="682" />
+            <link id="681" />
+            <link id="678" />
+            <link id="457" />
+            <link id="458" />
+            <link id="459" />
+            <link id="460" />
+            <link id="805" />
+            <link id="19" />
             <group name="Point1" ordered="true" reenterable="true">
-                <link id="64"/>
-                <link id="796"/>
-                <link id="894"/>
+                <link id="64" />
+                <link id="796" />
+                <link id="894" />
                 <group name="Point1Table" ordered="false" reenterable="true">
-                    <link id="40"/>
-                    <link id="42"/></group>
+                    <link id="40" />
+                    <link id="42" /></group>
             </group>
             <group name="Point2" ordered="true" reenterable="true">
-                <link id="798"/>
-                <link id="139"/>
-                <link id="902"/>
+                <link id="798" />
+                <link id="139" />
+                <link id="902" />
                 <group name="Point2Table" ordered="false" reenterable="true">
-                    <link id="133"/>
-                    <link id="135"/></group>
-                <group name="Point2Graph" ordered="false" reenterable="true"></group>
+                    <link id="133" />
+                    <link id="135" /></group>
+                <group name="Point2Graph" ordered="false" reenterable="true" />
             </group>
             <group name="Point3" ordered="true" reenterable="true">
-                <link id="277"/>
-                <link id="800"/>
-                <link id="905"/>
+                <link id="277" />
+                <link id="800" />
+                <link id="905" />
                 <group name="Point3Table" ordered="false" reenterable="true">
-                    <link id="265"/>
-                    <link id="267"/>
-                    <group name="Point3Graph" ordered="false" reenterable="true"></group>
+                    <link id="265" />
+                    <link id="267" />
+                    <group name="Point3Graph" ordered="false" reenterable="true" />
                 </group>
             </group>
         </group>
         <group name="FinalPoints" ordered="false" reenterable="true">
-            <link id="422"/>
-            <link id="947"/>
-            <link id="945"/>
-            <link id="468"/>
-            <link id="693"/>
-            <link id="698"/>
-            <link id="592"/>
-            <link id="521"/>
-            <link id="522"/>
-            <link id="523"/>
-            <link id="524"/>
-            <link id="872"/>
-            <link id="699"/>
-            <link id="733"/>
-            <link id="734"/>
-            <link id="594"/>
-            <link id="531"/>
-            <link id="532"/>
-            <link id="533"/>
-            <link id="534"/>
-            <link id="735"/>
-            <link id="890"/>
-            <link id="832"/>
-            <link id="840"/>
-            <link id="892"/>
+            <link id="422" />
+            <link id="947" />
+            <link id="945" />
+            <link id="468" />
+            <link id="693" />
+            <link id="698" />
+            <link id="592" />
+            <link id="521" />
+            <link id="522" />
+            <link id="523" />
+            <link id="524" />
+            <link id="872" />
+            <link id="699" />
+            <link id="733" />
+            <link id="734" />
+            <link id="594" />
+            <link id="531" />
+            <link id="532" />
+            <link id="533" />
+            <link id="534" />
+            <link id="735" />
+            <link id="890" />
+            <link id="832" />
+            <link id="840" />
+            <link id="892" />
             <group name="Point4" ordered="true" reenterable="true">
-                <link id="391"/>
-                <link id="383"/>
-                <link id="866"/>
-                <link id="807"/>
-                <link id="389"/></group>
+                <link id="391" />
+                <link id="383" />
+                <link id="866" />
+                <link id="807" />
+                <link id="389" /></group>
             <group name="Point5" ordered="true" reenterable="true">
-                <link id="418"/>
-                <link id="403"/>
-                <link id="884"/>
-                <link id="806"/>
-                <link id="416"/></group>
+                <link id="418" />
+                <link id="403" />
+                <link id="884" />
+                <link id="806" />
+                <link id="416" /></group>
         </group>
     </EdgesGroups>
 </stateGraph>

@@ -1,12 +1,12 @@
 <?xml version="1.0" standalone="yes"?>
 
-<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="state13" tutorType="Example-tracing Tutor">
+<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="%(feedbackmode)%" highlightRightSelection="true" startStateNodeName="%(startStateNodeName)%" tutorType="Example-tracing Tutor">
     <startNodeMessages>
         <message>
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>01grapher</ProblemName>
+                <ProblemName>7.06_template</ProblemName>
             </properties>
         </message>
         <message>
@@ -21,7 +21,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>You are walking in a forest holding a GPS device that tells you how fast you are going. You try to walk at a constant pace of 3 miles per hour.</value>
+                    <value>%(Input_1_problem_statement_problem_info)%</value>
                 </Input>
             </properties>
         </message>
@@ -37,7 +37,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>Now, use the line you have drawn to answer 4 and 5 below.</value>
+                    <value>%(instructions_1)%</value>
                 </Input>
             </properties>
         </message>
@@ -53,7 +53,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>Read the introduction and think of names for the quantities and units. Fill them out in both the table and graph axes.</value>
+                    <value>%(instructions_2)%</value>
                 </Input>
             </properties>
         </message>
@@ -69,7 +69,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>Please read the questions and fill out the table. Once you have the x and y coordinates for a question, plot the point on the graph.</value>
+                    <value>%(instructions_3)%</value>
                 </Input>
             </properties>
         </message>
@@ -85,7 +85,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>Now that you have two points, you can draw a line between them as well, by clickng on them.</value>
+                    <value>%(instructions_4)%</value>
                 </Input>
             </properties>
         </message>
@@ -101,7 +101,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>Enter the y-coordinates in the table, then plot the points on the line. You can use the points to read-off the x-values.</value>
+                    <value>%(instructions_5)%</value>
                 </Input>
             </properties>
         </message>
@@ -117,7 +117,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>Please work to define the equation of the line.</value>
+                    <value>%(instructions_6)%</value>
                 </Input>
             </properties>
         </message>
@@ -133,7 +133,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>1. What distance will you have walked in two hours?</value>
+                    <value>%(Input_8_1_q1)%</value>
                 </Input>
             </properties>
         </message>
@@ -149,7 +149,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>2. How far will you have walked if you walk for three hours?</value>
+                    <value>%(Input_9_2_q2)%</value>
                 </Input>
             </properties>
         </message>
@@ -165,7 +165,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>3. What distance will you have walked in four hours?</value>
+                    <value>%(Input_10_3_q3)%</value>
                 </Input>
             </properties>
         </message>
@@ -181,7 +181,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>4. How long does it take to walk 15 miles?</value>
+                    <value>%(Input_11_4_q4)%</value>
                 </Input>
             </properties>
         </message>
@@ -197,7 +197,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>5. The next town is 27 miles away. How long will it take you to reach it?</value>
+                    <value>%(Input_12_5_q5)%</value>
                 </Input>
             </properties>
         </message>
@@ -213,7 +213,7 @@
                     <value>Update</value>
                 </Action>
                 <Input>
-                    <value>0</value>
+                    <value>%(Input_13_0)%</value>
                 </Input>
             </properties>
         </message>
@@ -229,7 +229,7 @@
                     <value>Update</value>
                 </Action>
                 <Input>
-                    <value>10</value>
+                    <value>%(Input_14_10)%</value>
                 </Input>
             </properties>
         </message>
@@ -245,7 +245,7 @@
                     <value>Update</value>
                 </Action>
                 <Input>
-                    <value>1</value>
+                    <value>%(Input_15_1)%</value>
                 </Input>
             </properties>
         </message>
@@ -261,7 +261,7 @@
                     <value>Update</value>
                 </Action>
                 <Input>
-                    <value>0</value>
+                    <value>%(Input_13_0)%</value>
                 </Input>
             </properties>
         </message>
@@ -277,7 +277,7 @@
                     <value>Update</value>
                 </Action>
                 <Input>
-                    <value>10</value>
+                    <value>%(Input_14_10)%</value>
                 </Input>
             </properties>
         </message>
@@ -293,7 +293,7 @@
                     <value>Update</value>
                 </Action>
                 <Input>
-                    <value>1</value>
+                    <value>%(Input_15_1)%</value>
                 </Input>
             </properties>
         </message>
@@ -309,7 +309,7 @@
                     <value>setVisible</value>
                 </Action>
                 <Input>
-                    <value>FALSE</value>
+                    <value>%(visible1)%</value>
                 </Input>
             </properties>
         </message>
@@ -325,7 +325,7 @@
                     <value>setVisible</value>
                 </Action>
                 <Input>
-                    <value>FALSE</value>
+                    <value>%(visible2)%</value>
                 </Input>
             </properties>
         </message>
@@ -341,7 +341,7 @@
                     <value>setDisplay</value>
                 </Action>
                 <Input>
-                    <value>FALSE</value>
+                    <value>%(visible1)%</value>
                 </Input>
             </properties>
         </message>
@@ -357,7 +357,7 @@
                     <value>setDisplay</value>
                 </Action>
                 <Input>
-                    <value>FALSE</value>
+                    <value>%(visible2)%</value>
                 </Input>
             </properties>
         </message>
@@ -370,10 +370,10 @@
                     <value>q4_1</value>
                 </Selection>
                 <Action>
-                    <value>lock</value>
+                    <value>%(lock)%</value>
                 </Action>
                 <Input>
-                    <value>true</value>
+                    <value>%(Input_23_true)%</value>
                 </Input>
             </properties>
         </message>
@@ -386,10 +386,10 @@
                     <value>q5_1</value>
                 </Selection>
                 <Action>
-                    <value>lock</value>
+                    <value>%(lock)%</value>
                 </Action>
                 <Input>
-                    <value>true</value>
+                    <value>%(Input_23_true)%</value>
                 </Input>
             </properties>
         </message>
@@ -405,7 +405,7 @@
                     <value>addClass</value>
                 </Action>
                 <Input>
-                    <value>visible</value>
+                    <value>%(visibleclass2)%</value>
                 </Input>
             </properties>
         </message>
@@ -421,7 +421,7 @@
                     <value>addClass</value>
                 </Action>
                 <Input>
-                    <value></value>
+                    <value>%(visibleclass3)%</value>
                 </Input>
             </properties>
         </message>
@@ -437,7 +437,7 @@
                     <value>addClass</value>
                 </Action>
                 <Input>
-                    <value></value>
+                    <value>%(visibleclass4)%</value>
                 </Input>
             </properties>
         </message>
@@ -453,7 +453,7 @@
                     <value>addClass</value>
                 </Action>
                 <Input>
-                    <value></value>
+                    <value>%(visibleclass5)%</value>
                 </Input>
             </properties>
         </message>
@@ -469,7 +469,7 @@
                     <value>addClass</value>
                 </Action>
                 <Input>
-                    <value></value>
+                    <value>%(visibleclass6)%</value>
                 </Input>
             </properties>
         </message>
@@ -485,7 +485,7 @@
                     <value>eval</value>
                 </Action>
                 <Input>
-                    <value>graphPoints=[]</value>
+                    <value>%(Input_30_graphpoints)%</value>
                 </Input>
             </properties>
         </message>
@@ -1458,17 +1458,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>distance</value>
+                        <value>%(ylabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>The Y-axis is where you enter the dependent quantity. What would be a good name for the dependent quantity?</hintMessage>
-            <hintMessage>&lt;%=quantity2 ? &quot;The dependent quantity name is the same as your name for the right column.&quot; : &quot;Read the introduction again. The dependent quantity is exactly what it sounds like: what is the quantity that depends on something else?&quot;%&gt;</hintMessage>
-            <hintMessage>&lt;%=quantity2 ? &quot;Look at what you named the right column.&quot; : &quot;The time is set. Depending on the time, the ... changes.&quot;%&gt;</hintMessage>
-            <hintMessage>&lt;%=quantity2 ? &quot;The right column is called '&quot; + quantity2 + &quot;'.&quot; : &quot;The time is set. Depending on the time, the distance changes.&quot;%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=quantity2 || &quot;distance&quot;%&gt;' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_1_yaxis_enter_dependent_quantity)%</hintMessage>
+            <hintMessage>%(hintMessage_2_)%</hintMessage>
+            <hintMessage>%(hintMessage_3_)%</hintMessage>
+            <hintMessage>%(hintMessage_4_)%</hintMessage>
+            <hintMessage>%(hintMessage_5_please_enter_highlighted_field)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1489,7 +1489,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">quantity2 ? input.toLowerCase() == quantity2.toLowerCase() : ["distance","length","space"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">quantity2 ? input.toLowerCase() == quantity2.toLowerCase() : [%(ylabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1524,15 +1524,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>hours</value>
+                        <value>%(xunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>In what unit would you measure time?</hintMessage>
-            <hintMessage>&lt;%=unit1 ? &quot;The X-axis unit should be the same as the unit in the left column.&quot; : &quot;Look at the introduction: 'You try to walk at a constant pace of 3 miles per hour.' What measurement would you use for time?&quot;%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=unit1 || &quot;hours&quot;%&gt;' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_6_unit_would_measure_xlabel)%</hintMessage>
+            <hintMessage>%(hintMessage_7_)%</hintMessage>
+            <hintMessage>%(hintMessage_8_please_enter_highlighted_field)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1553,7 +1553,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">unit1 ? input.toLowerCase() == unit1.toLowerCase() : ["hours","hour","hr","hrs","number of hours","#hours"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">unit1 ? input.toLowerCase() == unit1.toLowerCase() : [%(xunitlist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1588,17 +1588,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>time</value>
+                        <value>%(xlabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>The X-axis is where you enter the independent quantity. What would be a good name for the independent quantity?</hintMessage>
-            <hintMessage>The independent quantity is the quantity already known. &lt;%=quantity1 ? &quot;It is the same as what you named the left column.&quot; : &quot;Read the introduction again. What is the set quantity that is known?&quot;%&gt;</hintMessage>
-            <hintMessage>&lt;%=quantity1 ? &quot;Look at what you named the left-column.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: distance depends on ...&quot;%&gt;</hintMessage>
-            <hintMessage>&lt;%=quantity1 ? &quot;You named the X-axis '&quot; + quantity1 + &quot;'.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: distance depends on time.&quot;%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=quantity1 || &quot;time&quot;%&gt;' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_9_xaxis_enter_independent_quantity)%</hintMessage>
+            <hintMessage>%(hintMessage_10_independent_quantity_quantity_already)%</hintMessage>
+            <hintMessage>%(hintMessage_11_)%</hintMessage>
+            <hintMessage>%(hintMessage_12_)%</hintMessage>
+            <hintMessage>%(hintMessage_13_please_enter_highlighted_field)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1619,7 +1619,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">quantity1 ? input.toLowerCase() == quantity1.toLowerCase() : ["time","duration","period"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">quantity1 ? input.toLowerCase() == quantity1.toLowerCase() : [%(xlabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1654,13 +1654,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":6}</value>
+                        <value>%(Input_37_xpoint1xypoint1y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 1 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_4_point_question_1_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1681,7 +1681,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q1_1 &amp;&amp; q1_2 &amp;&amp; graphHeaders &amp;&amp; 2 &gt; graphMaxX</matcherParameter>
+                        <matcherParameter name="InputExpression">q1_1 &amp;&amp; q1_2 &amp;&amp; graphHeaders &amp;&amp; %(point1x)% &gt; graphMaxX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1716,13 +1716,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":6}</value>
+                        <value>%(Input_37_xpoint1xypoint1y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 1 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_5_point_question_1_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1743,7 +1743,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q1_1 &amp;&amp; q1_2 &amp;&amp; graphHeaders &amp;&amp; 6 &lt; graphMinY</matcherParameter>
+                        <matcherParameter name="InputExpression">q1_1 &amp;&amp; q1_2 &amp;&amp; graphHeaders &amp;&amp; %(point1y)% &lt; graphMinY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1778,13 +1778,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":6}</value>
+                        <value>%(Input_37_xpoint1xypoint1y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 1 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_6_point_question_1_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1805,7 +1805,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q1_1 &amp;&amp; q1_2 &amp;&amp; graphHeaders &amp;&amp; 6 &gt; graphMaxY</matcherParameter>
+                        <matcherParameter name="InputExpression">q1_1 &amp;&amp; q1_2 &amp;&amp; graphHeaders &amp;&amp; %(point1y)% &gt; graphMaxY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1840,13 +1840,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":6}</value>
+                        <value>%(Input_37_xpoint1xypoint1y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 1 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_7_point_question_1_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1867,7 +1867,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q1_1 &amp;&amp; q1_2 &amp;&amp; graphHeaders &amp;&amp; 2 &lt; graphMinX</matcherParameter>
+                        <matcherParameter name="InputExpression">q1_1 &amp;&amp; q1_2 &amp;&amp; graphHeaders &amp;&amp; %(point1x)% &lt; graphMinX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1902,13 +1902,13 @@
                         <value>grapherError</value>
                     </Action>
                     <Input>
-                        <value>PointOutOfBounds</value>
+                        <value>%(Input_45_pointoutofbounds)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Warning: by changing the boundaries, one of your points went out of bounds.</buggyMessage>
+            <buggyMessage>%(buggyMessage_8_warning_changing_boundaries_one)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'PointOutOfBounds' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_18_please_provide_answer_pointoutofbounds)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1963,13 +1963,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":3,"y":9}</value>
+                        <value>%(Input_47_xpoint2xypoint2y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 2 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_9_point_question_2_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1990,7 +1990,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q2_1 &amp;&amp; q2_2 &amp;&amp; graphHeaders &amp;&amp; 3 &lt; graphMinX</matcherParameter>
+                        <matcherParameter name="InputExpression">q2_1 &amp;&amp; q2_2 &amp;&amp; graphHeaders &amp;&amp; %(point2x)% &lt; graphMinX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2025,13 +2025,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":3,"y":9}</value>
+                        <value>%(Input_47_xpoint2xypoint2y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 2 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_10_point_question_2_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2052,7 +2052,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q2_1 &amp;&amp; q2_2 &amp;&amp; graphHeaders &amp;&amp; 3 &gt; graphMaxX</matcherParameter>
+                        <matcherParameter name="InputExpression">q2_1 &amp;&amp; q2_2 &amp;&amp; graphHeaders &amp;&amp; %(point2x)% &gt; graphMaxX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2087,13 +2087,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":3,"y":9}</value>
+                        <value>%(Input_47_xpoint2xypoint2y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 2 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_11_point_question_2_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2114,7 +2114,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q2_1 &amp;&amp; q2_2 &amp;&amp; graphHeaders &amp;&amp; 9 &lt; graphMinY</matcherParameter>
+                        <matcherParameter name="InputExpression">q2_1 &amp;&amp; q2_2 &amp;&amp; graphHeaders &amp;&amp; %(point2y)% &lt; graphMinY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2149,13 +2149,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":3,"y":9}</value>
+                        <value>%(Input_47_xpoint2xypoint2y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 2 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_12_point_question_2_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2176,7 +2176,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q2_1 &amp;&amp; q2_2 &amp;&amp; graphHeaders &amp;&amp; 9 &gt; graphMaxY</matcherParameter>
+                        <matcherParameter name="InputExpression">q2_1 &amp;&amp; q2_2 &amp;&amp; graphHeaders &amp;&amp; %(point2y)% &gt; graphMaxY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2211,13 +2211,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":4,"y":12}</value>
+                        <value>%(Input_55_xpoint3xypoint3y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 3 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box)</buggyMessage>
+            <buggyMessage>%(buggyMessage_13_point_question_3_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2238,7 +2238,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q3_1 &amp;&amp; q3_2 &amp;&amp; graphHeaders &amp;&amp; 4 &lt; graphMinX</matcherParameter>
+                        <matcherParameter name="InputExpression">q3_1 &amp;&amp; q3_2 &amp;&amp; graphHeaders &amp;&amp; %(point3x)% &lt; graphMinX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2273,13 +2273,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":4,"y":12}</value>
+                        <value>%(Input_55_xpoint3xypoint3y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 3 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_14_point_question_3_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2300,7 +2300,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q3_1 &amp;&amp; q3_2 &amp;&amp; graphHeaders &amp;&amp; 4 &gt; graphMaxX</matcherParameter>
+                        <matcherParameter name="InputExpression">q3_1 &amp;&amp; q3_2 &amp;&amp; graphHeaders &amp;&amp; %(point3x)% &gt; graphMaxX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2335,13 +2335,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":4,"y":12}</value>
+                        <value>%(Input_55_xpoint3xypoint3y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 3 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_15_point_question_3_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2362,7 +2362,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q3_1 &amp;&amp; q3_2 &amp;&amp; graphHeaders &amp;&amp; 12 &lt; graphMinY</matcherParameter>
+                        <matcherParameter name="InputExpression">q3_1 &amp;&amp; q3_2 &amp;&amp; graphHeaders &amp;&amp; %(point3y)% &lt; graphMinY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2397,13 +2397,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":4,"y":12}</value>
+                        <value>%(Input_55_xpoint3xypoint3y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 3 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_16_point_question_3_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2424,7 +2424,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q3_1 &amp;&amp; q3_2 &amp;&amp; graphHeaders &amp;&amp; 12 &gt; graphMaxY</matcherParameter>
+                        <matcherParameter name="InputExpression">q3_1 &amp;&amp; q3_2 &amp;&amp; graphHeaders &amp;&amp; %(point3y)% &gt; graphMaxY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2459,13 +2459,13 @@
                         <value>grapherError</value>
                     </Action>
                     <Input>
-                        <value>PointOutOfBounds</value>
+                        <value>%(Input_45_pointoutofbounds)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Warning: by changing the boundaries, one of your points went out of bounds.</buggyMessage>
+            <buggyMessage>%(buggyMessage_8_warning_changing_boundaries_one)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'PointOutOfBounds' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_18_please_provide_answer_pointoutofbounds)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2520,13 +2520,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":3,"y":9}</value>
+                        <value>%(Input_47_xpoint2xypoint2y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please work on defining the coordinates of the second point in the table first.</buggyMessage>
+            <buggyMessage>%(buggyMessage_18_please_work_defining_coordinates)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2547,7 +2547,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, (!q2_1 || !q2_2) &amp;&amp; (p.length &lt; 2 || graphLine) &amp;&amp; hasPoint(p, {x: 2, y: 6}) &amp;&amp; (!q3_1 || !q3_2 || hasPoint(p, {x: 4, y: 12}))</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, (!q2_1 || !q2_2) &amp;&amp; (p.length &lt; 2 || graphLine) &amp;&amp; hasPoint(p, {x: %(point1x)%, y: %(point1y)%}) &amp;&amp; (!q3_1 || !q3_2 || hasPoint(p, {x: %(point3x)%, y: %(point3y)%}))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2582,13 +2582,13 @@
                         <value>ButtonPressed</value>
                     </Action>
                     <Input>
-                        <value>-1</value>
+                        <value>%(Input_67_1)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <hintMessage>%(hintMessage_29_please_click_highlighted_button)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2629,13 +2629,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":9,"y":27}</value>
+                        <value>%(Input_68_xpoint5xypoint5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 5 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_20_point_question_5_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2656,7 +2656,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q5_2 &amp;&amp; 27 &gt;= graphMinY &amp;&amp; 27 &lt;= graphMaxY &amp;&amp; 9 &lt; graphMinX</matcherParameter>
+                        <matcherParameter name="InputExpression">q5_2 &amp;&amp; %(point5y)% &gt;= graphMinY &amp;&amp; %(point5y)% &lt;= graphMaxY &amp;&amp; %(point5x)% &lt; graphMinX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2691,13 +2691,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":9,"y":27}</value>
+                        <value>%(Input_68_xpoint5xypoint5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 5 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_21_point_question_5_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2718,7 +2718,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q5_2 &amp;&amp; 27 &gt;= graphMinY &amp;&amp; 27 &lt;= graphMaxY &amp;&amp; 9 &gt; graphMaxX</matcherParameter>
+                        <matcherParameter name="InputExpression">q5_2 &amp;&amp; %(point5y)% &gt;= graphMinY &amp;&amp; %(point5y)% &lt;= graphMaxY &amp;&amp; %(point5x)% &gt; graphMaxX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2753,13 +2753,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":9,"y":27}</value>
+                        <value>%(Input_68_xpoint5xypoint5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 5 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_22_point_question_5_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2780,7 +2780,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q5_2 &amp;&amp; 27 &lt; graphMinY</matcherParameter>
+                        <matcherParameter name="InputExpression">q5_2 &amp;&amp; %(point5y)% &lt; graphMinY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2815,13 +2815,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":9,"y":27}</value>
+                        <value>%(Input_68_xpoint5xypoint5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 5 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_23_point_question_5_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2842,7 +2842,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q5_2 &amp;&amp; 27 &gt; graphMaxY</matcherParameter>
+                        <matcherParameter name="InputExpression">q5_2 &amp;&amp; %(point5y)% &gt; graphMaxY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -2877,15 +2877,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>27</value>
+                        <value>%(point5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the fifth question: "The next town is 27 miles away. How long will it take you to reach it?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
-            <hintMessage>The &lt;%=quantity2%&gt; is 27 &lt;%=unit2%&gt;.</hintMessage>
-            <hintMessage>Please enter '27' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_34_look_fifth_question_q5)%</hintMessage>
+            <hintMessage>%(hintMessage_35_point5y)%</hintMessage>
+            <hintMessage>%(hintMessage_36_please_enter_point5y_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2904,9 +2904,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="input">
+                    <matcher replacementFormula="%(yreplace2)%">
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">27</matcherParameter>
+                        <matcherParameter name="single">%(point5y)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2940,16 +2940,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>5</value>
+                        <value>%(point4x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Now that you placed a point for the fourth question, look-up what its X-value is to find the &lt;%=quantity1%&gt;.</hintMessage>
-            <hintMessage>Hover your mouse over the point to see the coordinates.</hintMessage>
-            <hintMessage>The &lt;%=quantity1%&gt; is at 5 &lt;%=unit1%&gt;.</hintMessage>
-            <hintMessage>Please enter '5' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_37_placed_point_fourth_question)%</hintMessage>
+            <hintMessage>%(hintMessage_38_hover_mouse_point_see)%</hintMessage>
+            <hintMessage>%(hintMessage_39_point4x)%</hintMessage>
+            <hintMessage>%(hintMessage_40_please_enter_point4x_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2970,7 +2970,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">5</matcherParameter>
+                        <matcherParameter name="single">%(point4x)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -3004,13 +3004,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":5,"y":15}</value>
+                        <value>%(Input_80_xpoint4xypoint4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 4 would not fit on the graph right now. Please adjust the left boundary of the X-axis (in the bottom left box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_26_point_question_4_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3031,7 +3031,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q4_2 &amp;&amp; 15 &gt;= graphMinY &amp;&amp; 15 &lt;= graphMaxY &amp;&amp; 5 &lt; graphMinX</matcherParameter>
+                        <matcherParameter name="InputExpression">q4_2 &amp;&amp; %(point4y)% &gt;= graphMinY &amp;&amp; %(point4y)% &lt;= graphMaxY &amp;&amp; %(point4x)% &lt; graphMinX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3066,13 +3066,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":5,"y":15}</value>
+                        <value>%(Input_80_xpoint4xypoint4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 4 would not fit on the graph right now. Please adjust the upper boundary of the Y-axis (in the left upper box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_27_point_question_4_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3093,7 +3093,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q4_2 &amp;&amp; 15 &gt; graphMaxY</matcherParameter>
+                        <matcherParameter name="InputExpression">q4_2 &amp;&amp; %(point4y)% &gt; graphMaxY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3128,13 +3128,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":5,"y":15}</value>
+                        <value>%(Input_80_xpoint4xypoint4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 4 would not fit on the graph right now. Please adjust the right boundary of the X-axis (in the bottom right box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_28_point_question_4_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3155,7 +3155,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q4_2 &amp;&amp; 15 &gt;= graphMinY &amp;&amp; 15 &lt;= graphMaxY &amp;&amp; 5 &gt; graphMaxX</matcherParameter>
+                        <matcherParameter name="InputExpression">q4_2 &amp;&amp; %(point4y)% &gt;= graphMinY &amp;&amp; %(point4y)% &lt;= graphMaxY &amp;&amp; %(point4x)% &gt; graphMaxX</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3190,13 +3190,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":5,"y":15}</value>
+                        <value>%(Input_80_xpoint4xypoint4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The point for question 4 would not fit on the graph right now. Please adjust the lower boundary of the Y-axis (in the left lower box).</buggyMessage>
+            <buggyMessage>%(buggyMessage_29_point_question_4_would)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3217,7 +3217,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q4_2 &amp;&amp; 15 &lt; graphMinY</matcherParameter>
+                        <matcherParameter name="InputExpression">q4_2 &amp;&amp; %(point4y)% &lt; graphMinY</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3252,13 +3252,13 @@
                         <value>grapherError</value>
                     </Action>
                     <Input>
-                        <value>curveNeedsMorePoints</value>
+                        <value>%(Input_88_curveneedsmorepoints)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>You need at least two points on the graph before you can draw a line.</buggyMessage>
+            <buggyMessage>%(buggyMessage_30_need_least_two_points)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'curveNeedsMorePoints' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_45_please_provide_answer_curveneedsmorepoints)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3313,13 +3313,13 @@
                         <value>addPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":4,"y":12}</value>
+                        <value>%(Input_55_xpoint3xypoint3y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please work on defining the coordinates of the third point in the table first.</buggyMessage>
+            <buggyMessage>%(buggyMessage_31_please_work_defining_coordinates)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -3340,7 +3340,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, (!q3_1 || !q3_2) &amp;&amp; (p.length &lt; 2 || graphLine) &amp;&amp; hasPoint(p, {x: 2, y: 6}) &amp;&amp; hasPoint(p, {x: 3, y: 9})</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, (!q3_1 || !q3_2) &amp;&amp; (p.length &lt; 2 || graphLine) &amp;&amp; hasPoint(p, {x: %(point1x)%, y: %(point1y)%}) &amp;&amp; hasPoint(p, {x: %(point2x)%, y: %(point2y)%})</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3375,11 +3375,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>miles</value>
+                        <value>%(yunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. The unit for the Y-axis is "miles".</buggyMessage>
+            <buggyMessage>%(buggyMessage_32_correct_unit_yaxis_yunit)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3401,7 +3401,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!unit2 &amp;&amp; !["miles","mile"].includes(input.toLowerCase())
+                        <matcherParameter name="InputExpression">!unit2 &amp;&amp; ![%(yunitlist)%].includes(input.toLowerCase())
                         </matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
@@ -3437,11 +3437,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>miles</value>
+                        <value>%(yunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The unit of the Y-axis needs to be the same as the right unit in the table.</buggyMessage>
+            <buggyMessage>%(buggyMessage_33_unit_yaxis_needs_right)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3498,11 +3498,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>hours</value>
+                        <value>%(xunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The unit of the X-axis needs to be the same as the left unit in the table.</buggyMessage>
+            <buggyMessage>%(buggyMessage_34_unit_xaxis_needs_left)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3559,11 +3559,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>distance</value>
+                        <value>%(ylabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The name of the Y-axis needs to be the same as the quantity in the rightmost table column.</buggyMessage>
+            <buggyMessage>%(buggyMessage_35_name_yaxis_needs_quantity)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3620,11 +3620,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>time</value>
+                        <value>%(xlabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The name of the X-axis needs to be the same as the quantity in the leftmost table column.</buggyMessage>
+            <buggyMessage>%(buggyMessage_36_name_xaxis_needs_quantity)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3681,11 +3681,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>miles</value>
+                        <value>%(yunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The right table unit needs to be the same as the unit of the Y-axis.</buggyMessage>
+            <buggyMessage>%(buggyMessage_37_right_table_unit_needs)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3742,11 +3742,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>distance</value>
+                        <value>%(ylabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The right quantity needs to be the same as the name you gave to the Y-axis.</buggyMessage>
+            <buggyMessage>%(buggyMessage_38_right_quantity_needs_name)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3803,11 +3803,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>hours</value>
+                        <value>%(xunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. The unit for the X-axis is "hours".</buggyMessage>
+            <buggyMessage>%(buggyMessage_39_correct_unit_xaxis_xunit)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3829,7 +3829,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!unit1 &amp;&amp; !["hours","hour","hr","hrs","number of hours","#hours"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!unit1 &amp;&amp; ![%(xunitlist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3864,11 +3864,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>distance</value>
+                        <value>%(ylabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the Y-axis "distance".</buggyMessage>
+            <buggyMessage>%(buggyMessage_40_correct_try_name_yaxis)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3890,7 +3890,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!quantity2 &amp;&amp; !["distance","length","space"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!quantity2 &amp;&amp; ![%(ylabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3925,11 +3925,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>time</value>
+                        <value>%(xlabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the X-axis "time".</buggyMessage>
+            <buggyMessage>%(buggyMessage_41_correct_try_name_xaxis)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3951,7 +3951,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!quantity1 &amp;&amp; !["time","duration","period"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!quantity1 &amp;&amp; ![%(xlabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3986,11 +3986,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>miles</value>
+                        <value>%(yunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the right unit "miles".</buggyMessage>
+            <buggyMessage>%(buggyMessage_42_correct_try_name_right)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4047,20 +4047,20 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>3 * x </value>
+                        <value>%(Input_114_slope_x_initial_value)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>This highlighted box is where you enter the equation of the line you've drawn before.</hintMessage>
-            <hintMessage>The first part is given: 'y ='. Please fill in the equation after the '=' sign.</hintMessage>
-            <hintMessage>The &lt;%=quantity2%&gt; depends on the &lt;%=quantity1%&gt;. Let's call &lt;%=quantity2%&gt; 'y' and &lt;%=quantity1%&gt; 'x'. Now to complete the equation y = ...</hintMessage>
-            <hintMessage>Look back at the first three questions: how did you find the &lt;%=quantity2%&gt; (y) using the number of &lt;%=unit1%&gt; (x)?</hintMessage>
-            <hintMessage>Read this line carefully: 'You try to walk at a constant pace of 3 miles per hour.' Try to make this an equation in the form y = x * ...</hintMessage>
-            <hintMessage>It says &lt;%=quantity2%&gt; (y) EQUALS &lt;%=quantity1%&gt; (x) TIMES 3 .</hintMessage>
-            <hintMessage>It says y EQUALS x TIMES 3 .</hintMessage>
-            <hintMessage>Please enter '3 * x ' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_47_highlighted_box_enter_equation)%</hintMessage>
+            <hintMessage>%(hintMessage_48_first_part_given_please)%</hintMessage>
+            <hintMessage>%(hintMessage_49_depends_lets_call_x)%</hintMessage>
+            <hintMessage>%(hintMessage_50_look_back_first_three)%</hintMessage>
+            <hintMessage>%(hintMessage_51_read_line_carefully_problem_info)%</hintMessage>
+            <hintMessage>%(hintMessage_52_says_equals_x_times)%</hintMessage>
+            <hintMessage>%(hintMessage_53_says_equals_x_times)%</hintMessage>
+            <hintMessage>%(hintMessage_54_please_enter_slope_x)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -4081,7 +4081,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">algPartiallyEquivalent(input,"(3 * x) ")</matcherParameter>
+                        <matcherParameter name="InputExpression">algPartiallyEquivalent(input,"(%(slope)% * x) %(initial_value)%")</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4116,11 +4116,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>27</value>
+                        <value>%(point5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please work on defining the &lt;%=quantity2%&gt; of question 5 in the table first.</buggyMessage>
+            <buggyMessage>%(buggyMessage_44_please_work_defining_question)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4142,7 +4142,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, typeof q4_1 == "number" &amp;&amp; !q5_2 &amp;&amp; hasPoint(p, {x: 5, y: 15})</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, typeof q4_1 == "number" &amp;&amp; !q5_2 &amp;&amp; hasPoint(p, {x: %(point4x)%, y: %(point4y)%})</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4177,11 +4177,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>27</value>
+                        <value>%(point5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. What is the &lt;%=quantity2%&gt; for question 5?</buggyMessage>
+            <buggyMessage>%(buggyMessage_45_correct_question_5)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4236,11 +4236,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>9</value>
+                        <value>%(point5x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Look at the point you just plotted: what is the &lt;%=quantity1%&gt; on this point?</buggyMessage>
+            <buggyMessage>%(buggyMessage_46_correct_look_point_plotted)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4295,11 +4295,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>5</value>
+                        <value>%(point4x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Look at the point you just plotted: what is the &lt;%=quantity1%&gt; on this point?</buggyMessage>
+            <buggyMessage>%(buggyMessage_46_correct_look_point_plotted)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4354,17 +4354,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>distance</value>
+                        <value>%(ylabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>The Y-axis is where you enter the dependent quantity. What would be a good name for the dependent quantity?</hintMessage>
-            <hintMessage>&lt;%=graphLabelY ? &quot;The dependent quantity name is the same as your name for the right column.&quot; : &quot;Read the introduction again. The dependent quantity is exactly what it sounds like: what is the quantity that depends on something else?&quot;%&gt;</hintMessage>
-            <hintMessage>&lt;%=graphLabelY ? &quot;Look at what you named the right column.&quot; : &quot;The time is set. Depending on the time, the ... changes.&quot;%&gt;</hintMessage>
-            <hintMessage>&lt;%=graphLabelY ? &quot;The right column is called '&quot; + graphLabelY + &quot;'.&quot; : &quot;The time is set. Depending on the time, the distance changes.&quot;%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=graphLabelY || &quot;distance&quot;%&gt;' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_1_yaxis_enter_dependent_quantity)%</hintMessage>
+            <hintMessage>%(hintMessage_56_)%</hintMessage>
+            <hintMessage>%(hintMessage_57_)%</hintMessage>
+            <hintMessage>%(hintMessage_58_)%</hintMessage>
+            <hintMessage>%(hintMessage_59_please_enter_highlighted_field)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -4385,7 +4385,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphLabelY ? input.toLowerCase() == graphLabelY.toLowerCase() : ["distance","length","space"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphLabelY ? input.toLowerCase() == graphLabelY.toLowerCase() : [%(ylabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4420,11 +4420,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>6</value>
+                        <value>%(point1y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. If you walk 3 miles every hour. What would the distance be when the time is 2 hours?</buggyMessage>
+            <buggyMessage>%(buggyMessage_49_correct_ybug_would_ylabel)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4481,15 +4481,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>9</value>
+                        <value>%(point2y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the second question: "How far will you have walked if you walk for three hours?" How would you calculate the distance?</hintMessage>
-            <hintMessage>If you walk 3 miles in one hour, that means in THREE hours you will walk 3 * 3 miles.</hintMessage>
-            <hintMessage>Please enter '9' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_60_look_second_question_q2)%</hintMessage>
+            <hintMessage>%(q2_table_hint)%</hintMessage>
+            <hintMessage>%(hintMessage_62_please_enter_point2y_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -4508,9 +4508,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="algEvaluate(input)">
+                    <matcher replacementFormula="%(yreplace1)%">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; algEqual(input, 9)</matcherParameter>
+                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; algEqual(input, %(point2y)%)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4545,15 +4545,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>6</value>
+                        <value>%(point1y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the first question: "What distance will you have walked in two hours?" How would you calculate the distance?</hintMessage>
-            <hintMessage>If you walk 3 miles in one hour, that means in TWO hours you will walk 2 * 3 miles.</hintMessage>
-            <hintMessage>Please enter '6' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_63_look_first_question_q1)%</hintMessage>
+            <hintMessage>%(q1_table_hint)%</hintMessage>
+            <hintMessage>%(hintMessage_65_please_enter_point1y_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -4572,9 +4572,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="algEvaluate(input)">
+                    <matcher replacementFormula="%(yreplace1)%">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; algEqual(input, 6)</matcherParameter>
+                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; algEqual(input, %(point1y)%)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4609,15 +4609,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>12</value>
+                        <value>%(point3y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the third question: "What distance will you have walked in four hours?" How would you calculate the distance?</hintMessage>
-            <hintMessage>If you walk 3 miles in one hour, that means in FOUR hours you will walk 4 * 3 miles.</hintMessage>
-            <hintMessage>Please enter '12' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_66_look_third_question_q3)%</hintMessage>
+            <hintMessage>%(q3_table_hint)%</hintMessage>
+            <hintMessage>%(hintMessage_68_please_enter_point3y_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -4636,9 +4636,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="algEvaluate(input)">
+                    <matcher replacementFormula="%(yreplace1)%">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; algEquiv(input, 12)</matcherParameter>
+                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; algEquiv(input, %(point3y)%)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4673,11 +4673,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>4</value>
+                        <value>%(point3x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. What is the time in question 3?</buggyMessage>
+            <buggyMessage>%(buggyMessage_53_correct_xlabel_question_3)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4734,11 +4734,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>12</value>
+                        <value>%(point3y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. If you walk 3 miles every hour. What would the distance be when the time is 4 hours?</buggyMessage>
+            <buggyMessage>%(buggyMessage_54_correct_ybug_would_ylabel)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4795,11 +4795,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>3</value>
+                        <value>%(point2x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. What is the time in question 2?</buggyMessage>
+            <buggyMessage>%(buggyMessage_55_correct_xlabel_question_2)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4856,11 +4856,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>9</value>
+                        <value>%(point2y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. If you walk 3 miles every hour. What would the distance be when the time is 3 hours?</buggyMessage>
+            <buggyMessage>%(buggyMessage_56_correct_ybug_would_ylabel)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4917,11 +4917,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>distance</value>
+                        <value>%(ylabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Yes, "&lt;%=input%&gt;" is the independent quantity. Try to enter the independent quantity "&lt;%=input%&gt;" in left column instead of the right column.</buggyMessage>
+            <buggyMessage>%(buggyMessage_57_yes_independent_quantity_try)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4943,7 +4943,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; !["distance","length","space"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">[%(xlabellist)%].includes(input.toLowerCase()) &amp;&amp; ![%(ylabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4978,11 +4978,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>distance</value>
+                        <value>%(ylabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the dependent quantity "distance".</buggyMessage>
+            <buggyMessage>%(buggyMessage_58_correct_try_name_dependent)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5004,7 +5004,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphLabelY &amp;&amp; !["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; !["distance","length","space"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphLabelY &amp;&amp; ![%(xlabellist)%].includes(input.toLowerCase()) &amp;&amp; ![%(ylabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5039,11 +5039,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>hours</value>
+                        <value>%(xunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the left unit "hours".</buggyMessage>
+            <buggyMessage>%(buggyMessage_59_correct_try_name_left)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5065,7 +5065,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphUnitX &amp;&amp; !["hours","hour","hr","hrs","number of hours","#hours"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphUnitX &amp;&amp; ![%(xunitlist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5100,11 +5100,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>hours</value>
+                        <value>%(xunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The left table unit needs to be the same as the unit of the X-axis.</buggyMessage>
+            <buggyMessage>%(buggyMessage_60_left_table_unit_needs)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5161,15 +5161,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>hours</value>
+                        <value>%(xunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>In what unit would you measure time?</hintMessage>
-            <hintMessage>&lt;%=graphUnitX ? &quot;The left column unit should be the same as the unit on the X-axis.&quot; : &quot;Look at the introduction: 'You try to walk at a constant pace of 3 miles per hour.' What measurement would you use for time?&quot;%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=graphUnitX || &quot;hours&quot;%&gt;' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_6_unit_would_measure_xlabel)%</hintMessage>
+            <hintMessage>%(hintMessage_70_)%</hintMessage>
+            <hintMessage>%(hintMessage_71_please_enter_highlighted_field)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -5190,7 +5190,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphUnitX ? input.toLowerCase() == graphUnitX.toLowerCase() : ["hours","hour","hr","hrs","number of hours","#hours"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphUnitX ? input.toLowerCase() == graphUnitX.toLowerCase() : [%(xunitlist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5229,7 +5229,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please draw a line by clicking on two of the points.</buggyMessage>
+            <buggyMessage>%(buggyMessage_62_please_draw_line_clicking)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5290,9 +5290,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please enter &lt;%=!tableHeaders ? &quot;the table headings (quantity name and unit) and &quot; : &quot;&quot;%&gt;the axis labels before you plot points.</buggyMessage>
+            <buggyMessage>%(buggyMessage_63_please_enter_axis_labels)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '(4.14,3.8)' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_72_please_provide_answer_41438)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -5348,11 +5348,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>3 * x </value>
+                        <value>%(Input_114_slope_x_initial_value)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Read this line carefully: 'You try to walk at a constant pace of 3 miles per hour.' Try to make this an equation in the form y = x * ...</buggyMessage>
+            <buggyMessage>%(buggyMessage_64_correct_read_line_carefully)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5407,11 +5407,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>3 * x </value>
+                        <value>%(Input_114_slope_x_initial_value)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The 'y =' part of the equation is already given. Focus instead on the second part: ... * x</buggyMessage>
+            <buggyMessage>%(buggyMessage_65_part_equation_already_given)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5467,11 +5467,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>time</value>
+                        <value>%(xlabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the independent quantity "time".</buggyMessage>
+            <buggyMessage>%(buggyMessage_66_correct_try_name_independent)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5493,7 +5493,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphLabelX &amp;&amp; !["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; !["distance","length","space"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphLabelX &amp;&amp; ![%(xlabellist)%].includes(input.toLowerCase()) &amp;&amp; ![%(ylabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5527,11 +5527,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>time</value>
+                        <value>%(xlabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Yes, "&lt;%=input%&gt;" is the dependent quantity. Try to enter the dependent quantity "&lt;%=input%&gt;" in right column instead of the left column.</buggyMessage>
+            <buggyMessage>%(buggyMessage_67_yes_dependent_quantity_try)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5553,7 +5553,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; ["distance","length","space"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">![%(xlabellist)%].includes(input.toLowerCase()) &amp;&amp; [%(ylabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5587,11 +5587,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>time</value>
+                        <value>%(xlabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>The left quantity needs to be the same as the name you gave to the X-axis.</buggyMessage>
+            <buggyMessage>%(buggyMessage_68_left_quantity_needs_name)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5647,17 +5647,17 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>time</value>
+                        <value>%(xlabel)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>The left column is where you enter the quantities the independent quantity. What would be a good name for the independent quantity?</hintMessage>
-            <hintMessage>The independent quantity is the variable that is set. &lt;%=graphLabelX ? &quot;It is the same as what you named the X-axis.&quot; : &quot;Read the introduction again. What is the set quantity that is known?&quot;%&gt;</hintMessage>
-            <hintMessage>&lt;%=graphLabelX ? &quot;Look at what you named the X-axis.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: distance depends on ...&quot;%&gt;</hintMessage>
-            <hintMessage>&lt;%=graphLabelX ? &quot;You named the X-axis '&quot; + graphLabelX + &quot;'.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: distance depends on time.&quot;%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=graphLabelX || &quot;time&quot;%&gt;' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_73_left_column_enter_quantities)%</hintMessage>
+            <hintMessage>%(hintMessage_74_independent_quantity_variable_set)%</hintMessage>
+            <hintMessage>%(hintMessage_75_)%</hintMessage>
+            <hintMessage>%(hintMessage_76_)%</hintMessage>
+            <hintMessage>%(hintMessage_77_please_enter_highlighted_field)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -5678,7 +5678,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphLabelX ? input.toLowerCase() == graphLabelX.toLowerCase() : ["time","duration","period"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphLabelX ? input.toLowerCase() == graphLabelX.toLowerCase() : [%(xlabellist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5695,7 +5695,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -5711,14 +5711,14 @@
                         <value>setDisplay</value>
                     </Action>
                     <Input>
-                        <value>true</value>
+                        <value>%(Input_23_true)%</value>
                     </Input>
                     <transaction_id>T73c5be68-63c0-420a-b1a5-b30bb71c110c</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -5772,16 +5772,16 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":6}</value>
+                        <value>%(Input_37_xpoint1xypoint1y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>You are asked to plot the point for question 1 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=2 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 2, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 2 ? &quot;adjust the left boundary by lowering it to less than 2, then &quot; : &quot;&quot;%&gt;&lt;%=6 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 6, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 6 ? &quot;change the lower boundary by decreasing it to less than 6, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
-            <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 2 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 6 &lt;%=unit2%&gt;. Click on the spot where 2 &lt;%=unit1%&gt; and 6 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
-            <hintMessage>Click on the graph at the coordinates '(2, 6)' to add the point.</hintMessage>
+            <hintMessage>%(hintMessage_79_asked_plot_point_question)%</hintMessage>
+            <hintMessage>%(hintMessage_80_please_graphmaxx_adjust_right)%</hintMessage>
+            <hintMessage>%(hintMessage_81_lefttoright_point1x_bottomtotop_point1y)%</hintMessage>
+            <hintMessage>%(hintMessage_82_click_graph_coordinates_point1x)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -5800,9 +5800,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:2,&quot;y&quot;:6}),'{&quot;x&quot;:2,&quot;y&quot;:6}')">
+                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:%(point1x)%,&quot;y&quot;:%(point1y)%}),'{&quot;x&quot;:%(point1x)%,&quot;y&quot;:%(point1y)%}')">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphHeaders &amp;&amp; pointInRange(input, 2, 6, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
+                        <matcherParameter name="InputExpression">graphHeaders &amp;&amp; pointInRange(input, %(point1x)%, %(point1y)%, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5836,11 +5836,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":6}</value>
+                        <value>%(Input_37_xpoint1xypoint1y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 2 &lt;%=unit1 || &quot;hours&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 6 &lt;%=unit2 || &quot;miles&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <buggyMessage>%(buggyMessage_72_please_20_change_yaxis)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5862,7 +5862,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, graphHeaders &amp;&amp; !hasPoint(p, {x: 2, y: 6})</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, graphHeaders &amp;&amp; !hasPoint(p, {x: %(point1x)%, y: %(point1y)%})</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5896,16 +5896,16 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":3,"y":9}</value>
+                        <value>%(Input_47_xpoint2xypoint2y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>You are asked to plot the point for question 2 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=3 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 3, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 3 ? &quot;adjust the left boundary by lowering it to less than 3, then &quot; : &quot;&quot;%&gt;&lt;%=9 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 9, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 9 ? &quot;change the lower boundary by decreasing it to less than 9, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
-            <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 3 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 9 &lt;%=unit2%&gt;. Click on the spot where 3 &lt;%=unit1%&gt; and 9 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
-            <hintMessage>Click on the graph at the coordinates '(3, 9)' to add the point.</hintMessage>
+            <hintMessage>%(hintMessage_83_asked_plot_point_question)%</hintMessage>
+            <hintMessage>%(hintMessage_84_please_graphmaxx_adjust_right)%</hintMessage>
+            <hintMessage>%(hintMessage_85_lefttoright_point2x_bottomtotop_point2y)%</hintMessage>
+            <hintMessage>%(hintMessage_86_click_graph_coordinates_point2x)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -5924,9 +5924,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:3,&quot;y&quot;:9}),'{&quot;x&quot;:3,&quot;y&quot;:9}')">
+                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:%(point2x)%,&quot;y&quot;:%(point2y)%}),'{&quot;x&quot;:%(point2x)%,&quot;y&quot;:%(point2y)%}')">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphHeaders &amp;&amp; pointInRange(input, 3, 9, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
+                        <matcherParameter name="InputExpression">graphHeaders &amp;&amp; pointInRange(input, %(point2x)%, %(point2y)%, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5960,11 +5960,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":3,"y":9}</value>
+                        <value>%(Input_47_xpoint2xypoint2y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 3 &lt;%=unit1 || &quot;hours&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 9 &lt;%=unit2 || &quot;miles&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <buggyMessage>%(buggyMessage_74_please_20_change_yaxis)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5986,7 +5986,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, graphHeaders &amp;&amp; !hasPoint(p, {x: 3, y: 9})</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, graphHeaders &amp;&amp; !hasPoint(p, {x: %(point2x)%, y: %(point2y)%})</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6020,16 +6020,16 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":4,"y":12}</value>
+                        <value>%(Input_55_xpoint3xypoint3y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>You are asked to plot the point for question 3 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=4 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 4, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 4 ? &quot;adjust the left boundary by lowering it to less than 4, then &quot; : &quot;&quot;%&gt;&lt;%=12 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 12, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 12 ? &quot;change the lower boundary by decreasing it to less than 12, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
-            <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 4 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 12 &lt;%=unit2%&gt;. Click on the spot where 4 &lt;%=unit1%&gt; and 12 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
-            <hintMessage>Click on the graph at the coordinates '(4, 12)' to add the point.</hintMessage>
+            <hintMessage>%(hintMessage_87_asked_plot_point_question)%</hintMessage>
+            <hintMessage>%(hintMessage_88_please_graphmaxx_adjust_right)%</hintMessage>
+            <hintMessage>%(hintMessage_89_lefttoright_point3x_bottomtotop_point3y)%</hintMessage>
+            <hintMessage>%(hintMessage_90_click_graph_coordinates_point3x)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6048,9 +6048,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:4,&quot;y&quot;:12}),'{&quot;x&quot;:4,&quot;y&quot;:12}')">
+                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:%(point3x)%,&quot;y&quot;:%(point3y)%}),'{&quot;x&quot;:%(point3x)%,&quot;y&quot;:%(point3y)%}')">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphHeaders &amp;&amp; pointInRange(input, 4, 12, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
+                        <matcherParameter name="InputExpression">graphHeaders &amp;&amp; pointInRange(input, %(point3x)%, %(point3y)%, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6084,11 +6084,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":5,"y":15}</value>
+                        <value>%(Input_80_xpoint4xypoint4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 4 &lt;%=unit1 || &quot;hours&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 12 &lt;%=unit2 || &quot;miles&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <buggyMessage>%(buggyMessage_76_please_20_change_yaxis)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6110,7 +6110,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, graphHeaders &amp;&amp; !hasPoint(p, {x: 4, y: 12})</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, graphHeaders &amp;&amp; !hasPoint(p, {x: %(point3x)%, y: %(point3y)%})</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6127,7 +6127,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -6143,13 +6143,13 @@
                         <value>setVisible</value>
                     </Action>
                     <Input>
-                        <value>true</value>
+                        <value>%(Input_23_true)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6186,7 +6186,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -6202,14 +6202,14 @@
                         <value>setDisplay</value>
                     </Action>
                     <Input>
-                        <value>true</value>
+                        <value>%(Input_23_true)%</value>
                     </Input>
                     <transaction_id>T73c5be68-63c0-420a-b1a5-b30bb71c110c</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6263,16 +6263,16 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":5,"y":15}</value>
+                        <value>%(Input_80_xpoint4xypoint4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>You are asked to plot the point for question 4 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-            <hintMessage>Please &lt;%=5 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 5, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 5 ? &quot;adjust the left boundary by lowering it to less than 5, then &quot; : &quot;&quot;%&gt;&lt;%=15 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 15, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 15 ? &quot;change the lower boundary by decreasing it to less than 15, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
-            <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 15 &lt;%=unit2%&gt;. Click on the spot where 15 &lt;%=unit2%&gt; intersects the line.</hintMessage>
-            <hintMessage>Click on the graph at the coordinates '(5, 15)' to add the point.</hintMessage>
+            <hintMessage>%(hintMessage_93_asked_plot_point_question)%</hintMessage>
+            <hintMessage>%(hintMessage_94_please_graphmaxx_adjust_right)%</hintMessage>
+            <hintMessage>%(hintMessage_95_bottomtotop_point4y_click_spot)%</hintMessage>
+            <hintMessage>%(hintMessage_96_click_graph_coordinates_point4x)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6291,9 +6291,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:5,&quot;y&quot;:15}),'{&quot;x&quot;:5,&quot;y&quot;:15}')">
+                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:%(point4x)%,&quot;y&quot;:%(point4y)%}),'{&quot;x&quot;:%(point4x)%,&quot;y&quot;:%(point4y)%}')">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">pointInRange(input, 5, 15, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
+                        <matcherParameter name="InputExpression">pointInRange(input, %(point4x)%, %(point4y)%, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6327,11 +6327,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":5,"y":15}</value>
+                        <value>%(Input_80_xpoint4xypoint4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to &lt;%=5 > graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 5, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 5 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 5, then &quot; : &quot;&quot;%&gt;&lt;%=15 > graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 15, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 15 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 15, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 15 &lt;%=unit2%&gt;.</buggyMessage>
+            <buggyMessage>%(buggyMessage_80_correct_try_graphmaxx_adjust)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6353,7 +6353,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, !hasPoint(p, {x: 5, y: 15})</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, !hasPoint(p, {x: %(point4x)%, y: %(point4y)%})</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6370,7 +6370,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -6386,14 +6386,14 @@
                         <value>addClass</value>
                     </Action>
                     <Input>
-                        <value>no-placeholder</value>
+                        <value>%(Input_190_noplaceholder)%</value>
                     </Input>
                     <transaction_id>T0ee0cd7d-f5e1-41d5-8051-0c29a3ba8d03</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6430,7 +6430,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -6446,13 +6446,13 @@
                         <value>unlock</value>
                     </Action>
                     <Input>
-                        <value>true</value>
+                        <value>%(Input_23_true)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6506,11 +6506,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":5,"y":15}</value>
+                        <value>%(Input_80_xpoint4xypoint4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please work on defining the &lt;%=quantity1%&gt; of question 4 in the table.</buggyMessage>
+            <buggyMessage>%(buggyMessage_83_please_work_defining_question)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6532,7 +6532,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">q4_1 != 5</matcherParameter>
+                        <matcherParameter name="InputExpression">q4_1 != %(point4x)%</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6566,16 +6566,16 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":9,"y":27}</value>
+                        <value>%(Input_68_xpoint5xypoint5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>You are asked to plot the point for question 5 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-            <hintMessage>Please &lt;%=9 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 9, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 9 ? &quot;adjust the left boundary by lowering it to less than 9, then &quot; : &quot;&quot;%&gt;&lt;%=27 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 27, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 27 ? &quot;change the lower boundary by decreasing it to less than 27, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
-            <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 27 &lt;%=unit2%&gt;. Click on the spot where 27 &lt;%=unit2%&gt; intersects the line.</hintMessage>
-            <hintMessage>Click on the graph at the coordinates '(9, 27)' to add the point.</hintMessage>
+            <hintMessage>%(hintMessage_99_asked_plot_point_question)%</hintMessage>
+            <hintMessage>%(hintMessage_100_please_graphmaxx_adjust_right)%</hintMessage>
+            <hintMessage>%(hintMessage_101_bottomtotop_point5y_click_spot)%</hintMessage>
+            <hintMessage>%(hintMessage_102_click_graph_coordinates_point5x)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6594,9 +6594,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:9,&quot;y&quot;:27}),'{&quot;x&quot;:9,&quot;y&quot;:27}')">
+                    <matcher replacementFormula="(graphPoints.push({&quot;x&quot;:%(point5x)%,&quot;y&quot;:%(point5y)%}),'{&quot;x&quot;:%(point5x)%,&quot;y&quot;:%(point5y)%}')">
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">pointInRange(input, 9, 27, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
+                        <matcherParameter name="InputExpression">pointInRange(input, %(point5x)%, %(point5y)%, (graphMaxX - graphMinX) / 20, (graphMaxY - graphMinY) / 20)</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6630,11 +6630,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":9,"y":27}</value>
+                        <value>%(Input_68_xpoint5xypoint5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to &lt;%=9 > graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 9, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 9 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 9, then &quot; : &quot;&quot;%&gt;&lt;%=27 > graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 27, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 27 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 27, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 27 &lt;%=unit2%&gt;.</buggyMessage>
+            <buggyMessage>%(buggyMessage_85_correct_try_graphmaxx_adjust)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6656,7 +6656,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, !hasPoint(p, {x: 9, y: 27})</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, !hasPoint(p, {x: %(point5x)%, y: %(point5y)%})</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6673,7 +6673,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -6689,14 +6689,14 @@
                         <value>addClass</value>
                     </Action>
                     <Input>
-                        <value>no-placeholder</value>
+                        <value>%(Input_190_noplaceholder)%</value>
                     </Input>
                     <transaction_id>T0ee0cd7d-f5e1-41d5-8051-0c29a3ba8d03</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6733,7 +6733,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -6749,13 +6749,13 @@
                         <value>unlock</value>
                     </Action>
                     <Input>
-                        <value>true</value>
+                        <value>%(Input_23_true)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6809,11 +6809,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":9,"y":27}</value>
+                        <value>%(Input_68_xpoint5xypoint5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please work on defining the &lt;%=quantity1%&gt; of question 5 in the table.</buggyMessage>
+            <buggyMessage>%(buggyMessage_88_please_work_defining_question)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6835,7 +6835,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, hasPoint(p, {x: 9, y: 27}) &amp;&amp; q5_1 != 9</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, hasPoint(p, {x: %(point5x)%, y: %(point5y)%}) &amp;&amp; q5_1 != %(point5x)%</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6869,11 +6869,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":9,"y":27}</value>
+                        <value>%(Input_68_xpoint5xypoint5y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please work on defining the equation in the table.</buggyMessage>
+            <buggyMessage>%(buggyMessage_89_please_work_defining_equation)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6895,7 +6895,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!expression &amp;&amp; q4_1 == 5 &amp;&amp; q5_1 == 9</matcherParameter>
+                        <matcherParameter name="InputExpression">!expression &amp;&amp; q4_1 == %(point4x)% &amp;&amp; q5_1 == %(point5x)%</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6929,15 +6929,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>3</value>
+                        <value>%(point2x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the second question: "How far will you have walked if you walk for three hours?" What is the time here?</hintMessage>
-            <hintMessage>The time is 3 hours.</hintMessage>
-            <hintMessage>Please enter '3' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_105_look_second_question_q2)%</hintMessage>
+            <hintMessage>%(hintMessage_106_xlabel_point2x_xunit)%</hintMessage>
+            <hintMessage>%(hintMessage_107_please_enter_point2x_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -6958,7 +6958,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; input == 3</matcherParameter>
+                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; input == %(point2x)%</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -6975,7 +6975,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -6991,14 +6991,14 @@
                         <value>removeClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                     <transaction_id>T7834c728-5606-4345-afa5-fd98daee20e5</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7052,15 +7052,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>4</value>
+                        <value>%(point3x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the third question: "What distance will you have walked in four hours?" What is the time here?</hintMessage>
-            <hintMessage>The time is 4 hours.</hintMessage>
-            <hintMessage>Please enter '4' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_109_look_third_question_q3)%</hintMessage>
+            <hintMessage>%(hintMessage_110_xlabel_point3x_xunit)%</hintMessage>
+            <hintMessage>%(hintMessage_111_please_enter_point3x_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7081,7 +7081,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; input == 4</matcherParameter>
+                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; input == %(point3x)%</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -7098,7 +7098,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7114,13 +7114,13 @@
                         <value>removeClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7157,7 +7157,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7173,14 +7173,14 @@
                         <value>addClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                     <transaction_id>T7005c32a-66c7-45c5-8458-148aec078561</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7217,7 +7217,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7233,13 +7233,13 @@
                         <value>removeClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7276,7 +7276,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7292,14 +7292,14 @@
                         <value>addClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                     <transaction_id>T53cf7ce8-f8cf-49fc-b2d9-21a407813792</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7336,7 +7336,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7352,13 +7352,13 @@
                         <value>removeClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7395,7 +7395,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7411,14 +7411,14 @@
                         <value>addClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                     <transaction_id>T7ca2853a-7fb3-4565-b728-0b375123d006</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7476,10 +7476,10 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Observe that the points on the graph have turned green. Please click on two of the points on your graph to draw a line between them.</hintMessage>
-            <hintMessage>A line is defined by two points. For this step, try clicking on two of the points you already placed to draw a line between them.</hintMessage>
+            <hintMessage>%(hintMessage_118_observe_points_graph_turned)%</hintMessage>
+            <hintMessage>%(hintMessage_119_line_defined_two_points)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7516,7 +7516,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7532,13 +7532,13 @@
                         <value>removeClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7575,7 +7575,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7591,14 +7591,14 @@
                         <value>addClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                     <transaction_id>T365f2316-5a56-4399-ac7a-6a9205807645</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7635,7 +7635,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7651,14 +7651,14 @@
                         <value>addClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                     <transaction_id>Td5ee8d15-93c0-4c0f-b3ff-e3c9a47cb322</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7695,7 +7695,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -7711,14 +7711,14 @@
                         <value>removeClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                     <transaction_id>T0553567c-2ba1-432a-8ecd-a2d3355dc753</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7772,16 +7772,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>9</value>
+                        <value>%(point5x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Now that you placed a point for the fifth question, look-up what its X-value is to find the &lt;%=quantity1%&gt;.</hintMessage>
-            <hintMessage>Hover your mouse over the point to see the coordinates.</hintMessage>
-            <hintMessage>The &lt;%=quantity1%&gt; is at 9 &lt;%=unit1%&gt;.</hintMessage>
-            <hintMessage>Please enter '9' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_124_placed_point_fifth_question)%</hintMessage>
+            <hintMessage>%(hintMessage_38_hover_mouse_point_see)%</hintMessage>
+            <hintMessage>%(hintMessage_126_point5x)%</hintMessage>
+            <hintMessage>%(hintMessage_127_please_enter_point5x_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7802,7 +7802,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">9</matcherParameter>
+                        <matcherParameter name="single">%(point5x)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -7835,11 +7835,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>2</value>
+                        <value>%(point1x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. What is the time in question 1?</buggyMessage>
+            <buggyMessage>%(buggyMessage_105_correct_xlabel_question_1)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -7895,15 +7895,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>2</value>
+                        <value>%(point1x)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the first question: "What distance will you have walked in two hours?" What is the time here?</hintMessage>
-            <hintMessage>The time is 2 &lt;%=unit1%&gt;.</hintMessage>
-            <hintMessage>Please enter '2' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_128_look_first_question_q1)%</hintMessage>
+            <hintMessage>%(hintMessage_129_xlabel_point1x)%</hintMessage>
+            <hintMessage>%(hintMessage_130_please_enter_point1x_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7924,7 +7924,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; input == 2</matcherParameter>
+                        <matcherParameter name="InputExpression">tableHeaders &amp;&amp; input == %(point1x)%</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -7958,13 +7958,13 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":6}</value>
+                        <value>%(Input_37_xpoint1xypoint1y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please work on defining the coordinates of the first point in the table first.</buggyMessage>
+            <buggyMessage>%(buggyMessage_107_please_work_defining_coordinates)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_14_please_provide_answer_1)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -7985,7 +7985,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">p = graphPoints, (!q1_1 || !q1_2) &amp;&amp; (p.length &lt; 2 || graphLine) &amp;&amp; (!q2_1 || !q2_2 || hasPoint(p, {x: 3, y: 9})) &amp;&amp; (!q3_1 || !q3_2 || hasPoint(p, {x: 4, y: 12}))</matcherParameter>
+                        <matcherParameter name="InputExpression">p = graphPoints, (!q1_1 || !q1_2) &amp;&amp; (p.length &lt; 2 || graphLine) &amp;&amp; (!q2_1 || !q2_2 || hasPoint(p, {x: %(point2x)%, y: %(point2y)%})) &amp;&amp; (!q3_1 || !q3_2 || hasPoint(p, {x: %(point3x)%, y: %(point3y)%}))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -8019,11 +8019,11 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>15</value>
+                        <value>%(point4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. What is the &lt;%=quantity2%&gt; for question 4?</buggyMessage>
+            <buggyMessage>%(buggyMessage_108_correct_question_4)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -8077,11 +8077,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":5,"y":15}</value>
+                        <value>%(Input_80_xpoint4xypoint4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please work on defining the &lt;%=quantity2%&gt; of question 4 in the table first.</buggyMessage>
+            <buggyMessage>%(buggyMessage_109_please_work_defining_question)%</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -8137,15 +8137,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>15</value>
+                        <value>%(point4y)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the fourth question: "How long does it take to walk 15 miles?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
-            <hintMessage>The &lt;%=quantity2%&gt; is 15 &lt;%=unit2%&gt;.</hintMessage>
-            <hintMessage>Please enter '15' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_132_look_fourth_question_q4)%</hintMessage>
+            <hintMessage>%(hintMessage_133_point4y)%</hintMessage>
+            <hintMessage>%(hintMessage_134_please_enter_point4y_highlighted)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -8164,9 +8164,9 @@
                     </matcher>
                 </Action>
                 <Input>
-                    <matcher replacementFormula="input">
+                    <matcher replacementFormula="%(yreplace2)%">
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">15</matcherParameter>
+                        <matcherParameter name="single">%(point4y)%</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -8199,15 +8199,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>miles</value>
+                        <value>%(yunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>In what unit would you measure distance?</hintMessage>
-            <hintMessage>&lt;%=graphUnitY ? &quot;The right column unit should be the same as the unit on the Y-axis.&quot; : &quot;Look at the introduction: 'You try to walk at a constant pace of 3 miles per hour.' What measurement would you use for distance?&quot;%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=graphUnitY || &quot;miles&quot;%&gt;' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_135_unit_would_measure_ylabel)%</hintMessage>
+            <hintMessage>%(hintMessage_136_)%</hintMessage>
+            <hintMessage>%(hintMessage_137_please_enter_highlighted_field)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -8228,7 +8228,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphUnitY ? input.toLowerCase() == graphUnitY.toLowerCase() : ["miles","mile"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphUnitY ? input.toLowerCase() == graphUnitY.toLowerCase() : [%(yunitlist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -8245,7 +8245,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -8261,13 +8261,13 @@
                         <value>addClass</value>
                     </Action>
                     <Input>
-                        <value>visible</value>
+                        <value>%(Input_210_visible)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -8320,14 +8320,14 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>2</value>
+                        <value>%(point1x)%</value>
                     </Input>
                     <transaction_id>Tcb50ea4f-7940-40ff-b139-ac3d78942fed</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>Please enter the table headings (quantity name and unit) before you enter values.</buggyMessage>
+            <buggyMessage>%(buggyMessage_113_please_enter_table_headings)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Buggy Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -8385,9 +8385,9 @@
                     <transaction_id>Tf94bf82d-af1d-4721-8c2e-ba8d13902abe</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -8422,7 +8422,7 @@
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+        <actionLabel preferPathMark="true" minTraversals="%(mintraversals)%" maxTraversals="1">
             <studentHintRequest />
             <stepSuccessfulCompletion />
             <stepStudentError />
@@ -8438,13 +8438,13 @@
                         <value>setVisible</value>
                     </Action>
                     <Input>
-                        <value>true</value>
+                        <value>%(Input_23_true)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -8498,15 +8498,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>miles</value>
+                        <value>%(yunit)%</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>In what unit would you measure distance?</hintMessage>
-            <hintMessage>&lt;%=unit2 ? &quot;The right column unit should be the same as the unit on the Y-axis.&quot; : &quot;Look at the introduction: 'You try to walk at a constant pace of 3 miles per hour.' What measurement would you use for distance?&quot;%&gt;</hintMessage>
-            <hintMessage>Please enter '&lt;%=unit2 || &quot;miles&quot;%&gt;' in the highlighted field.</hintMessage>
+            <hintMessage>%(hintMessage_135_unit_would_measure_ylabel)%</hintMessage>
+            <hintMessage>%(hintMessage_143_)%</hintMessage>
+            <hintMessage>%(hintMessage_144_please_enter_highlighted_field)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -8527,7 +8527,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">unit2 ? input.toLowerCase() == unit2.toLowerCase() : ["miles","mile"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">unit2 ? input.toLowerCase() == unit2.toLowerCase() : [%(yunitlist)%].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -8565,9 +8565,9 @@
                     <transaction_id>T1dc14a1d-5f6f-4724-8355-08297ea06a3c</transaction_id>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage>%(buggyMessage_1_correct)%</buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage>%(hintMessage_78_please_provide_answer_no_value)%</hintMessage>
             <callbackFn />
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -8604,101 +8604,101 @@
     <productionRule opportunities="4">
         <ruleName>name_quantities</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Name quantities</label>
+        <label>%(label_1_name_quantities)%</label>
         <description>The student is able to derive the dependant and independent quantities from a cover story</description>
-        <hintMessage>The left column is where you enter the quantities the independent quantity. What would be a good name for the independent quantity?</hintMessage>
-        <hintMessage>The independent quantity is the variable that is set. &lt;%=graphLabelX ? &quot;It is the same as what you named the X-axis.&quot; : &quot;Read the introduction again. What is the set quantity that is known?&quot;%&gt;</hintMessage>
-        <hintMessage>&lt;%=graphLabelX ? &quot;Look at what you named the X-axis.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: distance depends on ...&quot;%&gt;</hintMessage>
-        <hintMessage>&lt;%=graphLabelX ? &quot;You named the X-axis '&quot; + graphLabelX + &quot;'.&quot; : &quot;The dependent quantity depends on the independent quantity. In this case: distance depends on time.&quot;%&gt;</hintMessage>
-        <hintMessage>Please enter '&lt;%=graphLabelX || &quot;time&quot;%&gt;' in the highlighted field.</hintMessage>
+        <hintMessage>%(hintMessage_73_left_column_enter_quantities)%</hintMessage>
+        <hintMessage>%(hintMessage_74_independent_quantity_variable_set)%</hintMessage>
+        <hintMessage>%(hintMessage_75_)%</hintMessage>
+        <hintMessage>%(hintMessage_76_)%</hintMessage>
+        <hintMessage>%(hintMessage_77_please_enter_highlighted_field)%</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>enter_given_y</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Enter given y value</label>
+        <label>%(label_2_enter_given_value)%</label>
         <description>Student is able to enter the given y-coordinate of a point</description>
-        <hintMessage>Look at the fourth question: "How long does it take to walk 15 miles?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
-        <hintMessage>The &lt;%=quantity2%&gt; is 15 &lt;%=unit2%&gt;.</hintMessage>
-        <hintMessage>Please enter '15' in the highlighted field.</hintMessage>
+        <hintMessage>%(hintMessage_132_look_fourth_question_q4)%</hintMessage>
+        <hintMessage>%(hintMessage_133_point4y)%</hintMessage>
+        <hintMessage>%(hintMessage_134_please_enter_point4y_highlighted)%</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>plot_points_on_line_given_y</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Plot point on line</label>
+        <label>%(label_3_plot_point_line)%</label>
         <description>The student is able to find a point on a line given the Y-value</description>
-        <hintMessage>You are asked to plot the point for question 4 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-        <hintMessage>Please &lt;%=5 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 5, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 5 ? &quot;adjust the left boundary by lowering it to less than 5, then &quot; : &quot;&quot;%&gt;&lt;%=15 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 15, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 15 ? &quot;change the lower boundary by decreasing it to less than 15, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
-        <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 15 &lt;%=unit2%&gt;. Click on the spot where 15 &lt;%=unit2%&gt; intersects the line.</hintMessage>
-        <hintMessage>Click on the graph at the coordinates '(5, 15)' to add the point.</hintMessage>
+        <hintMessage>%(hintMessage_93_asked_plot_point_question)%</hintMessage>
+        <hintMessage>%(hintMessage_94_please_graphmaxx_adjust_right)%</hintMessage>
+        <hintMessage>%(hintMessage_95_bottomtotop_point4y_click_spot)%</hintMessage>
+        <hintMessage>%(hintMessage_96_click_graph_coordinates_point4x)%</hintMessage>
     </productionRule>
     <productionRule opportunities="1">
         <ruleName>enter_given_x</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Enter given x value</label>
+        <label>%(label_4_enter_given_x_value)%</label>
         <description>Student is able to enter the given x-coordinate of a point</description>
-        <hintMessage>Look at the first question: "What distance will you have walked in two hours?" What is the time here?</hintMessage>
-        <hintMessage>The time is 2 &lt;%=unit1%&gt;.</hintMessage>
-        <hintMessage>Please enter '2' in the highlighted field.</hintMessage>
+        <hintMessage>%(hintMessage_128_look_first_question_q1)%</hintMessage>
+        <hintMessage>%(hintMessage_129_xlabel_point1x)%</hintMessage>
+        <hintMessage>%(hintMessage_130_please_enter_point1x_highlighted)%</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>find_equation</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Find equation</label>
+        <label>%(label_5_find_equation)%</label>
         <description>The student is able to generate a linear equation given a cover story and several plotted points</description>
-        <hintMessage>This highlighted box is where you enter the equation of the line you've drawn before.</hintMessage>
-        <hintMessage>The first part is given: 'y ='. Please fill in the equation after the '=' sign.</hintMessage>
-        <hintMessage>The &lt;%=quantity2%&gt; depends on the &lt;%=quantity1%&gt;. Let's call &lt;%=quantity2%&gt; 'y' and &lt;%=quantity1%&gt; 'x'. Now to complete the equation y = ...</hintMessage>
-        <hintMessage>Look back at the first three questions: how did you find the &lt;%=quantity2%&gt; (y) using the number of &lt;%=unit1%&gt; (x)?</hintMessage>
-        <hintMessage>Read this line carefully: 'You try to walk at a constant pace of 3 miles per hour.' Try to make this an equation in the form y = x * ...</hintMessage>
-        <hintMessage>It says &lt;%=quantity2%&gt; (y) EQUALS &lt;%=quantity1%&gt; (x) TIMES 3 .</hintMessage>
-        <hintMessage>It says y EQUALS x TIMES 3 .</hintMessage>
-        <hintMessage>Please enter '3 * x ' in the highlighted field.</hintMessage>
+        <hintMessage>%(hintMessage_47_highlighted_box_enter_equation)%</hintMessage>
+        <hintMessage>%(hintMessage_48_first_part_given_please)%</hintMessage>
+        <hintMessage>%(hintMessage_49_depends_lets_call_x)%</hintMessage>
+        <hintMessage>%(hintMessage_50_look_back_first_three)%</hintMessage>
+        <hintMessage>%(hintMessage_51_read_line_carefully_problem_info)%</hintMessage>
+        <hintMessage>%(hintMessage_52_says_equals_x_times)%</hintMessage>
+        <hintMessage>%(hintMessage_53_says_equals_x_times)%</hintMessage>
+        <hintMessage>%(hintMessage_54_please_enter_slope_x)%</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>calculate_y_given_x</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Calculate y value</label>
+        <label>%(label_6_calculate_value)%</label>
         <description>The student is able to calculate the y-coordinate of a point, given the x-value</description>
-        <hintMessage>Look at the first question: "What distance will you have walked in two hours?" How would you calculate the distance?</hintMessage>
-        <hintMessage>If you walk 3 miles in one hour, that means in TWO hours you will walk 2 * 3 miles.</hintMessage>
-        <hintMessage>Please enter '6' in the highlighted field.</hintMessage>
+        <hintMessage>%(hintMessage_63_look_first_question_q1)%</hintMessage>
+        <hintMessage>%(q1_table_hint)%</hintMessage>
+        <hintMessage>%(hintMessage_65_please_enter_point1y_highlighted)%</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>determine_x_off_point</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Determine x coordinate</label>
+        <label>%(label_7_determine_x_coordinate)%</label>
         <description>The student is able to follow a point down to the x-axis to read-off its x-value</description>
-        <hintMessage>Now that you placed a point for the fourth question, look-up what its X-value is to find the &lt;%=quantity1%&gt;.</hintMessage>
-        <hintMessage>Hover your mouse over the point to see the coordinates.</hintMessage>
-        <hintMessage>The &lt;%=quantity1%&gt; is at 5 &lt;%=unit1%&gt;.</hintMessage>
-        <hintMessage>Please enter '5' in the highlighted field.</hintMessage>
+        <hintMessage>%(hintMessage_37_placed_point_fourth_question)%</hintMessage>
+        <hintMessage>%(hintMessage_38_hover_mouse_point_see)%</hintMessage>
+        <hintMessage>%(hintMessage_39_point4x)%</hintMessage>
+        <hintMessage>%(hintMessage_40_please_enter_point4x_highlighted)%</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>draw_a_line</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Draw a line</label>
+        <label>%(label_8_draw_line)%</label>
         <description>The student is able to plot a line between points on a graph</description>
-        <hintMessage>Observe that the points on the graph have turned green. Please click on two of the points on your graph to draw a line between them.</hintMessage>
-        <hintMessage>A line is defined by two points. For this step, try clicking on two of the points you already placed to draw a line between them.</hintMessage>
+        <hintMessage>%(hintMessage_118_observe_points_graph_turned)%</hintMessage>
+        <hintMessage>%(hintMessage_119_line_defined_two_points)%</hintMessage>
     </productionRule>
     <productionRule opportunities="4">
         <ruleName>name_units</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Name units</label>
+        <label>%(label_9_name_units)%</label>
         <description>The student is able to define units for the quantities</description>
-        <hintMessage>In what unit would you measure time?</hintMessage>
-        <hintMessage>&lt;%=graphUnitX ? &quot;The left column unit should be the same as the unit on the X-axis.&quot; : &quot;Look at the introduction: 'You try to walk at a constant pace of 3 miles per hour.' What measurement would you use for time?&quot;%&gt;</hintMessage>
-        <hintMessage>Please enter '&lt;%=graphUnitX || &quot;hours&quot;%&gt;' in the highlighted field.</hintMessage>
+        <hintMessage>%(hintMessage_6_unit_would_measure_xlabel)%</hintMessage>
+        <hintMessage>%(hintMessage_70_)%</hintMessage>
+        <hintMessage>%(hintMessage_71_please_enter_highlighted_field)%</hintMessage>
     </productionRule>
     <productionRule>
         <ruleName>plot_points_given_coords</ruleName>
         <productionSet>7_06_tables_and_graphs</productionSet>
-        <label>Plot point given coords</label>
+        <label>%(label_10_plot_point_given_coords)%</label>
         <description>The student is able to find a point on a 2D graph given the coordinates</description>
-        <hintMessage>You are asked to plot the point for question 1 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-        <hintMessage>Please &lt;%=2 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 2, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 2 ? &quot;adjust the left boundary by lowering it to less than 2, then &quot; : &quot;&quot;%&gt;&lt;%=6 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 6, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 6 ? &quot;change the lower boundary by decreasing it to less than 6, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
-        <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 2 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 6 &lt;%=unit2%&gt;. Click on the spot where 2 &lt;%=unit1%&gt; and 6 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
-        <hintMessage>Click on the graph at the coordinates '(2, 6)' to add the point.</hintMessage>
+        <hintMessage>%(hintMessage_79_asked_plot_point_question)%</hintMessage>
+        <hintMessage>%(hintMessage_80_please_graphmaxx_adjust_right)%</hintMessage>
+        <hintMessage>%(hintMessage_81_lefttoright_point1x_bottomtotop_point1y)%</hintMessage>
+        <hintMessage>%(hintMessage_82_click_graph_coordinates_point1x)%</hintMessage>
     </productionRule>
     <EdgesGroups ordered="true">
         <group name="InitialPoints" ordered="false" reenterable="true">

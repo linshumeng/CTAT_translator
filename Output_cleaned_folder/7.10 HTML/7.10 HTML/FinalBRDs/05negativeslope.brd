@@ -1489,7 +1489,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">quantity2 ? input.toLowerCase() == quantity2.toLowerCase() : ["workers needed","number of workers","#workers","number of workers needed","number of human workers","people needed","human workers needed","people working","employees needed"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">quantity2 ? input.toLowerCase() == quantity2.toLowerCase() : [&quot;workers needed&quot;,&quot;number of workers&quot;,&quot;#workers&quot;,&quot;number of workers needed&quot;,&quot;number of human workers&quot;,&quot;people needed&quot;,&quot;human workers needed&quot;,&quot;people working&quot;,&quot;employees needed&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1553,7 +1553,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">unit1 ? input.toLowerCase() == unit1.toLowerCase() : ["machines","number of machines","#machines"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">unit1 ? input.toLowerCase() == unit1.toLowerCase() : [&quot;machines&quot;,&quot;number of machines&quot;,&quot;#machines&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1619,7 +1619,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">quantity1 ? input.toLowerCase() == quantity1.toLowerCase() : ["machines needed","number of machines","#machines","number of machines needed","cloth machines"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">quantity1 ? input.toLowerCase() == quantity1.toLowerCase() : [&quot;machines needed&quot;,&quot;number of machines&quot;,&quot;#machines&quot;,&quot;number of machines needed&quot;,&quot;cloth machines&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1654,7 +1654,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":876}</value>
+                        <value>{&quot;x&quot;:2,&quot;y&quot;:876}</value>
                     </Input>
                 </properties>
             </message>
@@ -1716,7 +1716,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":876}</value>
+                        <value>{&quot;x&quot;:2,&quot;y&quot;:876}</value>
                     </Input>
                 </properties>
             </message>
@@ -1778,7 +1778,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":876}</value>
+                        <value>{&quot;x&quot;:2,&quot;y&quot;:876}</value>
                     </Input>
                 </properties>
             </message>
@@ -1840,7 +1840,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":876}</value>
+                        <value>{&quot;x&quot;:2,&quot;y&quot;:876}</value>
                     </Input>
                 </properties>
             </message>
@@ -1963,7 +1963,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":10,"y":780}</value>
+                        <value>{&quot;x&quot;:10,&quot;y&quot;:780}</value>
                     </Input>
                 </properties>
             </message>
@@ -2025,7 +2025,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":10,"y":780}</value>
+                        <value>{&quot;x&quot;:10,&quot;y&quot;:780}</value>
                     </Input>
                 </properties>
             </message>
@@ -2087,7 +2087,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":10,"y":780}</value>
+                        <value>{&quot;x&quot;:10,&quot;y&quot;:780}</value>
                     </Input>
                 </properties>
             </message>
@@ -2149,7 +2149,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":10,"y":780}</value>
+                        <value>{&quot;x&quot;:10,&quot;y&quot;:780}</value>
                     </Input>
                 </properties>
             </message>
@@ -2211,7 +2211,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":25,"y":600}</value>
+                        <value>{&quot;x&quot;:25,&quot;y&quot;:600}</value>
                     </Input>
                 </properties>
             </message>
@@ -2273,7 +2273,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":25,"y":600}</value>
+                        <value>{&quot;x&quot;:25,&quot;y&quot;:600}</value>
                     </Input>
                 </properties>
             </message>
@@ -2335,7 +2335,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":25,"y":600}</value>
+                        <value>{&quot;x&quot;:25,&quot;y&quot;:600}</value>
                     </Input>
                 </properties>
             </message>
@@ -2397,7 +2397,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":25,"y":600}</value>
+                        <value>{&quot;x&quot;:25,&quot;y&quot;:600}</value>
                     </Input>
                 </properties>
             </message>
@@ -2520,7 +2520,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":10,"y":780}</value>
+                        <value>{&quot;x&quot;:10,&quot;y&quot;:780}</value>
                     </Input>
                 </properties>
             </message>
@@ -2629,7 +2629,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":46,"y":348}</value>
+                        <value>{&quot;x&quot;:46,&quot;y&quot;:348}</value>
                     </Input>
                 </properties>
             </message>
@@ -2691,7 +2691,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":46,"y":348}</value>
+                        <value>{&quot;x&quot;:46,&quot;y&quot;:348}</value>
                     </Input>
                 </properties>
             </message>
@@ -2753,7 +2753,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":46,"y":348}</value>
+                        <value>{&quot;x&quot;:46,&quot;y&quot;:348}</value>
                     </Input>
                 </properties>
             </message>
@@ -2815,7 +2815,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":46,"y":348}</value>
+                        <value>{&quot;x&quot;:46,&quot;y&quot;:348}</value>
                     </Input>
                 </properties>
             </message>
@@ -2883,7 +2883,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the fifth question: "Jim decides he needs 348 workers. How many machines does he need to buy?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
+            <hintMessage>Look at the fifth question: &quot;Jim decides he needs 348 workers. How many machines does he need to buy?&quot; What is the &lt;%=quantity2%&gt; here?</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is 348 &lt;%=unit2%&gt;.</hintMessage>
             <hintMessage>Please enter '348' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -3004,7 +3004,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":75,"y":0}</value>
+                        <value>{&quot;x&quot;:75,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -3066,7 +3066,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":75,"y":0}</value>
+                        <value>{&quot;x&quot;:75,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -3128,7 +3128,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":75,"y":0}</value>
+                        <value>{&quot;x&quot;:75,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -3190,7 +3190,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":75,"y":0}</value>
+                        <value>{&quot;x&quot;:75,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -3313,7 +3313,7 @@
                         <value>addPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":25,"y":600}</value>
+                        <value>{&quot;x&quot;:25,&quot;y&quot;:600}</value>
                     </Input>
                 </properties>
             </message>
@@ -3379,7 +3379,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. The unit for the Y-axis is "workers".</buggyMessage>
+            <buggyMessage>No, this is not correct. The unit for the Y-axis is &quot;workers&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3401,7 +3401,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!unit2 &amp;&amp; !["workers","number of workers","#workes","people needed","employees","amount of people","human workers","number of employees","#employees"].includes(input.toLowerCase())
+                        <matcherParameter name="InputExpression">!unit2 &amp;&amp; ![&quot;workers&quot;,&quot;number of workers&quot;,&quot;#workes&quot;,&quot;people needed&quot;,&quot;employees&quot;,&quot;amount of people&quot;,&quot;human workers&quot;,&quot;number of employees&quot;,&quot;#employees&quot;].includes(input.toLowerCase())
                         </matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
@@ -3807,7 +3807,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. The unit for the X-axis is "machines".</buggyMessage>
+            <buggyMessage>No, this is not correct. The unit for the X-axis is &quot;machines&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3829,7 +3829,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!unit1 &amp;&amp; !["machines","number of machines","#machines"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!unit1 &amp;&amp; ![&quot;machines&quot;,&quot;number of machines&quot;,&quot;#machines&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3868,7 +3868,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the Y-axis "workers needed".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the Y-axis &quot;workers needed&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3890,7 +3890,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!quantity2 &amp;&amp; !["workers needed","number of workers","#workers","number of workers needed","number of human workers","people needed","human workers needed","people working","employees needed"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!quantity2 &amp;&amp; ![&quot;workers needed&quot;,&quot;number of workers&quot;,&quot;#workers&quot;,&quot;number of workers needed&quot;,&quot;number of human workers&quot;,&quot;people needed&quot;,&quot;human workers needed&quot;,&quot;people working&quot;,&quot;employees needed&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3929,7 +3929,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the X-axis "machines needed".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the X-axis &quot;machines needed&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3951,7 +3951,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!quantity1 &amp;&amp; !["machines needed","number of machines","#machines","number of machines needed","cloth machines"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!quantity1 &amp;&amp; ![&quot;machines needed&quot;,&quot;number of machines&quot;,&quot;#machines&quot;,&quot;number of machines needed&quot;,&quot;cloth machines&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3990,7 +3990,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the right unit "workers".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the right unit &quot;workers&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4385,7 +4385,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphLabelY ? input.toLowerCase() == graphLabelY.toLowerCase() : ["workers needed","number of workers","#workers","number of workers needed","number of human workers","people needed","human workers needed","people working","employees needed"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphLabelY ? input.toLowerCase() == graphLabelY.toLowerCase() : [&quot;workers needed&quot;,&quot;number of workers&quot;,&quot;#workers&quot;,&quot;number of workers needed&quot;,&quot;number of human workers&quot;,&quot;people needed&quot;,&quot;human workers needed&quot;,&quot;people working&quot;,&quot;employees needed&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4487,7 +4487,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the second question: "How many workers are needed if he gets ten machines?" How would you calculate the workers needed?</hintMessage>
+            <hintMessage>Look at the second question: &quot;How many workers are needed if he gets ten machines?&quot; How would you calculate the workers needed?</hintMessage>
             <hintMessage>If there are 0 machines Jim needs 900 workers. If there are 10 machines Jim needs 10 * 12 = 120 workers less.</hintMessage>
             <hintMessage>Please enter '780' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -4551,7 +4551,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the first question: "How many workers does the factory still need if Jim buys two machines?" How would you calculate the workers needed?</hintMessage>
+            <hintMessage>Look at the first question: &quot;How many workers does the factory still need if Jim buys two machines?&quot; How would you calculate the workers needed?</hintMessage>
             <hintMessage>If there are 0 machines Jim needs 900 workers. If there are 2 machines Jim needs 2 * 12 = 24 workers less.</hintMessage>
             <hintMessage>Please enter '876' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -4615,7 +4615,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the third question: "What number of workers does a factory need that has 25 machines?" How would you calculate the workers needed?</hintMessage>
+            <hintMessage>Look at the third question: &quot;What number of workers does a factory need that has 25 machines?&quot; How would you calculate the workers needed?</hintMessage>
             <hintMessage>If there are 0 machines Jim needs 900 workers. If there are 25 machines Jim needs 25 * 12 = 300 workers less.</hintMessage>
             <hintMessage>Please enter '600' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -4921,7 +4921,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Yes, "&lt;%=input%&gt;" is the independent quantity. Try to enter the independent quantity "&lt;%=input%&gt;" in left column instead of the right column.</buggyMessage>
+            <buggyMessage>Yes, &quot;&lt;%=input%&gt;&quot; is the independent quantity. Try to enter the independent quantity &quot;&lt;%=input%&gt;&quot; in left column instead of the right column.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4943,7 +4943,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">["machines needed","number of machines","#machines","number of machines needed","cloth machines"].includes(input.toLowerCase()) &amp;&amp; !["workers needed","number of workers","#workers","number of workers needed","number of human workers","people needed","human workers needed","people working","employees needed"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">[&quot;machines needed&quot;,&quot;number of machines&quot;,&quot;#machines&quot;,&quot;number of machines needed&quot;,&quot;cloth machines&quot;].includes(input.toLowerCase()) &amp;&amp; ![&quot;workers needed&quot;,&quot;number of workers&quot;,&quot;#workers&quot;,&quot;number of workers needed&quot;,&quot;number of human workers&quot;,&quot;people needed&quot;,&quot;human workers needed&quot;,&quot;people working&quot;,&quot;employees needed&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4982,7 +4982,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the dependent quantity "workers needed".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the dependent quantity &quot;workers needed&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5004,7 +5004,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphLabelY &amp;&amp; !["machines needed","number of machines","#machines","number of machines needed","cloth machines"].includes(input.toLowerCase()) &amp;&amp; !["workers needed","number of workers","#workers","number of workers needed","number of human workers","people needed","human workers needed","people working","employees needed"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphLabelY &amp;&amp; ![&quot;machines needed&quot;,&quot;number of machines&quot;,&quot;#machines&quot;,&quot;number of machines needed&quot;,&quot;cloth machines&quot;].includes(input.toLowerCase()) &amp;&amp; ![&quot;workers needed&quot;,&quot;number of workers&quot;,&quot;#workers&quot;,&quot;number of workers needed&quot;,&quot;number of human workers&quot;,&quot;people needed&quot;,&quot;human workers needed&quot;,&quot;people working&quot;,&quot;employees needed&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5043,7 +5043,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the left unit "machines".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the left unit &quot;machines&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5065,7 +5065,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphUnitX &amp;&amp; !["machines","number of machines","#machines"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphUnitX &amp;&amp; ![&quot;machines&quot;,&quot;number of machines&quot;,&quot;#machines&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5190,7 +5190,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphUnitX ? input.toLowerCase() == graphUnitX.toLowerCase() : ["machines","number of machines","#machines"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphUnitX ? input.toLowerCase() == graphUnitX.toLowerCase() : [&quot;machines&quot;,&quot;number of machines&quot;,&quot;#machines&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5471,7 +5471,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the independent quantity "machines needed".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the independent quantity &quot;machines needed&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5493,7 +5493,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphLabelX &amp;&amp; !["machines needed","number of machines","#machines","number of machines needed","cloth machines"].includes(input.toLowerCase()) &amp;&amp; !["workers needed","number of workers","#workers","number of workers needed","number of human workers","people needed","human workers needed","people working","employees needed"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphLabelX &amp;&amp; ![&quot;machines needed&quot;,&quot;number of machines&quot;,&quot;#machines&quot;,&quot;number of machines needed&quot;,&quot;cloth machines&quot;].includes(input.toLowerCase()) &amp;&amp; ![&quot;workers needed&quot;,&quot;number of workers&quot;,&quot;#workers&quot;,&quot;number of workers needed&quot;,&quot;number of human workers&quot;,&quot;people needed&quot;,&quot;human workers needed&quot;,&quot;people working&quot;,&quot;employees needed&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5531,7 +5531,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Yes, "&lt;%=input%&gt;" is the dependent quantity. Try to enter the dependent quantity "&lt;%=input%&gt;" in right column instead of the left column.</buggyMessage>
+            <buggyMessage>Yes, &quot;&lt;%=input%&gt;&quot; is the dependent quantity. Try to enter the dependent quantity &quot;&lt;%=input%&gt;&quot; in right column instead of the left column.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5553,7 +5553,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!["machines needed","number of machines","#machines","number of machines needed","cloth machines"].includes(input.toLowerCase()) &amp;&amp; ["workers needed","number of workers","#workers","number of workers needed","number of human workers","people needed","human workers needed","people working","employees needed"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">![&quot;machines needed&quot;,&quot;number of machines&quot;,&quot;#machines&quot;,&quot;number of machines needed&quot;,&quot;cloth machines&quot;].includes(input.toLowerCase()) &amp;&amp; [&quot;workers needed&quot;,&quot;number of workers&quot;,&quot;#workers&quot;,&quot;number of workers needed&quot;,&quot;number of human workers&quot;,&quot;people needed&quot;,&quot;human workers needed&quot;,&quot;people working&quot;,&quot;employees needed&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5678,7 +5678,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphLabelX ? input.toLowerCase() == graphLabelX.toLowerCase() : ["machines needed","number of machines","#machines","number of machines needed","cloth machines"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphLabelX ? input.toLowerCase() == graphLabelX.toLowerCase() : [&quot;machines needed&quot;,&quot;number of machines&quot;,&quot;#machines&quot;,&quot;number of machines needed&quot;,&quot;cloth machines&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5772,14 +5772,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":876}</value>
+                        <value>{&quot;x&quot;:2,&quot;y&quot;:876}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 1 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=2 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 2, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 2 ? &quot;adjust the left boundary by lowering it to less than 2, then &quot; : &quot;&quot;%&gt;&lt;%=876 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 876, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 876 ? &quot;change the lower boundary by decreasing it to less than 876, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=2 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 2, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 2 ? &quot;adjust the left boundary by lowering it to less than 2, then &quot; : &quot;&quot;%&gt;&lt;%=876 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 876, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 876 ? &quot;change the lower boundary by decreasing it to less than 876, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 2 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 876 &lt;%=unit2%&gt;. Click on the spot where 2 &lt;%=unit1%&gt; and 876 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(2, 876)' to add the point.</hintMessage>
             <callbackFn />
@@ -5836,11 +5836,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":876}</value>
+                        <value>{&quot;x&quot;:2,&quot;y&quot;:876}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 2 &lt;%=unit1 || &quot;machines&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 876 &lt;%=unit2 || &quot;workers&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 2 &lt;%=unit1 || &quot;machines&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 876 &lt;%=unit2 || &quot;workers&quot;%&gt; (bottom-to-top).</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5896,14 +5896,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":10,"y":780}</value>
+                        <value>{&quot;x&quot;:10,&quot;y&quot;:780}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 2 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=10 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 10, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 10 ? &quot;adjust the left boundary by lowering it to less than 10, then &quot; : &quot;&quot;%&gt;&lt;%=780 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 780, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 780 ? &quot;change the lower boundary by decreasing it to less than 780, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=10 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 10, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 10 ? &quot;adjust the left boundary by lowering it to less than 10, then &quot; : &quot;&quot;%&gt;&lt;%=780 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 780, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 780 ? &quot;change the lower boundary by decreasing it to less than 780, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 10 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 780 &lt;%=unit2%&gt;. Click on the spot where 10 &lt;%=unit1%&gt; and 780 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(10, 780)' to add the point.</hintMessage>
             <callbackFn />
@@ -5960,11 +5960,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":10,"y":780}</value>
+                        <value>{&quot;x&quot;:10,&quot;y&quot;:780}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 10 &lt;%=unit1 || &quot;machines&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 780 &lt;%=unit2 || &quot;workers&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 10 &lt;%=unit1 || &quot;machines&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 780 &lt;%=unit2 || &quot;workers&quot;%&gt; (bottom-to-top).</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6020,14 +6020,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":25,"y":600}</value>
+                        <value>{&quot;x&quot;:25,&quot;y&quot;:600}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 3 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=25 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 25, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 25 ? &quot;adjust the left boundary by lowering it to less than 25, then &quot; : &quot;&quot;%&gt;&lt;%=600 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 600, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 600 ? &quot;change the lower boundary by decreasing it to less than 600, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=25 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 25, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 25 ? &quot;adjust the left boundary by lowering it to less than 25, then &quot; : &quot;&quot;%&gt;&lt;%=600 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 600, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 600 ? &quot;change the lower boundary by decreasing it to less than 600, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 25 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 600 &lt;%=unit2%&gt;. Click on the spot where 25 &lt;%=unit1%&gt; and 600 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(25, 600)' to add the point.</hintMessage>
             <callbackFn />
@@ -6084,11 +6084,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":75,"y":0}</value>
+                        <value>{&quot;x&quot;:75,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 25 &lt;%=unit1 || &quot;machines&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 600 &lt;%=unit2 || &quot;workers&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 25 &lt;%=unit1 || &quot;machines&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 600 &lt;%=unit2 || &quot;workers&quot;%&gt; (bottom-to-top).</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6263,14 +6263,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":75,"y":0}</value>
+                        <value>{&quot;x&quot;:75,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 4 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-            <hintMessage>Please &lt;%=75 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 75, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 75 ? &quot;adjust the left boundary by lowering it to less than 75, then &quot; : &quot;&quot;%&gt;&lt;%=0 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 0 ? &quot;change the lower boundary by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=75 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 75, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 75 ? &quot;adjust the left boundary by lowering it to less than 75, then &quot; : &quot;&quot;%&gt;&lt;%=0 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 0 ? &quot;change the lower boundary by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 0 &lt;%=unit2%&gt;. Click on the spot where 0 &lt;%=unit2%&gt; intersects the line.</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(75, 0)' to add the point.</hintMessage>
             <callbackFn />
@@ -6327,11 +6327,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":75,"y":0}</value>
+                        <value>{&quot;x&quot;:75,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to &lt;%=75 > graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 75, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 75 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 75, then &quot; : &quot;&quot;%&gt;&lt;%=0 > graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 0 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 0 &lt;%=unit2%&gt;.</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to &lt;%=75 &gt; graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 75, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 75 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 75, then &quot; : &quot;&quot;%&gt;&lt;%=0 &gt; graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 0 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 0 &lt;%=unit2%&gt;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6506,7 +6506,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":75,"y":0}</value>
+                        <value>{&quot;x&quot;:75,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -6566,14 +6566,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":46,"y":348}</value>
+                        <value>{&quot;x&quot;:46,&quot;y&quot;:348}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 5 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-            <hintMessage>Please &lt;%=46 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 46, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 46 ? &quot;adjust the left boundary by lowering it to less than 46, then &quot; : &quot;&quot;%&gt;&lt;%=348 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 348, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 348 ? &quot;change the lower boundary by decreasing it to less than 348, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=46 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 46, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 46 ? &quot;adjust the left boundary by lowering it to less than 46, then &quot; : &quot;&quot;%&gt;&lt;%=348 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 348, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 348 ? &quot;change the lower boundary by decreasing it to less than 348, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 348 &lt;%=unit2%&gt;. Click on the spot where 348 &lt;%=unit2%&gt; intersects the line.</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(46, 348)' to add the point.</hintMessage>
             <callbackFn />
@@ -6630,11 +6630,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":46,"y":348}</value>
+                        <value>{&quot;x&quot;:46,&quot;y&quot;:348}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to &lt;%=46 > graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 46, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 46 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 46, then &quot; : &quot;&quot;%&gt;&lt;%=348 > graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 348, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 348 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 348, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 348 &lt;%=unit2%&gt;.</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to &lt;%=46 &gt; graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 46, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 46 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 46, then &quot; : &quot;&quot;%&gt;&lt;%=348 &gt; graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 348, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 348 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 348, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 348 &lt;%=unit2%&gt;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6809,7 +6809,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":46,"y":348}</value>
+                        <value>{&quot;x&quot;:46,&quot;y&quot;:348}</value>
                     </Input>
                 </properties>
             </message>
@@ -6869,7 +6869,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":46,"y":348}</value>
+                        <value>{&quot;x&quot;:46,&quot;y&quot;:348}</value>
                     </Input>
                 </properties>
             </message>
@@ -6935,7 +6935,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the second question: "How many workers are needed if he gets ten machines?" What is the machines needed here?</hintMessage>
+            <hintMessage>Look at the second question: &quot;How many workers are needed if he gets ten machines?&quot; What is the machines needed here?</hintMessage>
             <hintMessage>The machines needed is 10 machines.</hintMessage>
             <hintMessage>Please enter '10' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -7058,7 +7058,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the third question: "What number of workers does a factory need that has 25 machines?" What is the machines needed here?</hintMessage>
+            <hintMessage>Look at the third question: &quot;What number of workers does a factory need that has 25 machines?&quot; What is the machines needed here?</hintMessage>
             <hintMessage>The machines needed is 25 machines.</hintMessage>
             <hintMessage>Please enter '25' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -7901,7 +7901,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the first question: "How many workers does the factory still need if Jim buys two machines?" What is the machines needed here?</hintMessage>
+            <hintMessage>Look at the first question: &quot;How many workers does the factory still need if Jim buys two machines?&quot; What is the machines needed here?</hintMessage>
             <hintMessage>The machines needed is 2 &lt;%=unit1%&gt;.</hintMessage>
             <hintMessage>Please enter '2' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -7958,7 +7958,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":2,"y":876}</value>
+                        <value>{&quot;x&quot;:2,&quot;y&quot;:876}</value>
                     </Input>
                 </properties>
             </message>
@@ -8077,7 +8077,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":75,"y":0}</value>
+                        <value>{&quot;x&quot;:75,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -8143,7 +8143,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the fourth question: "How many machines are needed to replace all workers?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
+            <hintMessage>Look at the fourth question: &quot;How many machines are needed to replace all workers?&quot; What is the &lt;%=quantity2%&gt; here?</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is 0 &lt;%=unit2%&gt;.</hintMessage>
             <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -8228,7 +8228,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphUnitY ? input.toLowerCase() == graphUnitY.toLowerCase() : ["workers","number of workers","#workes","people needed","employees","amount of people","human workers","number of employees","#employees"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphUnitY ? input.toLowerCase() == graphUnitY.toLowerCase() : [&quot;workers&quot;,&quot;number of workers&quot;,&quot;#workes&quot;,&quot;people needed&quot;,&quot;employees&quot;,&quot;amount of people&quot;,&quot;human workers&quot;,&quot;number of employees&quot;,&quot;#employees&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -8527,7 +8527,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">unit2 ? input.toLowerCase() == unit2.toLowerCase() : ["workers","number of workers","#workes","people needed","employees","amount of people","human workers","number of employees","#employees"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">unit2 ? input.toLowerCase() == unit2.toLowerCase() : [&quot;workers&quot;,&quot;number of workers&quot;,&quot;#workes&quot;,&quot;people needed&quot;,&quot;employees&quot;,&quot;amount of people&quot;,&quot;human workers&quot;,&quot;number of employees&quot;,&quot;#employees&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -8617,7 +8617,7 @@
         <productionSet>7_10_negative_slopes</productionSet>
         <label>Enter given y value</label>
         <description>Student is able to enter the given y-coordinate of a point</description>
-        <hintMessage>Look at the fourth question: "How many machines are needed to replace all workers?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
+        <hintMessage>Look at the fourth question: &quot;How many machines are needed to replace all workers?&quot; What is the &lt;%=quantity2%&gt; here?</hintMessage>
         <hintMessage>The &lt;%=quantity2%&gt; is 0 &lt;%=unit2%&gt;.</hintMessage>
         <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
     </productionRule>
@@ -8627,7 +8627,7 @@
         <label>Plot point on line</label>
         <description>The student is able to find a point on a line given the Y-value</description>
         <hintMessage>You are asked to plot the point for question 4 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-        <hintMessage>Please &lt;%=75 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 75, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 75 ? &quot;adjust the left boundary by lowering it to less than 75, then &quot; : &quot;&quot;%&gt;&lt;%=0 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 0 ? &quot;change the lower boundary by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+        <hintMessage>Please &lt;%=75 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 75, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 75 ? &quot;adjust the left boundary by lowering it to less than 75, then &quot; : &quot;&quot;%&gt;&lt;%=0 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 0 ? &quot;change the lower boundary by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
         <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 0 &lt;%=unit2%&gt;. Click on the spot where 0 &lt;%=unit2%&gt; intersects the line.</hintMessage>
         <hintMessage>Click on the graph at the coordinates '(75, 0)' to add the point.</hintMessage>
     </productionRule>
@@ -8636,7 +8636,7 @@
         <productionSet>7_10_negative_slopes</productionSet>
         <label>Enter given x value</label>
         <description>Student is able to enter the given x-coordinate of a point</description>
-        <hintMessage>Look at the first question: "How many workers does the factory still need if Jim buys two machines?" What is the machines needed here?</hintMessage>
+        <hintMessage>Look at the first question: &quot;How many workers does the factory still need if Jim buys two machines?&quot; What is the machines needed here?</hintMessage>
         <hintMessage>The machines needed is 2 &lt;%=unit1%&gt;.</hintMessage>
         <hintMessage>Please enter '2' in the highlighted field.</hintMessage>
     </productionRule>
@@ -8659,7 +8659,7 @@
         <productionSet>7_10_negative_slopes</productionSet>
         <label>Calculate y value</label>
         <description>The student is able to calculate the y-coordinate of a point, given the x-value</description>
-        <hintMessage>Look at the first question: "How many workers does the factory still need if Jim buys two machines?" How would you calculate the workers needed?</hintMessage>
+        <hintMessage>Look at the first question: &quot;How many workers does the factory still need if Jim buys two machines?&quot; How would you calculate the workers needed?</hintMessage>
         <hintMessage>If there are 0 machines Jim needs 900 workers. If there are 2 machines Jim needs 2 * 12 = 24 workers less.</hintMessage>
         <hintMessage>Please enter '876' in the highlighted field.</hintMessage>
     </productionRule>
@@ -8696,7 +8696,7 @@
         <label>Plot point given coords</label>
         <description>The student is able to find a point on a 2D graph given the coordinates</description>
         <hintMessage>You are asked to plot the point for question 1 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-        <hintMessage>Please &lt;%=2 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 2, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 2 ? &quot;adjust the left boundary by lowering it to less than 2, then &quot; : &quot;&quot;%&gt;&lt;%=876 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 876, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 876 ? &quot;change the lower boundary by decreasing it to less than 876, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+        <hintMessage>Please &lt;%=2 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 2, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 2 ? &quot;adjust the left boundary by lowering it to less than 2, then &quot; : &quot;&quot;%&gt;&lt;%=876 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 876, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 876 ? &quot;change the lower boundary by decreasing it to less than 876, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
         <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 2 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 876 &lt;%=unit2%&gt;. Click on the spot where 2 &lt;%=unit1%&gt; and 876 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
         <hintMessage>Click on the graph at the coordinates '(2, 876)' to add the point.</hintMessage>
     </productionRule>

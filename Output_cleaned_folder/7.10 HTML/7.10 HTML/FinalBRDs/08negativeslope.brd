@@ -1489,7 +1489,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">quantity2 ? input.toLowerCase() == quantity2.toLowerCase() : ["elevation","distance","height","distance above sealevel","elevation above sealevel","distance from sealevel","height above sealevel"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">quantity2 ? input.toLowerCase() == quantity2.toLowerCase() : [&quot;elevation&quot;,&quot;distance&quot;,&quot;height&quot;,&quot;distance above sealevel&quot;,&quot;elevation above sealevel&quot;,&quot;distance from sealevel&quot;,&quot;height above sealevel&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1553,7 +1553,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">unit1 ? input.toLowerCase() == unit1.toLowerCase() : ["seconds","second","sec","secs"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">unit1 ? input.toLowerCase() == unit1.toLowerCase() : [&quot;seconds&quot;,&quot;second&quot;,&quot;sec&quot;,&quot;secs&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1619,7 +1619,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">quantity1 ? input.toLowerCase() == quantity1.toLowerCase() : ["time","duration","period"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">quantity1 ? input.toLowerCase() == quantity1.toLowerCase() : [&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1654,7 +1654,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":16,"y":800}</value>
+                        <value>{&quot;x&quot;:16,&quot;y&quot;:800}</value>
                     </Input>
                 </properties>
             </message>
@@ -1716,7 +1716,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":16,"y":800}</value>
+                        <value>{&quot;x&quot;:16,&quot;y&quot;:800}</value>
                     </Input>
                 </properties>
             </message>
@@ -1778,7 +1778,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":16,"y":800}</value>
+                        <value>{&quot;x&quot;:16,&quot;y&quot;:800}</value>
                     </Input>
                 </properties>
             </message>
@@ -1840,7 +1840,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":16,"y":800}</value>
+                        <value>{&quot;x&quot;:16,&quot;y&quot;:800}</value>
                     </Input>
                 </properties>
             </message>
@@ -1963,7 +1963,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":33,"y":375}</value>
+                        <value>{&quot;x&quot;:33,&quot;y&quot;:375}</value>
                     </Input>
                 </properties>
             </message>
@@ -2025,7 +2025,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":33,"y":375}</value>
+                        <value>{&quot;x&quot;:33,&quot;y&quot;:375}</value>
                     </Input>
                 </properties>
             </message>
@@ -2087,7 +2087,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":33,"y":375}</value>
+                        <value>{&quot;x&quot;:33,&quot;y&quot;:375}</value>
                     </Input>
                 </properties>
             </message>
@@ -2149,7 +2149,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":33,"y":375}</value>
+                        <value>{&quot;x&quot;:33,&quot;y&quot;:375}</value>
                     </Input>
                 </properties>
             </message>
@@ -2211,7 +2211,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":60,"y":-300}</value>
+                        <value>{&quot;x&quot;:60,&quot;y&quot;:-300}</value>
                     </Input>
                 </properties>
             </message>
@@ -2273,7 +2273,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":60,"y":-300}</value>
+                        <value>{&quot;x&quot;:60,&quot;y&quot;:-300}</value>
                     </Input>
                 </properties>
             </message>
@@ -2335,7 +2335,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":60,"y":-300}</value>
+                        <value>{&quot;x&quot;:60,&quot;y&quot;:-300}</value>
                     </Input>
                 </properties>
             </message>
@@ -2397,7 +2397,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":60,"y":-300}</value>
+                        <value>{&quot;x&quot;:60,&quot;y&quot;:-300}</value>
                     </Input>
                 </properties>
             </message>
@@ -2520,7 +2520,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":33,"y":375}</value>
+                        <value>{&quot;x&quot;:33,&quot;y&quot;:375}</value>
                     </Input>
                 </properties>
             </message>
@@ -2629,7 +2629,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":83,"y":-875}</value>
+                        <value>{&quot;x&quot;:83,&quot;y&quot;:-875}</value>
                     </Input>
                 </properties>
             </message>
@@ -2691,7 +2691,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":83,"y":-875}</value>
+                        <value>{&quot;x&quot;:83,&quot;y&quot;:-875}</value>
                     </Input>
                 </properties>
             </message>
@@ -2753,7 +2753,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":83,"y":-875}</value>
+                        <value>{&quot;x&quot;:83,&quot;y&quot;:-875}</value>
                     </Input>
                 </properties>
             </message>
@@ -2815,7 +2815,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":83,"y":-875}</value>
+                        <value>{&quot;x&quot;:83,&quot;y&quot;:-875}</value>
                     </Input>
                 </properties>
             </message>
@@ -2883,7 +2883,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the fifth question: "The elevator finally comes to a halt at -875 feet. How many seconds has the spy been in the elevator?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
+            <hintMessage>Look at the fifth question: &quot;The elevator finally comes to a halt at -875 feet. How many seconds has the spy been in the elevator?&quot; What is the &lt;%=quantity2%&gt; here?</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is -875 &lt;%=unit2%&gt;.</hintMessage>
             <hintMessage>Please enter '-875' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -3004,7 +3004,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":48,"y":0}</value>
+                        <value>{&quot;x&quot;:48,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -3066,7 +3066,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":48,"y":0}</value>
+                        <value>{&quot;x&quot;:48,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -3128,7 +3128,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":48,"y":0}</value>
+                        <value>{&quot;x&quot;:48,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -3190,7 +3190,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":48,"y":0}</value>
+                        <value>{&quot;x&quot;:48,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -3313,7 +3313,7 @@
                         <value>addPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":60,"y":-300}</value>
+                        <value>{&quot;x&quot;:60,&quot;y&quot;:-300}</value>
                     </Input>
                 </properties>
             </message>
@@ -3379,7 +3379,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. The unit for the Y-axis is "feet".</buggyMessage>
+            <buggyMessage>No, this is not correct. The unit for the Y-axis is &quot;feet&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3401,7 +3401,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!unit2 &amp;&amp; !["feet","feet above sealevel","ft","ft.","foot"].includes(input.toLowerCase())
+                        <matcherParameter name="InputExpression">!unit2 &amp;&amp; ![&quot;feet&quot;,&quot;feet above sealevel&quot;,&quot;ft&quot;,&quot;ft.&quot;,&quot;foot&quot;].includes(input.toLowerCase())
                         </matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
@@ -3807,7 +3807,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. The unit for the X-axis is "seconds".</buggyMessage>
+            <buggyMessage>No, this is not correct. The unit for the X-axis is &quot;seconds&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3829,7 +3829,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!unit1 &amp;&amp; !["seconds","second","sec","secs"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!unit1 &amp;&amp; ![&quot;seconds&quot;,&quot;second&quot;,&quot;sec&quot;,&quot;secs&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3868,7 +3868,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the Y-axis "elevation".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the Y-axis &quot;elevation&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3890,7 +3890,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!quantity2 &amp;&amp; !["elevation","distance","height","distance above sealevel","elevation above sealevel","distance from sealevel","height above sealevel"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!quantity2 &amp;&amp; ![&quot;elevation&quot;,&quot;distance&quot;,&quot;height&quot;,&quot;distance above sealevel&quot;,&quot;elevation above sealevel&quot;,&quot;distance from sealevel&quot;,&quot;height above sealevel&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3929,7 +3929,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the X-axis "time".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the X-axis &quot;time&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -3951,7 +3951,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!quantity1 &amp;&amp; !["time","duration","period"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!quantity1 &amp;&amp; ![&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -3990,7 +3990,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the right unit "feet".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the right unit &quot;feet&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4385,7 +4385,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphLabelY ? input.toLowerCase() == graphLabelY.toLowerCase() : ["elevation","distance","height","distance above sealevel","elevation above sealevel","distance from sealevel","height above sealevel"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphLabelY ? input.toLowerCase() == graphLabelY.toLowerCase() : [&quot;elevation&quot;,&quot;distance&quot;,&quot;height&quot;,&quot;distance above sealevel&quot;,&quot;elevation above sealevel&quot;,&quot;distance from sealevel&quot;,&quot;height above sealevel&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4487,7 +4487,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the second question: "33 seconds passed. What is the elevation (in feet)?" How would you calculate the elevation?</hintMessage>
+            <hintMessage>Look at the second question: &quot;33 seconds passed. What is the elevation (in feet)?&quot; How would you calculate the elevation?</hintMessage>
             <hintMessage>25 feet every second is 33 * 25 = 825 feet after 33 seconds Subtract this from 1200 feet.</hintMessage>
             <hintMessage>Please enter '375' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -4551,7 +4551,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the first question: "16 seconds passed. How far above sea level is he?" How would you calculate the elevation?</hintMessage>
+            <hintMessage>Look at the first question: &quot;16 seconds passed. How far above sea level is he?&quot; How would you calculate the elevation?</hintMessage>
             <hintMessage>25 feet every second is 16 * 25 = 400 feet after 16 seconds Subtract this from 1200 feet.</hintMessage>
             <hintMessage>Please enter '800' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -4615,7 +4615,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the third question: "One minute passed, how far underground is the spy?" How would you calculate the elevation?</hintMessage>
+            <hintMessage>Look at the third question: &quot;One minute passed, how far underground is the spy?&quot; How would you calculate the elevation?</hintMessage>
             <hintMessage>25 feet every second is 60 * 25 = 1500 feet after one minute. Subtract this from 1200 feet.</hintMessage>
             <hintMessage>Please enter '-300' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -4921,7 +4921,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Yes, "&lt;%=input%&gt;" is the independent quantity. Try to enter the independent quantity "&lt;%=input%&gt;" in left column instead of the right column.</buggyMessage>
+            <buggyMessage>Yes, &quot;&lt;%=input%&gt;&quot; is the independent quantity. Try to enter the independent quantity &quot;&lt;%=input%&gt;&quot; in left column instead of the right column.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -4943,7 +4943,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; !["elevation","distance","height","distance above sealevel","elevation above sealevel","distance from sealevel","height above sealevel"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">[&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase()) &amp;&amp; ![&quot;elevation&quot;,&quot;distance&quot;,&quot;height&quot;,&quot;distance above sealevel&quot;,&quot;elevation above sealevel&quot;,&quot;distance from sealevel&quot;,&quot;height above sealevel&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -4982,7 +4982,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the dependent quantity "elevation".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the dependent quantity &quot;elevation&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5004,7 +5004,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphLabelY &amp;&amp; !["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; !["elevation","distance","height","distance above sealevel","elevation above sealevel","distance from sealevel","height above sealevel"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphLabelY &amp;&amp; ![&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase()) &amp;&amp; ![&quot;elevation&quot;,&quot;distance&quot;,&quot;height&quot;,&quot;distance above sealevel&quot;,&quot;elevation above sealevel&quot;,&quot;distance from sealevel&quot;,&quot;height above sealevel&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5043,7 +5043,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the left unit "seconds".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the left unit &quot;seconds&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5065,7 +5065,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphUnitX &amp;&amp; !["seconds","second","sec","secs"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphUnitX &amp;&amp; ![&quot;seconds&quot;,&quot;second&quot;,&quot;sec&quot;,&quot;secs&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5190,7 +5190,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphUnitX ? input.toLowerCase() == graphUnitX.toLowerCase() : ["seconds","second","sec","secs"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphUnitX ? input.toLowerCase() == graphUnitX.toLowerCase() : [&quot;seconds&quot;,&quot;second&quot;,&quot;sec&quot;,&quot;secs&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5471,7 +5471,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to name the independent quantity "time".</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to name the independent quantity &quot;time&quot;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5493,7 +5493,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!graphLabelX &amp;&amp; !["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; !["elevation","distance","height","distance above sealevel","elevation above sealevel","distance from sealevel","height above sealevel"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">!graphLabelX &amp;&amp; ![&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase()) &amp;&amp; ![&quot;elevation&quot;,&quot;distance&quot;,&quot;height&quot;,&quot;distance above sealevel&quot;,&quot;elevation above sealevel&quot;,&quot;distance from sealevel&quot;,&quot;height above sealevel&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5531,7 +5531,7 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Yes, "&lt;%=input%&gt;" is the dependent quantity. Try to enter the dependent quantity "&lt;%=input%&gt;" in right column instead of the left column.</buggyMessage>
+            <buggyMessage>Yes, &quot;&lt;%=input%&gt;&quot; is the dependent quantity. Try to enter the dependent quantity &quot;&lt;%=input%&gt;&quot; in right column instead of the left column.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5553,7 +5553,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">!["time","duration","period"].includes(input.toLowerCase()) &amp;&amp; ["elevation","distance","height","distance above sealevel","elevation above sealevel","distance from sealevel","height above sealevel"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">![&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase()) &amp;&amp; [&quot;elevation&quot;,&quot;distance&quot;,&quot;height&quot;,&quot;distance above sealevel&quot;,&quot;elevation above sealevel&quot;,&quot;distance from sealevel&quot;,&quot;height above sealevel&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5678,7 +5678,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphLabelX ? input.toLowerCase() == graphLabelX.toLowerCase() : ["time","duration","period"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphLabelX ? input.toLowerCase() == graphLabelX.toLowerCase() : [&quot;time&quot;,&quot;duration&quot;,&quot;period&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -5772,14 +5772,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":16,"y":800}</value>
+                        <value>{&quot;x&quot;:16,&quot;y&quot;:800}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 1 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=16 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 16, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 16 ? &quot;adjust the left boundary by lowering it to less than 16, then &quot; : &quot;&quot;%&gt;&lt;%=800 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 800, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 800 ? &quot;change the lower boundary by decreasing it to less than 800, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=16 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 16, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 16 ? &quot;adjust the left boundary by lowering it to less than 16, then &quot; : &quot;&quot;%&gt;&lt;%=800 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 800, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 800 ? &quot;change the lower boundary by decreasing it to less than 800, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 16 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 800 &lt;%=unit2%&gt;. Click on the spot where 16 &lt;%=unit1%&gt; and 800 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(16, 800)' to add the point.</hintMessage>
             <callbackFn />
@@ -5836,11 +5836,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":16,"y":800}</value>
+                        <value>{&quot;x&quot;:16,&quot;y&quot;:800}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 16 &lt;%=unit1 || &quot;seconds&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 800 &lt;%=unit2 || &quot;feet&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 16 &lt;%=unit1 || &quot;seconds&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 800 &lt;%=unit2 || &quot;feet&quot;%&gt; (bottom-to-top).</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -5896,14 +5896,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":33,"y":375}</value>
+                        <value>{&quot;x&quot;:33,&quot;y&quot;:375}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 2 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=33 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 33, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 33 ? &quot;adjust the left boundary by lowering it to less than 33, then &quot; : &quot;&quot;%&gt;&lt;%=375 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 375, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 375 ? &quot;change the lower boundary by decreasing it to less than 375, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=33 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 33, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 33 ? &quot;adjust the left boundary by lowering it to less than 33, then &quot; : &quot;&quot;%&gt;&lt;%=375 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 375, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 375 ? &quot;change the lower boundary by decreasing it to less than 375, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 33 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 375 &lt;%=unit2%&gt;. Click on the spot where 33 &lt;%=unit1%&gt; and 375 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(33, 375)' to add the point.</hintMessage>
             <callbackFn />
@@ -5960,11 +5960,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":33,"y":375}</value>
+                        <value>{&quot;x&quot;:33,&quot;y&quot;:375}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 33 &lt;%=unit1 || &quot;seconds&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 375 &lt;%=unit2 || &quot;feet&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 33 &lt;%=unit1 || &quot;seconds&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of 375 &lt;%=unit2 || &quot;feet&quot;%&gt; (bottom-to-top).</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6020,14 +6020,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":60,"y":-300}</value>
+                        <value>{&quot;x&quot;:60,&quot;y&quot;:-300}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 3 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-            <hintMessage>Please &lt;%=60 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 60, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 60 ? &quot;adjust the left boundary by lowering it to less than 60, then &quot; : &quot;&quot;%&gt;&lt;%=-300 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than -300, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > -300 ? &quot;change the lower boundary by decreasing it to less than -300, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=60 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 60, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 60 ? &quot;adjust the left boundary by lowering it to less than 60, then &quot; : &quot;&quot;%&gt;&lt;%=-300 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than -300, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; -300 ? &quot;change the lower boundary by decreasing it to less than -300, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 60 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is -300 &lt;%=unit2%&gt;. Click on the spot where 60 &lt;%=unit1%&gt; and -300 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(60, -300)' to add the point.</hintMessage>
             <callbackFn />
@@ -6084,11 +6084,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":48,"y":0}</value>
+                        <value>{&quot;x&quot;:48,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 60 &lt;%=unit1 || &quot;seconds&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of -300 &lt;%=unit2 || &quot;feet&quot;%&gt; (bottom-to-top).</buggyMessage>
+            <buggyMessage>Please &lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point at a &lt;%=quantity1%&gt; of 60 &lt;%=unit1 || &quot;seconds&quot;%&gt; (left-to-right) and a &lt;%=quantity2%&gt; of -300 &lt;%=unit2 || &quot;feet&quot;%&gt; (bottom-to-top).</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6263,14 +6263,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":48,"y":0}</value>
+                        <value>{&quot;x&quot;:48,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 4 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-            <hintMessage>Please &lt;%=48 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 48, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 48 ? &quot;adjust the left boundary by lowering it to less than 48, then &quot; : &quot;&quot;%&gt;&lt;%=0 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 0 ? &quot;change the lower boundary by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=48 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 48, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 48 ? &quot;adjust the left boundary by lowering it to less than 48, then &quot; : &quot;&quot;%&gt;&lt;%=0 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 0 ? &quot;change the lower boundary by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 0 &lt;%=unit2%&gt;. Click on the spot where 0 &lt;%=unit2%&gt; intersects the line.</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(48, 0)' to add the point.</hintMessage>
             <callbackFn />
@@ -6327,11 +6327,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":48,"y":0}</value>
+                        <value>{&quot;x&quot;:48,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to &lt;%=48 > graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 48, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 48 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 48, then &quot; : &quot;&quot;%&gt;&lt;%=0 > graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 0 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 0 &lt;%=unit2%&gt;.</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to &lt;%=48 &gt; graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 48, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 48 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 48, then &quot; : &quot;&quot;%&gt;&lt;%=0 &gt; graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 0 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of 0 &lt;%=unit2%&gt;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6506,7 +6506,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":48,"y":0}</value>
+                        <value>{&quot;x&quot;:48,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -6566,14 +6566,14 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":83,"y":-875}</value>
+                        <value>{&quot;x&quot;:83,&quot;y&quot;:-875}</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
             <hintMessage>You are asked to plot the point for question 5 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-            <hintMessage>Please &lt;%=83 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 83, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 83 ? &quot;adjust the left boundary by lowering it to less than 83, then &quot; : &quot;&quot;%&gt;&lt;%=-875 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than -875, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > -875 ? &quot;change the lower boundary by decreasing it to less than -875, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+            <hintMessage>Please &lt;%=83 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 83, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 83 ? &quot;adjust the left boundary by lowering it to less than 83, then &quot; : &quot;&quot;%&gt;&lt;%=-875 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than -875, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; -875 ? &quot;change the lower boundary by decreasing it to less than -875, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is -875 &lt;%=unit2%&gt;. Click on the spot where -875 &lt;%=unit2%&gt; intersects the line.</hintMessage>
             <hintMessage>Click on the graph at the coordinates '(83, -875)' to add the point.</hintMessage>
             <callbackFn />
@@ -6630,11 +6630,11 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":83,"y":-875}</value>
+                        <value>{&quot;x&quot;:83,&quot;y&quot;:-875}</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct. Try to &lt;%=83 > graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 83, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 83 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 83, then &quot; : &quot;&quot;%&gt;&lt;%=-875 > graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than -875, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > -875 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than -875, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY > 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX > 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of -875 &lt;%=unit2%&gt;.</buggyMessage>
+            <buggyMessage>No, this is not correct. Try to &lt;%=83 &gt; graphMaxX ? &quot;adjust the right boundary of the X-axis by changing its value to higher than 83, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 83 ? &quot;adjust the left boundary of the X-axis by lowering it to less than 83, then &quot; : &quot;&quot;%&gt;&lt;%=-875 &gt; graphMaxY ? &quot;adjust the upper boundary of the Y-axis by increasing its value to more than -875, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; -875 ? &quot;change the lower boundary of the Y-axis by decreasing it to less than -875, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxY - graphMinY) / graphStepY &gt; 20 ? &quot;change the Y-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;&lt;%=(graphMaxX - graphMinX) / graphStepX &gt; 20 ? &quot;change the X-axis scale to make it easier to add the point, then &quot; : &quot;&quot;%&gt;place the point ON THE LINE at a &lt;%=quantity2%&gt; of -875 &lt;%=unit2%&gt;.</buggyMessage>
             <successMessage />
             <callbackFn />
             <actionType>Buggy Action</actionType>
@@ -6809,7 +6809,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":83,"y":-875}</value>
+                        <value>{&quot;x&quot;:83,&quot;y&quot;:-875}</value>
                     </Input>
                 </properties>
             </message>
@@ -6869,7 +6869,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":83,"y":-875}</value>
+                        <value>{&quot;x&quot;:83,&quot;y&quot;:-875}</value>
                     </Input>
                 </properties>
             </message>
@@ -6935,7 +6935,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the second question: "33 seconds passed. What is the elevation (in feet)?" What is the time here?</hintMessage>
+            <hintMessage>Look at the second question: &quot;33 seconds passed. What is the elevation (in feet)?&quot; What is the time here?</hintMessage>
             <hintMessage>The time is 33 seconds.</hintMessage>
             <hintMessage>Please enter '33' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -7058,7 +7058,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the third question: "One minute passed, how far underground is the spy?" What is the time here?</hintMessage>
+            <hintMessage>Look at the third question: &quot;One minute passed, how far underground is the spy?&quot; What is the time here?</hintMessage>
             <hintMessage>The time is 60 seconds.</hintMessage>
             <hintMessage>Please enter '60' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -7901,7 +7901,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the first question: "16 seconds passed. How far above sea level is he?" What is the time here?</hintMessage>
+            <hintMessage>Look at the first question: &quot;16 seconds passed. How far above sea level is he?&quot; What is the time here?</hintMessage>
             <hintMessage>The time is 16 &lt;%=unit1%&gt;.</hintMessage>
             <hintMessage>Please enter '16' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -7958,7 +7958,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":16,"y":800}</value>
+                        <value>{&quot;x&quot;:16,&quot;y&quot;:800}</value>
                     </Input>
                 </properties>
             </message>
@@ -8077,7 +8077,7 @@
                         <value>AddPoint</value>
                     </Action>
                     <Input>
-                        <value>{"x":48,"y":0}</value>
+                        <value>{&quot;x&quot;:48,&quot;y&quot;:0}</value>
                     </Input>
                 </properties>
             </message>
@@ -8143,7 +8143,7 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage />
-            <hintMessage>Look at the fourth question: "After how many seconds was the elevator at sea level?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
+            <hintMessage>Look at the fourth question: &quot;After how many seconds was the elevator at sea level?&quot; What is the &lt;%=quantity2%&gt; here?</hintMessage>
             <hintMessage>The &lt;%=quantity2%&gt; is 0 &lt;%=unit2%&gt;.</hintMessage>
             <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
             <callbackFn />
@@ -8228,7 +8228,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">graphUnitY ? input.toLowerCase() == graphUnitY.toLowerCase() : ["feet","feet above sealevel","ft","ft.","foot"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">graphUnitY ? input.toLowerCase() == graphUnitY.toLowerCase() : [&quot;feet&quot;,&quot;feet above sealevel&quot;,&quot;ft&quot;,&quot;ft.&quot;,&quot;foot&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -8527,7 +8527,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">unit2 ? input.toLowerCase() == unit2.toLowerCase() : ["feet","feet above sealevel","ft","ft.","foot"].includes(input.toLowerCase())</matcherParameter>
+                        <matcherParameter name="InputExpression">unit2 ? input.toLowerCase() == unit2.toLowerCase() : [&quot;feet&quot;,&quot;feet above sealevel&quot;,&quot;ft&quot;,&quot;ft.&quot;,&quot;foot&quot;].includes(input.toLowerCase())</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -8617,7 +8617,7 @@
         <productionSet>7_10_negative_slopes</productionSet>
         <label>Enter given y value</label>
         <description>Student is able to enter the given y-coordinate of a point</description>
-        <hintMessage>Look at the fourth question: "After how many seconds was the elevator at sea level?" What is the &lt;%=quantity2%&gt; here?</hintMessage>
+        <hintMessage>Look at the fourth question: &quot;After how many seconds was the elevator at sea level?&quot; What is the &lt;%=quantity2%&gt; here?</hintMessage>
         <hintMessage>The &lt;%=quantity2%&gt; is 0 &lt;%=unit2%&gt;.</hintMessage>
         <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
     </productionRule>
@@ -8627,7 +8627,7 @@
         <label>Plot point on line</label>
         <description>The student is able to find a point on a line given the Y-value</description>
         <hintMessage>You are asked to plot the point for question 4 on the graph. You know the &lt;%=quantity2%&gt; and that the point will be on the line.</hintMessage>
-        <hintMessage>Please &lt;%=48 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 48, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 48 ? &quot;adjust the left boundary by lowering it to less than 48, then &quot; : &quot;&quot;%&gt;&lt;%=0 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 0 ? &quot;change the lower boundary by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+        <hintMessage>Please &lt;%=48 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 48, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 48 ? &quot;adjust the left boundary by lowering it to less than 48, then &quot; : &quot;&quot;%&gt;&lt;%=0 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 0, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 0 ? &quot;change the lower boundary by decreasing it to less than 0, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
         <hintMessage>The &lt;%=quantity2%&gt; is from bottom-to-top and is 0 &lt;%=unit2%&gt;. Click on the spot where 0 &lt;%=unit2%&gt; intersects the line.</hintMessage>
         <hintMessage>Click on the graph at the coordinates '(48, 0)' to add the point.</hintMessage>
     </productionRule>
@@ -8636,7 +8636,7 @@
         <productionSet>7_10_negative_slopes</productionSet>
         <label>Enter given x value</label>
         <description>Student is able to enter the given x-coordinate of a point</description>
-        <hintMessage>Look at the first question: "16 seconds passed. How far above sea level is he?" What is the time here?</hintMessage>
+        <hintMessage>Look at the first question: &quot;16 seconds passed. How far above sea level is he?&quot; What is the time here?</hintMessage>
         <hintMessage>The time is 16 &lt;%=unit1%&gt;.</hintMessage>
         <hintMessage>Please enter '16' in the highlighted field.</hintMessage>
     </productionRule>
@@ -8659,7 +8659,7 @@
         <productionSet>7_10_negative_slopes</productionSet>
         <label>Calculate y value</label>
         <description>The student is able to calculate the y-coordinate of a point, given the x-value</description>
-        <hintMessage>Look at the first question: "16 seconds passed. How far above sea level is he?" How would you calculate the elevation?</hintMessage>
+        <hintMessage>Look at the first question: &quot;16 seconds passed. How far above sea level is he?&quot; How would you calculate the elevation?</hintMessage>
         <hintMessage>25 feet every second is 16 * 25 = 400 feet after 16 seconds Subtract this from 1200 feet.</hintMessage>
         <hintMessage>Please enter '800' in the highlighted field.</hintMessage>
     </productionRule>
@@ -8696,7 +8696,7 @@
         <label>Plot point given coords</label>
         <description>The student is able to find a point on a 2D graph given the coordinates</description>
         <hintMessage>You are asked to plot the point for question 1 on the graph. Look at the values you entered in the table to see where the point should go.</hintMessage>
-        <hintMessage>Please &lt;%=16 > graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 16, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX > 16 ? &quot;adjust the left boundary by lowering it to less than 16, then &quot; : &quot;&quot;%&gt;&lt;%=800 > graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 800, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY > 800 ? &quot;change the lower boundary by decreasing it to less than 800, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
+        <hintMessage>Please &lt;%=16 &gt; graphMaxX ? &quot;adjust the right boundary by changing its value to higher than 16, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinX &gt; 16 ? &quot;adjust the left boundary by lowering it to less than 16, then &quot; : &quot;&quot;%&gt;&lt;%=800 &gt; graphMaxY ? &quot;adjust the upper boundary by increasing its value to more than 800, then &quot; : &quot;&quot;%&gt;&lt;%=graphMinY &gt; 800 ? &quot;change the lower boundary by decreasing it to less than 800, then &quot; : &quot;&quot;%&gt;add the point by clicking on the right spot in the graph.</hintMessage>
         <hintMessage>The &lt;%=quantity1%&gt; is from left-to-right and is 16 &lt;%=unit1%&gt;. The &lt;%=quantity2%&gt; is from bottom-to-top and is 800 &lt;%=unit2%&gt;. Click on the spot where 16 &lt;%=unit1%&gt; and 800 &lt;%=unit2%&gt; intersect (meet).</hintMessage>
         <hintMessage>Click on the graph at the coordinates '(16, 800)' to add the point.</hintMessage>
     </productionRule>
