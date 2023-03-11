@@ -154,14 +154,24 @@ class clean():
 
 if __name__ == "__main__":
     # run the process function
-    print("clean task ------")
-    html_brd = sys.argv[1]
-    html_table = sys.argv[2]
-    clean_brd = sys.argv[3]
-    clean_table = sys.argv[4]
-    clean_res = clean(html_brd, html_table, clean_brd, clean_table)
-    _, _ = clean_res.clean_file()
+    try:
+        if sys.argv[1] and sys.argv[2] and sys.argv[3] and sys.argv[4]:
+            print("clean task ------")
+            html_brd = sys.argv[1]
+            html_table = sys.argv[2]
+            clean_brd = sys.argv[3]
+            clean_table = sys.argv[4]
+            clean_res = clean(html_brd, html_table, clean_brd, clean_table)
+            _, _ = clean_res.clean_file()
+    except:
+        print("Please enter: the path of input brd and table, the path of output brd and table")
 
+
+
+# to run this demo
+"""
+python clean_cmd.py "./HTML_folder/7.17 HTML/7.17 HTML/MassProduction/7-17_finalTemplate_new.brd" "./HTML_folder/7.17 HTML/7.17 HTML/MassProduction/7-17_finalMassProduction_new.txt" "./Output_cleaned_folder/7.17 HTML/7.17 HTML/MassProduction/7-17_finalTemplate_new_cleaned.brd" "./Output_cleaned_folder/7.17 HTML/7.17 HTML/MassProduction/7-17_finalMassProduction_new_cleaned.txt"
+"""
 # # read the latest mass production graph and mass production table
 # try:
 #     infile_brd =sys.argv[1]
